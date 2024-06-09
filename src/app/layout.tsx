@@ -1,41 +1,32 @@
-import { absoluteUrl } from '@/lib/utils';
-import { Metadata } from 'next';
+'use client';
+
 import '../styles/index.css';
 import PlayerBar from '../components/PlayerBar';
-
-export const metadata: Metadata = {
-  metadataBase: new URL('https://artesonora1.vercel.app/'),
-  title: {
-    default: 'Arte Sonora',
-    template: '%s | Arte Sonora',
-  },
-  description: 'Um projeto de Franz Manata e Saulo Laudares',
-  openGraph: {
-    title: 'Arte Sonora',
-    description: 'Um projeto de Franz Manata e Saulo Laudares',
-    url: absoluteUrl('/'),
-    siteName: 'Arte Sonora',
-    images: [
-      {
-        url: absoluteUrl('/images/og-image.png'),
-        width: 1800,
-        height: 1600,
-      },
-    ],
-    locale: 'pt_BR',
-    type: 'website',
-  },
-  icons: {
-    icon: [{ url: '/favicon/favicon-32x32.png' }],
-    apple: [{ url: '/favicon/apple-touch-icon.png' }],
-  },
-};
+import { usePathname } from 'next/navigation';
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  // let pathname;
+  // let shouldExcludeLayout;
+  // if (typeof window !== 'undefined') {
+  //   pathname = new URL(window.location.href).pathname;
+  //   shouldExcludeLayout =
+  //     pathname.includes('outstatic') ||
+  //     pathname.includes('admin') ||
+  //     pathname.includes('/cms');
+  // }
+
+  // if (shouldExcludeLayout) {
+  //   return <>{children}</>;
+  // }
+  const pathname = usePathname();
+  if (pathname.includes('outstatic') || pathname.includes('admin')) {
+    return <>{children}</>;
+  }
+
   return (
     <html lang='en' className='max-w-[100vw] overflow-x-hidden'>
       {/* <link
