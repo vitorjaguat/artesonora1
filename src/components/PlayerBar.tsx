@@ -7,14 +7,18 @@ import { useRef, useEffect } from 'react';
 const originalLog = console.log;
 console.log = () => {};
 import { Player } from 'shikwasa';
+import { usePathname } from 'next/navigation';
 console.log = originalLog;
 
 export default function PlayerBar() {
   const playerRef = useRef(null);
+  const pathname = usePathname();
 
   let player: any;
 
   useEffect(() => {
+    if (pathname.includes('outstatic') || pathname.includes('admin')) return;
+
     player = new Player({
       container: playerRef.current,
       audio: {
@@ -35,6 +39,9 @@ export default function PlayerBar() {
       player.destroy();
     };
   }, []);
+
+  if (pathname.includes('outstatic') || pathname.includes('admin')) return null;
+
   return (
     <div>
       <div

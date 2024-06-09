@@ -11,6 +11,7 @@
     "date-fns": "^2.30.0",
     "gray-matter": "^4.0.3",
     "next": "^13.5.4",
+    "next-seo": "^6.5.0",
     "outstatic": "^1.0.0",
     "react": "^18",
     "react-dom": "^18",
