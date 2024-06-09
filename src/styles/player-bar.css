@@ -575,7 +575,9 @@ svg.shk-btn_mute,
   }
   .shk-bar-handle {
     display: inline-block;
-    top: -8px;
+    top: -4px;
+    width: 12px;
+    height: 12px;
     box-shadow: var(--shadow-handle-mobile);
   }
   .shk-bar {
