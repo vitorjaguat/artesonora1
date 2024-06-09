@@ -1,6 +1,8 @@
 import { absoluteUrl } from '@/lib/utils';
 import { Metadata } from 'next';
 import '../styles/index.css';
+import PlayerBar from '../components/PlayerBar';
+import Meta from '@/components/Meta';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://artesonora1.vercel.app/'),
@@ -37,7 +39,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      {/* <link
+        href='https://fonts.googleapis.com/css2?family=Ubuntu:wght@200;400;700&display=swap'
+        rel='stylesheet'
+      /> */}
+      <body>
+        <div className=''>
+          <div className='relative h-screen w-screen'>
+            <div className='fixed bottom-0 left-0 bg-black w-screen h-fit'>
+              <PlayerBar />
+            </div>
+            <div className=''>{children}</div>
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
