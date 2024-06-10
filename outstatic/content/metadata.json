@@ -1,7 +1,24 @@
 {
   "commit": "ca40e31f21b84545fa730853dbfd018e98004739",
-  "generated": "2024-06-10T20:15:33.739Z",
+  "generated": "2024-06-10T20:15:37.345Z",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "998b7f74af83e46bbdb4ab5302c8e4c39963278f",
+        "hash": "3707858083",
+        "path": "/outstatic/content/posts/the-wrong-decision.md"
+      },
+      "author": {
+        "name": "Naval Ravikant"
+      },
+      "collection": "posts",
+      "coverImage": "/images/skyline.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "publishedAt": "2022-03-26T05:35:07.322Z",
+      "slug": "the-wrong-decision",
+      "status": "published",
+      "title": "If you want to make the wrong decision, ask everyone"
+    },
     {
       "__outstatic": {
         "commit": "d2f316fd04def3347c906f5227da5daf79971f61",
@@ -49,32 +66,6 @@
         }
       ],
       "title": "Learn how to create your blog with Outstatic"
-    },
-    {
-      "__outstatic": {
-        "commit": "3e4a976193780ca67b5b40f5b46dfe16f7a818b3",
-        "hash": "2238737520",
-        "path": "outstatic/content/posts/testando.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborator": [
-        {
-          "label": "Cildo Meireles",
-          "value": "cildo"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-06-10T18:47:20.840Z",
-      "slug": "testando",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "testando"
     }
   ]
 }
