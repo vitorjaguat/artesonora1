@@ -70,11 +70,11 @@ export default async function Index() {
 async function getData() {
   const db = await load();
 
-  const page = await db
-    .find({ collection: 'pages', slug: 'home' }, ['content'])
-    .first();
+  // const page = await db
+  //   .find({ collection: 'pages', slug: 'home' }, ['content'])
+  //   .first();
 
-  const content = await markdownToHtml(page.content);
+  // const content = await markdownToHtml(page.content);
 
   const allPosts = await db
     .find({ collection: 'posts' }, [
@@ -88,14 +88,14 @@ async function getData() {
     .sort({ publishedAt: -1 })
     .toArray();
 
-  const allProjects = await db
-    .find({ collection: 'projects' }, ['title', 'slug', 'coverImage'])
-    .sort({ publishedAt: -1 })
-    .toArray();
+  // const allProjects = await db
+  //   .find({ collection: 'projects' }, ['title', 'slug', 'coverImage'])
+  //   .sort({ publishedAt: -1 })
+  //   .toArray();
 
   return {
-    content,
+    // content,
     allPosts,
-    allProjects,
+    // allProjects,
   };
 }
