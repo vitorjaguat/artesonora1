@@ -46,7 +46,7 @@ export default function PlayerBar() {
     <div>
       <div
         ref={playerRef}
-        className='player-container fixed bottom-0 left-0 z-10 w-full h-fit px-20 bg-black'
+        className='player-container fixed bottom-0 left-0 z-10 w-full px-20 bg-black'
       ></div>
     </div>
   );
