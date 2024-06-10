@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 };
 
 export default async function Index() {
-  const { content, allPosts, allProjects } = await getData();
+  const { allPosts } = await getData();
 
   return (
     <Layout>

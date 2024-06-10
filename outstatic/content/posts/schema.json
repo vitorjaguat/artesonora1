@@ -22,19 +22,6 @@
           "label": "Outstatic"
         }
       ]
-    },
-    "collaborator": {
-      "required": false,
-      "description": "Add collaborators",
-      "fieldType": "Tags",
-      "dataType": "array",
-      "title": "Collaborators",
-      "values": [
-        {
-          "value": "cildo",
-          "label": "Cildo Meireles"
-        }
-      ]
     }
   }
 }
