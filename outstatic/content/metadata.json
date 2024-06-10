@@ -1,6 +1,6 @@
 {
-  "commit": "85439c25d037be5ec0acfeaa021481c4fe09f540",
-  "generated": "2024-06-10T20:53:35.146Z",
+  "commit": "3cc51f01830cb443e3ae72850a784a6b8b4a798f",
+  "generated": "2024-06-10T21:15:23.927Z",
   "metadata": [
     {
       "__outstatic": {
@@ -66,24 +66,6 @@
         }
       ],
       "title": "Learn how to create your blog with Outstatic"
-    },
-    {
-      "__outstatic": {
-        "commit": "85439c25d037be5ec0acfeaa021481c4fe09f540",
-        "hash": "1124869908",
-        "path": "outstatic/content/collaborators/cildo-meireles.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-06-10T20:34:58.931Z",
-      "slug": "cildo-meireles",
-      "status": "published",
-      "title": "Cildo Meireles"
     }
   ]
 }
