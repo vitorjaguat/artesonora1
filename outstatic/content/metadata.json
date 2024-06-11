@@ -1,6 +1,6 @@
 {
-  "commit": "87c528600eda3c2281a6b47d550a757b094f9445",
-  "generated": "2024-06-11T15:01:30.649Z",
+  "commit": "bbd3c0eed22ab2cb411ebb4d05e1423a157b50df",
+  "generated": "2024-06-11T15:03:30.159Z",
   "metadata": [
     {
       "__outstatic": {
@@ -120,6 +120,28 @@
       "slug": "exst",
       "status": "published",
       "title": "EXST"
+    },
+    {
+      "__outstatic": {
+        "commit": "bbd3c0eed22ab2cb411ebb4d05e1423a157b50df",
+        "hash": "3634486472",
+        "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-06-11T14:43:38.895Z",
+      "slug": "pod-12-cildo-meireles",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #12 Cildo Meireles"
     }
   ]
 }
