@@ -1,0 +1,13 @@
+{
+  "title": "collaborators",
+  "type": "object",
+  "properties": {
+    "facebook": {
+      "required": false,
+      "description": "Add Facebook link",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Facebook"
+    }
+  }
+}
