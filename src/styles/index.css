@@ -30,13 +30,31 @@ body {
   display: none;
 }
 
-/* not display Projects in #outstatic */
-/* #outstatic
+/* remove links from CMS */
+#outstatic
   > div
   > div
   > aside
-  > div.scrollbar-hide.flex.h-full.max-h-\[calc\(100vh-96px\)\].flex-col.justify-between.overflow-y-scroll.bg-gray-50.py-4.px-3
-  > ul
-  > li:nth-child(4) {
+  > div.flex.h-10.w-full.items-center.justify-between.border-t.bg-gray-50.py-2.px-4.text-xs
+  > a {
   display: none;
-} */
+}
+#outstatic
+  > div
+  > div
+  > aside
+  > div.flex.h-10.w-full.items-center.justify-between.border-t.bg-gray-50.py-2.px-4.text-xs
+  > div {
+  display: none;
+}
+
+/* remove Oustatic title from CMS */
+#outstatic > div > nav > div > a > div > svg {
+  display: none;
+}
+
+/* ARTE SONORA: PAINEL title in CMS */
+#outstatic > div > nav > div > a > div::after {
+  content: 'ARTE SONORA: PAINEL';
+  font-weight: bold;
+}

@@ -46,7 +46,7 @@ export default async function Index() {
           /> */}
           <div className='text-5xl font-bold text-zinc-400'>Arte Sonora</div>
         </section>
-        <div className='h-[9000px] w-full bg-zinc-200'></div>
+        <div className='h-[2000px] w-full bg-zinc-200'></div>
         {/* {allPosts.length > 0 && (
           <ContentGrid
             title='Posts'
