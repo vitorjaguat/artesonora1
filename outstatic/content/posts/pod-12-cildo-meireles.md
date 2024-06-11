@@ -9,7 +9,7 @@ description: ''
 coverImage: ''
 tags: []
 collaborators: [{"label":"Cildo Meireles","value":"cildoMeireles"}]
-soundcloudLink: ''
+soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F110055748&show_artwork=false'
 publishedAt: '2018-03-15T14:43:38.000Z'
 ---
 

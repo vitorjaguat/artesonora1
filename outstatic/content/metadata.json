@@ -1,6 +1,6 @@
 {
-  "commit": "ea4a33359c15b25bb692b04732820dc54789a15d",
-  "generated": "2024-06-11T15:19:06.408Z",
+  "commit": "3a36999d9c68d51cce736d051bebd3eb84c0159c",
+  "generated": "2024-06-11T15:19:55.473Z",
   "metadata": [
     {
       "__outstatic": {
@@ -123,33 +123,6 @@
     },
     {
       "__outstatic": {
-        "commit": "47a3e1fdd6a5bc8400eda16f2781d26ef55c2d2b",
-        "hash": "3592382551",
-        "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Cildo Meireles",
-          "value": "cildoMeireles"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2018-03-15T14:43:38.000Z",
-      "slug": "pod-12-cildo-meireles",
-      "soundcloudLink": "",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #12 Cildo Meireles"
-    },
-    {
-      "__outstatic": {
         "commit": "ea4a33359c15b25bb692b04732820dc54789a15d",
         "hash": "2445770266",
         "path": "outstatic/content/posts/mix-03-chico-dub.md"
@@ -174,6 +147,33 @@
       "tags": [
       ],
       "title": "MIX #03 Chico Dub"
+    },
+    {
+      "__outstatic": {
+        "commit": "3a36999d9c68d51cce736d051bebd3eb84c0159c",
+        "hash": "1261749662",
+        "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Cildo Meireles",
+          "value": "cildoMeireles"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2018-03-15T14:43:38.000Z",
+      "slug": "pod-12-cildo-meireles",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F110055748&show_artwork=false",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #12 Cildo Meireles"
     }
   ]
 }
