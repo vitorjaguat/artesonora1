@@ -44,7 +44,7 @@ export default async function Index() {
             className="prose lg:prose-2xl home-intro"
             dangerouslySetInnerHTML={{ __html: content }}
           /> */}
-          <div className='text-5xl font-bold'>Arte Sonora</div>
+          <div className='text-5xl font-bold text-zinc-400'>Arte Sonora</div>
         </section>
         <div className='h-[9000px] w-full bg-zinc-200'></div>
         {/* {allPosts.length > 0 && (
