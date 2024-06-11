@@ -30,6 +30,13 @@
       "dataType": "array",
       "title": "Collaborators",
       "values": []
+    },
+    "soundcloudLink": {
+      "required": false,
+      "description": "Add Soundcloud link",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Soundcloud link"
     }
   }
 }
