@@ -3,6 +3,7 @@
 import '../styles/index.css';
 import PlayerBar from '../components/PlayerBar';
 import { usePathname } from 'next/navigation';
+import Navbar from '@/components/Navbar';
 
 export default function RootLayout({
   children,
@@ -36,10 +37,12 @@ export default function RootLayout({
       <body>
         <div className=''>
           <div className='relative h-screen w-screen'>
+            <Navbar />
             <div className='fixed bottom-0 left-0 bg-black w-screen h-fit'>
               <PlayerBar />
             </div>
-            <div className=''>{children}</div>
+
+            <div className='md:pl-20'>{children}</div>
           </div>
         </div>
       </body>
