@@ -57,6 +57,10 @@
         {
           "value": "podcast",
           "label": "Podcast"
+        },
+        {
+          "value": "mixtape",
+          "label": "Mixtape"
         }
       ]
     }

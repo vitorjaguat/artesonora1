@@ -10,6 +10,7 @@ coverImage: ''
 soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026135&show_artwork=false'
 tags: []
 collaborators: [{"label":"Chico Dub","value":"chicoDub"}]
+type: [{"label":"Mixtape","value":"mixtape"}]
 publishedAt: '2018-03-15T14:57:22.000Z'
 ---
 
