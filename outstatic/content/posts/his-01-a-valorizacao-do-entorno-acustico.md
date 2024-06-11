@@ -8,13 +8,11 @@ slug: 'his-01-a-valorizacao-do-entorno-acustico'
 description: ''
 coverImage: ''
 soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109277493&show_artwork=false&in=artesonora%2Fsets%2Fnahistoria'
-tags: ''
-collaborators: ''
+tags: []
+collaborators: []
 type: [{"label":"Na História","value":"naHistória"}]
 publishedAt: '2018-03-19T15:09:16.000Z'
 ---
-
-A valorização do entorno acústico
 
 Este programa apresenta os primórdios da Arte Sonora pela ótica das vanguardas modernas do início do século XX. Será um passeio pelos Futurista e Dadaísta, por Marcel Duchamp, chegando à poesia de Gertrude Stein.
 
