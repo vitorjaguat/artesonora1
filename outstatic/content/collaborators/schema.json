@@ -11,7 +11,7 @@
     },
     "twitter": {
       "required": false,
-      "description": "Add Twitter link",
+      "description": "Add X/Twitter link",
       "fieldType": "String",
       "dataType": "string",
       "title": "Twitter"
