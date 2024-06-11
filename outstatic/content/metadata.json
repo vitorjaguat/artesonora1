@@ -1,6 +1,6 @@
 {
-  "commit": "d6aed976b1be56f5935cbeb405317a7f75304abf",
-  "generated": "2024-06-11T15:04:24.641Z",
+  "commit": "edf01de966b65a89c157637b831bc1a2e67c1ead",
+  "generated": "2024-06-11T15:18:17.267Z",
   "metadata": [
     {
       "__outstatic": {
@@ -142,6 +142,29 @@
       "tags": [
       ],
       "title": "POD #12 Cildo Meireles"
+    },
+    {
+      "__outstatic": {
+        "commit": "edf01de966b65a89c157637b831bc1a2e67c1ead",
+        "hash": "4001110287",
+        "path": "outstatic/content/posts/mix-03-chico-dub.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2018-03-15T14:57:22.000Z",
+      "slug": "mix-03-chico-dub",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026135&show_artwork=false",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #03 Chico Dub"
     }
   ]
 }
