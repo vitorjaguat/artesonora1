@@ -14,7 +14,7 @@ type: [{"label":"Na História","value":"naHistória"}]
 publishedAt: '2018-03-19T15:09:16.000Z'
 ---
 
-Este programa apresenta os primórdios da Arte Sonora pela ótica das vanguardas modernas do início do século XX. Será um passeio pelos Futurista e Dadaísta, por Marcel Duchamp, chegando à poesia de Gertrude Stein.
+Este programa apresenta os primórdios da Arte Sonora pela ótica das vanguardas modernas do início do século XX. Será um passeio pelos Futuristas e Dadaístas, por Marcel Duchamp, chegando à poesia de Gertrude Stein.
 
 **Links**
 
