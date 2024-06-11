@@ -7,7 +7,7 @@ export default function Navbar() {
       {/* DESKTOP NAV */}
       <div
         className='hidden md:flex fixed top-0 left-0 w-20 h-[calc(100vh-84px)] bg-black z-1 p-2 items-center justify-around gap-4 uppercase'
-        style={{ writingMode: 'sideways-rl' }}
+        style={{ writingMode: 'vertical-rl' }}
       >
         <Link href='/'>
           <div className='text-zinc-500 duration-300 hover:text-white rotate-180'>
