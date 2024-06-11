@@ -46,6 +46,14 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Soundcloud link"
+    },
+    "type": {
+      "required": false,
+      "description": "Add a type",
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "Type",
+      "values": []
     }
   }
 }
