@@ -1,6 +1,6 @@
 {
-  "commit": "0b320a1eaf0dfc863a81502ac244f82d6d26dfda",
-  "generated": "2024-06-11T14:57:57.413Z",
+  "commit": "3a0e89107935aaad6bf6cb2239fc98493acaed52",
+  "generated": "2024-06-11T15:01:25.532Z",
   "metadata": [
     {
       "__outstatic": {
@@ -102,6 +102,24 @@
       "slug": "chico-dub",
       "status": "published",
       "title": "Chico Dub"
+    },
+    {
+      "__outstatic": {
+        "commit": "3a0e89107935aaad6bf6cb2239fc98493acaed52",
+        "hash": "2868771879",
+        "path": "outstatic/content/collaborators/exst.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/exst-E3ND.jpeg",
+      "description": "",
+      "publishedAt": "2024-06-11T14:40:09.478Z",
+      "slug": "exst",
+      "status": "draft",
+      "title": "EXST"
     }
   ]
 }
