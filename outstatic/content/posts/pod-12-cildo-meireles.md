@@ -8,7 +8,8 @@ slug: 'pod-12-cildo-meireles'
 description: ''
 coverImage: ''
 tags: []
-collaborators: []
+collaborators: [{"label":"Cildo Meireles","value":"cildoMeireles"}]
+soundcloudLink: ''
 publishedAt: '2018-03-15T14:43:38.000Z'
 ---
 
