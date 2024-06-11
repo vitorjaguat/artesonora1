@@ -7,9 +7,9 @@ author:
 slug: 'pod-12-cildo-meireles'
 description: ''
 coverImage: ''
-tags: ''
-collaborators: ''
-publishedAt: '2024-06-11T14:43:38.895Z'
+tags: []
+collaborators: []
+publishedAt: '2018-03-15T14:43:38.000Z'
 ---
 
 O encontro, agora editado para o Arte Sonora Podcast, foi um passeio que percorreu, de forma cronológica, os trabalhos mais recentes até os mais antigos.

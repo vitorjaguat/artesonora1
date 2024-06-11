@@ -1,6 +1,6 @@
 {
-  "commit": "bbd3c0eed22ab2cb411ebb4d05e1423a157b50df",
-  "generated": "2024-06-11T15:03:30.159Z",
+  "commit": "d6aed976b1be56f5935cbeb405317a7f75304abf",
+  "generated": "2024-06-11T15:04:24.641Z",
   "metadata": [
     {
       "__outstatic": {
@@ -123,8 +123,8 @@
     },
     {
       "__outstatic": {
-        "commit": "bbd3c0eed22ab2cb411ebb4d05e1423a157b50df",
-        "hash": "3634486472",
+        "commit": "d6aed976b1be56f5935cbeb405317a7f75304abf",
+        "hash": "3740803153",
         "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
       },
       "author": {
@@ -136,7 +136,7 @@
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-06-11T14:43:38.895Z",
+      "publishedAt": "2018-03-15T14:43:38.000Z",
       "slug": "pod-12-cildo-meireles",
       "status": "published",
       "tags": [
