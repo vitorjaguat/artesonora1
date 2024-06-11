@@ -61,6 +61,10 @@
         {
           "value": "mixtape",
           "label": "Mixtape"
+        },
+        {
+          "value": "naHistória",
+          "label": "Na História"
         }
       ]
     }
