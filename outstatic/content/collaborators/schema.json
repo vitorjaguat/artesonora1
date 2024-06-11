@@ -8,6 +8,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Facebook"
+    },
+    "twitter": {
+      "required": false,
+      "description": "Add Twitter link",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Twitter"
     }
   }
 }
