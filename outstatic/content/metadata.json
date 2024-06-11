@@ -1,6 +1,6 @@
 {
-  "commit": "3a0e89107935aaad6bf6cb2239fc98493acaed52",
-  "generated": "2024-06-11T15:01:25.532Z",
+  "commit": "87c528600eda3c2281a6b47d550a757b094f9445",
+  "generated": "2024-06-11T15:01:30.649Z",
   "metadata": [
     {
       "__outstatic": {
@@ -105,8 +105,8 @@
     },
     {
       "__outstatic": {
-        "commit": "3a0e89107935aaad6bf6cb2239fc98493acaed52",
-        "hash": "2868771879",
+        "commit": "87c528600eda3c2281a6b47d550a757b094f9445",
+        "hash": "2666419659",
         "path": "outstatic/content/collaborators/exst.md"
       },
       "author": {
@@ -118,7 +118,7 @@
       "description": "",
       "publishedAt": "2024-06-11T14:40:09.478Z",
       "slug": "exst",
-      "status": "draft",
+      "status": "published",
       "title": "EXST"
     }
   ]

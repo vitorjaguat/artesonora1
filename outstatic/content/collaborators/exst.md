@@ -1,6 +1,6 @@
 ---
 title: 'EXST'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'
