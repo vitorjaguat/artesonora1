@@ -15,6 +15,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Twitter"
+    },
+    "instagram": {
+      "required": false,
+      "description": "Add Instagram link",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Instagram"
     }
   }
 }
