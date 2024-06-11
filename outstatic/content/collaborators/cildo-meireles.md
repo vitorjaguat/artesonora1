@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'
 slug: 'cildo-meireles'
 description: ''
-coverImage: ''
+coverImage: '/images/cildo-Q4Mz.jpeg'
 publishedAt: '2024-06-11T14:34:07.179Z'
 ---
 

@@ -1,6 +1,6 @@
 {
-  "commit": "7a869b90fefcf43a73f403be39f21245dacbbd9d",
-  "generated": "2024-06-11T14:54:01.701Z",
+  "commit": "a8919ae8c7aa4afd1f49e3b5cd17ca18939a64f3",
+  "generated": "2024-06-11T14:55:47.064Z",
   "metadata": [
     {
       "__outstatic": {
@@ -69,8 +69,8 @@
     },
     {
       "__outstatic": {
-        "commit": "7a869b90fefcf43a73f403be39f21245dacbbd9d",
-        "hash": "3992328322",
+        "commit": "a8919ae8c7aa4afd1f49e3b5cd17ca18939a64f3",
+        "hash": "4012908816",
         "path": "outstatic/content/collaborators/cildo-meireles.md"
       },
       "author": {
@@ -78,7 +78,7 @@
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collection": "collaborators",
-      "coverImage": "",
+      "coverImage": "/images/cildo-Q4Mz.jpeg",
       "description": "",
       "publishedAt": "2024-06-11T14:34:07.179Z",
       "slug": "cildo-meireles",
