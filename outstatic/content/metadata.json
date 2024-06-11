@@ -1,6 +1,6 @@
 {
-  "commit": "47a3e1fdd6a5bc8400eda16f2781d26ef55c2d2b",
-  "generated": "2024-06-11T15:18:41.844Z",
+  "commit": "ea4a33359c15b25bb692b04732820dc54789a15d",
+  "generated": "2024-06-11T15:19:06.408Z",
   "metadata": [
     {
       "__outstatic": {
@@ -123,29 +123,6 @@
     },
     {
       "__outstatic": {
-        "commit": "edf01de966b65a89c157637b831bc1a2e67c1ead",
-        "hash": "4001110287",
-        "path": "outstatic/content/posts/mix-03-chico-dub.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2018-03-15T14:57:22.000Z",
-      "slug": "mix-03-chico-dub",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026135&show_artwork=false",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #03 Chico Dub"
-    },
-    {
-      "__outstatic": {
         "commit": "47a3e1fdd6a5bc8400eda16f2781d26ef55c2d2b",
         "hash": "3592382551",
         "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
@@ -170,6 +147,33 @@
       "tags": [
       ],
       "title": "POD #12 Cildo Meireles"
+    },
+    {
+      "__outstatic": {
+        "commit": "ea4a33359c15b25bb692b04732820dc54789a15d",
+        "hash": "2445770266",
+        "path": "outstatic/content/posts/mix-03-chico-dub.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Chico Dub",
+          "value": "chicoDub"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2018-03-15T14:57:22.000Z",
+      "slug": "mix-03-chico-dub",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026135&show_artwork=false",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #03 Chico Dub"
     }
   ]
 }
