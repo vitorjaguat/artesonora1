@@ -63,8 +63,12 @@ export default function Navbar() {
           className='md:flex  w-20 h-[calc(100vh-84px)] items-center justify-around gap-4 uppercase'
           style={{ writingMode: 'vertical-rl' }}
         >
-          <Link href='/'>
-            <div className='w-full text-zinc-500 duration-300 hover:text-white rotate-180'>
+          <Link
+            className='w-full flex items-center'
+            href='/'
+            onMouseEnter={() => controls.start('off')}
+          >
+            <div className=' text-zinc-500 duration-300 hover:text-white rotate-180'>
               home
             </div>
           </Link>
@@ -84,12 +88,24 @@ export default function Navbar() {
           >
             programas
           </div>
-          <div className='text-zinc-500 duration-300 hover:text-white rotate-180 cursor-pointer'>
-            arquivos
-          </div>
-          <div className='text-zinc-500 duration-300 hover:text-white rotate-180'>
-            contato
-          </div>
+          <Link
+            className='w-full flex items-center'
+            href='/arquivos'
+            onMouseEnter={() => controls.start('off')}
+          >
+            <div className='text-zinc-500 duration-300 hover:text-white rotate-180 cursor-pointer'>
+              arquivos
+            </div>
+          </Link>
+          <Link
+            className='w-full flex items-center'
+            href='/contato'
+            onMouseEnter={() => controls.start('off')}
+          >
+            <div className='w-full flex items-center text-zinc-500 duration-300 hover:text-white rotate-180'>
+              contato
+            </div>
+          </Link>
         </div>
       </div>
       {/* SUBMENU */}
