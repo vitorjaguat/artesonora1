@@ -1,6 +1,6 @@
 {
-  "commit": "3a36999d9c68d51cce736d051bebd3eb84c0159c",
-  "generated": "2024-06-11T15:19:55.473Z",
+  "commit": "41ebc93205c9d8040fb97b9cd1c38c74e1a58c9d",
+  "generated": "2024-06-11T15:25:43.435Z",
   "metadata": [
     {
       "__outstatic": {
@@ -150,8 +150,8 @@
     },
     {
       "__outstatic": {
-        "commit": "3a36999d9c68d51cce736d051bebd3eb84c0159c",
-        "hash": "1261749662",
+        "commit": "41ebc93205c9d8040fb97b9cd1c38c74e1a58c9d",
+        "hash": "3809482380",
         "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
       },
       "author": {
@@ -173,7 +173,13 @@
       "status": "published",
       "tags": [
       ],
-      "title": "POD #12 Cildo Meireles"
+      "title": "POD #12 Cildo Meireles",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
     }
   ]
 }

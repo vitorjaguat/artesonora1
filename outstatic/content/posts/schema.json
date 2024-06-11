@@ -53,7 +53,12 @@
       "fieldType": "Tags",
       "dataType": "array",
       "title": "Type",
-      "values": []
+      "values": [
+        {
+          "value": "podcast",
+          "label": "Podcast"
+        }
+      ]
     }
   }
 }
