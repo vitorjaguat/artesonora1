@@ -1,6 +1,6 @@
 {
-  "commit": "a8919ae8c7aa4afd1f49e3b5cd17ca18939a64f3",
-  "generated": "2024-06-11T14:55:47.064Z",
+  "commit": "0b320a1eaf0dfc863a81502ac244f82d6d26dfda",
+  "generated": "2024-06-11T14:57:57.413Z",
   "metadata": [
     {
       "__outstatic": {
@@ -84,6 +84,24 @@
       "slug": "cildo-meireles",
       "status": "published",
       "title": "Cildo Meireles"
+    },
+    {
+      "__outstatic": {
+        "commit": "0b320a1eaf0dfc863a81502ac244f82d6d26dfda",
+        "hash": "4198957152",
+        "path": "outstatic/content/collaborators/chico-dub.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/chico_dub-gzNj.jpeg",
+      "description": "",
+      "publishedAt": "2024-06-11T14:38:27.957Z",
+      "slug": "chico-dub",
+      "status": "published",
+      "title": "Chico Dub"
     }
   ]
 }
