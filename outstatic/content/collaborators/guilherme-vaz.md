@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'
 slug: 'guilherme-vaz'
 description: ''
-coverImage: ''
+coverImage: '/images/guilherme_vaz-YyMT.jpeg'
 facebook: 'https://www.facebook.com/search/top/?q=guilherme%20vaz%20-%20uma%20fra%C3%A7%C3%A3o%20do%20infinito'
 twitter: ''
 instagram: ''
