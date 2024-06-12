@@ -1,6 +1,6 @@
 {
-  "commit": "10111df2bb98c497df9ba1056b85e84df44760fe",
-  "generated": "2024-06-12T19:57:17.200Z",
+  "commit": "207d370025dcd86f4ae31a3739c232606c01b7ef",
+  "generated": "2024-06-12T19:59:43.106Z",
   "metadata": [
     {
       "__outstatic": {
@@ -298,6 +298,27 @@
       "slug": "romano",
       "status": "published",
       "title": "Romano",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "207d370025dcd86f4ae31a3739c232606c01b7ef",
+        "hash": "536773665",
+        "path": "outstatic/content/collaborators/paulo-nenflidio.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/paulo_nenflidio-Q2ND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/nenflidio",
+      "instagram": "https://www.instagram.com/nenflidio/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:39:24.895Z",
+      "slug": "paulo-nenflidio",
+      "status": "published",
+      "title": "Paulo Nenflidio",
       "twitter": ""
     }
   ]
