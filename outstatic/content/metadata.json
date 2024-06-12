@@ -1,6 +1,6 @@
 {
-  "commit": "ce172b9cc6a7fe5502a9a3f03cc0736781bfb783",
-  "generated": "2024-06-12T20:05:02.822Z",
+  "commit": "dc5c13a62a517dbc2f47c1ff2d22e72352619dd7",
+  "generated": "2024-06-12T20:07:23.104Z",
   "metadata": [
     {
       "__outstatic": {
@@ -403,6 +403,27 @@
       "slug": "rodolfo-caesar",
       "status": "published",
       "title": "Rodolfo Caesar",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "dc5c13a62a517dbc2f47c1ff2d22e72352619dd7",
+        "hash": "938703044",
+        "path": "outstatic/content/collaborators/tantao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/tantao-gzND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/carlosantonio.mattos",
+      "instagram": "https://www.instagram.com/carlosantoniomattostantao/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:48:07.118Z",
+      "slug": "tantao",
+      "status": "published",
+      "title": "Tantão",
       "twitter": ""
     }
   ]
