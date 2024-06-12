@@ -1,6 +1,6 @@
 {
-  "commit": "0a0b4b6b219ae6e55bbc19ecb9bdd4f2e1e78651",
-  "generated": "2024-06-12T20:16:20.007Z",
+  "commit": "c8dd3a2f33636e9f4a44b526ef78522a6bf6a721",
+  "generated": "2024-06-12T20:17:27.798Z",
   "metadata": [
     {
       "__outstatic": {
@@ -529,6 +529,27 @@
       "slug": "icaro-dos-santos",
       "status": "published",
       "title": "Icaro dos Santos",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "c8dd3a2f33636e9f4a44b526ef78522a6bf6a721",
+        "hash": "386694207",
+        "path": "outstatic/content/collaborators/bernardo-oliveira.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/bernardo_oliveira-g0ND.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/bernieoak/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:58:47.560Z",
+      "slug": "bernardo-oliveira",
+      "status": "published",
+      "title": "Bernardo Oliveira",
       "twitter": ""
     }
   ]
