@@ -1,6 +1,6 @@
 {
-  "commit": "a1c37778e66d9176c981241cb72cf2f8f389a4fa",
-  "generated": "2024-06-12T19:55:30.805Z",
+  "commit": "10111df2bb98c497df9ba1056b85e84df44760fe",
+  "generated": "2024-06-12T19:57:17.200Z",
   "metadata": [
     {
       "__outstatic": {
@@ -277,6 +277,27 @@
       "slug": "laura-belem",
       "status": "published",
       "title": "Laura Belém",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "10111df2bb98c497df9ba1056b85e84df44760fe",
+        "hash": "2231252466",
+        "path": "outstatic/content/collaborators/romano.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/romano-M1OT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/floriano.romano",
+      "instagram": "https://www.instagram.com/florianoromano/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:37:50.471Z",
+      "slug": "romano",
+      "status": "published",
+      "title": "Romano",
       "twitter": ""
     }
   ]
