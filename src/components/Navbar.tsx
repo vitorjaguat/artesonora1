@@ -2,6 +2,11 @@ import Link from 'next/link';
 import NavbarMobile from './NavbarMobile';
 import { useAnimationControls, motion } from 'framer-motion';
 import { useState } from 'react';
+import { ImHome } from 'react-icons/im';
+import { PiBookOpenUserFill } from 'react-icons/pi';
+import { AiFillAudio } from 'react-icons/ai';
+import { BiSolidHourglass } from 'react-icons/bi';
+import { GrContact } from 'react-icons/gr';
 
 interface SubMenuData {
   name: string;
@@ -48,6 +53,7 @@ const subMenuDataManager = {
 };
 
 export default function Navbar() {
+  const controlsContainer = useAnimationControls();
   const controls = useAnimationControls();
   const [subMenuData, setSubMenuData] = useState<SubMenuData[] | null>(null);
 
@@ -55,76 +61,187 @@ export default function Navbar() {
     setSubMenuData(data);
     controls.start('on');
   };
+  const handleHoverContainer = () => {
+    controlsContainer.start('on');
+  };
   return (
     <>
       {/* DESKTOP NAV */}
-      <div className='hidden md:inline fixed top-0 left-0 w-20 h-screen bg-black z-1'>
+      <div className='hidden md:inline fixed top-0 left-0 w-fit h-screen bg-black z-1'>
         <div
-          className='md:flex  w-20 h-[calc(100vh-84px)] items-center justify-around gap-4 uppercase'
-          style={{ writingMode: 'vertical-rl' }}
+          className='md:flex flex-col w-fit h-[calc(100vh-84px)] px-4 pt-6 items-center gap-6 uppercase'
+          // style={{ writingMode: 'vertical-rl' }}
+          onMouseEnter={handleHoverContainer}
+          onMouseLeave={() => controlsContainer.start('off')}
         >
           <Link
             className='w-full flex items-center'
             href='/'
             onMouseEnter={() => controls.start('off')}
           >
-            <div className=' text-zinc-500 duration-300 hover:text-white rotate-180'>
-              home
+            <div className='flex justify-center w-full max-w-[20px]'>
+              <ImHome
+                size={20}
+                className='text-zinc-500 duration-300 hover:text-white'
+              />
             </div>
+            <motion.div
+              initial='off'
+              animate={controlsContainer}
+              variants={{
+                off: {
+                  width: 0,
+                  marginLeft: 0,
+                },
+                on: { width: 130, marginLeft: 12 },
+              }}
+              className=' text-zinc-500 duration-300 hover:text-white overflow-hidden'
+            >
+              home
+            </motion.div>
           </Link>
 
           <div
-            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white rotate-180 cursor-pointer'
+            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white  cursor-pointer'
             onMouseEnter={() => handleHover(subMenuDataManager.sobre)}
             // onMouseLeave={() => controls.start('off')}
           >
-            sobre
+            <div className='flex justify-center w-full max-w-[20px]'>
+              <PiBookOpenUserFill
+                size={20}
+                className='text-zinc-500 duration-300 hover:text-white'
+              />
+            </div>
+            <motion.div
+              initial='off'
+              animate={controlsContainer}
+              variants={{
+                off: {
+                  width: 0,
+                  marginLeft: 0,
+                },
+                on: { width: 130, marginLeft: 12 },
+              }}
+              className=' text-zinc-500 duration-300 hover:text-white overflow-hidden'
+            >
+              sobre
+            </motion.div>
           </div>
 
           <div
-            className='w-full flex items-center  text-zinc-500 duration-300 hover:text-white rotate-180 cursor-pointer'
+            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white  cursor-pointer'
             onMouseEnter={() => handleHover(subMenuDataManager.programas)}
             // onMouseLeave={() => controls.start('off')}
           >
-            programas
+            <div className='flex justify-center w-full max-w-[20px]'>
+              <AiFillAudio
+                size={20}
+                className='text-zinc-500 duration-300 hover:text-white'
+              />
+            </div>
+            <motion.div
+              initial='off'
+              animate={controlsContainer}
+              variants={{
+                off: {
+                  width: 0,
+                  marginLeft: 0,
+                },
+                on: { width: 130, marginLeft: 12 },
+              }}
+              className=' text-zinc-500 duration-300 hover:text-white overflow-hidden'
+            >
+              programas
+            </motion.div>
           </div>
+
           <Link
             className='w-full flex items-center'
             href='/arquivos'
             onMouseEnter={() => controls.start('off')}
           >
-            <div className='text-zinc-500 duration-300 hover:text-white rotate-180 cursor-pointer'>
-              arquivos
+            <div className='flex justify-center w-full max-w-[20px]'>
+              <BiSolidHourglass
+                size={20}
+                className='text-zinc-500 duration-300 hover:text-white'
+              />
             </div>
+            <motion.div
+              initial='off'
+              animate={controlsContainer}
+              variants={{
+                off: {
+                  width: 0,
+                  marginLeft: 0,
+                },
+                on: { width: 130, marginLeft: 12 },
+              }}
+              className=' text-zinc-500 duration-300 hover:text-white overflow-hidden'
+            >
+              arquivos
+            </motion.div>
           </Link>
+
           <Link
             className='w-full flex items-center'
             href='/contato'
             onMouseEnter={() => controls.start('off')}
           >
-            <div className='w-full flex items-center text-zinc-500 duration-300 hover:text-white rotate-180'>
-              contato
+            <div className='flex justify-center w-full max-w-[20px]'>
+              <GrContact
+                size={20}
+                className='text-zinc-500 duration-300 hover:text-white'
+              />
             </div>
+            <motion.div
+              initial='off'
+              animate={controlsContainer}
+              variants={{
+                off: {
+                  width: 0,
+                  marginLeft: 0,
+                },
+                on: { width: 130, marginLeft: 12 },
+              }}
+              className=' text-zinc-500 duration-300 hover:text-white overflow-hidden'
+            >
+              contato
+            </motion.div>
           </Link>
         </div>
       </div>
       {/* SUBMENU */}
       <motion.div
-        className='hidden fixed top-0 left-20 bg-black/80 h-[calc(100vh-84px)] items-center justify-around gap-4 uppercase'
-        onMouseEnter={() => controls.start('on')}
-        onMouseLeave={() => controls.start('off')}
-        style={{ writingMode: 'vertical-rl' }}
+        className='hidden fixed top-0 left-[190px] bg-black/80 h-[calc(100vh-84px)] pt-6 flex-col justify-start items-end gap-6 uppercase'
+        onMouseEnter={() => {
+          controls.start('on');
+          controlsContainer.start('on');
+        }}
+        onMouseLeave={() => {
+          controls.start('off');
+          controlsContainer.start('off');
+        }}
+        // style={{ writingMode: 'vertical-rl' }}
         initial='off'
         animate={controls}
+        transition={{
+          type: 'spring',
+          stiffness: 260,
+          damping: 20,
+        }}
         variants={{
-          off: { width: 0, display: 'none' },
-          on: { width: 80, display: 'flex' },
+          off: { width: 0, display: 'none', opacity: 0 },
+          on: {
+            width: 170,
+            display: 'flex',
+            opacity: 1,
+          },
         }}
       >
         {subMenuData &&
           subMenuData.map((item, i) => (
-            <Link href={item.link}>
-              <div className='text-zinc-300 duration-300 hover:text-white rotate-180'>
+            <Link key={i} className='w-full' href={item.link}>
+              <div className='w-full text-right pr-6 text-zinc-300 duration-300 hover:text-white'>
                 {item.name}
               </div>
             </Link>
