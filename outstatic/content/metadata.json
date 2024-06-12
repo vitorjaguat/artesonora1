@@ -1,6 +1,6 @@
 {
-  "commit": "f4c215aea22eac039e6274ea1dac2a2fbba37866",
-  "generated": "2024-06-12T20:14:53.881Z",
+  "commit": "0a0b4b6b219ae6e55bbc19ecb9bdd4f2e1e78651",
+  "generated": "2024-06-12T20:16:20.007Z",
   "metadata": [
     {
       "__outstatic": {
@@ -508,6 +508,27 @@
       "slug": "fred-coelho",
       "status": "published",
       "title": "Fred Coelho",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "0a0b4b6b219ae6e55bbc19ecb9bdd4f2e1e78651",
+        "hash": "2615460464",
+        "path": "outstatic/content/collaborators/icaro-dos-santos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/icaro_dos_santos-M3Nj.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/icarodossantos",
+      "instagram": "https://www.instagram.com/icaro78/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:56:57.938Z",
+      "slug": "icaro-dos-santos",
+      "status": "published",
+      "title": "Icaro dos Santos",
       "twitter": ""
     }
   ]
