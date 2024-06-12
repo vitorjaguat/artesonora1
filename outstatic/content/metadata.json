@@ -1,6 +1,6 @@
 {
-  "commit": "772c4edfb34c0c9bbcd2b41d7cea1e69fbb0ebad",
-  "generated": "2024-06-12T20:22:12.147Z",
+  "commit": "0932738b82d7b48f6f4a63b79b19004c34e8f733",
+  "generated": "2024-06-12T20:23:37.280Z",
   "metadata": [
     {
       "__outstatic": {
@@ -613,6 +613,27 @@
       "slug": "ioia",
       "status": "published",
       "title": "IOIA",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "0932738b82d7b48f6f4a63b79b19004c34e8f733",
+        "hash": "1026636907",
+        "path": "outstatic/content/collaborators/ronaldo-lemos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/ronaldo_lemos-U1OT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/ronaldo.lemos",
+      "instagram": "https://www.instagram.com/lemos_ronaldo/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:04:50.723Z",
+      "slug": "ronaldo-lemos",
+      "status": "published",
+      "title": "Ronaldo Lemos",
       "twitter": ""
     }
   ]
