@@ -1,6 +1,6 @@
 {
-  "commit": "dc5c13a62a517dbc2f47c1ff2d22e72352619dd7",
-  "generated": "2024-06-12T20:07:23.104Z",
+  "commit": "4518efd960be3e7c11d691fed72b8c33c29f2bff",
+  "generated": "2024-06-12T20:08:47.493Z",
   "metadata": [
     {
       "__outstatic": {
@@ -424,6 +424,27 @@
       "slug": "tantao",
       "status": "published",
       "title": "Tantão",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "4518efd960be3e7c11d691fed72b8c33c29f2bff",
+        "hash": "224464029",
+        "path": "outstatic/content/collaborators/lilian-zaremba.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/lilian_zaremba-E1OD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/lilian.zaremba",
+      "instagram": "https://www.instagram.com/zarembalilian/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:49:58.063Z",
+      "slug": "lilian-zaremba",
+      "status": "published",
+      "title": "Lilian Zaremba",
       "twitter": ""
     }
   ]
