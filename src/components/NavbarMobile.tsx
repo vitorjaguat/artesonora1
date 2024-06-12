@@ -17,7 +17,7 @@ export default function NavbarMobile() {
   return (
     <>
       <div
-        className='md:hidden fixed top-0 right-0 pr-5 pt-5 cursor-pointer select-none'
+        className='md:hidden fixed top-0 right-0 pr-5 pt-5 cursor-pointer select-none z-10'
         onClick={() => setIsOpen(true)}
       >
         <RxHamburgerMenu size={30} className='text-zinc-500' />
