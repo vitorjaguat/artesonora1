@@ -1,6 +1,6 @@
 {
-  "commit": "9857d2c6d1aa6e78a42e3de7024fdbefbca1404a",
-  "generated": "2024-06-12T20:12:23.145Z",
+  "commit": "dd7871b549295899f480976476e72dcfb5ccc9ac",
+  "generated": "2024-06-12T20:13:04.069Z",
   "metadata": [
     {
       "__outstatic": {
@@ -470,8 +470,8 @@
     },
     {
       "__outstatic": {
-        "commit": "9857d2c6d1aa6e78a42e3de7024fdbefbca1404a",
-        "hash": "231993772",
+        "commit": "dd7871b549295899f480976476e72dcfb5ccc9ac",
+        "hash": "1583727359",
         "path": "outstatic/content/collaborators/pedro-victor-brandao.md"
       },
       "author": {
@@ -487,7 +487,7 @@
       "slug": "pedro-victor-brandao",
       "status": "published",
       "title": "Pedro Victor Brandão",
-      "twitter": ""
+      "twitter": "https://x.com/pierresacoman"
     }
   ]
 }

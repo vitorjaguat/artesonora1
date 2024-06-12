@@ -8,7 +8,7 @@ slug: 'pedro-victor-brandao'
 description: ''
 coverImage: '/images/pedro_victor_brandao-Q4OD.jpeg'
 facebook: ''
-twitter: ''
+twitter: 'https://x.com/pierresacoman'
 instagram: 'https://www.instagram.com/__pedrovictor/?hl=pt-br'
 publishedAt: '2024-06-12T19:52:50.638Z'
 ---
