@@ -1,6 +1,6 @@
 {
-  "commit": "5ffe2776dd0255b6ecddfbba358f822b90f5110f",
-  "generated": "2024-06-12T19:52:43.065Z",
+  "commit": "5f49fe0273402540cef566a363df6e61b50c4250",
+  "generated": "2024-06-12T19:54:14.711Z",
   "metadata": [
     {
       "__outstatic": {
@@ -235,6 +235,27 @@
       "slug": "guilherme-vaz",
       "status": "published",
       "title": "Guilherme Vaz",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "5f49fe0273402540cef566a363df6e61b50c4250",
+        "hash": "2531161101",
+        "path": "outstatic/content/collaborators/cadu.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/cadu-M1MT.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:34:59.953Z",
+      "slug": "cadu",
+      "status": "published",
+      "title": "CADU",
       "twitter": ""
     }
   ]
