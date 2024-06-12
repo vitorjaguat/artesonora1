@@ -41,13 +41,13 @@ export default async function Index() {
     <Layout>
       <Hero />
       <div className=''>
-        <section className='w-full flex items-center justify-center py-16'>
+        <section className='w-full flex items-center justify-center'>
           {/* <div
             className="prose lg:prose-2xl home-intro"
             dangerouslySetInnerHTML={{ __html: content }}
           /> */}
         </section>
-        <div className='h-[2000px] w-full'></div>
+        <div className='h-[2000px] w-full bg-neutral-800'></div>
         {/* {allPosts.length > 0 && (
           <ContentGrid
             title='Posts'
