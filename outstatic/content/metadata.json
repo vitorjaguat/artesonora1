@@ -1,6 +1,6 @@
 {
-  "commit": "0932738b82d7b48f6f4a63b79b19004c34e8f733",
-  "generated": "2024-06-12T20:23:37.280Z",
+  "commit": "4359b44fc41a178fe6348e319c8a4a0d5e9d75f8",
+  "generated": "2024-06-12T20:24:55.614Z",
   "metadata": [
     {
       "__outstatic": {
@@ -634,6 +634,27 @@
       "slug": "ronaldo-lemos",
       "status": "published",
       "title": "Ronaldo Lemos",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "4359b44fc41a178fe6348e319c8a4a0d5e9d75f8",
+        "hash": "2491787899",
+        "path": "outstatic/content/collaborators/andre-amaral.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/andre_amaral-c1MD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/andreamarals",
+      "instagram": "https://www.instagram.com/andre_el_amaral/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:05:43.390Z",
+      "slug": "andre-amaral",
+      "status": "published",
+      "title": "André Amaral",
       "twitter": ""
     }
   ]
