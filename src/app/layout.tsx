@@ -42,7 +42,7 @@ export default function RootLayout({
               <PlayerBar />
             </div>
 
-            <div className='md:pl-9'>{children}</div>
+            <div className='md:pl-[52px]'>{children}</div>
           </div>
         </div>
       </body>

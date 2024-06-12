@@ -4,6 +4,7 @@ import ContentGrid from '../components/ContentGrid';
 import { Metadata } from 'next';
 import markdownToHtml from '../lib/markdownToHtml';
 import { absoluteUrl } from '@/lib/utils';
+import Hero from '@/components/Hero';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://artesonora1.vercel.app/'),
@@ -38,15 +39,15 @@ export default async function Index() {
 
   return (
     <Layout>
-      <div className='max-w-6xl mx-auto'>
+      <Hero />
+      <div className=''>
         <section className='w-full flex items-center justify-center py-16'>
           {/* <div
             className="prose lg:prose-2xl home-intro"
             dangerouslySetInnerHTML={{ __html: content }}
           /> */}
-          <div className='text-5xl font-bold text-zinc-400'>Arte Sonora</div>
         </section>
-        <div className='h-[2000px] w-full bg-zinc-200'></div>
+        <div className='h-[2000px] w-full'></div>
         {/* {allPosts.length > 0 && (
           <ContentGrid
             title='Posts'
