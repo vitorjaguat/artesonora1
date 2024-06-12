@@ -1,6 +1,6 @@
 {
-  "commit": "682d6b33d99dde854c0e5302aa11d320b0ea26e7",
-  "generated": "2024-06-12T20:20:54.569Z",
+  "commit": "772c4edfb34c0c9bbcd2b41d7cea1e69fbb0ebad",
+  "generated": "2024-06-12T20:22:12.147Z",
   "metadata": [
     {
       "__outstatic": {
@@ -592,6 +592,27 @@
       "slug": "batman-zavareze",
       "status": "published",
       "title": "Batman Zavareze",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "772c4edfb34c0c9bbcd2b41d7cea1e69fbb0ebad",
+        "hash": "7706031",
+        "path": "outstatic/content/collaborators/ioia.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/ioia-MzMD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/ioiamusica/",
+      "instagram": "https://www.instagram.com/ioiamusica/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:03:13.626Z",
+      "slug": "ioia",
+      "status": "published",
+      "title": "IOIA",
       "twitter": ""
     }
   ]
