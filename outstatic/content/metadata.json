@@ -1,6 +1,6 @@
 {
-  "commit": "c8dd3a2f33636e9f4a44b526ef78522a6bf6a721",
-  "generated": "2024-06-12T20:17:27.798Z",
+  "commit": "63f5101491907752d992b272ed67a4b0616aed36",
+  "generated": "2024-06-12T20:19:26.601Z",
   "metadata": [
     {
       "__outstatic": {
@@ -550,6 +550,27 @@
       "slug": "bernardo-oliveira",
       "status": "published",
       "title": "Bernardo Oliveira",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "63f5101491907752d992b272ed67a4b0616aed36",
+        "hash": "3205821414",
+        "path": "outstatic/content/collaborators/lisias-paiva.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/lisias_paiva-QxMj.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/lisias",
+      "instagram": "https://www.instagram.com/lisias/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:00:11.395Z",
+      "slug": "lisias-paiva",
+      "status": "published",
+      "title": "Lísias Paiva",
       "twitter": ""
     }
   ]
