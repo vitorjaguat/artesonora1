@@ -1,6 +1,6 @@
 {
-  "commit": "1c67a1a1c43755ece6dcc4544565e5f65264c5ea",
-  "generated": "2024-06-11T15:30:18.363Z",
+  "commit": "bd31063148b9040ec9788f9fd49882faaa457a63",
+  "generated": "2024-06-12T19:51:56.160Z",
   "metadata": [
     {
       "__outstatic": {
@@ -215,6 +215,27 @@
           "value": "naHistória"
         }
       ]
+    },
+    {
+      "__outstatic": {
+        "commit": "bd31063148b9040ec9788f9fd49882faaa457a63",
+        "hash": "1993049797",
+        "path": "outstatic/content/collaborators/guilherme-vaz.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "",
+      "description": "",
+      "facebook": "https://www.facebook.com/search/top/?q=guilherme%20vaz%20-%20uma%20fra%C3%A7%C3%A3o%20do%20infinito",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:32:49.726Z",
+      "slug": "guilherme-vaz",
+      "status": "published",
+      "title": "Guilherme Vaz",
+      "twitter": ""
     }
   ]
 }
