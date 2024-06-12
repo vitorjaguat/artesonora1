@@ -1,6 +1,6 @@
 {
-  "commit": "57a6142719e948e51aaee3f06a7b473007e1f62d",
-  "generated": "2024-06-12T20:03:57.436Z",
+  "commit": "ce172b9cc6a7fe5502a9a3f03cc0736781bfb783",
+  "generated": "2024-06-12T20:05:02.822Z",
   "metadata": [
     {
       "__outstatic": {
@@ -382,6 +382,27 @@
       "slug": "lenora-de-barros",
       "status": "published",
       "title": "Lenora de Barros",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "ce172b9cc6a7fe5502a9a3f03cc0736781bfb783",
+        "hash": "463108693",
+        "path": "outstatic/content/collaborators/rodolfo-caesar.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/rodolfo_caesar-MzMj.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:46:19.765Z",
+      "slug": "rodolfo-caesar",
+      "status": "published",
+      "title": "Rodolfo Caesar",
       "twitter": ""
     }
   ]
