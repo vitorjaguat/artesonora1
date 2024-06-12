@@ -1,6 +1,6 @@
 {
-  "commit": "dd7871b549295899f480976476e72dcfb5ccc9ac",
-  "generated": "2024-06-12T20:13:04.069Z",
+  "commit": "f4c215aea22eac039e6274ea1dac2a2fbba37866",
+  "generated": "2024-06-12T20:14:53.881Z",
   "metadata": [
     {
       "__outstatic": {
@@ -488,6 +488,27 @@
       "status": "published",
       "title": "Pedro Victor Brandão",
       "twitter": "https://x.com/pierresacoman"
+    },
+    {
+      "__outstatic": {
+        "commit": "f4c215aea22eac039e6274ea1dac2a2fbba37866",
+        "hash": "2643186902",
+        "path": "outstatic/content/collaborators/fred-coelho.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/fred_coelho-Y0ND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/fred.coelho",
+      "instagram": "https://www.instagram.com/pauperia/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:55:31.770Z",
+      "slug": "fred-coelho",
+      "status": "published",
+      "title": "Fred Coelho",
+      "twitter": ""
     }
   ]
 }
