@@ -1,6 +1,6 @@
 {
-  "commit": "1c67a1a1c43755ece6dcc4544565e5f65264c5ea",
-  "generated": "2024-06-11T15:30:18.363Z",
+  "commit": "4359b44fc41a178fe6348e319c8a4a0d5e9d75f8",
+  "generated": "2024-06-12T20:24:55.614Z",
   "metadata": [
     {
       "__outstatic": {
@@ -215,6 +215,447 @@
           "value": "naHistória"
         }
       ]
+    },
+    {
+      "__outstatic": {
+        "commit": "5ffe2776dd0255b6ecddfbba358f822b90f5110f",
+        "hash": "4153023307",
+        "path": "outstatic/content/collaborators/guilherme-vaz.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/guilherme_vaz-YyMT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/search/top/?q=guilherme%20vaz%20-%20uma%20fra%C3%A7%C3%A3o%20do%20infinito",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:32:49.726Z",
+      "slug": "guilherme-vaz",
+      "status": "published",
+      "title": "Guilherme Vaz",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "5f49fe0273402540cef566a363df6e61b50c4250",
+        "hash": "2531161101",
+        "path": "outstatic/content/collaborators/cadu.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/cadu-M1MT.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:34:59.953Z",
+      "slug": "cadu",
+      "status": "published",
+      "title": "CADU",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "a1c37778e66d9176c981241cb72cf2f8f389a4fa",
+        "hash": "733805467",
+        "path": "outstatic/content/collaborators/laura-belem.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/laura_belem-Q3Nj.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/laura.belem.100",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:36:23.742Z",
+      "slug": "laura-belem",
+      "status": "published",
+      "title": "Laura Belém",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "10111df2bb98c497df9ba1056b85e84df44760fe",
+        "hash": "2231252466",
+        "path": "outstatic/content/collaborators/romano.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/romano-M1OT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/floriano.romano",
+      "instagram": "https://www.instagram.com/florianoromano/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:37:50.471Z",
+      "slug": "romano",
+      "status": "published",
+      "title": "Romano",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "207d370025dcd86f4ae31a3739c232606c01b7ef",
+        "hash": "536773665",
+        "path": "outstatic/content/collaborators/paulo-nenflidio.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/paulo_nenflidio-Q2ND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/nenflidio",
+      "instagram": "https://www.instagram.com/nenflidio/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:39:24.895Z",
+      "slug": "paulo-nenflidio",
+      "status": "published",
+      "title": "Paulo Nenflidio",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "9504b0765a08095e6190012eedc753589343d08e",
+        "hash": "1208591731",
+        "path": "outstatic/content/collaborators/vivian-caccuri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/vivian_caccuri-I5OT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/viviancaccuri",
+      "instagram": "https://www.instagram.com/viviancaccuri/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:41:52.377Z",
+      "slug": "vivian-caccuri",
+      "status": "published",
+      "title": "Vivian Caccuri",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "8c9e576612dc48065763f1b7606e8b5bf77c7a5d",
+        "hash": "569208925",
+        "path": "outstatic/content/collaborators/chelpa-ferro.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/chelpa_ferro-kzOD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/chelpa.ferro.1/",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:43:19.773Z",
+      "slug": "chelpa-ferro",
+      "status": "published",
+      "title": "Chelpa Ferro",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "57a6142719e948e51aaee3f06a7b473007e1f62d",
+        "hash": "2108386118",
+        "path": "outstatic/content/collaborators/lenora-de-barros.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/lenora_de_barros-I4OD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/lenora.debarros.7",
+      "instagram": "https://www.instagram.com/ledebe/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:45:03.687Z",
+      "slug": "lenora-de-barros",
+      "status": "published",
+      "title": "Lenora de Barros",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "ce172b9cc6a7fe5502a9a3f03cc0736781bfb783",
+        "hash": "463108693",
+        "path": "outstatic/content/collaborators/rodolfo-caesar.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/rodolfo_caesar-MzMj.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:46:19.765Z",
+      "slug": "rodolfo-caesar",
+      "status": "published",
+      "title": "Rodolfo Caesar",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "dc5c13a62a517dbc2f47c1ff2d22e72352619dd7",
+        "hash": "938703044",
+        "path": "outstatic/content/collaborators/tantao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/tantao-gzND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/carlosantonio.mattos",
+      "instagram": "https://www.instagram.com/carlosantoniomattostantao/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:48:07.118Z",
+      "slug": "tantao",
+      "status": "published",
+      "title": "Tantão",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "4518efd960be3e7c11d691fed72b8c33c29f2bff",
+        "hash": "224464029",
+        "path": "outstatic/content/collaborators/lilian-zaremba.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/lilian_zaremba-E1OD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/lilian.zaremba",
+      "instagram": "https://www.instagram.com/zarembalilian/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:49:58.063Z",
+      "slug": "lilian-zaremba",
+      "status": "published",
+      "title": "Lilian Zaremba",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "97036e910da7f4d2cb4426fc05f9b6fc5ff57ce5",
+        "hash": "3390097345",
+        "path": "outstatic/content/collaborators/daniela-labra.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/daniela_labra-AxOD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/labradaniela",
+      "instagram": "https://www.instagram.com/danilabraaa/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:51:22.610Z",
+      "slug": "daniela-labra",
+      "status": "published",
+      "title": "Daniela Labra",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "dd7871b549295899f480976476e72dcfb5ccc9ac",
+        "hash": "1583727359",
+        "path": "outstatic/content/collaborators/pedro-victor-brandao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/pedro_victor_brandao-Q4OD.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/__pedrovictor/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:52:50.638Z",
+      "slug": "pedro-victor-brandao",
+      "status": "published",
+      "title": "Pedro Victor Brandão",
+      "twitter": "https://x.com/pierresacoman"
+    },
+    {
+      "__outstatic": {
+        "commit": "f4c215aea22eac039e6274ea1dac2a2fbba37866",
+        "hash": "2643186902",
+        "path": "outstatic/content/collaborators/fred-coelho.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/fred_coelho-Y0ND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/fred.coelho",
+      "instagram": "https://www.instagram.com/pauperia/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:55:31.770Z",
+      "slug": "fred-coelho",
+      "status": "published",
+      "title": "Fred Coelho",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "0a0b4b6b219ae6e55bbc19ecb9bdd4f2e1e78651",
+        "hash": "2615460464",
+        "path": "outstatic/content/collaborators/icaro-dos-santos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/icaro_dos_santos-M3Nj.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/icarodossantos",
+      "instagram": "https://www.instagram.com/icaro78/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:56:57.938Z",
+      "slug": "icaro-dos-santos",
+      "status": "published",
+      "title": "Icaro dos Santos",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "c8dd3a2f33636e9f4a44b526ef78522a6bf6a721",
+        "hash": "386694207",
+        "path": "outstatic/content/collaborators/bernardo-oliveira.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/bernardo_oliveira-g0ND.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/bernieoak/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:58:47.560Z",
+      "slug": "bernardo-oliveira",
+      "status": "published",
+      "title": "Bernardo Oliveira",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "63f5101491907752d992b272ed67a4b0616aed36",
+        "hash": "3205821414",
+        "path": "outstatic/content/collaborators/lisias-paiva.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/lisias_paiva-QxMj.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/lisias",
+      "instagram": "https://www.instagram.com/lisias/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:00:11.395Z",
+      "slug": "lisias-paiva",
+      "status": "published",
+      "title": "Lísias Paiva",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "682d6b33d99dde854c0e5302aa11d320b0ea26e7",
+        "hash": "884953155",
+        "path": "outstatic/content/collaborators/batman-zavareze.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/batman-UyND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/bat.zavareze",
+      "instagram": "https://www.instagram.com/batman_zavareze/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:02:09.768Z",
+      "slug": "batman-zavareze",
+      "status": "published",
+      "title": "Batman Zavareze",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "772c4edfb34c0c9bbcd2b41d7cea1e69fbb0ebad",
+        "hash": "7706031",
+        "path": "outstatic/content/collaborators/ioia.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/ioia-MzMD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/ioiamusica/",
+      "instagram": "https://www.instagram.com/ioiamusica/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:03:13.626Z",
+      "slug": "ioia",
+      "status": "published",
+      "title": "IOIA",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "0932738b82d7b48f6f4a63b79b19004c34e8f733",
+        "hash": "1026636907",
+        "path": "outstatic/content/collaborators/ronaldo-lemos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/ronaldo_lemos-U1OT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/ronaldo.lemos",
+      "instagram": "https://www.instagram.com/lemos_ronaldo/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:04:50.723Z",
+      "slug": "ronaldo-lemos",
+      "status": "published",
+      "title": "Ronaldo Lemos",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "4359b44fc41a178fe6348e319c8a4a0d5e9d75f8",
+        "hash": "2491787899",
+        "path": "outstatic/content/collaborators/andre-amaral.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/andre_amaral-c1MD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/andreamarals",
+      "instagram": "https://www.instagram.com/andre_el_amaral/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:05:43.390Z",
+      "slug": "andre-amaral",
+      "status": "published",
+      "title": "André Amaral",
+      "twitter": ""
     }
   ]
 }
