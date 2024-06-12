@@ -75,15 +75,12 @@ export default function Navbar() {
           onMouseLeave={() => controlsContainer.start('off')}
         >
           <Link
-            className='w-full flex items-center'
+            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white'
             href='/'
             onMouseEnter={() => controls.start('off')}
           >
             <div className='flex justify-center w-full max-w-[20px]'>
-              <ImHome
-                size={20}
-                className='text-zinc-500 duration-300 hover:text-white'
-              />
+              <ImHome size={20} className='' />
             </div>
             <motion.div
               initial='off'
@@ -95,22 +92,19 @@ export default function Navbar() {
                 },
                 on: { width: 130, marginLeft: 12 },
               }}
-              className=' text-zinc-500 duration-300 hover:text-white overflow-hidden'
+              className=' overflow-hidden'
             >
               home
             </motion.div>
           </Link>
 
           <div
-            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white  cursor-pointer'
+            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white cursor-pointer'
             onMouseEnter={() => handleHover(subMenuDataManager.sobre)}
             // onMouseLeave={() => controls.start('off')}
           >
             <div className='flex justify-center w-full max-w-[20px]'>
-              <PiBookOpenUserFill
-                size={20}
-                className='text-zinc-500 duration-300 hover:text-white'
-              />
+              <PiBookOpenUserFill size={20} className='' />
             </div>
             <motion.div
               initial='off'
@@ -122,7 +116,7 @@ export default function Navbar() {
                 },
                 on: { width: 130, marginLeft: 12 },
               }}
-              className=' text-zinc-500 duration-300 hover:text-white overflow-hidden'
+              className='overflow-hidden'
             >
               sobre
             </motion.div>
@@ -134,10 +128,7 @@ export default function Navbar() {
             // onMouseLeave={() => controls.start('off')}
           >
             <div className='flex justify-center w-full max-w-[20px]'>
-              <AiFillAudio
-                size={20}
-                className='text-zinc-500 duration-300 hover:text-white'
-              />
+              <AiFillAudio size={20} className='' />
             </div>
             <motion.div
               initial='off'
@@ -149,22 +140,19 @@ export default function Navbar() {
                 },
                 on: { width: 130, marginLeft: 12 },
               }}
-              className=' text-zinc-500 duration-300 hover:text-white overflow-hidden'
+              className=' overflow-hidden'
             >
               programas
             </motion.div>
           </div>
 
           <Link
-            className='w-full flex items-center'
+            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white overflow-hidden'
             href='/arquivos'
             onMouseEnter={() => controls.start('off')}
           >
             <div className='flex justify-center w-full max-w-[20px]'>
-              <BiSolidHourglass
-                size={20}
-                className='text-zinc-500 duration-300 hover:text-white'
-              />
+              <BiSolidHourglass size={20} className='' />
             </div>
             <motion.div
               initial='off'
@@ -176,22 +164,19 @@ export default function Navbar() {
                 },
                 on: { width: 130, marginLeft: 12 },
               }}
-              className=' text-zinc-500 duration-300 hover:text-white overflow-hidden'
+              className=' '
             >
               arquivos
             </motion.div>
           </Link>
 
           <Link
-            className='w-full flex items-center'
+            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white overflow-hidden'
             href='/contato'
             onMouseEnter={() => controls.start('off')}
           >
             <div className='flex justify-center w-full max-w-[20px]'>
-              <GrContact
-                size={20}
-                className='text-zinc-500 duration-300 hover:text-white'
-              />
+              <GrContact size={20} className='' />
             </div>
             <motion.div
               initial='off'
@@ -203,7 +188,7 @@ export default function Navbar() {
                 },
                 on: { width: 130, marginLeft: 12 },
               }}
-              className=' text-zinc-500 duration-300 hover:text-white overflow-hidden'
+              className=' overflow-hidden'
             >
               contato
             </motion.div>
