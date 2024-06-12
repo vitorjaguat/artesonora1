@@ -1,6 +1,6 @@
 {
-  "commit": "97036e910da7f4d2cb4426fc05f9b6fc5ff57ce5",
-  "generated": "2024-06-12T20:10:16.375Z",
+  "commit": "9857d2c6d1aa6e78a42e3de7024fdbefbca1404a",
+  "generated": "2024-06-12T20:12:23.145Z",
   "metadata": [
     {
       "__outstatic": {
@@ -466,6 +466,27 @@
       "slug": "daniela-labra",
       "status": "published",
       "title": "Daniela Labra",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "9857d2c6d1aa6e78a42e3de7024fdbefbca1404a",
+        "hash": "231993772",
+        "path": "outstatic/content/collaborators/pedro-victor-brandao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/pedro_victor_brandao-Q4OD.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/__pedrovictor/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:52:50.638Z",
+      "slug": "pedro-victor-brandao",
+      "status": "published",
+      "title": "Pedro Victor Brandão",
       "twitter": ""
     }
   ]
