@@ -1,6 +1,6 @@
 {
-  "commit": "9504b0765a08095e6190012eedc753589343d08e",
-  "generated": "2024-06-12T20:01:13.444Z",
+  "commit": "8c9e576612dc48065763f1b7606e8b5bf77c7a5d",
+  "generated": "2024-06-12T20:02:23.041Z",
   "metadata": [
     {
       "__outstatic": {
@@ -340,6 +340,27 @@
       "slug": "vivian-caccuri",
       "status": "published",
       "title": "Vivian Caccuri",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "8c9e576612dc48065763f1b7606e8b5bf77c7a5d",
+        "hash": "569208925",
+        "path": "outstatic/content/collaborators/chelpa-ferro.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/chelpa_ferro-kzOD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/chelpa.ferro.1/",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:43:19.773Z",
+      "slug": "chelpa-ferro",
+      "status": "published",
+      "title": "Chelpa Ferro",
       "twitter": ""
     }
   ]
