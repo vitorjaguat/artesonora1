@@ -1,6 +1,6 @@
 {
-  "commit": "207d370025dcd86f4ae31a3739c232606c01b7ef",
-  "generated": "2024-06-12T19:59:43.106Z",
+  "commit": "9504b0765a08095e6190012eedc753589343d08e",
+  "generated": "2024-06-12T20:01:13.444Z",
   "metadata": [
     {
       "__outstatic": {
@@ -319,6 +319,27 @@
       "slug": "paulo-nenflidio",
       "status": "published",
       "title": "Paulo Nenflidio",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "9504b0765a08095e6190012eedc753589343d08e",
+        "hash": "1208591731",
+        "path": "outstatic/content/collaborators/vivian-caccuri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/vivian_caccuri-I5OT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/viviancaccuri",
+      "instagram": "https://www.instagram.com/viviancaccuri/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:41:52.377Z",
+      "slug": "vivian-caccuri",
+      "status": "published",
+      "title": "Vivian Caccuri",
       "twitter": ""
     }
   ]
