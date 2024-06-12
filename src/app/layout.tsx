@@ -29,12 +29,12 @@ export default function RootLayout({
   }
 
   return (
-    <html lang='en' className='max-w-[100vw] overflow-x-hidden'>
+    <html lang='en' className='max-w-[100vw] overflow-x-hidden '>
       {/* <link
         href='https://fonts.googleapis.com/css2?family=Ubuntu:wght@200;400;700&display=swap'
         rel='stylesheet'
       /> */}
-      <body>
+      <body className=''>
         <div className=''>
           <div className='relative h-screen w-screen'>
             <Navbar />
