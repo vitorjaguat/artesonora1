@@ -1,6 +1,6 @@
 {
-  "commit": "63f5101491907752d992b272ed67a4b0616aed36",
-  "generated": "2024-06-12T20:19:26.601Z",
+  "commit": "682d6b33d99dde854c0e5302aa11d320b0ea26e7",
+  "generated": "2024-06-12T20:20:54.569Z",
   "metadata": [
     {
       "__outstatic": {
@@ -571,6 +571,27 @@
       "slug": "lisias-paiva",
       "status": "published",
       "title": "Lísias Paiva",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "682d6b33d99dde854c0e5302aa11d320b0ea26e7",
+        "hash": "884953155",
+        "path": "outstatic/content/collaborators/batman-zavareze.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/batman-UyND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/bat.zavareze",
+      "instagram": "https://www.instagram.com/batman_zavareze/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:02:09.768Z",
+      "slug": "batman-zavareze",
+      "status": "published",
+      "title": "Batman Zavareze",
       "twitter": ""
     }
   ]
