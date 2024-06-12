@@ -1,6 +1,6 @@
 {
-  "commit": "5f49fe0273402540cef566a363df6e61b50c4250",
-  "generated": "2024-06-12T19:54:14.711Z",
+  "commit": "a1c37778e66d9176c981241cb72cf2f8f389a4fa",
+  "generated": "2024-06-12T19:55:30.805Z",
   "metadata": [
     {
       "__outstatic": {
@@ -256,6 +256,27 @@
       "slug": "cadu",
       "status": "published",
       "title": "CADU",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "a1c37778e66d9176c981241cb72cf2f8f389a4fa",
+        "hash": "733805467",
+        "path": "outstatic/content/collaborators/laura-belem.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/laura_belem-Q3Nj.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/laura.belem.100",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:36:23.742Z",
+      "slug": "laura-belem",
+      "status": "published",
+      "title": "Laura Belém",
       "twitter": ""
     }
   ]
