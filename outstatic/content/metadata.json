@@ -1,6 +1,6 @@
 {
-  "commit": "8c9e576612dc48065763f1b7606e8b5bf77c7a5d",
-  "generated": "2024-06-12T20:02:23.041Z",
+  "commit": "57a6142719e948e51aaee3f06a7b473007e1f62d",
+  "generated": "2024-06-12T20:03:57.436Z",
   "metadata": [
     {
       "__outstatic": {
@@ -361,6 +361,27 @@
       "slug": "chelpa-ferro",
       "status": "published",
       "title": "Chelpa Ferro",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "57a6142719e948e51aaee3f06a7b473007e1f62d",
+        "hash": "2108386118",
+        "path": "outstatic/content/collaborators/lenora-de-barros.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/lenora_de_barros-I4OD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/lenora.debarros.7",
+      "instagram": "https://www.instagram.com/ledebe/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:45:03.687Z",
+      "slug": "lenora-de-barros",
+      "status": "published",
+      "title": "Lenora de Barros",
       "twitter": ""
     }
   ]
