@@ -1,6 +1,6 @@
 {
-  "commit": "e01f4951145a06fb2e9bab5943f2a0fb6b366c41",
-  "generated": "2024-06-13T18:07:16.683Z",
+  "commit": "76aa0eabc68880d480c75b2365817747e789696e",
+  "generated": "2024-06-13T18:07:48.429Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1022,8 +1022,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e01f4951145a06fb2e9bab5943f2a0fb6b366c41",
-        "hash": "4066354033",
+        "commit": "76aa0eabc68880d480c75b2365817747e789696e",
+        "hash": "323113237",
         "path": "outstatic/content/posts/mix-02-daniela-labra.md"
       },
       "author": {
@@ -1048,8 +1048,8 @@
       "title": "MIX #02 Daniela Labra",
       "type": [
         {
-          "label": "Podcast",
-          "value": "podcast"
+          "label": "Mixtape",
+          "value": "mixtape"
         }
       ]
     }
