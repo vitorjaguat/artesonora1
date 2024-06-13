@@ -1,6 +1,6 @@
 {
-  "commit": "391ce495e5c0a70962bcb6564108ce5b490790ad",
-  "generated": "2024-06-13T18:25:17.710Z",
+  "commit": "4499c6f689101f933d51ac52acd32a1695507bc2",
+  "generated": "2024-06-13T18:27:13.729Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1310,6 +1310,39 @@
       "tags": [
       ],
       "title": "MIX #11 Ronaldo Lemos",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "4499c6f689101f933d51ac52acd32a1695507bc2",
+        "hash": "214703386",
+        "path": "outstatic/content/posts/mix-12-andre-amaral.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "André Amaral",
+          "value": "andréAmaral"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-09-06T18:07:46.000Z",
+      "slug": "mix-12-andre-amaral",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F110054391&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #12 André Amaral",
       "type": [
         {
           "label": "Mixtape",
