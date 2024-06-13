@@ -1,6 +1,6 @@
 {
-  "commit": "c98b6c0e5d968042b3299d0c39352c84802d50ae",
-  "generated": "2024-06-13T18:12:29.807Z",
+  "commit": "a443ba74a62d791fbeaabf34ed1517a5dbfe541f",
+  "generated": "2024-06-13T18:14:34.753Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1145,6 +1145,39 @@
       "tags": [
       ],
       "title": "MIX #06 Icaro dos Santos",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "a443ba74a62d791fbeaabf34ed1517a5dbfe541f",
+        "hash": "3375608236",
+        "path": "outstatic/content/posts/mix-07-bernardo-oliveira.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Bernardo Oliveira",
+          "value": "bernardoOliveira"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-05-14T17:54:48.000Z",
+      "slug": "mix-07-bernardo-oliveira",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F96925653&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #07 Bernardo Oliveira",
       "type": [
         {
           "label": "Mixtape",
