@@ -1,6 +1,6 @@
 {
-  "commit": "4359b44fc41a178fe6348e319c8a4a0d5e9d75f8",
-  "generated": "2024-06-12T20:24:55.614Z",
+  "commit": "e608208f9ca7f34e1011aa1135fae489d89c4678",
+  "generated": "2024-06-13T16:30:15.065Z",
   "metadata": [
     {
       "__outstatic": {
@@ -151,39 +151,6 @@
         {
           "label": "Podcast",
           "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "da1d325d4120f1d39b6a703b5889ff050ddf0531",
-        "hash": "2572932551",
-        "path": "outstatic/content/posts/mix-03-chico-dub.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Chico Dub",
-          "value": "chicoDub"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2018-03-15T14:57:22.000Z",
-      "slug": "mix-03-chico-dub",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026135&show_artwork=false",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #03 Chico Dub",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
         }
       ]
     },
@@ -656,6 +623,39 @@
       "status": "published",
       "title": "André Amaral",
       "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "e608208f9ca7f34e1011aa1135fae489d89c4678",
+        "hash": "2572932551",
+        "path": "outstatic/content/posts/mix-03-chico-dub.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Chico Dub",
+          "value": "chicoDub"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2018-03-15T14:57:22.000Z",
+      "slug": "mix-03-chico-dub",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026135&show_artwork=false",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #03 Chico Dub",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
     }
   ]
 }
