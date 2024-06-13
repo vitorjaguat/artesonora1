@@ -1,6 +1,6 @@
 {
-  "commit": "e4be5412db0cbca84a3c84e4de64a1c7a0f36a10",
-  "generated": "2024-06-13T16:30:50.034Z",
+  "commit": "8d54391f84e2b931023333314c0f0fb34c404ce6",
+  "generated": "2024-06-13T16:34:28.497Z",
   "metadata": [
     {
       "__outstatic": {
@@ -654,6 +654,39 @@
         {
           "label": "Na História",
           "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "8d54391f84e2b931023333314c0f0fb34c404ce6",
+        "hash": "3753849729",
+        "path": "outstatic/content/posts/pod-01-guilherme-vaz.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Guilherme Vaz",
+          "value": "guilhermeVaz"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-03-01T16:13:05.000Z",
+      "slug": "pod-01-guilherme-vaz",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F82689051&show_artwork=false",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #01 Guilherme Vaz",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
         }
       ]
     }
