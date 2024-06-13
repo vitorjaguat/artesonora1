@@ -1,6 +1,6 @@
 {
-  "commit": "8d54391f84e2b931023333314c0f0fb34c404ce6",
-  "generated": "2024-06-13T16:34:28.497Z",
+  "commit": "4bcdb21b518e90f6c257c403763da1051b956209",
+  "generated": "2024-06-13T16:45:41.896Z",
   "metadata": [
     {
       "__outstatic": {
@@ -683,6 +683,39 @@
       "tags": [
       ],
       "title": "POD #01 Guilherme Vaz",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "4bcdb21b518e90f6c257c403763da1051b956209",
+        "hash": "576963558",
+        "path": "outstatic/content/posts/pod-02-cadu.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "CADU",
+          "value": "cadu"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-06-13T16:25:35.555Z",
+      "slug": "pod-02-cadu",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026136&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #02 CADU",
       "type": [
         {
           "label": "Podcast",
