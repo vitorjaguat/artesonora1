@@ -1,6 +1,6 @@
 {
-  "commit": "10d5cf199f02927659c79b7514aa7cb2402299db",
-  "generated": "2024-06-13T18:09:26.339Z",
+  "commit": "f8a7c79cd8eb422def1403ef919fd6efa4cfa27a",
+  "generated": "2024-06-13T18:10:56.392Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1079,6 +1079,39 @@
       "tags": [
       ],
       "title": "MIX #04 Pedro Victor Brandão",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "f8a7c79cd8eb422def1403ef919fd6efa4cfa27a",
+        "hash": "3318724028",
+        "path": "outstatic/content/posts/mix-05-fred-coelho.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Fred Coelho",
+          "value": "fredCoelho"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-05-03T17:51:52.000Z",
+      "slug": "mix-05-fred-coelho",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F92235001&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #05 Fred Coelho",
       "type": [
         {
           "label": "Mixtape",
