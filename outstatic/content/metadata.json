@@ -1,6 +1,6 @@
 {
-  "commit": "f8ca38f3988f284e0e80fb0f834f6e6337a9bd56",
-  "generated": "2024-06-13T18:02:31.699Z",
+  "commit": "cdea0074d36c5572ede956fa87231db843c515bd",
+  "generated": "2024-06-13T18:04:05.091Z",
   "metadata": [
     {
       "__outstatic": {
@@ -947,6 +947,39 @@
       "tags": [
       ],
       "title": "POD #09 Rodolfo Caesar",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "cdea0074d36c5572ede956fa87231db843c515bd",
+        "hash": "2407397848",
+        "path": "outstatic/content/posts/pod-10-tantao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Tantão",
+          "value": "tantão"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-07-19T17:44:37.000Z",
+      "slug": "pod-10-tantao",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103793305&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #10 Tantão",
       "type": [
         {
           "label": "Podcast",
