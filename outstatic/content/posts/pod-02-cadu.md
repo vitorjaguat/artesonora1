@@ -7,11 +7,11 @@ author:
 slug: 'pod-02-cadu'
 description: ''
 coverImage: ''
-tags: ''
+tags: []
 collaborators: [{"label":"CADU","value":"cadu"}]
 soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026136&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
 type: [{"value":"podcast","label":"Podcast"}]
-publishedAt: '2024-06-13T16:25:35.555Z'
+publishedAt: '2013-03-15T16:25:35.000Z'
 ---
 
 CADU nasceu em São Paulo e veio para o Rio de Janeiro ainda criança.
