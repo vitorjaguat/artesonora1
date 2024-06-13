@@ -30,6 +30,6 @@ Erratum Musical – Marcel Duchamp\
 Este programa foi feito com o apoio da \
 ArtRio - Feira Internacional de Arte Contemporânea do Rio de Janeiro
 
-&lt;br&gt;
+&lt;/br &gt;
 
 Realização EXST
