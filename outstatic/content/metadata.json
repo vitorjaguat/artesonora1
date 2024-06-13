@@ -1,6 +1,6 @@
 {
-  "commit": "d135b6417f76e4be2a69e12af2e0a9fe68a89dba",
-  "generated": "2024-06-13T18:17:09.802Z",
+  "commit": "11c5789e3295ea07d8b41c065a9457467b17bbd9",
+  "generated": "2024-06-13T18:18:37.959Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1244,6 +1244,39 @@
       "tags": [
       ],
       "title": "MIX #09 Batman Zavareze",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "11c5789e3295ea07d8b41c065a9457467b17bbd9",
+        "hash": "1195271645",
+        "path": "outstatic/content/posts/mix-10-ioia.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "IOIA",
+          "value": "ioia"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-07-10T17:59:36.000Z",
+      "slug": "mix-10-ioia",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103288321&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #10 IOIA",
       "type": [
         {
           "label": "Mixtape",
