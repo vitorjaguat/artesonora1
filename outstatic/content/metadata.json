@@ -1,6 +1,6 @@
 {
-  "commit": "a443ba74a62d791fbeaabf34ed1517a5dbfe541f",
-  "generated": "2024-06-13T18:14:34.753Z",
+  "commit": "83719bcb6e6de1ff2f932bb4220ccc7215ae7894",
+  "generated": "2024-06-13T18:15:51.457Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1178,6 +1178,39 @@
       "tags": [
       ],
       "title": "MIX #07 Bernardo Oliveira",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "83719bcb6e6de1ff2f932bb4220ccc7215ae7894",
+        "hash": "2673387745",
+        "path": "outstatic/content/posts/mix-08-lisias-paiva.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Lísias Paiva",
+          "value": "lísiasPaiva"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-06-10T17:56:58.000Z",
+      "slug": "mix-08-lisias-paiva",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F99306777&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #08 Lísias Paiva",
       "type": [
         {
           "label": "Mixtape",
