@@ -1,6 +1,6 @@
 {
-  "commit": "a0a7cb09bd2b745061d69a30a08baf3293aa636f",
-  "generated": "2024-06-13T18:05:35.034Z",
+  "commit": "e01f4951145a06fb2e9bab5943f2a0fb6b366c41",
+  "generated": "2024-06-13T18:07:16.683Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1013,6 +1013,39 @@
       "tags": [
       ],
       "title": "POD #11 Lilian Zaremba",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "e01f4951145a06fb2e9bab5943f2a0fb6b366c41",
+        "hash": "4066354033",
+        "path": "outstatic/content/posts/mix-02-daniela-labra.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Daniela Labra",
+          "value": "danielaLabra"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-03-22T17:47:42.000Z",
+      "slug": "mix-02-daniela-labra",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026137&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #02 Daniela Labra",
       "type": [
         {
           "label": "Podcast",
