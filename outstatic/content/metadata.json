@@ -1,6 +1,6 @@
 {
-  "commit": "83719bcb6e6de1ff2f932bb4220ccc7215ae7894",
-  "generated": "2024-06-13T18:15:51.457Z",
+  "commit": "d135b6417f76e4be2a69e12af2e0a9fe68a89dba",
+  "generated": "2024-06-13T18:17:09.802Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1211,6 +1211,39 @@
       "tags": [
       ],
       "title": "MIX #08 Lísias Paiva",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "d135b6417f76e4be2a69e12af2e0a9fe68a89dba",
+        "hash": "2982615554",
+        "path": "outstatic/content/posts/mix-09-batman-zavareze.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Batman Zavareze",
+          "value": "batmanZavareze"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-06-28T17:58:14.000Z",
+      "slug": "mix-09-batman-zavareze",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103254650&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #09 Batman Zavareze",
       "type": [
         {
           "label": "Mixtape",
