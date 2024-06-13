@@ -1,14 +1,19 @@
 import { load } from 'outstatic/server';
+import markdownToHtml from '../../lib/markdownToHtml';
 
 export default async function Page() {
-  const { allPodcasts: podcasts } = await getData();
-  console.log(podcasts);
+  const { allPodcasts: podcasts, contentArrHtml } = await getData();
 
   return (
     <div className=''>
       {podcasts.map((podcast, i) => (
         <div key={i} className=''>
-          {podcast.content}
+          #####{i + 1}#####{' '}
+          <div
+            className=''
+            dangerouslySetInnerHTML={{ __html: contentArrHtml[i] }}
+          />
+          {/* <div className=''>{podcast.content}</div> */}
         </div>
       ))}
     </div>
@@ -37,6 +42,11 @@ async function getData() {
     .sort({ publishedAt: -1 })
     .toArray();
 
+  const contentArr = allPodcasts.map((podcast) => podcast.content);
+  const contentArrHtml = await Promise.all(
+    contentArr.map((content) => markdownToHtml(content))
+  );
+
   // const allProjects = await db
   //   .find({ collection: 'projects' }, ['title', 'slug', 'coverImage'])
   //   .sort({ publishedAt: -1 })
@@ -45,6 +55,7 @@ async function getData() {
   return {
     // content,
     allPodcasts,
+    contentArrHtml,
     // allProjects,
   };
 }

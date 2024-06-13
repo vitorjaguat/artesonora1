@@ -21,6 +21,11 @@ body {
   font-family: 'Trebuchet MS', sans-serif;
 }
 
+/* paragraph in markdown entries to have margin */
+p {
+  @apply my-3;
+}
+
 #outstatic
   > div
   > div
