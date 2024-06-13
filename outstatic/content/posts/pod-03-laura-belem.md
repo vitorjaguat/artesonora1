@@ -7,11 +7,11 @@ author:
 slug: 'pod-03-laura-belem'
 description: ''
 coverImage: ''
-tags: ''
+tags: []
 collaborators: [{"label":"Laura Belém","value":"lauraBelém"}]
 soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F91175586&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
 type: [{"value":"podcast","label":"Podcast"}]
-publishedAt: '2024-06-13T16:27:54.340Z'
+publishedAt: '2013-04-12T16:27:54.000Z'
 ---
 
 A artista mineira Laura Belém têm um percurso que cobre mais de uma década e tem se consolidado com uma das artistas mais inventivas e poéticas de sua geração, adquirindo projeção internacional.

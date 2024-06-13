@@ -1,6 +1,6 @@
 {
-  "commit": "fce9f37649530d11a43c9b269b169babdd8396cf",
-  "generated": "2024-06-13T16:53:12.051Z",
+  "commit": "8ea02e1f0eee5e689fa71907def6d001565a355b",
+  "generated": "2024-06-13T16:53:55.267Z",
   "metadata": [
     {
       "__outstatic": {
@@ -692,39 +692,6 @@
     },
     {
       "__outstatic": {
-        "commit": "71c10d3b7b863344cc65f5267612045343425574",
-        "hash": "1856041595",
-        "path": "outstatic/content/posts/pod-03-laura-belem.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Laura Belém",
-          "value": "lauraBelém"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-06-13T16:27:54.340Z",
-      "slug": "pod-03-laura-belem",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F91175586&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #03 Laura Belém",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "f5a8a8193011c208ee98956260e0f25e5f5e124f",
         "hash": "3890700023",
         "path": "outstatic/content/posts/pod-08-paulo-nenflidio.md"
@@ -848,6 +815,39 @@
       "tags": [
       ],
       "title": "POD #02 CADU",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "8ea02e1f0eee5e689fa71907def6d001565a355b",
+        "hash": "3659323374",
+        "path": "outstatic/content/posts/pod-03-laura-belem.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Laura Belém",
+          "value": "lauraBelém"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-04-12T16:27:54.000Z",
+      "slug": "pod-03-laura-belem",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F91175586&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #03 Laura Belém",
       "type": [
         {
           "label": "Podcast",
