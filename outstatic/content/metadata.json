@@ -1,6 +1,6 @@
 {
-  "commit": "cdea0074d36c5572ede956fa87231db843c515bd",
-  "generated": "2024-06-13T18:04:05.091Z",
+  "commit": "a0a7cb09bd2b745061d69a30a08baf3293aa636f",
+  "generated": "2024-06-13T18:05:35.034Z",
   "metadata": [
     {
       "__outstatic": {
@@ -980,6 +980,39 @@
       "tags": [
       ],
       "title": "POD #10 Tantão",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "a0a7cb09bd2b745061d69a30a08baf3293aa636f",
+        "hash": "3733845475",
+        "path": "outstatic/content/posts/pod-11-lilian-zaremba.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Lilian Zaremba",
+          "value": "lilianZaremba"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-08-02T17:46:31.000Z",
+      "slug": "pod-11-lilian-zaremba",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103794877&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #11 Lilian Zaremba",
       "type": [
         {
           "label": "Podcast",
