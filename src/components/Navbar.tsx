@@ -226,9 +226,26 @@ export default function Navbar() {
         {subMenuData &&
           subMenuData.map((item, i) => (
             <Link key={i} className='w-full' href={item.link}>
-              <div className='w-full text-right pr-6 text-zinc-300 duration-300 hover:text-white'>
+              <motion.div
+                initial='off'
+                animate={controls}
+                // transition={{ delay: 0.3 }}
+                variants={{
+                  off: {
+                    opacity: 0,
+                    display: 'none',
+                    transition: { delay: 0, duration: 0.1 },
+                  },
+                  on: {
+                    opacity: 1,
+                    display: 'flex',
+                    transition: { delay: 0.2, duration: 0.1 },
+                  },
+                }}
+                className='w-full text-right justify-end items-center pr-6 text-zinc-300 duration-300 hover:text-white '
+              >
                 {item.name}
-              </div>
+              </motion.div>
             </Link>
           ))}
       </motion.div>

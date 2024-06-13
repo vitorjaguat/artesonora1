@@ -5,12 +5,12 @@
 import '../styles/player-bar.css';
 import { useRef, useEffect } from 'react';
 
-const originalLog = console.log;
-console.log = () => {};
+// const originalLog = console.log;
+// console.log = () => {};
 // import { Player } from 'shikwasa';
 import Player from '../custom-packages/shikwasa/src/player';
 import { usePathname } from 'next/navigation';
-console.log = originalLog;
+// console.log = originalLog;
 
 export default function PlayerBar() {
   const playerRef = useRef(null);
