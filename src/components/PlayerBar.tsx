@@ -1,6 +1,7 @@
 'use client';
 
-import 'shikwasa/dist/style.css';
+// import '../custom-packages/shikwasa/src/css/base.css';
+// import 'shikwasa/dist/style.css';
 import '../styles/player-bar.css';
 import { useRef, useEffect } from 'react';
 
