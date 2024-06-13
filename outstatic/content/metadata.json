@@ -1,6 +1,6 @@
 {
-  "commit": "4499c6f689101f933d51ac52acd32a1695507bc2",
-  "generated": "2024-06-13T18:27:13.729Z",
+  "commit": "270576828629567d41fcdc7cd82a219c5ec842f7",
+  "generated": "2024-06-13T18:29:04.671Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1319,8 +1319,8 @@
     },
     {
       "__outstatic": {
-        "commit": "4499c6f689101f933d51ac52acd32a1695507bc2",
-        "hash": "214703386",
+        "commit": "270576828629567d41fcdc7cd82a219c5ec842f7",
+        "hash": "1940097974",
         "path": "outstatic/content/posts/mix-12-andre-amaral.md"
       },
       "author": {
