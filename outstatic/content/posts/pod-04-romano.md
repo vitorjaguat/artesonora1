@@ -7,11 +7,11 @@ author:
 slug: 'pod-04-romano'
 description: ''
 coverImage: ''
-tags: ''
+tags: []
 collaborators: [{"label":"Romano","value":"romano"}]
 soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F92238611&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
 type: [{"value":"podcast","label":"Podcast"}]
-publishedAt: '2024-06-13T16:30:58.272Z'
+publishedAt: '2013-04-25T16:30:58.000Z'
 ---
 
 Romano é um artista carioca que se interessa por rádio, colaborações, intervenções urbanas e pela criação de objetos sonoros, sempre tendo a participação do público.
