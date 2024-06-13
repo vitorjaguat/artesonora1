@@ -7,11 +7,11 @@ author:
 slug: 'pod-08-paulo-nenflidio'
 description: ''
 coverImage: ''
-tags: ''
+tags: []
 collaborators: [{"label":"Paulo Nenflidio","value":"pauloNenflidio"}]
 soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F100708789&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
 type: [{"value":"podcast","label":"Podcast"}]
-publishedAt: '2024-06-13T16:29:32.318Z'
+publishedAt: '2013-05-16T16:29:32.000Z'
 ---
 
 Paulo Nenflídio nasceu em São Bernardo do Campo, SP, em 1976. Sua formação une a experiência técnica em eletrônica na ETC Lauro Gomes e a graduação em artes visuais, realizada na ECA-USP. Em seu trabalho, Paulo utiliza artes visuais, música e tecnologia, para criar: desenhos, esculturas, instalações, objetos, instrumentos musicais.
