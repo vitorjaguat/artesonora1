@@ -1,6 +1,6 @@
 {
-  "commit": "76aa0eabc68880d480c75b2365817747e789696e",
-  "generated": "2024-06-13T18:07:48.429Z",
+  "commit": "10d5cf199f02927659c79b7514aa7cb2402299db",
+  "generated": "2024-06-13T18:09:26.339Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1046,6 +1046,39 @@
       "tags": [
       ],
       "title": "MIX #02 Daniela Labra",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "10d5cf199f02927659c79b7514aa7cb2402299db",
+        "hash": "280707794",
+        "path": "outstatic/content/posts/mix-04-pedro-victor-brandao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Pedro Victor Brandão",
+          "value": "pedroVictorBrandão"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-04-19T17:49:54.000Z",
+      "slug": "mix-04-pedro-victor-brandao",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F91171775&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #04 Pedro Victor Brandão",
       "type": [
         {
           "label": "Mixtape",
