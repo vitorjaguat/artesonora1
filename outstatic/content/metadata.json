@@ -1,6 +1,6 @@
 {
-  "commit": "11c5789e3295ea07d8b41c065a9457467b17bbd9",
-  "generated": "2024-06-13T18:18:37.959Z",
+  "commit": "391ce495e5c0a70962bcb6564108ce5b490790ad",
+  "generated": "2024-06-13T18:25:17.710Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1277,6 +1277,39 @@
       "tags": [
       ],
       "title": "MIX #10 IOIA",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "391ce495e5c0a70962bcb6564108ce5b490790ad",
+        "hash": "803811758",
+        "path": "outstatic/content/posts/mix-11-ronaldo-lemos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Ronaldo Lemos",
+          "value": "ronaldoLemos"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-07-26T18:00:58.000Z",
+      "slug": "mix-11-ronaldo-lemos",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F108122920&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #11 Ronaldo Lemos",
       "type": [
         {
           "label": "Mixtape",
