@@ -1,6 +1,6 @@
 {
-  "commit": "903cdbc7d6ab628fbef537f7711f176bb5883099",
-  "generated": "2024-06-13T16:58:36.262Z",
+  "commit": "a1a3570ccd1937a07030f9ccd300c88bf63ddf0b",
+  "generated": "2024-06-13T17:01:09.136Z",
   "metadata": [
     {
       "__outstatic": {
@@ -881,6 +881,39 @@
       "tags": [
       ],
       "title": "POD #06 Chelpa Ferro",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "a1a3570ccd1937a07030f9ccd300c88bf63ddf0b",
+        "hash": "3601801322",
+        "path": "outstatic/content/posts/pod-07-lenora-de-barros.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Lenora de Barros",
+          "value": "lenoraDeBarros"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-06-07T16:40:42.000Z",
+      "slug": "pod-07-lenora-de-barros",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F98152730&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "POD #07 Lenora de Barros",
       "type": [
         {
           "label": "Podcast",
