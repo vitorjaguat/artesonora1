@@ -1,6 +1,6 @@
 ---
 title: 'POD #07 Lenora de Barros'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'
@@ -8,7 +8,7 @@ slug: 'pod-07-lenora-de-barros'
 description: ''
 coverImage: ''
 soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F98152730&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
-tags: ''
+tags: []
 collaborators: [{"label":"Lenora de Barros","value":"lenoraDeBarros"}]
 type: [{"value":"podcast","label":"Podcast"}]
 publishedAt: '2013-06-07T16:40:42.000Z'

@@ -1,6 +1,6 @@
 {
-  "commit": "a1a3570ccd1937a07030f9ccd300c88bf63ddf0b",
-  "generated": "2024-06-13T17:01:09.136Z",
+  "commit": "f0ab376b38a425e8291052d6a0be517409a57d99",
+  "generated": "2024-06-13T18:00:57.185Z",
   "metadata": [
     {
       "__outstatic": {
@@ -890,8 +890,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a1a3570ccd1937a07030f9ccd300c88bf63ddf0b",
-        "hash": "3601801322",
+        "commit": "f0ab376b38a425e8291052d6a0be517409a57d99",
+        "hash": "1779773165",
         "path": "outstatic/content/posts/pod-07-lenora-de-barros.md"
       },
       "author": {
@@ -910,7 +910,7 @@
       "publishedAt": "2013-06-07T16:40:42.000Z",
       "slug": "pod-07-lenora-de-barros",
       "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F98152730&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "draft",
+      "status": "published",
       "tags": [
       ],
       "title": "POD #07 Lenora de Barros",
