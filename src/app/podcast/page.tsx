@@ -1,5 +1,6 @@
 import { load } from 'outstatic/server';
 import markdownToHtml from '../../lib/markdownToHtml';
+import ItemCard from '@/components/ItemCard';
 
 export default async function Page() {
   const { allPodcasts: podcasts, contentArrHtml } = await getData();
@@ -8,11 +9,12 @@ export default async function Page() {
     <div className=''>
       {podcasts.map((podcast, i) => (
         <div key={i} className=''>
-          #####{i + 1}#####{' '}
-          <div
+          <ItemCard itemObj={podcast} />
+          {/* #####{i + 1}#####{' '} */}
+          {/* <div
             className=''
             dangerouslySetInnerHTML={{ __html: contentArrHtml[i] }}
-          />
+          /> */}
           {/* <div className=''>{podcast.content}</div> */}
         </div>
       ))}
@@ -30,7 +32,7 @@ async function getData() {
   // const content = await markdownToHtml(page.content);
 
   const allPodcasts = await db
-    .find({ collection: 'posts' }, [
+    .find({ collection: 'posts', 'type.value': 'podcast' }, [
       'title',
       'content',
       'publishedAt',
