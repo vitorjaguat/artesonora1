@@ -1,6 +1,6 @@
 {
-  "commit": "a0f1ea9be92e47f58a29cef2b7a20c670a683c20",
-  "generated": "Thu, 13 Jun 2024 21:12:07 GMT",
+  "commit": "2a627eb34f3a607bb059e05b6f9d726adf2a9c00",
+  "generated": "2024-06-13T22:13:31.156Z",
   "metadata": [
     {
       "__outstatic": {
@@ -572,35 +572,6 @@
         {
           "label": "Mixtape",
           "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "4a446ee1aab05a883c3349af9ca8db19684c5bd7",
-        "hash": "555602138",
-        "path": "outstatic/content/posts/his-01-a-valorizacao-do-entorno-acustico.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2018-03-19T15:09:16.000Z",
-      "slug": "his-01-a-valorizacao-do-entorno-acustico",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109277493&show_artwork=false&in=artesonora%2Fsets%2Fnahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #01 A valorização do entorno acústico",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
         }
       ]
     },
@@ -1281,6 +1252,35 @@
         {
           "label": "Podcast",
           "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "2a627eb34f3a607bb059e05b6f9d726adf2a9c00",
+        "hash": "3121479879",
+        "path": "outstatic/content/posts/his-01-a-valorizacao-do-entorno-acustico.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2018-03-19T15:09:16.000Z",
+      "slug": "his-01-a-valorizacao-do-entorno-acustico",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109277493&show_artwork=false&in=artesonora%2Fsets%2Fnahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #01 A valorização do entorno acústico",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
         }
       ]
     }
