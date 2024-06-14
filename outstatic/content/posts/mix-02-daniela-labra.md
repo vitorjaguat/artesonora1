@@ -10,7 +10,7 @@ coverImage: ''
 soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026137&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013'
 tags: []
 collaborators: [{"label":"Daniela Labra","value":"danielaLabra"}]
-type: [{"value":"mixtape","label":"Mixtape"}]
+type: [{"value":"podcast","label":"Podcast"}]
 publishedAt: '2013-03-22T17:47:42.000Z'
 ---
 
