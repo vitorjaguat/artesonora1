@@ -151,6 +151,13 @@
           "label": "Na História"
         }
       ]
+    },
+    "fileLink": {
+      "required": false,
+      "description": "Add a direct file link",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "File Link"
     }
   }
 }
