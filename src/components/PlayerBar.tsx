@@ -35,6 +35,7 @@ export default function PlayerBar() {
         },
         download: true,
       });
+      player.play();
 
       // Clean up function
       return () => {

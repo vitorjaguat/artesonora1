@@ -29,10 +29,10 @@ export default function ItemCard({ itemObj, image }: ItemCardProps) {
   };
 
   return (
-    <div className='w-full max-w-[300px] h-96 p-4 rounded-lg bg-white/20 flex flex-col justify-between items-center gap-6 group duration-300 shadow-[10px_10px_25px_-8px_rgba(255,255,255,0.3)]'>
-      <div className='flex justify-center items-center w-full'>
+    <div className='w-full max-w-[300px] md:max-w-full h-96 md:h-fit p-4 rounded-lg bg-white/20 flex flex-col md:flex-row justify-between items-center gap-6 group duration-300 shadow-[10px_10px_25px_-8px_rgba(255,255,255,0.3)]'>
+      <div className=' w-40 h-40 flex justify-center items-center'>
         <div
-          className='relative rounded-full overflow-hidden'
+          className='relative w-40 h-40 rounded-full overflow-hidden'
           //   style={{ zIndex: '0 !important' }}
           //   style={{ filter: 'saturate(0)' }}
         >
@@ -50,9 +50,9 @@ export default function ItemCard({ itemObj, image }: ItemCardProps) {
           />
         </div>
       </div>
-      <div className='h-full flex flex-col justify-between items-center gap-2'>
+      <div className='h-full md:flex-grow md:w-full flex flex-col justify-between items-center md:items-start gap-2'>
         <div className='text-2xl'>{itemObj.title}</div>
-        <div className='text-sm text-center mt-2'>
+        <div className='text-sm text-center md:text-left mt-2'>
           {itemObj.content.slice(0, 180)}...
         </div>
       </div>

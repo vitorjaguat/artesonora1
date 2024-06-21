@@ -24,6 +24,11 @@ const reducer = (state, action) => {
         ...state,
         playArtist: action.payload,
       };
+    case 'CHANGE_PLAY_STATE':
+      return {
+        ...state,
+        playArtist: action.payload,
+      };
     default:
       return state;
   }
@@ -45,6 +50,7 @@ const MainContextProvider = ({ children }) => {
       'https://1.bp.blogspot.com/-LoKlow8dGZc/XQ9jIeR9DxI/AAAAAAABGVc/EKlE83PyBm8owjwVuF9ywBE5SS2xZjJGgCLcBGAs/s1600/Ray%2Bof%2BLight%2BDemo%2BAssembly%2Bby%2Balb69.jpg',
     playTitle: 'Sky Fits Heaven (demo)',
     playArtist: 'Madonna',
+    playState: 'stop',
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -73,6 +79,12 @@ const MainContextProvider = ({ children }) => {
       payload: artist,
     });
   };
+  const changePlayState = (state) => {
+    dispatch({
+      type: 'CHANGE_PLAY_STATE',
+      payload: state,
+    });
+  };
 
   // console.log('showFooter', state.noShowFooter);
 
@@ -87,6 +99,8 @@ const MainContextProvider = ({ children }) => {
         changePlayTitle,
         playArtist: state.playArtist,
         changePlayArtist,
+        playState: state.playState,
+        changePlayState,
       }}
     >
       {children}

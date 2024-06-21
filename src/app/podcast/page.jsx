@@ -42,7 +42,7 @@ export default async function Page() {
           Podcast
         </div>
       </div>
-      <div className='w-full flex flex-col items-center justify-center gap-4 text-white'>
+      <div className='w-full max-w-[900px] flex flex-col items-center justify-center gap-4 text-white'>
         {podcasts.map((podcast, i) => (
           <>
             <ItemCard
