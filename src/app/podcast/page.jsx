@@ -85,6 +85,7 @@ async function getData() {
       'collaborators',
       'soundcloudLink',
       'type',
+      'fileLink',
     ])
     .sort({ publishedAt: -1 })
     .toArray();

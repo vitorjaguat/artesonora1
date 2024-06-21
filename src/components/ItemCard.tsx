@@ -12,10 +12,19 @@ type ItemCardProps = {
 };
 
 export default function ItemCard({ itemObj, image }: ItemCardProps) {
-  const { changePlaySrc, playSrc } = useContext(MainContext);
+  const {
+    changePlaySrc,
+    playSrc,
+    changePlayImg,
+    changePlayTitle,
+    changePlayArtist,
+  } = useContext(MainContext);
 
   const handleClickPlay = () => {
-    // changePlaySrc(itemObj.audio.src);
+    changePlaySrc(itemObj.fileLink);
+    changePlayImg(image);
+    changePlayTitle(itemObj.title);
+    changePlayArtist(itemObj.collaborators[0].label);
     console.log(itemObj);
   };
 

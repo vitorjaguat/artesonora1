@@ -41,6 +41,10 @@ const MainContextProvider = ({ children }) => {
   const initialState = {
     playSrc:
       'https://ia904507.us.archive.org/16/items/madonna-rol-demos/01%20Sky%20Fits%20Heaven.mp3',
+    playImg:
+      'https://1.bp.blogspot.com/-LoKlow8dGZc/XQ9jIeR9DxI/AAAAAAABGVc/EKlE83PyBm8owjwVuF9ywBE5SS2xZjJGgCLcBGAs/s1600/Ray%2Bof%2BLight%2BDemo%2BAssembly%2Bby%2Balb69.jpg',
+    playTitle: 'Sky Fits Heaven (demo)',
+    playArtist: 'Madonna',
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
