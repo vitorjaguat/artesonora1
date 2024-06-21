@@ -225,7 +225,16 @@ export default function Navbar() {
       >
         {subMenuData &&
           subMenuData.map((item, i) => (
-            <Link key={i} className='w-full' href={item.link}>
+            <Link
+              key={i}
+              className='w-full'
+              href={item.link}
+              onClick={() => {
+                setSubMenuData(null);
+                controls.set('off');
+                controlsContainer.set('off');
+              }}
+            >
               <motion.div
                 initial='off'
                 animate={controls}

@@ -1,16 +1,39 @@
+'use client';
+
 import Footer from './Footer';
+import Navbar from './Navbar';
+import PlayerBar from './PlayerBar';
+import { usePathname } from 'next/navigation';
+import { MainContextProvider } from '../context/mainContext';
 
 type Props = {
   children: React.ReactNode;
 };
 
 const Layout = ({ children }: Props) => {
+  const pathname = usePathname();
+  if (pathname.includes('outstatic') || pathname.includes('admin')) {
+    return <>{children}</>;
+  }
+
   return (
     <>
-      <div className='min-h-screen'>
-        <main>{children}</main>
-      </div>
-      <Footer />
+      <MainContextProvider>
+        <div className=''>
+          <div className='relative h-screen w-screen'>
+            <Navbar />
+            {/* <div className='fixed bottom-0 left-0 bg-black w-screen h-fit'> */}
+            <PlayerBar />
+            {/* </div> */}
+            <div className='md:pl-[52px]'>
+              <main className='min-h-screen'>{children}</main>
+              <Footer />
+            </div>
+          </div>
+        </div>
+
+        <Footer />
+      </MainContextProvider>
     </>
   );
 };

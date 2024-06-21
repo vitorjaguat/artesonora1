@@ -1,9 +1,39 @@
-'use client';
-
 import '../styles/index.css';
-import PlayerBar from '../components/PlayerBar';
-import { usePathname } from 'next/navigation';
-import Navbar from '@/components/Navbar';
+// import PlayerBar from '../components/PlayerBar';
+// import { usePathname } from 'next/navigation';
+// import Navbar from '@/components/Navbar';
+import Layout from '@/components/Layout';
+
+import { Metadata } from 'next';
+import { absoluteUrl } from '@/lib/utils';
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://artesonora1.vercel.app/'),
+  title: {
+    default: 'Arte Sonora',
+    template: '%s | Arte Sonora',
+  },
+  description: 'Um projeto de Franz Manata e Saulo Laudares',
+  openGraph: {
+    title: 'Arte Sonora',
+    description: 'Um projeto de Franz Manata e Saulo Laudares',
+    url: absoluteUrl('/'),
+    siteName: 'Arte Sonora',
+    images: [
+      {
+        url: absoluteUrl('/images/og-image.png'),
+        width: 1800,
+        height: 1600,
+      },
+    ],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  icons: {
+    icon: [{ url: '/favicon/favicon-32x32.png' }],
+    apple: [{ url: '/favicon/apple-touch-icon.png' }],
+  },
+};
 
 export default function RootLayout({
   children,
@@ -23,10 +53,6 @@ export default function RootLayout({
   // if (shouldExcludeLayout) {
   //   return <>{children}</>;
   // }
-  const pathname = usePathname();
-  if (pathname.includes('outstatic') || pathname.includes('admin')) {
-    return <>{children}</>;
-  }
 
   return (
     <html lang='en' className='max-w-[100vw] overflow-x-hidden '>
@@ -35,16 +61,7 @@ export default function RootLayout({
         rel='stylesheet'
       /> */}
       <body className=''>
-        <div className=''>
-          <div className='relative h-screen w-screen'>
-            <Navbar />
-            <div className='fixed bottom-0 left-0 bg-black w-screen h-fit'>
-              <PlayerBar />
-            </div>
-
-            <div className='md:pl-[52px]'>{children}</div>
-          </div>
-        </div>
+        <Layout>{children}</Layout>
       </body>
     </html>
   );

@@ -38,7 +38,7 @@ export default async function Index() {
   const { allPosts } = await getData();
 
   return (
-    <Layout>
+    <>
       <Hero />
       <div className=''>
         <section className='w-full flex items-center justify-center'>
@@ -64,7 +64,7 @@ export default async function Index() {
           />
         )} */}
       </div>
-    </Layout>
+    </>
   );
 }
 
