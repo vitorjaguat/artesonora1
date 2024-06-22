@@ -36,7 +36,7 @@ export default async function Page() {
     <>
       {/* Header */}
       <HeaderSubpage
-        title='Podcast'
+        title='Mixtape'
         bgImg='https://placehold.co/600x400?text=imagem&font=lora'
       />
 
@@ -78,7 +78,7 @@ async function getData() {
   // const content = await markdownToHtml(page.content);
 
   const filteredPosts = await db
-    .find({ collection: 'posts', 'type.value': 'podcast' }, [
+    .find({ collection: 'posts', 'type.value': 'mixtape' }, [
       'title',
       'content',
       'publishedAt',
@@ -109,7 +109,7 @@ async function getData() {
     // content,
     filteredPosts,
     collabImages,
-    contentArrHtml,
+    // contentArrHtml,
     // allProjects,
   };
 }

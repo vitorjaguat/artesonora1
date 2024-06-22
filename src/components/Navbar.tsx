@@ -68,7 +68,7 @@ export default function Navbar() {
   };
 
   useEffect(() => {
-    console.log('submenudata from useEffect', subMenuData);
+    // console.log('submenudata from useEffect', subMenuData);
     if (subMenuData?.length > 0) {
       controls.start('on');
     } else {
@@ -76,9 +76,9 @@ export default function Navbar() {
     }
   }, [subMenuData]);
 
-  const handleAnimationComplete = (data: any) => {
-    setSubMenuData(data);
-  };
+  // const handleAnimationComplete = (data: any) => {
+  //   setSubMenuData(data);
+  // };
 
   const handleHoverContainer = () => {
     controlsContainer.start('on');

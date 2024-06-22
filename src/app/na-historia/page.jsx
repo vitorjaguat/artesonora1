@@ -1,5 +1,5 @@
 import { load } from 'outstatic/server';
-import markdownToHtml from '../../lib/markdownToHtml';
+// import markdownToHtml from '../../lib/markdownToHtml';
 import ItemCard from '@/components/ItemCard';
 import HeaderSubpage from '@/components/HeaderSubpage';
 // import OutstaticSchema from 'outstatic/dist/utils/server';
@@ -36,7 +36,7 @@ export default async function Page() {
     <>
       {/* Header */}
       <HeaderSubpage
-        title='Podcast'
+        title='Na História'
         bgImg='https://placehold.co/600x400?text=imagem&font=lora'
       />
 
@@ -78,7 +78,7 @@ async function getData() {
   // const content = await markdownToHtml(page.content);
 
   const filteredPosts = await db
-    .find({ collection: 'posts', 'type.value': 'podcast' }, [
+    .find({ collection: 'posts', 'type.value': 'naHistória' }, [
       'title',
       'content',
       'publishedAt',
@@ -109,7 +109,7 @@ async function getData() {
     // content,
     filteredPosts,
     collabImages,
-    contentArrHtml,
+    // contentArrHtml,
     // allProjects,
   };
 }
