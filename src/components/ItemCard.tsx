@@ -5,6 +5,7 @@ import type { StaticImport } from 'next/dist/shared/lib/get-img-props';
 import { PiPlayLight } from 'react-icons/pi';
 import { useContext } from 'react';
 import { MainContext } from '@/context/mainContext';
+import Link from 'next/link';
 
 type ItemCardProps = {
   itemObj: any; // Replace 'any' with the appropriate type for itemObj
@@ -24,12 +25,14 @@ export default function ItemCard({ itemObj, image }: ItemCardProps) {
     changePlaySrc(itemObj.fileLink);
     changePlayImg(image);
     changePlayTitle(itemObj.title);
-    changePlayArtist(itemObj.collaborators[0].label);
+    changePlayArtist(
+      itemObj.collaborators.map((colObj: any) => colObj.label).join(', ')
+    );
     console.log(itemObj);
   };
 
   return (
-    <div className='w-full max-w-[300px] md:max-w-full h-96 md:h-fit p-4 rounded-lg bg-white/20 flex flex-col md:flex-row justify-between items-center gap-6 group duration-300 shadow-[10px_10px_25px_-8px_rgba(255,255,255,0.3)]'>
+    <div className='w-full md:max-w-full h-96 md:h-fit p-4 rounded-lg bg-white/20 flex flex-col md:flex-row justify-between items-center gap-6 group duration-300 shadow-[10px_10px_25px_-8px_rgba(255,255,255,0.3)]'>
       <div className=' w-40 h-40 flex justify-center items-center'>
         <div
           className='relative w-40 h-40 rounded-full overflow-hidden'
@@ -50,12 +53,16 @@ export default function ItemCard({ itemObj, image }: ItemCardProps) {
           />
         </div>
       </div>
-      <div className='h-full md:flex-grow md:w-full flex flex-col justify-between items-center md:items-start gap-2'>
+
+      <Link
+        href={`/podcast/${itemObj.slug}`}
+        className='h-full md:flex-grow md:w-full flex flex-col justify-between items-center md:items-start gap-2'
+      >
         <div className='text-2xl'>{itemObj.title}</div>
         <div className='text-sm text-center md:text-left mt-2'>
           {itemObj.content.slice(0, 180)}...
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

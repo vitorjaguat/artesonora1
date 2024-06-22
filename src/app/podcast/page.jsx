@@ -1,6 +1,7 @@
 import { load } from 'outstatic/server';
 import markdownToHtml from '../../lib/markdownToHtml';
 import ItemCard from '@/components/ItemCard';
+import HeaderSubpage from '@/components/HeaderSubpage';
 // import OutstaticSchema from 'outstatic/dist/utils/server';
 // import imgPlaceholder from '@/public/images/imgPlaceholder.webp';
 
@@ -25,24 +26,18 @@ import ItemCard from '@/components/ItemCard';
 export default async function Page() {
   const { allPodcasts: podcasts, contentArrHtml, allImages } = await getData();
 
-  console.log(podcasts[0].collaborators);
+  // console.log(podcasts[0].collaborators);
 
   return (
     <div className='bg-black w-full min-h-screen flex flex-col justify-center items-center gap-8'>
-      <div
-        className={'bg-g h-80 w-full relative'}
-        style={{
-          backgroundImage:
-            'url(https://placehold.co/600x400?text=imagem&font=lora)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className='absolute bottom-4 right-4 text-5xl md:text-8xl'>
-          Podcast
-        </div>
-      </div>
-      <div className='w-full max-w-[900px] flex flex-col items-center justify-center gap-4 text-white'>
+      {/* Header */}
+      <HeaderSubpage
+        title='Podcast'
+        bgImg='https://placehold.co/600x400?text=imagem&font=lora'
+      />
+
+      {/* Content */}
+      <div className='w-full max-w-[90%] md:max-w-[700px] lg:max-w-[900px] flex flex-col items-center justify-center gap-4 text-white'>
         {podcasts.map((podcast, i) => (
           <>
             <ItemCard

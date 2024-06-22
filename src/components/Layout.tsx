@@ -32,7 +32,7 @@ const Layout = ({ children }: Props) => {
           </div>
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
       </MainContextProvider>
     </>
   );

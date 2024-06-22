@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import NavbarMobile from './NavbarMobile';
 import { useAnimationControls, motion } from 'framer-motion';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { ImHome } from 'react-icons/im';
 import { PiBookOpenUserFill } from 'react-icons/pi';
 import { AiFillAudio } from 'react-icons/ai';
@@ -13,49 +13,52 @@ interface SubMenuData {
   link: string;
 }
 
-const subMenuDataManager = {
-  sobre: [
-    {
-      name: 'Sobre o Arte Sonora',
-      link: '/sobre',
-    },
-    {
-      name: 'Quem somos',
-      link: '/sobre#quem-somos',
-    },
-    {
-      name: 'Uma breve história',
-      link: '/sobre#breve-historia',
-    },
-    {
-      name: 'Colaboradores',
-      link: '/colaboradores',
-    },
-    {
-      name: 'Links',
-      link: '/links',
-    },
-  ],
-  programas: [
-    {
-      name: 'Podcast',
-      link: '/podcast',
-    },
-    {
-      name: 'Mixtape',
-      link: '/mixtape',
-    },
-    {
-      name: 'Na História',
-      link: '/na-historia',
-    },
-  ],
-};
-
 export default function Navbar() {
   const controlsContainer = useAnimationControls();
   const controls = useAnimationControls();
   const [subMenuData, setSubMenuData] = useState<SubMenuData[] | null>(null);
+
+  const subMenuDataManager = useMemo(
+    () => ({
+      sobre: [
+        {
+          name: 'Sobre o Arte Sonora',
+          link: '/sobre',
+        },
+        {
+          name: 'Quem somos',
+          link: '/sobre#quem-somos',
+        },
+        {
+          name: 'Uma breve história',
+          link: '/sobre#breve-historia',
+        },
+        {
+          name: 'Colaboradores',
+          link: '/colaboradores',
+        },
+        {
+          name: 'Links',
+          link: '/links',
+        },
+      ],
+      programas: [
+        {
+          name: 'Podcast',
+          link: '/podcast',
+        },
+        {
+          name: 'Mixtape',
+          link: '/mixtape',
+        },
+        {
+          name: 'Na História',
+          link: '/na-historia',
+        },
+      ],
+    }),
+    []
+  );
 
   const handleHover = (data: any) => {
     setSubMenuData(data);
@@ -64,6 +67,7 @@ export default function Navbar() {
   const handleHoverContainer = () => {
     controlsContainer.start('on');
   };
+
   return (
     <>
       {/* DESKTOP NAV */}
