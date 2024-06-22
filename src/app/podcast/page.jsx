@@ -110,7 +110,7 @@ async function getData() {
     // content,
     filteredPosts,
     collabImages,
-    contentArrHtml,
+    // contentArrHtml,
     // allProjects,
   };
 }
