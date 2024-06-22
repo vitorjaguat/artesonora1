@@ -48,6 +48,7 @@ export default async function Page() {
               <ItemCard
                 key={i}
                 itemObj={post}
+                type='podcast'
                 image={
                   collabImages.find(
                     (img) => img.title === post?.collaborators[0].label

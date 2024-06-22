@@ -10,7 +10,7 @@ export default function HeaderSubpage({ title, bgImg, kind }) {
     >
       <div
         className={
-          'absolute bottom-4 right-4 ' +
+          'absolute bottom-4 right-4 text-right ' +
           (kind === '1' ? 'text-5xl md:text-8xl' : 'text-3xl md:text-5xl')
         }
       >

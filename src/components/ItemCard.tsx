@@ -10,9 +10,10 @@ import Link from 'next/link';
 type ItemCardProps = {
   itemObj: any; // Replace 'any' with the appropriate type for itemObj
   image: string | StaticImport; // Replace 'any' with the appropriate type for image
+  type: 'podcast' | 'mixtape' | 'na-historia';
 };
 
-export default function ItemCard({ itemObj, image }: ItemCardProps) {
+export default function ItemCard({ itemObj, image, type }: ItemCardProps) {
   const {
     changePlaySrc,
     playSrc,
@@ -55,7 +56,7 @@ export default function ItemCard({ itemObj, image }: ItemCardProps) {
       </div>
 
       <Link
-        href={`/podcast/${itemObj.slug}`}
+        href={`/${type}/${itemObj.slug}`}
         className='h-full md:flex-grow md:w-full flex flex-col justify-between items-center md:items-start gap-2'
       >
         <div className='text-2xl'>{itemObj.title}</div>

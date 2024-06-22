@@ -41,13 +41,14 @@ export default async function Page() {
       />
 
       {/* Content */}
-      <div className='pt-10 pb-60 bg-black w-full min-h-screen flex flex-col justify-center items-center'>
-        <div className='w-full max-w-[90%] md:max-w-[700px] lg:max-w-[900px] flex flex-col items-center justify-center gap-8 text-white'>
+      <div className='pt-10 pb-60 bg-black w-full min-h-screen flex flex-col items-center'>
+        <div className='w-full max-w-[90%] md:max-w-[700px] lg:max-w-[900px] flex flex-col items-center gap-8 text-white'>
           {posts.map((post, i) => (
             <>
               <ItemCard
                 key={i}
                 itemObj={post}
+                type='na-historia'
                 image={
                   collabImages.find(
                     (img) => img.title === post?.collaborators[0].label

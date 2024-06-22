@@ -10,7 +10,7 @@ import { SlSocialSoundcloud } from 'react-icons/sl';
 // import { generateStaticParams } from '@/app/posts/[slug]/page';
 
 async function getData(params) {
-  const post = getDocumentBySlug('posts', params.mixtapeSlug, [
+  const post = getDocumentBySlug('posts', params.historiaSlug, [
     'title',
     'publishedAt',
     'slug',
@@ -48,7 +48,7 @@ async function getData(params) {
 
 // export async function generateStaticParams() {}
 
-export default async function MixtapeSlug({ params }) {
+export default async function HistoriaSlug({ params }) {
   const {
     content,
     title,
@@ -66,10 +66,11 @@ export default async function MixtapeSlug({ params }) {
   // console.log('cover image', coverImage);
   console.log('soundcloudLink', soundcloudLink);
 
-  const soundcloudPageUrl = `https://soundcloud.com/artesonora/${slug.replace(
-    'mix',
-    'mixtape'
-  )}`;
+  console.log('slug', slug);
+
+  const soundcloudPageUrl = `https://soundcloud.com/artesonora/${slug
+    .replace('his-', 'nahistoria')
+    .slice(0, 12)}`;
   return (
     <>
       <HeaderSubpage
