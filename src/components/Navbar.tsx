@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import NavbarMobile from './NavbarMobile';
 import { useAnimationControls, motion } from 'framer-motion';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ImHome } from 'react-icons/im';
 import { PiBookOpenUserFill } from 'react-icons/pi';
 import { AiFillAudio } from 'react-icons/ai';
 import { BiSolidHourglass } from 'react-icons/bi';
 import { GrContact } from 'react-icons/gr';
+import { sub } from 'date-fns';
 
 interface SubMenuData {
   name: string;
@@ -16,7 +17,7 @@ interface SubMenuData {
 export default function Navbar() {
   const controlsContainer = useAnimationControls();
   const controls = useAnimationControls();
-  const [subMenuData, setSubMenuData] = useState<SubMenuData[] | null>(null);
+  const [subMenuData, setSubMenuData] = useState<SubMenuData[] | []>([]);
 
   const subMenuDataManager = useMemo(
     () => ({
@@ -62,8 +63,23 @@ export default function Navbar() {
 
   const handleHover = (data: any) => {
     setSubMenuData(data);
-    controls.start('on');
+    // console.log('submenudata from handleHover', subMenuData);
+    // controls.start('on');
   };
+
+  useEffect(() => {
+    console.log('submenudata from useEffect', subMenuData);
+    if (subMenuData?.length > 0) {
+      controls.start('on');
+    } else {
+      controls.start('off');
+    }
+  }, [subMenuData]);
+
+  const handleAnimationComplete = (data: any) => {
+    setSubMenuData(data);
+  };
+
   const handleHoverContainer = () => {
     controlsContainer.start('on');
   };
@@ -104,7 +120,8 @@ export default function Navbar() {
 
           <div
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white cursor-pointer'
-            onMouseEnter={() => handleHover(subMenuDataManager.sobre)}
+            onMouseEnter={() => handleHover([...subMenuDataManager.sobre])}
+
             // onMouseLeave={() => controls.start('off')}
           >
             <div className='flex justify-center w-full max-w-[20px]'>
@@ -128,7 +145,7 @@ export default function Navbar() {
 
           <div
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white  cursor-pointer'
-            onMouseEnter={() => handleHover(subMenuDataManager.programas)}
+            onMouseEnter={() => handleHover([...subMenuDataManager.programas])}
             // onMouseLeave={() => controls.start('off')}
           >
             <div className='flex justify-center w-full max-w-[20px]'>
@@ -234,12 +251,13 @@ export default function Navbar() {
               className='w-full'
               href={item.link}
               onClick={() => {
-                setSubMenuData(null);
+                setSubMenuData([]);
                 controls.set('off');
                 controlsContainer.set('off');
               }}
             >
               <motion.div
+                // onAnimationComplete={() => handleAnimationComplete(subMenuData)}
                 initial='off'
                 animate={controls}
                 // transition={{ delay: 0.3 }}
