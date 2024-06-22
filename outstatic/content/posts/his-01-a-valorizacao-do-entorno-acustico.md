@@ -9,8 +9,9 @@ description: ''
 coverImage: ''
 soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109277493&show_artwork=false&in=artesonora%2Fsets%2Fnahistoria'
 tags: []
-collaborators: []
+collaborators: [{"label":"EXST","value":"exst"}]
 type: [{"label":"Na História","value":"naHistória"}]
+fileLink: ''
 publishedAt: '2018-03-19T15:09:16.000Z'
 ---
 
