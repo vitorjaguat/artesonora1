@@ -47,11 +47,9 @@ export default function PlayerBar() {
   // if (pathname.includes('outstatic') || pathname.includes('admin')) return null;
 
   return (
-    <div>
-      <div
-        ref={playerRef}
-        className='player-container fixed bottom-0 left-0 w-full px-20 md:pl-[120px] md:pr-10 bg-black z-[1000000000000000000000000000000000000000000000000000000]'
-      ></div>
-    </div>
+    <div
+      ref={playerRef}
+      className='player-container fixed bottom-0 left-0 w-full px-20 md:pl-[120px] md:pr-10 bg-black z-[1000000000000000000000000000000000000000000000000000000]'
+    ></div>
   );
 }
