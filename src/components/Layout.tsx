@@ -26,7 +26,7 @@ const Layout = ({ children }: Props) => {
             <PlayerBar />
             {/* </div> */}
             <div className='md:pl-[52px]'>
-              <main className='min-h-screen'>{children}</main>
+              <main className='min-h-screen z-[1]'>{children}</main>
               <Footer />
             </div>
           </div>
