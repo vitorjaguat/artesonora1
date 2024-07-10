@@ -1,6 +1,6 @@
 {
-  "commit": "94fad379b1003f18adc12a8b1cf5ac6bae7fee79",
-  "generated": "2024-06-22T21:33:32.169Z",
+  "commit": "d0150a0d74a8eac1dcafc929b47131e8c4bb4bea",
+  "generated": "2024-07-10T16:03:53.774Z",
   "metadata": [
     {
       "__outstatic": {
@@ -82,24 +82,6 @@
       "slug": "chico-dub",
       "status": "published",
       "title": "Chico Dub"
-    },
-    {
-      "__outstatic": {
-        "commit": "f86c377399cc18666bf8bd99c26aaefeb34ced07",
-        "hash": "4012908816",
-        "path": "outstatic/content/collaborators/cildo-meireles.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/cildo-Q4Mz.jpeg",
-      "description": "",
-      "publishedAt": "2024-06-11T14:34:07.179Z",
-      "slug": "cildo-meireles",
-      "status": "published",
-      "title": "Cildo Meireles"
     },
     {
       "__outstatic": {
@@ -1277,6 +1259,27 @@
           "value": "naHistória"
         }
       ]
+    },
+    {
+      "__outstatic": {
+        "commit": "d0150a0d74a8eac1dcafc929b47131e8c4bb4bea",
+        "hash": "205187524",
+        "path": "outstatic/content/collaborators/cildo-meireles.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/cildo-Q4Mz.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-07-10T14:34:07.000Z",
+      "slug": "cildo-meireles",
+      "status": "published",
+      "title": "Cildo Meireles",
+      "twitter": ""
     }
   ]
 }

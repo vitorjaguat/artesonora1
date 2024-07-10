@@ -7,7 +7,10 @@ author:
 slug: 'cildo-meireles'
 description: ''
 coverImage: '/images/cildo-Q4Mz.jpeg'
-publishedAt: '2024-06-11T14:34:07.179Z'
+facebook: ''
+twitter: ''
+instagram: ''
+publishedAt: '2024-07-10T14:34:07.000Z'
 ---
 
 Cildo é um artista que dispensa apresentações. Com mais de quatro décadas de carreira, seu trabalho está nas coleções e mostras mais importantes da atualidade.
