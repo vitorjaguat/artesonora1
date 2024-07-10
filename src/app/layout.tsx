@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'Arte Sonora',
     images: [
       {
-        url: absoluteUrl('/images/og-image.png'),
+        url: absoluteUrl('/images/play.png'),
         width: 1800,
         height: 1600,
       },
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     type: 'website',
   },
   icons: {
-    icon: [{ url: '/favicon/favicon-32x32.png' }],
-    apple: [{ url: '/favicon/apple-touch-icon.png' }],
+    icon: [{ url: '/favicon/play-favicon.png' }],
+    apple: [{ url: '/images/play.png' }],
   },
 };
 
