@@ -125,5 +125,5 @@ export const dynamic = 'force-static';
 export const revalidate = false;
 export async function generateStaticParams() {
   const posts = getDocumentSlugs('collaborators');
-  return posts.map((slug) => ({ slug }));
+  return posts.map((slug) => ({ colabSlug: slug }));
 }
