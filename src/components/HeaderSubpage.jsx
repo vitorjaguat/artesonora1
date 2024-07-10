@@ -6,7 +6,7 @@ export default function HeaderSubpage({ title, bgImg, kind, blur }) {
     <div className={'bg-g h-80 w-full relative'}>
       <div className='absolute inset-0 bg-black w-full h-full overflow-hidden'>
         <Image
-          src={bgImg}
+          src={bgImg.includes('http') ? bgImg : absoluteUrl(bgImg)}
           alt={title}
           fill
           className='object-cover object-center'
