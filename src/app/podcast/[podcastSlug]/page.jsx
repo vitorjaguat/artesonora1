@@ -133,7 +133,7 @@ export default async function PodcastSlug({ params }) {
               <div key={i} className='flex items-center gap-4'>
                 <Image
                   className='rounded-full'
-                  src={absoluteUrl(collaborator.coverImage)}
+                  src={collaborator.coverImage}
                   width={50}
                   height={50}
                   alt={collaborator.title}
