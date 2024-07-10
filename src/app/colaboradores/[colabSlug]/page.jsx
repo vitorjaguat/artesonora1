@@ -1,5 +1,5 @@
 import HeaderSubpage from '@/components/HeaderSubpage';
-import { getDocumentBySlug, load } from 'outstatic/server';
+import { getDocumentBySlug, load, getDocumentSlugs } from 'outstatic/server';
 import markdownToHtml from '../../../lib/markdownToHtml';
 import { absoluteUrl } from '@/lib/utils';
 import PlayButton from '@/components/PlayButton';
@@ -9,6 +9,11 @@ import { SlSocialSoundcloud } from 'react-icons/sl';
 import ItemCard from '@/components/ItemCard';
 
 // import { generateStaticParams } from '@/app/posts/[slug]/page';
+
+export async function generateStaticParams() {
+  const posts = getDocumentSlugs('posts');
+  return posts.map((slug) => ({ slug }));
+}
 
 async function getData(params) {
   const collab = getDocumentBySlug('collaborators', params.colabSlug, [
