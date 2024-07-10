@@ -83,7 +83,7 @@ export default async function MixtapeSlug({ params }) {
         kind='2'
       />
       <div className='pt-10 pb-60 w-full flex flex-col justify-center items-center bg-black/90 text-white/90'>
-        <div className='flex flex-col gap-5 max-w-[90%] md:max-w-[700px] lg:max-w-[900px]'>
+        <div className='flex flex-col gap-5 w-[90%] md:w-[700px] lg:w-[900px]'>
           {/* Play subheader */}
           <div className='flex items-center gap-4 p-4 w-full rounded-full bg-zinc-600'>
             <PlayButton
