@@ -1,7 +1,6 @@
 import HeaderSubpage from '@/components/HeaderSubpage';
 import { getDocumentBySlug, load, getDocumentSlugs } from 'outstatic/server';
 import markdownToHtml from '../../../lib/markdownToHtml';
-import { absoluteUrl } from '@/lib/utils';
 import PlayButton from '@/components/PlayButton';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -71,7 +70,7 @@ export default async function ColabSlug({ params }) {
         // bgImg='https://placehold.co/600x400?text=imagem&font=lora'
         bgImg={
           coverImage
-            ? absoluteUrl(coverImage)
+            ? coverImage
             : 'https://placehold.co/600x400?text=imagem&font=lora'
         }
         kind='2'
@@ -109,7 +108,7 @@ export default async function ColabSlug({ params }) {
               <ItemCard
                 key={i}
                 itemObj={post}
-                image={absoluteUrl(coverImage)}
+                image={coverImage}
                 type={post.type[0].value}
               />
             ))}
