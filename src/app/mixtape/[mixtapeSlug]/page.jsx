@@ -138,7 +138,7 @@ export default async function MixtapeSlug({ params }) {
                   height={50}
                   alt={collaborator.title}
                 />
-                <Link href={`/colaborador/${collaborator.slug}`}>
+                <Link href={`/colaboradores/${collaborator.slug}`}>
                   <div className='flex-grow'>{collaborator.title}</div>
                 </Link>
               </div>

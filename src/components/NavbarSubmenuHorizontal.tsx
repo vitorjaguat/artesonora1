@@ -24,7 +24,7 @@ const subMenuDataManager = {
     },
     {
       name: 'Colaboradores',
-      link: '/sobre#colaboradores',
+      link: '/colaboradores',
     },
     {
       name: 'Links',
