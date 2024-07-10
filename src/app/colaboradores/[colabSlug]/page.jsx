@@ -7,13 +7,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { SlSocialSoundcloud } from 'react-icons/sl';
 import ItemCard from '@/components/ItemCard';
-
 // import { generateStaticParams } from '@/app/posts/[slug]/page';
-
-export async function generateStaticParams() {
-  const posts = getDocumentSlugs('collaborators');
-  return posts.map((slug) => ({ slug }));
-}
 
 async function getData(params) {
   const collab = getDocumentBySlug('collaborators', params.colabSlug, [
@@ -126,4 +120,9 @@ export default async function ColabSlug({ params }) {
       </div>
     </>
   );
+}
+
+export async function generateStaticParams() {
+  const posts = getDocumentSlugs('posts');
+  return posts.map((slug) => ({ slug }));
 }
