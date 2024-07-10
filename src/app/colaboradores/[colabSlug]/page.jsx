@@ -109,7 +109,7 @@ export default async function ColabSlug({ params }) {
               <ItemCard
                 key={i}
                 itemObj={post}
-                image={coverImage}
+                image={absoluteUrl(coverImage)}
                 type={post.type[0].value}
               />
             ))}

@@ -1,4 +1,3 @@
-import { bg } from 'date-fns/locale';
 import Image from 'next/image';
 
 export default function HeaderSubpage({ title, bgImg, kind, blur }) {
@@ -6,7 +5,7 @@ export default function HeaderSubpage({ title, bgImg, kind, blur }) {
     <div className={'bg-g h-80 w-full relative'}>
       <div className='absolute inset-0 bg-black w-full h-full overflow-hidden'>
         <Image
-          src={bgImg.includes('http') ? bgImg : absoluteUrl(bgImg)}
+          src={bgImg}
           alt={title}
           fill
           className='object-cover object-center'
