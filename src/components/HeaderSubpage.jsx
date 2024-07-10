@@ -19,7 +19,7 @@ export default function HeaderSubpage({ title, bgImg, kind, blur }) {
       </div>
       <div
         className={
-          'absolute inset-0 w-full h-full flex justify-center z-20 text-white/90 ' +
+          'absolute inset-0 w-full h-full flex justify-center text-white/90 ' +
           (kind === '1' ? 'text-5xl md:text-8xl' : 'text-3xl md:text-5xl')
         }
       >
