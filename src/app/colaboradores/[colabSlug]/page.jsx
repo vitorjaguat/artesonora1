@@ -6,6 +6,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { SlSocialSoundcloud } from 'react-icons/sl';
 import ItemCard from '@/components/ItemCard';
+import { RxInstagramLogo } from 'react-icons/rx';
+import { LiaFacebookSquare } from 'react-icons/lia';
+import { RiTwitterXFill } from 'react-icons/ri';
 
 async function getData(params) {
   const collab = getDocumentBySlug('collaborators', params.colabSlug, [
@@ -55,9 +58,19 @@ async function getData(params) {
 // export async function generateStaticParams() {}
 
 export default async function ColabSlug({ params }) {
-  const { content, title, coverImage, publishedAt, slug, collabPosts } =
-    await getData(params);
+  const {
+    content,
+    title,
+    coverImage,
+    publishedAt,
+    slug,
+    collabPosts,
+    instagram,
+    twitter,
+    facebook,
+  } = await getData(params);
 
+  console.log('instagram', instagram);
   // const soundcloudPageUrl = `https://soundcloud.com/artesonora/${slug.replace(
   //   'pod',
   //   'podcast'
@@ -79,6 +92,32 @@ export default async function ColabSlug({ params }) {
       <div className='pt-10 pb-60 w-full flex flex-col justify-center items-center bg-black/90 text-white/90'>
         <div className='flex flex-col gap-5 w-[90%] md:w-[700px] lg:w-[900px]'>
           {/* Play subheader (removed) */}
+
+          {/* Collab links: */}
+          {(instagram || twitter || facebook) && (
+            <div className='w-full flex items-center justify-end gap-4'>
+              {instagram && (
+                <a href={instagram} target='_blank' rel='noopener noreferrer'>
+                  <RxInstagramLogo size={23} />
+                </a>
+              )}
+              {twitter && (
+                <a href={twitter} target='_blank' rel='noopener noreferrer'>
+                  <RiTwitterXFill size={23} />
+                </a>
+              )}
+              {facebook && (
+                <a
+                  href={facebook}
+                  className='-ml-1'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <LiaFacebookSquare size={28} />
+                </a>
+              )}
+            </div>
+          )}
 
           <div
             className='w-full'
