@@ -7,7 +7,10 @@ author:
 slug: 'chico-dub'
 description: ''
 coverImage: '/images/chico_dub-gzNj.jpeg'
-publishedAt: '2024-06-11T14:38:27.957Z'
+facebook: ''
+twitter: ''
+instagram: ''
+publishedAt: '2024-07-09T14:38:27.000Z'
 ---
 
 Chico Dub é carioca, produtor cultural, curador, DJ e pesquisador musical. É idealizador do festival Novas Frequências, de música independente e experimental. Trabalhou no Festival Multiplicidade e no Sònar SP, e é diretor artístico e produtor de shows nacionais e internacionais.

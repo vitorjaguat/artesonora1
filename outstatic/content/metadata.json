@@ -1,6 +1,6 @@
 {
-  "commit": "d0150a0d74a8eac1dcafc929b47131e8c4bb4bea",
-  "generated": "2024-07-10T16:03:53.774Z",
+  "commit": "0221ac32b1a65168288414978b03f4e37b522e60",
+  "generated": "2024-07-10T16:05:11.245Z",
   "metadata": [
     {
       "__outstatic": {
@@ -64,24 +64,6 @@
       "status": "published",
       "title": "André Amaral",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "6d13555389b93839885703c588a7e6a0b6864002",
-        "hash": "4198957152",
-        "path": "outstatic/content/collaborators/chico-dub.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/chico_dub-gzNj.jpeg",
-      "description": "",
-      "publishedAt": "2024-06-11T14:38:27.957Z",
-      "slug": "chico-dub",
-      "status": "published",
-      "title": "Chico Dub"
     },
     {
       "__outstatic": {
@@ -1279,6 +1261,27 @@
       "slug": "cildo-meireles",
       "status": "published",
       "title": "Cildo Meireles",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "0221ac32b1a65168288414978b03f4e37b522e60",
+        "hash": "2856519818",
+        "path": "outstatic/content/collaborators/chico-dub.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/chico_dub-gzNj.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-07-09T14:38:27.000Z",
+      "slug": "chico-dub",
+      "status": "published",
+      "title": "Chico Dub",
       "twitter": ""
     }
   ]
