@@ -149,3 +149,8 @@ export default async function PodcastSlug({ params }) {
     </>
   );
 }
+
+export async function generateStaticParams() {
+  const posts = getDocumentSlugs('posts');
+  return posts.map((slug) => ({ podcastSlug: slug }));
+}

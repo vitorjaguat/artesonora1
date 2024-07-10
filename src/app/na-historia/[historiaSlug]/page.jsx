@@ -150,3 +150,8 @@ export default async function HistoriaSlug({ params }) {
     </>
   );
 }
+
+export async function generateStaticParams() {
+  const posts = getDocumentSlugs('posts');
+  return posts.map((slug) => ({ historiaSlug: slug }));
+}
