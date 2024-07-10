@@ -1,5 +1,5 @@
 import HeaderSubpage from '@/components/HeaderSubpage';
-import { getDocumentBySlug, load } from 'outstatic/server';
+import { getDocumentBySlug, load, getDocumentSlugs } from 'outstatic/server';
 import markdownToHtml from '../../../lib/markdownToHtml';
 import { absoluteUrl } from '@/lib/utils';
 import PlayButton from '@/components/PlayButton';
