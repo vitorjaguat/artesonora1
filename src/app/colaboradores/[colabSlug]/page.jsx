@@ -122,6 +122,7 @@ export default async function ColabSlug({ params }) {
   );
 }
 
+export const dynamic = 'force-static';
 export async function generateStaticParams() {
   const posts = getDocumentSlugs('posts');
   return posts.map((slug) => ({ slug }));
