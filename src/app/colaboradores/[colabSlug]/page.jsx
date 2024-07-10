@@ -11,7 +11,7 @@ import ItemCard from '@/components/ItemCard';
 // import { generateStaticParams } from '@/app/posts/[slug]/page';
 
 export async function generateStaticParams() {
-  const posts = getDocumentSlugs('posts');
+  const posts = getDocumentSlugs('collaborators');
   return posts.map((slug) => ({ slug }));
 }
 
