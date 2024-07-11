@@ -7,8 +7,8 @@ import { PiBookOpenUserFill } from 'react-icons/pi';
 import { AiFillAudio } from 'react-icons/ai';
 import { BiSolidHourglass } from 'react-icons/bi';
 import { GrContact } from 'react-icons/gr';
+import { MdPeopleAlt } from 'react-icons/md';
 import Link from 'next/link';
-import { set } from 'date-fns';
 
 export default function NavbarMobile() {
   const [isOpen, setIsOpen] = useState(false);
@@ -90,9 +90,9 @@ export default function NavbarMobile() {
                 <Link href='/sobre#breve-historia' className=''>
                   breve história
                 </Link>
-                <Link href='/colaboradores' className=''>
+                {/* <Link href='/colaboradores' className=''>
                   colaboradores
-                </Link>
+                </Link> */}
                 <Link href='/links' className=''>
                   links
                 </Link>
@@ -134,6 +134,7 @@ export default function NavbarMobile() {
                 </Link>
               </div>
             </motion.div>
+
             <motion.div
               variants={{
                 off: {
@@ -148,11 +149,12 @@ export default function NavbarMobile() {
               animate='on'
               onClick={() => setIsOpen(false)}
             >
-              <Link href='/arquivo' className='flex items-center gap-3'>
-                <BiSolidHourglass size={25} />
-                <div className='text-2xl'>arquivo</div>
+              <Link href='/colaboradores' className='flex items-center gap-3'>
+                <MdPeopleAlt size={25} />
+                <div className='text-2xl'>colaboradores</div>
               </Link>
             </motion.div>
+
             <motion.div
               variants={{
                 off: {
@@ -163,6 +165,26 @@ export default function NavbarMobile() {
                 },
               }}
               transition={{ delay: 0.9 }}
+              initial='off'
+              animate='on'
+              onClick={() => setIsOpen(false)}
+            >
+              <Link href='/arquivo' className='flex items-center gap-3'>
+                <BiSolidHourglass size={25} />
+                <div className='text-2xl'>arquivo</div>
+              </Link>
+            </motion.div>
+
+            <motion.div
+              variants={{
+                off: {
+                  opacity: 0,
+                },
+                on: {
+                  opacity: 1,
+                },
+              }}
+              transition={{ delay: 1.1 }}
               initial='off'
               animate='on'
               onClick={() => setIsOpen(false)}

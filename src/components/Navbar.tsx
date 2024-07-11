@@ -7,6 +7,7 @@ import { PiBookOpenUserFill } from 'react-icons/pi';
 import { AiFillAudio } from 'react-icons/ai';
 import { BiSolidHourglass } from 'react-icons/bi';
 import { GrContact } from 'react-icons/gr';
+import { MdPeopleAlt } from 'react-icons/md';
 
 interface SubMenuData {
   name: string;
@@ -117,7 +118,8 @@ export default function Navbar() {
             </motion.div>
           </Link>
 
-          <div
+          <Link
+            href='/sobre'
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white cursor-pointer'
             onMouseEnter={() => handleHover([...subMenuDataManager.sobre])}
 
@@ -140,7 +142,7 @@ export default function Navbar() {
             >
               sobre
             </motion.div>
-          </div>
+          </Link>
 
           <div
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white  cursor-pointer'
@@ -165,6 +167,30 @@ export default function Navbar() {
               programas
             </motion.div>
           </div>
+
+          <Link
+            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white overflow-hidden'
+            href='/colaboradores'
+            onMouseEnter={() => controls.start('off')}
+          >
+            <div className='flex justify-center w-full max-w-[20px]'>
+              <MdPeopleAlt size={20} className='' />
+            </div>
+            <motion.div
+              initial='off'
+              animate={controlsContainer}
+              variants={{
+                off: {
+                  width: 0,
+                  marginLeft: 0,
+                },
+                on: { width: 130, marginLeft: 12 },
+              }}
+              className=' overflow-hidden'
+            >
+              colaboradores
+            </motion.div>
+          </Link>
 
           <Link
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white overflow-hidden'

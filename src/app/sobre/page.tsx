@@ -7,11 +7,12 @@ export default function Page() {
       {/* Header */}
       <HeaderSubpage
         title='Sobre'
-        bgImg='https://placehold.co/600x400?text=imagem&font=lora'
+        bgImg='https://placehold.co/600x400?text=imagem&font=lora
+        '
       />
 
       {/* submenu */}
-      <div className='w-full h-12 bg-zinc-800 flex items-center justify-center uppercase text-white/70 sticky top-0'>
+      <div className='w-full h-12 bg-zinc-800 flex items-center justify-center uppercase text-white/70 sticky top-0 border-y-[1px] border-zinc-300'>
         <div className='h-full w-[90%] md:w-[700px] lg:w-[900px] flex justify-between items-center'>
           <Link
             href='/sobre'
@@ -27,7 +28,7 @@ export default function Page() {
             quem somos
           </Link>
           <Link
-            href='/sobre#historia'
+            href='/sobre#breve-historia'
             className='w-full h-full text-right  hover:bg-white/30 flex items-center duration-300 justify-end'
           >
             uma breve história
@@ -42,9 +43,10 @@ export default function Page() {
             <div className='flex-1 bg-white/50'></div>
             <div className='flex-1'>
               Arte Sonora é uma prática artística coletiva desenvolvida pelo duo
-              de artistas Franz Manata e Saulo Laudares, que possui diversos
-              formatos, como: cursos, residências, exposições, happenings,
-              programas de rádio, publicações etc.
+              de artistas <span className='font-bold'>Franz Manata</span> e{' '}
+              <span className='font-bold'>Saulo Laudares</span>, que possui
+              diversos formatos, como: cursos, residências, exposições,
+              happenings, programas de rádio, publicações etc.
             </div>
           </div>
           <div className='flex gap-4 justify-between h-60'>
@@ -56,7 +58,7 @@ export default function Page() {
             <div className='flex-1 bg-white/60'></div>
           </div>
           <div className='my-8 flex justify-center w-full'>
-            <div className='bg-white/[0.15] w-[85%]  italic text-lg p-4 rounded-md'>
+            <div className='bg-white/[0.15] w-[85%]  italic text-lg py-4 px-8 rounded-lg'>
               Nossos objetivos eram organizar e disponibilizar as informações
               que acumulamos, desde meados dos anos 1990, desenvolver o
               pensamento dos participantes através de uma visada histórica sobre
@@ -134,7 +136,7 @@ export default function Page() {
           </div>
           <div className='flex gap-4 justify-between h-60'>
             <div className='flex-1'>
-              Esse site foi construído de forma independente e colaborativa com
+              Este site foi construído de forma independente e colaborativa com
               a finalidade de organizar e disponibilizar, ao público em geral,
               os programas e a memória do projeto. Todo seu conteúdo foi
               produzido em “fair use”.
@@ -164,7 +166,7 @@ export default function Page() {
           </div>
 
           {/* uma breve história */}
-          <div className='pt-16 text-5xl' id='historia'>
+          <div className='pt-16 text-5xl' id='breve-historia'>
             Uma breve história <span className='text-3xl'>da Arte Sonora</span>
           </div>
           <div className='-mt-10 flex flex-col gap-4'>
