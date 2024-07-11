@@ -34,10 +34,10 @@ export default function Navbar() {
           name: 'Uma breve história',
           link: '/sobre#breve-historia',
         },
-        {
-          name: 'Colaboradores',
-          link: '/colaboradores',
-        },
+        // {
+        //   name: 'Colaboradores',
+        //   link: '/colaboradores',
+        // },
         {
           name: 'Links',
           link: '/links',
