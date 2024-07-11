@@ -1,6 +1,11 @@
 import Image from 'next/image';
 
-export default function HeaderSubpage({ title, bgImg, kind, blur }) {
+export default function HeaderSubpage({
+  title,
+  bgImg,
+  kind = '1',
+  blur = false,
+}) {
   return (
     <div className={'bg-g h-80 w-full relative'}>
       <div className='absolute inset-0 bg-black w-full h-full overflow-hidden z-0'>
