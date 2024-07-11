@@ -15,6 +15,7 @@ export default function Page() {
         <div className='h-full w-[90%] md:w-[700px] lg:w-[900px] flex justify-between items-center'>
           <Link
             href='/sobre'
+            scroll={false}
             className='w-full h-full text-left  hover:bg-white/30 flex items-center duration-300'
           >
             sobre o arte sonora
@@ -163,7 +164,7 @@ export default function Page() {
           </div>
 
           {/* uma breve história */}
-          <div className='pt-16 text-5xl' id='quem-somos'>
+          <div className='pt-16 text-5xl' id='historia'>
             Uma breve história <span className='text-3xl'>da Arte Sonora</span>
           </div>
           <div className='-mt-10 flex flex-col gap-4'>
