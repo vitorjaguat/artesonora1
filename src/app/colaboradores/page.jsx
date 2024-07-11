@@ -26,7 +26,7 @@ import HeaderSubpage from '@/components/HeaderSubpage';
 export default async function Page() {
   const { allCollaborators } = await getData();
 
-  console.log(allCollaborators);
+  // console.log(allCollaborators);
 
   // console.log(podcasts[0].collaborators);
 
