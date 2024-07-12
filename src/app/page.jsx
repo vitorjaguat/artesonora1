@@ -62,9 +62,10 @@ async function getData() {
       'content',
       'collaborators',
       'type',
+      'fileLink',
     ])
     .sort({ publishedAt: -1 })
-    .limit(5)
+    .limit(10)
     .toArray();
 
   const newestPosts = await Promise.all(

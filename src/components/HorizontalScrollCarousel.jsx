@@ -10,11 +10,14 @@ const HorizontalScrollCarousel = ({ newestPosts }) => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ['1%', '-95%']);
+  const x = useTransform(scrollYProgress, [0, 1], ['0.5%', '-95%']);
 
   return (
     <section ref={targetRef} className='relative h-[300vh] bg-neutral-900'>
-      <div className='sticky top-0 flex h-[calc(100vh-109px)] md:h-[calc(100vh-84px)] items-center overflow-hidden'>
+      <div className='sticky top-0 flex  h-[calc(100vh)] md:h-[calc(100vh-84px)] items-center overflow-hidden'>
+        <div className='absolute top-20 md:top-6 left-6 mb-6 text-6xl md:text-7xl pr-10 w-full text-right text-white/10'>
+          EM DESTAQUE
+        </div>
         <motion.div style={{ x }} className='flex gap-4'>
           {newestPosts.map((post, i) => {
             return <CarouselCard post={post} key={i} />;

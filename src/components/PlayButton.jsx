@@ -14,7 +14,9 @@ export default function PlayButton({ size, src, img, title, artist }) {
     changePlayArtist,
   } = useContext(MainContext);
 
-  const handleClickPlay = () => {
+  const handleClickPlay = (event) => {
+    event.preventDefault();
+    event.stopPropagation();
     changePlaySrc(src);
     changePlayImg(img);
     changePlayTitle(title);
@@ -23,7 +25,9 @@ export default function PlayButton({ size, src, img, title, artist }) {
 
   return (
     <div
-      className='p-4 w-fit rounded-full overflow-hidden bg-black'
+      className={'p-4 w-fit rounded-full overflow-hidden bg-black'}
+      onClick={(event) => handleClickPlay(event)}
+
       //   style={{ zIndex: '0 !important' }}
       //   style={{ filter: 'saturate(0)' }}
     >
@@ -35,8 +39,7 @@ export default function PlayButton({ size, src, img, title, artist }) {
             className=' duration-500 ease-in-out'
           /> */}
       <PiPlayLight
-        onClick={handleClickPlay}
-        className=' opacity-40 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer'
+        className=' opacity-40 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer z-10'
         color='white'
         size={size ? size : 30}
       />
