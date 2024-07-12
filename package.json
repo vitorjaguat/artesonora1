@@ -11,6 +11,7 @@
     "date-fns": "^2.30.0",
     "framer-motion": "^11.2.10",
     "gray-matter": "^4.0.3",
+    "lenis": "^1.1.6",
     "next": "^13.5.4",
     "next-seo": "^6.5.0",
     "outstatic": "^1.4.8",

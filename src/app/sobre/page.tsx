@@ -36,7 +36,7 @@ export default function Page() {
       </div>
 
       {/* Content */}
-      <div className='pt-10 pb-60 bg-black w-full min-h-screen flex flex-col items-center'>
+      <div className='pt-10 pb-60 bg-black w-full flex flex-col items-center'>
         <div className='w-[90%] md:w-[700px] lg:w-[900px] flex flex-col gap-24 text-white'>
           <div className='flex gap-4 justify-between h-60'>
             <div className='flex-1 bg-white/50'></div>
