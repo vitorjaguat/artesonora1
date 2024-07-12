@@ -5,6 +5,8 @@ import Navbar from './Navbar';
 import PlayerBar from './PlayerBar';
 import { usePathname } from 'next/navigation';
 import { MainContextProvider } from '../context/mainContext';
+import { useEffect } from 'react';
+import Lenis from 'lenis';
 
 type Props = {
   children: React.ReactNode;
@@ -15,6 +17,18 @@ const Layout = ({ children }: Props) => {
   if (pathname.includes('outstatic') || pathname.includes('admin')) {
     return <>{children}</>;
   }
+
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    function raf(time: number) {
+      lenis.raf(time);
+
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  }, []);
 
   return (
     <>

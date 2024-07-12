@@ -3,6 +3,8 @@ import '../styles/index.css';
 // import { usePathname } from 'next/navigation';
 // import Navbar from '@/components/Navbar';
 import Layout from '@/components/Layout';
+import { useEffect } from 'react';
+import Lenis from 'lenis';
 
 import { Metadata } from 'next';
 import { absoluteUrl } from '@/lib/utils';

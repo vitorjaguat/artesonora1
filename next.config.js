@@ -16,6 +16,9 @@ const nextConfig = {
     ],
     dangerouslyAllowSVG: true,
   },
+  experimental: {
+    serverActions: true,
+  },
 };
 
 module.exports = nextConfig;
