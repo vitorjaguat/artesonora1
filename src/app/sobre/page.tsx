@@ -12,12 +12,11 @@ export default function Page() {
       />
 
       {/* submenu */}
-      <div className='w-full h-12 bg-zinc-800 flex items-center justify-center uppercase text-white/70 sticky top-0 border-y-[1px] border-zinc-300'>
+      <div className='w-full h-12 bg-zinc-900 flex items-center justify-center uppercase text-white/70 sticky top-0  border-zinc-500 shadow-md shadow-zinc-900/40'>
         <div className='h-full w-[90%] md:w-[700px] lg:w-[900px] flex justify-between items-center'>
           <Link
             href='/sobre'
-            scroll={false}
-            className='w-full h-full text-left  hover:bg-white/30 flex items-center duration-300'
+            className='w-full h-full text-left  hover:bg-white/30 flex items-center justify-center duration-300'
           >
             sobre o arte sonora
           </Link>
@@ -29,7 +28,7 @@ export default function Page() {
           </Link>
           <Link
             href='/sobre#breve-historia'
-            className='w-full h-full text-right  hover:bg-white/30 flex items-center duration-300 justify-end'
+            className='w-full h-full text-right  hover:bg-white/30 flex items-center duration-300 justify-center'
           >
             uma breve história
           </Link>
