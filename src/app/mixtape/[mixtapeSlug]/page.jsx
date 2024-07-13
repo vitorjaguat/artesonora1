@@ -76,11 +76,12 @@ export default async function MixtapeSlug({ params }) {
         title={title}
         // bgImg='https://placehold.co/600x400?text=imagem&font=lora'
         bgImg={
-          coverImage
-            ? absoluteUrl(coverImage)
+          collaboratorsData[0]?.coverImage
+            ? absoluteUrl(collaboratorsData[0]?.coverImage)
             : 'https://placehold.co/600x400?text=imagem&font=lora'
         }
         kind='2'
+        blur={true}
       />
       <div className='pt-10 pb-60 w-full flex flex-col justify-center items-center bg-black/90 text-white/90'>
         <div className='flex flex-col gap-5 w-[90%] md:w-[700px] lg:w-[900px]'>
