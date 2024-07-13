@@ -7,8 +7,7 @@ export default function Page() {
       {/* Header */}
       <HeaderSubpage
         title='Sobre'
-        bgImg='https://placehold.co/600x400?text=imagem&font=lora
-        '
+        bgImg='https://placehold.co/600x400?text=imagem&font=lora'
       />
 
       {/* submenu */}

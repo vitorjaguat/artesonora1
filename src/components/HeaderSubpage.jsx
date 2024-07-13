@@ -1,3 +1,6 @@
+'use client';
+
+import useScreenSize from '@/util/useScreenSize';
 import Image from 'next/image';
 
 export default function HeaderSubpage({
@@ -6,6 +9,8 @@ export default function HeaderSubpage({
   kind = '1',
   blur = false,
 }) {
+  const isMobile = useScreenSize() === 'mobile';
+
   return (
     <div className={'bg-g h-80 w-full relative'}>
       <div className='absolute inset-0 bg-black w-full h-full overflow-hidden z-0'>
@@ -16,9 +21,9 @@ export default function HeaderSubpage({
           className='object-cover object-center'
           // className={'' + (blur ? ' blur-sm' : '')}
           style={{
-            filter: blur && 'blur(5px)',
+            filter: blur && !isMobile && 'blur(5px)',
             // backdropFilter: blur && 'blur(10px)',
-            opacity: blur && '70%',
+            opacity: blur && !isMobile && '70%',
           }}
         />
       </div>

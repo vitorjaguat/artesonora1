@@ -6,6 +6,7 @@ import { PiPlayLight } from 'react-icons/pi';
 import { useContext } from 'react';
 import { MainContext } from '@/context/mainContext';
 import Link from 'next/link';
+import useScreenSize from '../util/useScreenSize';
 
 type CollabCardProps = {
   collabObj: any; // Replace 'any' with the appropriate type for itemObj
@@ -32,8 +33,21 @@ export default function ItemCard({ collabObj, image }: CollabCardProps) {
   //   console.log(itemObj);
   // };
 
+  const screen = useScreenSize();
+  const sliceMax =
+    screen === 'mobile'
+      ? 180
+      : screen === 'sm'
+      ? 380
+      : screen === 'md'
+      ? 350
+      : 400;
+
   return (
-    <div className='w-full md:max-w-full h-96 md:h-fit p-4 rounded-lg bg-white/20 flex flex-col md:flex-row justify-between items-center gap-6 group duration-300 shadow-[10px_10px_25px_-8px_rgba(255,255,255,0.3)]'>
+    <Link
+      href={`/colaboradores/${collabObj.slug}`}
+      className='w-full md:max-w-full h-fit p-4 rounded-lg bg-white/20 flex flex-col md:flex-row justify-between items-center gap-6 group duration-300 shadow-[10px_10px_25px_-8px_rgba(255,255,255,0.3)]'
+    >
       <div className=' w-40 h-40 flex justify-center items-center'>
         <div
           className='relative w-40 h-40 rounded-full overflow-hidden'
@@ -47,24 +61,21 @@ export default function ItemCard({ collabObj, image }: CollabCardProps) {
             height={180}
             className=' duration-500 ease-in-out'
           />
-          <PiPlayLight
+          {/* <PiPlayLight
             // onClick={handleClickPlay}
             className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-40 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer'
             color='white'
-          />
+          /> */}
         </div>
       </div>
 
-      <Link
-        href={`/colaboradores/${collabObj.slug}`}
-        className='h-full md:flex-grow md:w-full flex flex-col justify-between items-center md:items-start gap-2'
-      >
+      <div className='h-full md:flex-grow md:w-full flex flex-col sm:justify-between items-center md:items-start gap-2'>
         <div className='text-2xl'>{collabObj.title}</div>
         <div className='text-sm text-center md:text-left mt-2'>
-          {collabObj.content.slice(0, 180)}...
+          {collabObj.content.slice(0, sliceMax)}...
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 }
 
