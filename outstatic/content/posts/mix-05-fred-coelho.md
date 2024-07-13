@@ -15,7 +15,7 @@ fileLink: ''
 publishedAt: '2013-05-03T17:51:52.000Z'
 ---
 
-Fred mostra sua visão geral sobre os vários registros musicais produzidos hoje e a vasta possibilidade de repertórios. 
+Fred mostra sua visão geral sobre os vários registros musicais produzidos hoje e a vasta possibilidade de repertórios.  
 
 São frases soltas, poemas musicados, introduções, vinhetas, experimentos e pequenas peças sonoras que criam um longo tecido musical, com alternâncias de temas líricos e pesados, numa deliciosa ‘volta ao mundo musical’.
 
