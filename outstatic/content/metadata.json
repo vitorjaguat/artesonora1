@@ -1,6 +1,6 @@
 {
-  "commit": "14df23f54877ac12c3cdc25bd39e50710f868773",
-  "generated": "2024-07-13T16:00:32.179Z",
+  "commit": "6f7a66a4315725038913622b53f064170df5e1c6",
+  "generated": "Sat, 13 Jul 2024 16:32:32 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -21,6 +21,27 @@
       "slug": "batman-zavareze",
       "status": "published",
       "title": "Batman Zavareze",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "1071051174ab99944b7a0a681897a90288ecb2c6",
+        "hash": "775555493",
+        "path": "outstatic/content/collaborators/bernardo-oliveira.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/bernardo_oliveira-g0ND.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/bernieoak/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:58:47.560Z",
+      "slug": "bernardo-oliveira",
+      "status": "published",
+      "title": "Bernardo Oliveira",
       "twitter": ""
     },
     {
@@ -46,23 +67,44 @@
     },
     {
       "__outstatic": {
-        "commit": "436717153fb86e5f1031b8d15e2c8452f266d3a2",
-        "hash": "569208925",
-        "path": "outstatic/content/collaborators/chelpa-ferro.md"
+        "commit": "eb90b2620c48d7153d961761b1def03fc06c2aaa",
+        "hash": "2856519818",
+        "path": "outstatic/content/collaborators/chico-dub.md"
       },
       "author": {
         "name": "",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collection": "collaborators",
-      "coverImage": "/images/chelpa_ferro-kzOD.jpeg",
+      "coverImage": "/images/chico_dub-gzNj.jpeg",
       "description": "",
-      "facebook": "https://www.facebook.com/chelpa.ferro.1/",
+      "facebook": "",
       "instagram": "",
-      "publishedAt": "2024-06-12T19:43:19.773Z",
-      "slug": "chelpa-ferro",
+      "publishedAt": "2024-07-09T14:38:27.000Z",
+      "slug": "chico-dub",
       "status": "published",
-      "title": "Chelpa Ferro",
+      "title": "Chico Dub",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "5fd5ad42c759c8d96d34a84cd4f99be40e16dead",
+        "hash": "205187524",
+        "path": "outstatic/content/collaborators/cildo-meireles.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/cildo-Q4Mz.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-07-10T14:34:07.000Z",
+      "slug": "cildo-meireles",
+      "status": "published",
+      "title": "Cildo Meireles",
       "twitter": ""
     },
     {
@@ -88,6 +130,27 @@
     },
     {
       "__outstatic": {
+        "commit": "436717153fb86e5f1031b8d15e2c8452f266d3a2",
+        "hash": "569208925",
+        "path": "outstatic/content/collaborators/chelpa-ferro.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/chelpa_ferro-kzOD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/chelpa.ferro.1/",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:43:19.773Z",
+      "slug": "chelpa-ferro",
+      "status": "published",
+      "title": "Chelpa Ferro",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
         "commit": "ae04f5b9b2166d548a3531f9bcf359aaef9950cd",
         "hash": "3390097345",
         "path": "outstatic/content/collaborators/daniela-labra.md"
@@ -105,6 +168,27 @@
       "slug": "daniela-labra",
       "status": "published",
       "title": "Daniela Labra",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "674eb4ef84759e15cdf37e58751fa7f2f61f71b9",
+        "hash": "2643186902",
+        "path": "outstatic/content/collaborators/fred-coelho.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/fred_coelho-Y0ND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/fred.coelho",
+      "instagram": "https://www.instagram.com/pauperia/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:55:31.770Z",
+      "slug": "fred-coelho",
+      "status": "published",
+      "title": "Fred Coelho",
       "twitter": ""
     },
     {
@@ -151,24 +235,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8b011755aed7c387ce89453c9f7de968782ce902",
-        "hash": "2666419659",
-        "path": "outstatic/content/collaborators/exst.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/exst-E3ND.jpeg",
-      "description": "",
-      "publishedAt": "2024-06-11T14:40:09.478Z",
-      "slug": "exst",
-      "status": "published",
-      "title": "EXST"
-    },
-    {
-      "__outstatic": {
         "commit": "310a4b1336a62e1263be3c34df619e91fc12c7aa",
         "hash": "2615460464",
         "path": "outstatic/content/collaborators/icaro-dos-santos.md"
@@ -190,44 +256,41 @@
     },
     {
       "__outstatic": {
-        "commit": "674eb4ef84759e15cdf37e58751fa7f2f61f71b9",
-        "hash": "2643186902",
-        "path": "outstatic/content/collaborators/fred-coelho.md"
+        "commit": "8b011755aed7c387ce89453c9f7de968782ce902",
+        "hash": "2666419659",
+        "path": "outstatic/content/collaborators/exst.md"
       },
       "author": {
         "name": "",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collection": "collaborators",
-      "coverImage": "/images/fred_coelho-Y0ND.jpeg",
+      "coverImage": "/images/exst-E3ND.jpeg",
       "description": "",
-      "facebook": "https://www.facebook.com/fred.coelho",
-      "instagram": "https://www.instagram.com/pauperia/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:55:31.770Z",
-      "slug": "fred-coelho",
+      "publishedAt": "2024-06-11T14:40:09.478Z",
+      "slug": "exst",
       "status": "published",
-      "title": "Fred Coelho",
-      "twitter": ""
+      "title": "EXST"
     },
     {
       "__outstatic": {
-        "commit": "f02c40d040bcc4423eef99b9faf0cc1bf0492200",
-        "hash": "224464029",
-        "path": "outstatic/content/collaborators/lilian-zaremba.md"
+        "commit": "2b7101d06fa652adb3cbc717a2da3dfceca3ea18",
+        "hash": "536773665",
+        "path": "outstatic/content/collaborators/paulo-nenflidio.md"
       },
       "author": {
         "name": "",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collection": "collaborators",
-      "coverImage": "/images/lilian_zaremba-E1OD.jpeg",
+      "coverImage": "/images/paulo_nenflidio-Q2ND.jpeg",
       "description": "",
-      "facebook": "https://www.facebook.com/lilian.zaremba",
-      "instagram": "https://www.instagram.com/zarembalilian/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:49:58.063Z",
-      "slug": "lilian-zaremba",
+      "facebook": "https://www.facebook.com/nenflidio",
+      "instagram": "https://www.instagram.com/nenflidio/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:39:24.895Z",
+      "slug": "paulo-nenflidio",
       "status": "published",
-      "title": "Lilian Zaremba",
+      "title": "Paulo Nenflidio",
       "twitter": ""
     },
     {
@@ -274,6 +337,27 @@
     },
     {
       "__outstatic": {
+        "commit": "f02c40d040bcc4423eef99b9faf0cc1bf0492200",
+        "hash": "224464029",
+        "path": "outstatic/content/collaborators/lilian-zaremba.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/lilian_zaremba-E1OD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/lilian.zaremba",
+      "instagram": "https://www.instagram.com/zarembalilian/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:49:58.063Z",
+      "slug": "lilian-zaremba",
+      "status": "published",
+      "title": "Lilian Zaremba",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
         "commit": "c5950a1712718e0a6b5d23b3caec218fe80b2f24",
         "hash": "733805467",
         "path": "outstatic/content/collaborators/laura-belem.md"
@@ -295,65 +379,23 @@
     },
     {
       "__outstatic": {
-        "commit": "2b7101d06fa652adb3cbc717a2da3dfceca3ea18",
-        "hash": "536773665",
-        "path": "outstatic/content/collaborators/paulo-nenflidio.md"
+        "commit": "54e3b4fcef023a5d9a871fac5546467d9b0cc6db",
+        "hash": "938703044",
+        "path": "outstatic/content/collaborators/tantao.md"
       },
       "author": {
         "name": "",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collection": "collaborators",
-      "coverImage": "/images/paulo_nenflidio-Q2ND.jpeg",
+      "coverImage": "/images/tantao-gzND.jpeg",
       "description": "",
-      "facebook": "https://www.facebook.com/nenflidio",
-      "instagram": "https://www.instagram.com/nenflidio/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:39:24.895Z",
-      "slug": "paulo-nenflidio",
+      "facebook": "https://www.facebook.com/carlosantonio.mattos",
+      "instagram": "https://www.instagram.com/carlosantoniomattostantao/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:48:07.118Z",
+      "slug": "tantao",
       "status": "published",
-      "title": "Paulo Nenflidio",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "cb6dbd0ef37bbcaea6e22303f7566f4febe0cac2",
-        "hash": "1583727359",
-        "path": "outstatic/content/collaborators/pedro-victor-brandao.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/pedro_victor_brandao-Q4OD.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "https://www.instagram.com/__pedrovictor/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:52:50.638Z",
-      "slug": "pedro-victor-brandao",
-      "status": "published",
-      "title": "Pedro Victor Brandão",
-      "twitter": "https://x.com/pierresacoman"
-    },
-    {
-      "__outstatic": {
-        "commit": "0e9719f1915493f98bb61ae2e6cb8ed9027c7257",
-        "hash": "463108693",
-        "path": "outstatic/content/collaborators/rodolfo-caesar.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/rodolfo_caesar-MzMj.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "",
-      "publishedAt": "2024-06-12T19:46:19.765Z",
-      "slug": "rodolfo-caesar",
-      "status": "published",
-      "title": "Rodolfo Caesar",
+      "title": "Tantão",
       "twitter": ""
     },
     {
@@ -379,6 +421,27 @@
     },
     {
       "__outstatic": {
+        "commit": "0e9719f1915493f98bb61ae2e6cb8ed9027c7257",
+        "hash": "463108693",
+        "path": "outstatic/content/collaborators/rodolfo-caesar.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/rodolfo_caesar-MzMj.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:46:19.765Z",
+      "slug": "rodolfo-caesar",
+      "status": "published",
+      "title": "Rodolfo Caesar",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
         "commit": "05c835cb52189ebf2f20b08c63226a0173a9fff7",
         "hash": "1026636907",
         "path": "outstatic/content/collaborators/ronaldo-lemos.md"
@@ -400,24 +463,56 @@
     },
     {
       "__outstatic": {
-        "commit": "54e3b4fcef023a5d9a871fac5546467d9b0cc6db",
-        "hash": "938703044",
-        "path": "outstatic/content/collaborators/tantao.md"
+        "commit": "cb6dbd0ef37bbcaea6e22303f7566f4febe0cac2",
+        "hash": "1583727359",
+        "path": "outstatic/content/collaborators/pedro-victor-brandao.md"
       },
       "author": {
         "name": "",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collection": "collaborators",
-      "coverImage": "/images/tantao-gzND.jpeg",
+      "coverImage": "/images/pedro_victor_brandao-Q4OD.jpeg",
       "description": "",
-      "facebook": "https://www.facebook.com/carlosantonio.mattos",
-      "instagram": "https://www.instagram.com/carlosantoniomattostantao/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:48:07.118Z",
-      "slug": "tantao",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/__pedrovictor/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:52:50.638Z",
+      "slug": "pedro-victor-brandao",
       "status": "published",
-      "title": "Tantão",
-      "twitter": ""
+      "title": "Pedro Victor Brandão",
+      "twitter": "https://x.com/pierresacoman"
+    },
+    {
+      "__outstatic": {
+        "commit": "321be9d1dfb7dbee01cf733319755aac81f328d5",
+        "hash": "280707794",
+        "path": "outstatic/content/posts/mix-04-pedro-victor-brandao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Pedro Victor Brandão",
+          "value": "pedroVictorBrandão"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-04-19T17:49:54.000Z",
+      "slug": "mix-04-pedro-victor-brandao",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F91171775&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": "",
+      "title": "MIX #04 Pedro Victor Brandão",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
     },
     {
       "__outstatic": {
@@ -454,9 +549,9 @@
     },
     {
       "__outstatic": {
-        "commit": "321be9d1dfb7dbee01cf733319755aac81f328d5",
-        "hash": "280707794",
-        "path": "outstatic/content/posts/mix-04-pedro-victor-brandao.md"
+        "commit": "3a178d3cf90baf37ff12e2d01c15153cfe852b3d",
+        "hash": "323113237",
+        "path": "outstatic/content/posts/mix-02-daniela-labra.md"
       },
       "author": {
         "name": "",
@@ -464,19 +559,20 @@
       },
       "collaborators": [
         {
-          "label": "Pedro Victor Brandão",
-          "value": "pedroVictorBrandão"
+          "label": "Daniela Labra",
+          "value": "danielaLabra"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2013-04-19T17:49:54.000Z",
-      "slug": "mix-04-pedro-victor-brandao",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F91171775&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "publishedAt": "2013-03-22T17:47:42.000Z",
+      "slug": "mix-02-daniela-labra",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026137&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
       "status": "published",
-      "tags": "",
-      "title": "MIX #04 Pedro Victor Brandão",
+      "tags": [
+      ],
+      "title": "MIX #02 Daniela Labra",
       "type": [
         {
           "label": "Mixtape",
@@ -507,6 +603,40 @@
     },
     {
       "__outstatic": {
+        "commit": "d6b5dc3a5661e3b1d9a60b6c5b59061f3164206a",
+        "hash": "1522771679",
+        "path": "outstatic/content/posts/his-01-a-valorizacao-do-entorno-acustico.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2018-03-19T15:09:16.000Z",
+      "slug": "his-01-a-valorizacao-do-entorno-acustico",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109277493&show_artwork=false&in=artesonora%2Fsets%2Fnahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #01 A valorização do entorno acústico",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
         "commit": "7450f8038271d5161c3f0121d3dedf6e8f49618d",
         "hash": "3375608236",
         "path": "outstatic/content/posts/mix-07-bernardo-oliveira.md"
@@ -530,38 +660,6 @@
       "status": "published",
       "tags": "",
       "title": "MIX #07 Bernardo Oliveira",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "b4bfe860255b8848931f2e4a33de80543449adb2",
-        "hash": "2982615554",
-        "path": "outstatic/content/posts/mix-09-batman-zavareze.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Batman Zavareze",
-          "value": "batmanZavareze"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-06-28T17:58:14.000Z",
-      "slug": "mix-09-batman-zavareze",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103254650&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": "",
-      "title": "MIX #09 Batman Zavareze",
       "type": [
         {
           "label": "Mixtape",
@@ -603,38 +701,6 @@
     },
     {
       "__outstatic": {
-        "commit": "a9ae3aa5cb5f699d27b0080af926703488a90469",
-        "hash": "3902377832",
-        "path": "outstatic/content/posts/mix-06-icaro-dos-santos.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Icaro dos Santos",
-          "value": "icaroDosSantos"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-05-21T17:53:21.000Z",
-      "slug": "mix-06-icaro-dos-santos",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F95226933&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": "",
-      "title": "MIX #06 Icaro dos Santos",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "f099975390c8b6e8c4aab1211a2d1579a3d62f5d",
         "hash": "3318724028",
         "path": "outstatic/content/posts/mix-05-fred-coelho.md"
@@ -667,9 +733,9 @@
     },
     {
       "__outstatic": {
-        "commit": "a0ad150f09f4476e357e9edae4dffa835e5f5fcc",
-        "hash": "803811758",
-        "path": "outstatic/content/posts/mix-11-ronaldo-lemos.md"
+        "commit": "a9ae3aa5cb5f699d27b0080af926703488a90469",
+        "hash": "3902377832",
+        "path": "outstatic/content/posts/mix-06-icaro-dos-santos.md"
       },
       "author": {
         "name": "",
@@ -677,19 +743,19 @@
       },
       "collaborators": [
         {
-          "label": "Ronaldo Lemos",
-          "value": "ronaldoLemos"
+          "label": "Icaro dos Santos",
+          "value": "icaroDosSantos"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2013-07-26T18:00:58.000Z",
-      "slug": "mix-11-ronaldo-lemos",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F108122920&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "publishedAt": "2013-05-21T17:53:21.000Z",
+      "slug": "mix-06-icaro-dos-santos",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F95226933&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
       "status": "published",
       "tags": "",
-      "title": "MIX #11 Ronaldo Lemos",
+      "title": "MIX #06 Icaro dos Santos",
       "type": [
         {
           "label": "Mixtape",
@@ -699,9 +765,9 @@
     },
     {
       "__outstatic": {
-        "commit": "2f66359590d923f103ddc0684c5414eb0d2385f5",
-        "hash": "3753849729",
-        "path": "outstatic/content/posts/pod-01-guilherme-vaz.md"
+        "commit": "b4bfe860255b8848931f2e4a33de80543449adb2",
+        "hash": "2982615554",
+        "path": "outstatic/content/posts/mix-09-batman-zavareze.md"
       },
       "author": {
         "name": "",
@@ -709,51 +775,19 @@
       },
       "collaborators": [
         {
-          "label": "Guilherme Vaz",
-          "value": "guilhermeVaz"
+          "label": "Batman Zavareze",
+          "value": "batmanZavareze"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2013-03-01T16:13:05.000Z",
-      "slug": "pod-01-guilherme-vaz",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F82689051&show_artwork=false",
+      "publishedAt": "2013-06-28T17:58:14.000Z",
+      "slug": "mix-09-batman-zavareze",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103254650&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
       "status": "published",
       "tags": "",
-      "title": "POD #01 Guilherme Vaz",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "9b1277b1f2abbf72abd5dede8f60d20f5fdd654f",
-        "hash": "1195271645",
-        "path": "outstatic/content/posts/mix-10-ioia.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "IOIA",
-          "value": "ioia"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-07-10T17:59:36.000Z",
-      "slug": "mix-10-ioia",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103288321&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": "",
-      "title": "MIX #10 IOIA",
+      "title": "MIX #09 Batman Zavareze",
       "type": [
         {
           "label": "Mixtape",
@@ -824,6 +858,102 @@
         {
           "label": "Podcast",
           "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "9b1277b1f2abbf72abd5dede8f60d20f5fdd654f",
+        "hash": "1195271645",
+        "path": "outstatic/content/posts/mix-10-ioia.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "IOIA",
+          "value": "ioia"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-07-10T17:59:36.000Z",
+      "slug": "mix-10-ioia",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103288321&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": "",
+      "title": "MIX #10 IOIA",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "2f66359590d923f103ddc0684c5414eb0d2385f5",
+        "hash": "3753849729",
+        "path": "outstatic/content/posts/pod-01-guilherme-vaz.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Guilherme Vaz",
+          "value": "guilhermeVaz"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-03-01T16:13:05.000Z",
+      "slug": "pod-01-guilherme-vaz",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F82689051&show_artwork=false",
+      "status": "published",
+      "tags": "",
+      "title": "POD #01 Guilherme Vaz",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "a0ad150f09f4476e357e9edae4dffa835e5f5fcc",
+        "hash": "803811758",
+        "path": "outstatic/content/posts/mix-11-ronaldo-lemos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Ronaldo Lemos",
+          "value": "ronaldoLemos"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-07-26T18:00:58.000Z",
+      "slug": "mix-11-ronaldo-lemos",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F108122920&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
+      "status": "published",
+      "tags": "",
+      "title": "MIX #11 Ronaldo Lemos",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
         }
       ]
     },
@@ -928,38 +1058,6 @@
     },
     {
       "__outstatic": {
-        "commit": "5d614685a401a2229ee2f106ae2620d2a9f576c6",
-        "hash": "2757498504",
-        "path": "outstatic/content/posts/pod-06-chelpa-ferro.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Chelpa Ferro",
-          "value": "chelpaFerro"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-05-20T16:39:15.000Z",
-      "slug": "pod-06-chelpa-ferro",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F96455732&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": "",
-      "title": "POD #06 Chelpa Ferro",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "8bb13ec8addd8b26b13aa1b017bcb2dbd47d7f84",
         "hash": "2867838212",
         "path": "outstatic/content/posts/pod-04-romano.md"
@@ -993,9 +1091,9 @@
     },
     {
       "__outstatic": {
-        "commit": "3d90681ebe0d791523ea53ddb849446dfd103722",
-        "hash": "2407397848",
-        "path": "outstatic/content/posts/pod-10-tantao.md"
+        "commit": "5d614685a401a2229ee2f106ae2620d2a9f576c6",
+        "hash": "2757498504",
+        "path": "outstatic/content/posts/pod-06-chelpa-ferro.md"
       },
       "author": {
         "name": "",
@@ -1003,19 +1101,53 @@
       },
       "collaborators": [
         {
-          "label": "Tantão",
-          "value": "tantão"
+          "label": "Chelpa Ferro",
+          "value": "chelpaFerro"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2013-07-19T17:44:37.000Z",
-      "slug": "pod-10-tantao",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103793305&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
+      "publishedAt": "2013-05-20T16:39:15.000Z",
+      "slug": "pod-06-chelpa-ferro",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F96455732&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
       "status": "published",
       "tags": "",
-      "title": "POD #10 Tantão",
+      "title": "POD #06 Chelpa Ferro",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "28ba6b1cbc0e466559b8164d5dc6a701c241e3f1",
+        "hash": "2121184704",
+        "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Cildo Meireles",
+          "value": "cildoMeireles"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/iVmwct0EFHzAuy0AH4v8CO_PUfmMguA1eCeLM5qi4c8",
+      "publishedAt": "2018-03-15T14:43:38.000Z",
+      "slug": "pod-12-cildo-meireles",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F110055748&show_artwork=false",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #12 Cildo Meireles",
       "type": [
         {
           "label": "Podcast",
@@ -1048,6 +1180,38 @@
       "status": "published",
       "tags": "",
       "title": "POD #09 Rodolfo Caesar",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "3d90681ebe0d791523ea53ddb849446dfd103722",
+        "hash": "2407397848",
+        "path": "outstatic/content/posts/pod-10-tantao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Tantão",
+          "value": "tantão"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2013-07-19T17:44:37.000Z",
+      "slug": "pod-10-tantao",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103793305&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
+      "status": "published",
+      "tags": "",
+      "title": "POD #10 Tantão",
       "type": [
         {
           "label": "Podcast",
@@ -1119,170 +1283,6 @@
           "value": "podcast"
         }
       ]
-    },
-    {
-      "__outstatic": {
-        "commit": "0fe169cb6db87ff4fb4dad35a2680d342bc66400",
-        "hash": "323113237",
-        "path": "outstatic/content/posts/mix-02-daniela-labra.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Daniela Labra",
-          "value": "danielaLabra"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-03-22T17:47:42.000Z",
-      "slug": "mix-02-daniela-labra",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026137&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #02 Daniela Labra",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "5d32bf88d051368a2cc9c5d67cf6b5f2b07f4517",
-        "hash": "2121184704",
-        "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Cildo Meireles",
-          "value": "cildoMeireles"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/iVmwct0EFHzAuy0AH4v8CO_PUfmMguA1eCeLM5qi4c8",
-      "publishedAt": "2018-03-15T14:43:38.000Z",
-      "slug": "pod-12-cildo-meireles",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F110055748&show_artwork=false",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #12 Cildo Meireles",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "d0150a0d74a8eac1dcafc929b47131e8c4bb4bea",
-        "hash": "205187524",
-        "path": "outstatic/content/collaborators/cildo-meireles.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/cildo-Q4Mz.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "",
-      "publishedAt": "2024-07-10T14:34:07.000Z",
-      "slug": "cildo-meireles",
-      "status": "published",
-      "title": "Cildo Meireles",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "0221ac32b1a65168288414978b03f4e37b522e60",
-        "hash": "2856519818",
-        "path": "outstatic/content/collaborators/chico-dub.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/chico_dub-gzNj.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "",
-      "publishedAt": "2024-07-09T14:38:27.000Z",
-      "slug": "chico-dub",
-      "status": "published",
-      "title": "Chico Dub",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "4d8dd8933eaad51b547e003c92f850391b13019d",
-        "hash": "1522771679",
-        "path": "outstatic/content/posts/his-01-a-valorizacao-do-entorno-acustico.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-03-19T15:09:16.000Z",
-      "slug": "his-01-a-valorizacao-do-entorno-acustico",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109277493&show_artwork=false&in=artesonora%2Fsets%2Fnahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #01 A valorização do entorno acústico",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "14df23f54877ac12c3cdc25bd39e50710f868773",
-        "hash": "775555493",
-        "path": "outstatic/content/collaborators/bernardo-oliveira.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/bernardo_oliveira-g0ND.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "https://www.instagram.com/bernieoak/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:58:47.560Z",
-      "slug": "bernardo-oliveira",
-      "status": "published",
-      "title": "Bernardo Oliveira",
-      "twitter": ""
     }
   ]
 }
