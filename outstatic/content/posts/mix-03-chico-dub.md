@@ -11,10 +11,11 @@ soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2F
 tags: []
 collaborators: [{"label":"Chico Dub","value":"chicoDub"}]
 type: [{"label":"Mixtape","value":"mixtape"}]
+fileLink: ''
 publishedAt: '2018-03-15T14:57:22.000Z'
 ---
 
-Chico escolheu faixas experimentais contemporâneas, numa seleção que se apropria das questões da arte conceitual e sound art, com gravações de campo, microsons, sons da natureza, ambiências e explorações físicas sobre o som.
+Chico escolheu faixas experimentais contemporâneas, numa seleção que se apropria das questões da arte conceitual e sound art, com gravações de campo, microsons, sons da natureza, ambiências e explorações físicas sobre o som. 
 
 Chico Dub é carioca, produtor cultural, curador, DJ e pesquisador musical. É idealizador do festival Novas Frequências, de música independente e experimental. Trabalhou no Festival Multiplicidade e no Sònar SP, e é diretor artístico e produtor de shows nacionais e internacionais.
 
