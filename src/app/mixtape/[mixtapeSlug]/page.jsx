@@ -77,7 +77,7 @@ export default async function MixtapeSlug({ params }) {
         // bgImg='https://placehold.co/600x400?text=imagem&font=lora'
         bgImg={
           collaboratorsData[0]?.coverImage
-            ? absoluteUrl(collaboratorsData[0]?.coverImage)
+            ? collaboratorsData[0]?.coverImage
             : 'https://placehold.co/600x400?text=imagem&font=lora'
         }
         kind='2'

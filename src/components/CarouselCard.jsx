@@ -4,13 +4,13 @@ import { formatPostType } from '@/lib/utils';
 import PlayButton from './PlayButton';
 
 const CarouselCard = ({ post }) => {
-  console.log('posts', post);
+  // console.log('posts', post);
   return (
     <Link href={`/${formatPostType(post.type[0].label)}/${post.slug}`}>
       {/* bg */}
       <div
         key={post.title}
-        className='group relative h-[350px] w-[350px] overflow-hidden'
+        className='group relative h-[380px] w-[380px] overflow-hidden'
       >
         <div
           style={{
