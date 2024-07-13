@@ -1,28 +1,7 @@
 {
-  "commit": "4d8dd8933eaad51b547e003c92f850391b13019d",
-  "generated": "2024-07-13T15:55:03.601Z",
+  "commit": "14df23f54877ac12c3cdc25bd39e50710f868773",
+  "generated": "2024-07-13T16:00:32.179Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "a05b1c2d580076053c6f0d9875fc399c18dfe06c",
-        "hash": "386694207",
-        "path": "outstatic/content/collaborators/bernardo-oliveira.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/bernardo_oliveira-g0ND.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "https://www.instagram.com/bernieoak/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:58:47.560Z",
-      "slug": "bernardo-oliveira",
-      "status": "published",
-      "title": "Bernardo Oliveira",
-      "twitter": ""
-    },
     {
       "__outstatic": {
         "commit": "71127c0daa1588d7973bd86515b787eab6025ed3",
@@ -1283,6 +1262,27 @@
           "value": "naHistória"
         }
       ]
+    },
+    {
+      "__outstatic": {
+        "commit": "14df23f54877ac12c3cdc25bd39e50710f868773",
+        "hash": "775555493",
+        "path": "outstatic/content/collaborators/bernardo-oliveira.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/bernardo_oliveira-g0ND.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/bernieoak/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:58:47.560Z",
+      "slug": "bernardo-oliveira",
+      "status": "published",
+      "title": "Bernardo Oliveira",
+      "twitter": ""
     }
   ]
 }

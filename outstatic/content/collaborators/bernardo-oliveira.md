@@ -15,4 +15,4 @@ publishedAt: '2024-06-12T19:58:47.560Z'
 
 Bernardo Oliveira é carioca, pesquisador, crítico de música e cinema, professor de filosofia e músico. Alguns temas que norteiam suas pesquisas são: a filosofia política, antropologia, cultura e cinema brasileiro, história da música e cibercultura.
 
-Crítico arguto, Bernardo é convidado, com frequência, para colaborar em revistas impressas, eletrônicas e blogs dentro e fora do país. Atualmente escreve para o Matéria ([materialmaterial.blogspot.com/](https://exit.sc/?url=http%3A%2F%2Fmaterialmaterial.blogspot.com%2F))  blog especializado em música e cultura.
+Crítico arguto, Bernardo é convidado, com frequência, para colaborar em revistas impressas, eletrônicas e blogs dentro e fora do país. Atualmente escreve para o Matéria ([materialmaterial.blogspot.com/](https://materialmaterial.blogspot.com/))  blog especializado em música e cultura.
