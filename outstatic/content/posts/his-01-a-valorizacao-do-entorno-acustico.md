@@ -20,17 +20,13 @@ Este programa apresenta os primórdios da Arte Sonora pela ótica das vanguardas
 **Links**
 
 Le Ballet Mécanique (1924, Fernand Leger)\
-[www.youtube.com/watch?v=H_bboH9p1Ys](https://exit.sc/?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DH_bboH9p1Ys)
+[www.youtube.com/watch?v=H_bboH9p1Ys](https://www.youtube.com/watch?v=H_bboH9p1Ys)
 
 Zang Tumb Tumb – Filippo Tommaso Marinetti\
-[www.youtube.com/watch?v=u1Yld7wGWEI](https://exit.sc/?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Du1Yld7wGWEI)
+[www.youtube.com/watch?v=u1Yld7wGWEI](https://www.youtube.com/watch?v=u1Yld7wGWEI)
 
 Erratum Musical – Marcel Duchamp\
-[www.youtube.com/watch?v=BYwrvHTgepY](https://exit.sc/?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBYwrvHTgepY)
+[www.youtube.com/watch?v=BYwrvHTgepY](https://www.youtube.com/watch?v=BYwrvHTgepY)
 
 Este programa foi feito com o apoio da \
 ArtRio - Feira Internacional de Arte Contemporânea do Rio de Janeiro
-
-&lt;/br &gt;
-
-Realização EXST
