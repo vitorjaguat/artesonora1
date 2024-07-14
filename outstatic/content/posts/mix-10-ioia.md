@@ -7,10 +7,11 @@ author:
 slug: 'mix-10-ioia'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103288321&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013'
-tags: ''
+soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-10-ioia-aka-antonio?in=artesonora/sets/programas2013&si=335f72614fbb4192ada3c81a1580b483&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+tags: []
 collaborators: [{"label":"IOIA","value":"ioia"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
+fileLink: ''
 publishedAt: '2013-07-10T17:59:36.000Z'
 ---
 
