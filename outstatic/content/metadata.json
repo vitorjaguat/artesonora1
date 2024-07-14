@@ -1,6 +1,6 @@
 {
-  "commit": "0ad287e3a902a013151330bd88dfb4797fc79362",
-  "generated": "2024-07-14T21:11:30.364Z",
+  "commit": "2195f8e0f31e912288bf7ec26a1bf7fd037e6c49",
+  "generated": "2024-07-14T21:13:44.705Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1597,6 +1597,40 @@
       "tags": [
       ],
       "title": "HIS #04 O fator tecnológico midiático na era do som",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "2195f8e0f31e912288bf7ec26a1bf7fd037e6c49",
+        "hash": "1878791627",
+        "path": "outstatic/content/posts/his-05-da-vanguarda-ao-mainstream.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2018-07-05T20:53:55.000Z",
+      "slug": "his-05-da-vanguarda-ao-mainstream",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria05?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #05 Da vanguarda ao mainstream",
       "type": [
         {
           "label": "Na História",
