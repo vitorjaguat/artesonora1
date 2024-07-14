@@ -1,6 +1,6 @@
 {
-  "commit": "2b3cb2a6a479964e1a6a15b086466217c353a4d6",
-  "generated": "2024-07-14T19:42:55.817Z",
+  "commit": "86fd0ece79a9502f207aac451c2164eecf25f802",
+  "generated": "2024-07-14T19:48:08.308Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1479,6 +1479,27 @@
       "slug": "arto-lindsay",
       "status": "published",
       "title": "Arto Lindsay",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "86fd0ece79a9502f207aac451c2164eecf25f802",
+        "hash": "3600398022",
+        "path": "outstatic/content/collaborators/magno-calliman.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/magno-YzND.avif",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-07-14T19:25:23.713Z",
+      "slug": "magno-calliman",
+      "status": "published",
+      "title": "Magno Calliman",
       "twitter": ""
     }
   ]
