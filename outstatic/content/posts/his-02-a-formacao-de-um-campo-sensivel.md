@@ -1,5 +1,5 @@
 ---
-title: 'HIS #02 | A formação de um campo sensível'
+title: 'HIS #02 A formação de um campo sensível'
 status: 'published'
 author:
   name: 'Vitor Butkus'
@@ -9,7 +9,7 @@ description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria'
 fileLink: ''
-tags: ''
+tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]
 publishedAt: '2013-07-01T20:03:44.000Z'

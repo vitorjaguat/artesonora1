@@ -1,6 +1,6 @@
 {
-  "commit": "d1ea5edd46214f1eee694e7e0aa1e3f3f2fc6f9f",
-  "generated": "2024-07-14T20:25:23.094Z",
+  "commit": "1e1245bb28aebc681326c3f33f7962b5c08f654b",
+  "generated": "2024-07-14T20:25:59.580Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1504,8 +1504,8 @@
     },
     {
       "__outstatic": {
-        "commit": "d1ea5edd46214f1eee694e7e0aa1e3f3f2fc6f9f",
-        "hash": "1044740000",
+        "commit": "1e1245bb28aebc681326c3f33f7962b5c08f654b",
+        "hash": "2384369647",
         "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
       },
       "author": {
@@ -1528,7 +1528,7 @@
       "status": "published",
       "tags": [
       ],
-      "title": "HIS #02 | A formação de um campo sensível",
+      "title": "HIS #02 A formação de um campo sensível",
       "type": [
         {
           "label": "Na História",
