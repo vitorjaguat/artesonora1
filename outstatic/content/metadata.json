@@ -1,6 +1,6 @@
 {
-  "commit": "46e6b007f1f734ab3c5d1dfe206470ca0ee5303b",
-  "generated": "2024-07-14T19:37:54.857Z",
+  "commit": "e19aaa1588e560e48c8751265f0ec7fba93d2972",
+  "generated": "2024-07-14T19:38:57.943Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1420,27 +1420,6 @@
     },
     {
       "__outstatic": {
-        "commit": "84fff1db7c9865d97f42b63d5e68b007e7eaaf83",
-        "hash": "2926105868",
-        "path": "outstatic/content/collaborators/fausto-fawcett.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/fausto-M0OT.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "",
-      "publishedAt": "2024-07-14T19:12:55.694Z",
-      "slug": "fausto-fawcett",
-      "status": "published",
-      "title": "Fausto Fawcett",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
         "commit": "46e6b007f1f734ab3c5d1dfe206470ca0ee5303b",
         "hash": "2583782536",
         "path": "outstatic/content/collaborators/bruno-queiroz.md"
@@ -1458,6 +1437,27 @@
       "slug": "bruno-queiroz",
       "status": "published",
       "title": "Bruno Queiroz",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "e19aaa1588e560e48c8751265f0ec7fba93d2972",
+        "hash": "2204664690",
+        "path": "outstatic/content/collaborators/fausto-fawcett.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/fausto-M0OT.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/faustofawcett/",
+      "publishedAt": "2024-07-14T19:12:55.694Z",
+      "slug": "fausto-fawcett",
+      "status": "published",
+      "title": "Fausto Fawcett",
       "twitter": ""
     }
   ]

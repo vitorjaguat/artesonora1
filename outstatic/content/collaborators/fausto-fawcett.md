@@ -9,7 +9,7 @@ description: ''
 coverImage: '/images/fausto-M0OT.jpeg'
 facebook: ''
 twitter: ''
-instagram: ''
+instagram: 'https://www.instagram.com/faustofawcett/'
 publishedAt: '2024-07-14T19:12:55.694Z'
 ---
 
