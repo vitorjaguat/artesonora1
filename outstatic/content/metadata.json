@@ -1,6 +1,6 @@
 {
-  "commit": "fec19577d9a46215000c96e0f123f1493a247ea8",
-  "generated": "2024-07-14T21:06:21.164Z",
+  "commit": "1188e31efc01b062c86873bace9b9f041f895062",
+  "generated": "2024-07-14T21:09:39.148Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1567,6 +1567,40 @@
         {
           "label": "Na História",
           "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "1188e31efc01b062c86873bace9b9f041f895062",
+        "hash": "2078329253",
+        "path": "outstatic/content/posts/his-04-o-fator-tecnologico-midiatico-na-era-do-som.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2018-07-04T20:49:02.000Z",
+      "slug": "his-04-o-fator-tecnologico-midiatico-na-era-do-som",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria04?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #04 O fator tecnológico midiático na era do som",
+      "type": [
+        {
+          "label": "Varanda Sonora",
+          "value": "varandaSonora"
         }
       ]
     }
