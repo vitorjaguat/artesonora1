@@ -1,6 +1,6 @@
 {
-  "commit": "8fc8cc06dc47979a7a65628143102ab53095f1df",
-  "generated": "2024-07-14T19:20:30.896Z",
+  "commit": "3f8c0d49d534ac3a7cad4ae799885a4d4e1c4722",
+  "generated": "2024-07-14T19:24:02.270Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1356,6 +1356,40 @@
       "tags": [
       ],
       "title": "Varanda Sonora #01 - Arto Lindsay + Magno Calliman",
+      "type": [
+        {
+          "label": "Varanda Sonora",
+          "value": "varandaSonora"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "3f8c0d49d534ac3a7cad4ae799885a4d4e1c4722",
+        "hash": "2171643999",
+        "path": "outstatic/content/posts/varanda-sonora-03-ricardo-basbaum.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Ricardo Basbaum",
+          "value": "ricardoBasbaum"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2018-03-01T19:03:01.000Z",
+      "slug": "varanda-sonora-03-ricardo-basbaum",
+      "soundcloudLink": "https://soundcloud.com/artesonora/varanda-sonora-03-ricardo",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Varanda Sonora #03 - Ricardo Basbaum",
       "type": [
         {
           "label": "Varanda Sonora",
