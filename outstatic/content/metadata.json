@@ -1,6 +1,6 @@
 {
-  "commit": "3f8c0d49d534ac3a7cad4ae799885a4d4e1c4722",
-  "generated": "2024-07-14T19:24:02.270Z",
+  "commit": "150bbd12697a13b2e0d7eeef2b987c47f5ef2ee9",
+  "generated": "2024-07-14T19:30:04.379Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1396,6 +1396,27 @@
           "value": "varandaSonora"
         }
       ]
+    },
+    {
+      "__outstatic": {
+        "commit": "150bbd12697a13b2e0d7eeef2b987c47f5ef2ee9",
+        "hash": "113075077",
+        "path": "outstatic/content/collaborators/ricardo-basbaum.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/ricardo-basbaum-k1MD.png",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-07-14T19:06:32.572Z",
+      "slug": "ricardo-basbaum",
+      "status": "published",
+      "title": "Ricardo Basbaum",
+      "twitter": ""
     }
   ]
 }
