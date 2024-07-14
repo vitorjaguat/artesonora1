@@ -9,7 +9,7 @@ description: ''
 coverImage: '/images/ricardo-basbaum-k1MD.png'
 facebook: ''
 twitter: ''
-instagram: ''
+instagram: 'https://www.instagram.com/ricardo__basbaum/'
 publishedAt: '2024-07-14T19:06:32.572Z'
 ---
 

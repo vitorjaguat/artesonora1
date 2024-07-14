@@ -1,6 +1,6 @@
 {
-  "commit": "e19aaa1588e560e48c8751265f0ec7fba93d2972",
-  "generated": "2024-07-14T19:38:57.943Z",
+  "commit": "aa6cc49fa80c2f2185e219fec9feeb16b6b48133",
+  "generated": "2024-07-14T19:39:49.636Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1399,27 +1399,6 @@
     },
     {
       "__outstatic": {
-        "commit": "150bbd12697a13b2e0d7eeef2b987c47f5ef2ee9",
-        "hash": "113075077",
-        "path": "outstatic/content/collaborators/ricardo-basbaum.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/ricardo-basbaum-k1MD.png",
-      "description": "",
-      "facebook": "",
-      "instagram": "",
-      "publishedAt": "2024-07-14T19:06:32.572Z",
-      "slug": "ricardo-basbaum",
-      "status": "published",
-      "title": "Ricardo Basbaum",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
         "commit": "46e6b007f1f734ab3c5d1dfe206470ca0ee5303b",
         "hash": "2583782536",
         "path": "outstatic/content/collaborators/bruno-queiroz.md"
@@ -1458,6 +1437,27 @@
       "slug": "fausto-fawcett",
       "status": "published",
       "title": "Fausto Fawcett",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "aa6cc49fa80c2f2185e219fec9feeb16b6b48133",
+        "hash": "2213204753",
+        "path": "outstatic/content/collaborators/ricardo-basbaum.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/ricardo-basbaum-k1MD.png",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/ricardo__basbaum/",
+      "publishedAt": "2024-07-14T19:06:32.572Z",
+      "slug": "ricardo-basbaum",
+      "status": "published",
+      "title": "Ricardo Basbaum",
       "twitter": ""
     }
   ]
