@@ -106,7 +106,7 @@ export default async function HistoriaSlug({ params }) {
                   {collaborators.map((col) => col.label).join(', ')}
                 </div>
               )} */}
-              {soundcloudLink.includes('/player/?') && (
+              {soundcloudLink && (
                 <div className='text-xs flex items-center gap-1'>
                   Disponível também no{' '}
                   <a
