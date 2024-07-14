@@ -20,10 +20,10 @@ Este programa concentra nas questões colocados entre as décadas de 40 e 50 do 
 **Links**
 
 John Cage - Water Walk\
-[www.youtube.com/watch?v=SSulycqZH-U](https://gate.sc/?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSSulycqZH-U&token=42a50f-1-1720988523447)
+https://www.youtube.com/watch?v=SSulycqZH-U
 
 Karlheinz Stockhausen "Helicopter String Quartet"\
-[www.youtube.com/watch?v=13D1YY_BvWU](https://gate.sc/?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D13D1YY_BvWU&token=2afdfc-1-1720988523447)
+https://www.youtube.com/watch?v=13D1YY_BvWU
 
 Este programa foi feito com o apoio da\
 ArtRio - Feira Internacional de Arte Contemporânea do Rio de Janeiro
