@@ -29,7 +29,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/podcast/page.jsx",
-    "src/app/page.jsx"
+    "src/app/page.jsx",
+    "src/app/contato/page.jsx"
   ],
   "exclude": ["node_modules"]
 }
