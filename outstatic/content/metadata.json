@@ -1,6 +1,6 @@
 {
-  "commit": "84fff1db7c9865d97f42b63d5e68b007e7eaaf83",
-  "generated": "2024-07-14T19:35:55.372Z",
+  "commit": "46e6b007f1f734ab3c5d1dfe206470ca0ee5303b",
+  "generated": "2024-07-14T19:37:54.857Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1437,6 +1437,27 @@
       "slug": "fausto-fawcett",
       "status": "published",
       "title": "Fausto Fawcett",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "46e6b007f1f734ab3c5d1dfe206470ca0ee5303b",
+        "hash": "2583782536",
+        "path": "outstatic/content/collaborators/bruno-queiroz.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/bruno-MyOT.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/brunoqual/",
+      "publishedAt": "2024-07-14T19:18:07.120Z",
+      "slug": "bruno-queiroz",
+      "status": "published",
+      "title": "Bruno Queiroz",
       "twitter": ""
     }
   ]
