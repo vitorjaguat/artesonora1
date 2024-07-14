@@ -7,12 +7,12 @@ author:
 slug: 'varanda-sonora-01-arto-lindsay-magno-calliman'
 description: ''
 coverImage: ''
-tags: ''
+tags: []
 collaborators: [{"label":"Arto Lindsay","value":"artoLindsay"},{"label":"Magno Calliman","value":"magnoCalliman"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/varanda-sonora-01-arto-lindsay?in=artesonora/sets/varanda-sonora&si=ee73219ad11f45d0bdc54e85a2a73f94&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"varandaSonora","label":"Varanda Sonora"}]
 fileLink: ''
-publishedAt: '2024-07-14T19:00:38.936Z'
+publishedAt: '2017-07-01T19:00:38.000Z'
 ---
 
 Nesse encontro, gravado em julho de 2017 na varanda da Biblioteca da Escola de Artes Visuais do Parque Lage, o convidado Arto Lindsay apresentou uma performance de espacialização sonora em parceria como o artista e professor Magno Caliman.
