@@ -7,10 +7,11 @@ author:
 slug: 'mix-08-lisias-paiva'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F99306777&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013'
-tags: ''
+soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-08-l-sias-paiva?in=artesonora/sets/programas2013&si=af4209cc2b5e4d50bea5f6fb1928e412&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+tags: []
 collaborators: [{"label":"Lísias Paiva","value":"lísiasPaiva"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
+fileLink: ''
 publishedAt: '2013-06-10T17:56:58.000Z'
 ---
 

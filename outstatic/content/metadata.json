@@ -1,6 +1,6 @@
 {
-  "commit": "24dee664954c18336639d0ac302960aa535ca3e5",
-  "generated": "2024-07-14T21:40:34.736Z",
+  "commit": "dd2bf59cb432a15023b5b569c330fed4559b75f1",
+  "generated": "2024-07-14T21:42:09.652Z",
   "metadata": [
     {
       "__outstatic": {
@@ -513,38 +513,6 @@
         {
           "label": "Na História",
           "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "e43e273787842b078ae0fb2c8f608628f32ce95c",
-        "hash": "2673387745",
-        "path": "outstatic/content/posts/mix-08-lisias-paiva.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Lísias Paiva",
-          "value": "lísiasPaiva"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-06-10T17:56:58.000Z",
-      "slug": "mix-08-lisias-paiva",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F99306777&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": "",
-      "title": "MIX #08 Lísias Paiva",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
         }
       ]
     },
@@ -1740,6 +1708,40 @@
       "tags": [
       ],
       "title": "MIX #07 Bernardo Oliveira",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "dd2bf59cb432a15023b5b569c330fed4559b75f1",
+        "hash": "1860487190",
+        "path": "outstatic/content/posts/mix-08-lisias-paiva.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Lísias Paiva",
+          "value": "lísiasPaiva"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-06-10T17:56:58.000Z",
+      "slug": "mix-08-lisias-paiva",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-08-l-sias-paiva?in=artesonora/sets/programas2013&si=af4209cc2b5e4d50bea5f6fb1928e412&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #08 Lísias Paiva",
       "type": [
         {
           "label": "Mixtape",
