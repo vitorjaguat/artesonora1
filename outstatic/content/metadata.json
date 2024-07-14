@@ -1,6 +1,6 @@
 {
-  "commit": "7d477bcf4b6d9ef4f7e17ee1f3a5c45567ff9af8",
-  "generated": "2024-07-14T19:55:28.384Z",
+  "commit": "d1ea5edd46214f1eee694e7e0aa1e3f3f2fc6f9f",
+  "generated": "2024-07-14T20:25:23.094Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1499,6 +1499,40 @@
         {
           "label": "Varanda Sonora",
           "value": "varandaSonora"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "d1ea5edd46214f1eee694e7e0aa1e3f3f2fc6f9f",
+        "hash": "1044740000",
+        "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-07-01T20:03:44.000Z",
+      "slug": "his-02-a-formacao-de-um-campo-sensivel",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #02 | A formação de um campo sensível",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
         }
       ]
     }
