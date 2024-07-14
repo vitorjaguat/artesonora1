@@ -1,6 +1,6 @@
 {
-  "commit": "0321309c9fc39434ca70959f103f8fa9e747e0c0",
-  "generated": "2024-07-14T21:34:49.540Z",
+  "commit": "462f8204fb09c1f90db7654d811c97eac1624d91",
+  "generated": "2024-07-14T21:36:14.798Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1201,40 +1201,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f10618490b070d2b6e8979147749731a03613c68",
-        "hash": "1614192153",
-        "path": "outstatic/content/posts/mix-03-chico-dub.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Chico Dub",
-          "value": "chicoDub"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-03-15T14:57:22.000Z",
-      "slug": "mix-03-chico-dub",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026135&show_artwork=false",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #03 Chico Dub",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "fc6a71395f286bda6d9577a18f7b21e4d68329b9",
         "hash": "1436881471",
         "path": "outstatic/content/collaborators/andre-amaral.md"
@@ -1734,6 +1700,40 @@
       "tags": [
       ],
       "title": "MIX #02 Daniela Labra",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "462f8204fb09c1f90db7654d811c97eac1624d91",
+        "hash": "859167879",
+        "path": "outstatic/content/posts/mix-03-chico-dub.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Chico Dub",
+          "value": "chicoDub"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2018-03-15T14:57:22.000Z",
+      "slug": "mix-03-chico-dub",
+      "soundcloudLink": "https://soundcloud.com/artesonora/arte-sonora-mixtape-03-chico?in=artesonora/sets/programas2013&si=a7661fce051a459ab1aa22e432efa550&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #03 Chico Dub",
       "type": [
         {
           "label": "Mixtape",
