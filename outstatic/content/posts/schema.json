@@ -133,6 +133,14 @@
         {
           "value": "brunoQueiroz",
           "label": "Bruno Queiroz"
+        },
+        {
+          "value": "artoLindsay",
+          "label": "Arto Lindsay"
+        },
+        {
+          "value": "magnoCalliman",
+          "label": "Magno Calliman"
         }
       ]
     },
