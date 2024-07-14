@@ -1,6 +1,6 @@
 {
-  "commit": "82ae7cb29256c20c31b70c175ae8a8e344225395",
-  "generated": "2024-07-14T21:38:00.614Z",
+  "commit": "2604948b7340607dd8c271b455163190bb6c7ab9",
+  "generated": "2024-07-14T21:38:45.937Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1135,40 +1135,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ee7703b71f191c8a1f7cc43bfa8062c3cf86a622",
-        "hash": "3741522298",
-        "path": "outstatic/content/posts/mix-05-fred-coelho.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Fred Coelho",
-          "value": "fredCoelho"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2013-05-03T17:51:52.000Z",
-      "slug": "mix-05-fred-coelho",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F92235001&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #05 Fred Coelho",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "fc6a71395f286bda6d9577a18f7b21e4d68329b9",
         "hash": "1436881471",
         "path": "outstatic/content/collaborators/andre-amaral.md"
@@ -1736,6 +1702,40 @@
       "tags": [
       ],
       "title": "MIX #04 Pedro Victor Brandão",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "2604948b7340607dd8c271b455163190bb6c7ab9",
+        "hash": "4035717257",
+        "path": "outstatic/content/posts/mix-05-fred-coelho.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Fred Coelho",
+          "value": "fredCoelho"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-05-03T17:51:52.000Z",
+      "slug": "mix-05-fred-coelho",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-05-fred-coelho?in=artesonora/sets/programas2013&si=6033c865897b4267981032ddabb5af09&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #05 Fred Coelho",
       "type": [
         {
           "label": "Mixtape",

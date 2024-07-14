@@ -7,7 +7,7 @@ author:
 slug: 'mix-05-fred-coelho'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F92235001&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013'
+soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-05-fred-coelho?in=artesonora/sets/programas2013&si=6033c865897b4267981032ddabb5af09&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 tags: []
 collaborators: [{"label":"Fred Coelho","value":"fredCoelho"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
@@ -15,7 +15,7 @@ fileLink: ''
 publishedAt: '2013-05-03T17:51:52.000Z'
 ---
 
-Fred mostra sua visão geral sobre os vários registros musicais produzidos hoje e a vasta possibilidade de repertórios.  
+Fred mostra sua visão geral sobre os vários registros musicais produzidos hoje e a vasta possibilidade de repertórios.
 
 São frases soltas, poemas musicados, introduções, vinhetas, experimentos e pequenas peças sonoras que criam um longo tecido musical, com alternâncias de temas líricos e pesados, numa deliciosa ‘volta ao mundo musical’.
 
