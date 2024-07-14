@@ -7,10 +7,11 @@ author:
 slug: 'mix-12-andre-amaral'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F110054391&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013'
+soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-12-andre-amaral?in=artesonora/sets/programas2013&si=7aa3aa3f3deb412f82e5b5fd3123f07c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 tags: []
 collaborators: [{"label":"André Amaral","value":"andréAmaral"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
+fileLink: ''
 publishedAt: '2013-09-06T18:07:46.000Z'
 ---
 

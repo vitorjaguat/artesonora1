@@ -1,6 +1,6 @@
 {
-  "commit": "c2b0233c9d02c13594cf07c07f0e8465e82ebe2d",
-  "generated": "2024-07-14T21:46:11.472Z",
+  "commit": "ec3c6fc117730560a18b8c8593d2b0ea2f851711",
+  "generated": "2024-07-14T21:46:45.518Z",
   "metadata": [
     {
       "__outstatic": {
@@ -513,39 +513,6 @@
         {
           "label": "Na História",
           "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "97082ca67f3b6ce339ab336f3078f5fbe07dc094",
-        "hash": "1940097974",
-        "path": "outstatic/content/posts/mix-12-andre-amaral.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "André Amaral",
-          "value": "andréAmaral"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-09-06T18:07:46.000Z",
-      "slug": "mix-12-andre-amaral",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F110054391&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #12 André Amaral",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
         }
       ]
     },
@@ -1748,6 +1715,40 @@
       "tags": [
       ],
       "title": "MIX #11 Ronaldo Lemos",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "ec3c6fc117730560a18b8c8593d2b0ea2f851711",
+        "hash": "1613473675",
+        "path": "outstatic/content/posts/mix-12-andre-amaral.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "André Amaral",
+          "value": "andréAmaral"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-09-06T18:07:46.000Z",
+      "slug": "mix-12-andre-amaral",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-12-andre-amaral?in=artesonora/sets/programas2013&si=7aa3aa3f3deb412f82e5b5fd3123f07c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #12 André Amaral",
       "type": [
         {
           "label": "Mixtape",
