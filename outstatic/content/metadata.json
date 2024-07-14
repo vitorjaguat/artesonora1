@@ -1,6 +1,6 @@
 {
-  "commit": "1fdda14fe333169d5321e210aa2320258546b2be",
-  "generated": "2024-07-14T21:39:55.948Z",
+  "commit": "24dee664954c18336639d0ac302960aa535ca3e5",
+  "generated": "2024-07-14T21:40:34.736Z",
   "metadata": [
     {
       "__outstatic": {
@@ -513,38 +513,6 @@
         {
           "label": "Na História",
           "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "7450f8038271d5161c3f0121d3dedf6e8f49618d",
-        "hash": "3375608236",
-        "path": "outstatic/content/posts/mix-07-bernardo-oliveira.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Bernardo Oliveira",
-          "value": "bernardoOliveira"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-05-14T17:54:48.000Z",
-      "slug": "mix-07-bernardo-oliveira",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F96925653&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": "",
-      "title": "MIX #07 Bernardo Oliveira",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
         }
       ]
     },
@@ -1738,6 +1706,40 @@
       "tags": [
       ],
       "title": "MIX #06 Icaro dos Santos",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "24dee664954c18336639d0ac302960aa535ca3e5",
+        "hash": "3173411277",
+        "path": "outstatic/content/posts/mix-07-bernardo-oliveira.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Bernardo Oliveira",
+          "value": "bernardoOliveira"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-05-14T17:54:48.000Z",
+      "slug": "mix-07-bernardo-oliveira",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-07-bernardo-oliveira?in=artesonora/sets/programas2013&si=1d529257b29e49f2baca325b3671d2b8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #07 Bernardo Oliveira",
       "type": [
         {
           "label": "Mixtape",

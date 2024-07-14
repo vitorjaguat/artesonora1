@@ -7,10 +7,11 @@ author:
 slug: 'mix-07-bernardo-oliveira'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F96925653&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013'
-tags: ''
+soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-07-bernardo-oliveira?in=artesonora/sets/programas2013&si=1d529257b29e49f2baca325b3671d2b8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+tags: []
 collaborators: [{"label":"Bernardo Oliveira","value":"bernardoOliveira"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
+fileLink: ''
 publishedAt: '2013-05-14T17:54:48.000Z'
 ---
 
