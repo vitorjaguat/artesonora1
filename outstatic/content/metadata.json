@@ -1,6 +1,6 @@
 {
-  "commit": "2604948b7340607dd8c271b455163190bb6c7ab9",
-  "generated": "2024-07-14T21:38:45.937Z",
+  "commit": "1fdda14fe333169d5321e210aa2320258546b2be",
+  "generated": "2024-07-14T21:39:55.948Z",
   "metadata": [
     {
       "__outstatic": {
@@ -573,38 +573,6 @@
       "status": "published",
       "tags": "",
       "title": "MIX #08 Lísias Paiva",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "a9ae3aa5cb5f699d27b0080af926703488a90469",
-        "hash": "3902377832",
-        "path": "outstatic/content/posts/mix-06-icaro-dos-santos.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Icaro dos Santos",
-          "value": "icaroDosSantos"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-05-21T17:53:21.000Z",
-      "slug": "mix-06-icaro-dos-santos",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F95226933&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": "",
-      "title": "MIX #06 Icaro dos Santos",
       "type": [
         {
           "label": "Mixtape",
@@ -1736,6 +1704,40 @@
       "tags": [
       ],
       "title": "MIX #05 Fred Coelho",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "1fdda14fe333169d5321e210aa2320258546b2be",
+        "hash": "1844614657",
+        "path": "outstatic/content/posts/mix-06-icaro-dos-santos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Icaro dos Santos",
+          "value": "icaroDosSantos"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-05-21T17:53:21.000Z",
+      "slug": "mix-06-icaro-dos-santos",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-06-icaro-dos-santos?in=artesonora/sets/programas2013&si=45c605a4319c4e81983ac8bd56f472b7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #06 Icaro dos Santos",
       "type": [
         {
           "label": "Mixtape",

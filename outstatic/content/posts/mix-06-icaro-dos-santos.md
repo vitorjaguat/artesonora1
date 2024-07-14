@@ -7,10 +7,11 @@ author:
 slug: 'mix-06-icaro-dos-santos'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F95226933&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013'
-tags: ''
+soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-06-icaro-dos-santos?in=artesonora/sets/programas2013&si=45c605a4319c4e81983ac8bd56f472b7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+tags: []
 collaborators: [{"label":"Icaro dos Santos","value":"icaroDosSantos"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
+fileLink: ''
 publishedAt: '2013-05-21T17:53:21.000Z'
 ---
 
