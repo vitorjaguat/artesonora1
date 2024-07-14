@@ -1,6 +1,6 @@
 {
-  "commit": "1188e31efc01b062c86873bace9b9f041f895062",
-  "generated": "2024-07-14T21:09:39.148Z",
+  "commit": "0ad287e3a902a013151330bd88dfb4797fc79362",
+  "generated": "2024-07-14T21:10:26.714Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1572,8 +1572,8 @@
     },
     {
       "__outstatic": {
-        "commit": "1188e31efc01b062c86873bace9b9f041f895062",
-        "hash": "2078329253",
+        "commit": "0ad287e3a902a013151330bd88dfb4797fc79362",
+        "hash": "3797003999",
         "path": "outstatic/content/posts/his-04-o-fator-tecnologico-midiatico-na-era-do-som.md"
       },
       "author": {
@@ -1599,8 +1599,8 @@
       "title": "HIS #04 O fator tecnológico midiático na era do som",
       "type": [
         {
-          "label": "Varanda Sonora",
-          "value": "varandaSonora"
+          "label": "Na História",
+          "value": "naHistória"
         }
       ]
     }

@@ -9,9 +9,9 @@ description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/nahistoria04?in=artesonora/sets/nahistoria'
 fileLink: ''
-tags: ''
+tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
-type: [{"value":"varandaSonora","label":"Varanda Sonora"}]
+type: [{"value":"naHistória","label":"Na História"}]
 publishedAt: '2018-07-04T20:49:02.000Z'
 ---
 
