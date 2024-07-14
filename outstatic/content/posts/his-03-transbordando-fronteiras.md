@@ -20,8 +20,7 @@ Apresenta como o experimentos realizados pelos acadêmicos e músicos na primeir
 **Links**
 
 [Yoko Ono - Toilet Piece](https://youtu.be/NiO1pevvUds)\
-\
-[Roman Opalka - 'Detail 1987108-2010495, Ausschnitt' (edit)](youtu.be/2YUretoGANk)
+[Roman Opalka - 'Detail 1987108-2010495, Ausschnitt' (edit)](https://youtu.be/2YUretoGANk)
 
 Este programa foi feito com o apoio da\
 ArtRio - Feira Internacional de Arte Contemporânea do Rio de Janeiro
