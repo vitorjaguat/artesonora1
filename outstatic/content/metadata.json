@@ -1,6 +1,6 @@
 {
-  "commit": "462f8204fb09c1f90db7654d811c97eac1624d91",
-  "generated": "2024-07-14T21:36:14.798Z",
+  "commit": "82ae7cb29256c20c31b70c175ae8a8e344225395",
+  "generated": "2024-07-14T21:38:00.614Z",
   "metadata": [
     {
       "__outstatic": {
@@ -460,38 +460,6 @@
       "status": "published",
       "title": "Pedro Victor Brandão",
       "twitter": "https://x.com/pierresacoman"
-    },
-    {
-      "__outstatic": {
-        "commit": "321be9d1dfb7dbee01cf733319755aac81f328d5",
-        "hash": "280707794",
-        "path": "outstatic/content/posts/mix-04-pedro-victor-brandao.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Pedro Victor Brandão",
-          "value": "pedroVictorBrandão"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-04-19T17:49:54.000Z",
-      "slug": "mix-04-pedro-victor-brandao",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F91171775&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": "",
-      "title": "MIX #04 Pedro Victor Brandão",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1734,6 +1702,40 @@
       "tags": [
       ],
       "title": "MIX #03 Chico Dub",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "82ae7cb29256c20c31b70c175ae8a8e344225395",
+        "hash": "1754142026",
+        "path": "outstatic/content/posts/mix-04-pedro-victor-brandao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Pedro Victor Brandão",
+          "value": "pedroVictorBrandão"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-04-19T17:49:54.000Z",
+      "slug": "mix-04-pedro-victor-brandao",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-04-pedro-victor-brand?in=artesonora/sets/programas2013&si=5d568f3d950f47a7a6db16192449b17e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #04 Pedro Victor Brandão",
       "type": [
         {
           "label": "Mixtape",
