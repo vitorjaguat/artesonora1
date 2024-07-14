@@ -1,6 +1,6 @@
 {
-  "commit": "966fe022602b1b1c03689ec1057b4089d5d92ddd",
-  "generated": "2024-07-14T21:19:38.292Z",
+  "commit": "0321309c9fc39434ca70959f103f8fa9e747e0c0",
+  "generated": "2024-07-14T21:34:49.540Z",
   "metadata": [
     {
       "__outstatic": {
@@ -486,39 +486,6 @@
       "status": "published",
       "tags": "",
       "title": "MIX #04 Pedro Victor Brandão",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "3a178d3cf90baf37ff12e2d01c15153cfe852b3d",
-        "hash": "323113237",
-        "path": "outstatic/content/posts/mix-02-daniela-labra.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Daniela Labra",
-          "value": "danielaLabra"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-03-22T17:47:42.000Z",
-      "slug": "mix-02-daniela-labra",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026137&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #02 Daniela Labra",
       "type": [
         {
           "label": "Mixtape",
@@ -1737,6 +1704,40 @@
         {
           "label": "Na História",
           "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "0321309c9fc39434ca70959f103f8fa9e747e0c0",
+        "hash": "2117003234",
+        "path": "outstatic/content/posts/mix-02-daniela-labra.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Daniela Labra",
+          "value": "danielaLabra"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-03-22T17:47:42.000Z",
+      "slug": "mix-02-daniela-labra",
+      "soundcloudLink": "https://soundcloud.com/artesonora/arte-sonora-mixtape-02-daniela?in=artesonora/sets/programas2013&si=0b8c6a5b14d04235a5029e21087759f3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #02 Daniela Labra",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
         }
       ]
     }

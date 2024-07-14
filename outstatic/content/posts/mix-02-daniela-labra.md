@@ -7,10 +7,11 @@ author:
 slug: 'mix-02-daniela-labra'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026137&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013'
+soundcloudLink: 'https://soundcloud.com/artesonora/arte-sonora-mixtape-02-daniela?in=artesonora/sets/programas2013&si=0b8c6a5b14d04235a5029e21087759f3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 tags: []
 collaborators: [{"label":"Daniela Labra","value":"danielaLabra"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
+fileLink: ''
 publishedAt: '2013-03-22T17:47:42.000Z'
 ---
 
