@@ -7,10 +7,11 @@ author:
 slug: 'mix-09-batman-zavareze'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103254650&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013'
-tags: ''
+soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-09-batman-zavareze?in=artesonora/sets/programas2013&si=30c9c5c86a5e4f7d87363e2d7a112aac&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+tags: []
 collaborators: [{"label":"Batman Zavareze","value":"batmanZavareze"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
+fileLink: ''
 publishedAt: '2013-06-28T17:58:14.000Z'
 ---
 
