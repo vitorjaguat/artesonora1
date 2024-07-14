@@ -12,7 +12,7 @@ fileLink: ''
 tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]
-publishedAt: '2013-07-01T20:03:44.000Z'
+publishedAt: '2018-07-01T20:03:44.000Z'
 ---
 
 Este programa concentra nas questões colocados entre as décadas de 40 e 50 do século passado, quando os novos instrumentos e técnicas deixam de ser mera curiosidade científica para ser incorporado ao repertório da música clássica e da arte culta. São apresentados, entre outros, trabalhos dos artistas e músicos: John Cage, Herbert Eimert, Karlheinz Stockhausen, Pierre Henri e Pierre Schaeffer.

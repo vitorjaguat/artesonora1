@@ -1,6 +1,6 @@
 {
-  "commit": "1e1245bb28aebc681326c3f33f7962b5c08f654b",
-  "generated": "2024-07-14T20:25:59.580Z",
+  "commit": "c90a0fcee6e9e61259536e576b648714986191f4",
+  "generated": "2024-07-14T20:27:12.296Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1504,8 +1504,8 @@
     },
     {
       "__outstatic": {
-        "commit": "1e1245bb28aebc681326c3f33f7962b5c08f654b",
-        "hash": "2384369647",
+        "commit": "c90a0fcee6e9e61259536e576b648714986191f4",
+        "hash": "1078865598",
         "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
       },
       "author": {
@@ -1522,7 +1522,7 @@
       "coverImage": "",
       "description": "",
       "fileLink": "",
-      "publishedAt": "2013-07-01T20:03:44.000Z",
+      "publishedAt": "2018-07-01T20:03:44.000Z",
       "slug": "his-02-a-formacao-de-um-campo-sensivel",
       "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria",
       "status": "published",
