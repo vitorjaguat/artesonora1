@@ -11,7 +11,7 @@ collaborators: [{"value":"exst","label":"EXST"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/nahistoria03?in=artesonora/sets/nahistoria'
 type: [{"value":"naHistória","label":"Na História"}]
 fileLink: ''
-tags: ''
+tags: []
 publishedAt: '2018-07-02T20:35:20.000Z'
 ---
 
@@ -19,7 +19,7 @@ Apresenta como o experimentos realizados pelos acadêmicos e músicos na primeir
 
 **Links**
 
-[Yoko Ono - Toilet Piece](youtu.be/NiO1pevvUds)\
+[Yoko Ono - Toilet Piece](https://youtu.be/NiO1pevvUds)\
 \
 [Roman Opalka - 'Detail 1987108-2010495, Ausschnitt' (edit)](youtu.be/2YUretoGANk)
 
