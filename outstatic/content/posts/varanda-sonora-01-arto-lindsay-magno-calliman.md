@@ -11,7 +11,7 @@ tags: []
 collaborators: [{"label":"Arto Lindsay","value":"artoLindsay"},{"label":"Magno Calliman","value":"magnoCalliman"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/varanda-sonora-01-arto-lindsay?in=artesonora/sets/varanda-sonora&si=ee73219ad11f45d0bdc54e85a2a73f94&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"varandaSonora","label":"Varanda Sonora"}]
-fileLink: ''
+fileLink: 'https://drive.google.com/file/d/175O6RvQY6RNuW4OZ58ZSo8uIzeuM8F6G/'
 publishedAt: '2017-07-01T19:00:38.000Z'
 ---
 
