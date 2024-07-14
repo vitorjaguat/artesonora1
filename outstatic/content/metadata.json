@@ -1,6 +1,6 @@
 {
-  "commit": "aa6cc49fa80c2f2185e219fec9feeb16b6b48133",
-  "generated": "2024-07-14T19:39:49.636Z",
+  "commit": "2b3cb2a6a479964e1a6a15b086466217c353a4d6",
+  "generated": "2024-07-14T19:42:55.817Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1458,6 +1458,27 @@
       "slug": "ricardo-basbaum",
       "status": "published",
       "title": "Ricardo Basbaum",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "2b3cb2a6a479964e1a6a15b086466217c353a4d6",
+        "hash": "897183155",
+        "path": "outstatic/content/collaborators/arto-lindsay.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/arto-U5Nz.webp",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/artolindsay/",
+      "publishedAt": "2024-07-14T19:22:38.345Z",
+      "slug": "arto-lindsay",
+      "status": "published",
+      "title": "Arto Lindsay",
       "twitter": ""
     }
   ]
