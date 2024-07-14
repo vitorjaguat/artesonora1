@@ -1,6 +1,6 @@
 {
-  "commit": "150bbd12697a13b2e0d7eeef2b987c47f5ef2ee9",
-  "generated": "2024-07-14T19:30:04.379Z",
+  "commit": "84fff1db7c9865d97f42b63d5e68b007e7eaaf83",
+  "generated": "2024-07-14T19:35:55.372Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1416,6 +1416,27 @@
       "slug": "ricardo-basbaum",
       "status": "published",
       "title": "Ricardo Basbaum",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "84fff1db7c9865d97f42b63d5e68b007e7eaaf83",
+        "hash": "2926105868",
+        "path": "outstatic/content/collaborators/fausto-fawcett.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/fausto-M0OT.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-07-14T19:12:55.694Z",
+      "slug": "fausto-fawcett",
+      "status": "published",
+      "title": "Fausto Fawcett",
       "twitter": ""
     }
   ]
