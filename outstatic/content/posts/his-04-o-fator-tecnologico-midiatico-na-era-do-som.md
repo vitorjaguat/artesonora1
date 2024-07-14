@@ -19,9 +19,9 @@ Este programa trata de como o desenvolvimento da tecnologia de áudio vai transf
 
 **Links‪**
 
-[Alvin Lucier - "Music For Solo Performer" (1965)](www.youtube.com/watch?v=bIPU2ynqy2Y)
+[Alvin Lucier - "Music For Solo Performer" (1965)](https://www.youtube.com/watch?v=bIPU2ynqy2Y)
 
-[‪Clara Rockmore - "Hebrew Melody"](www.youtube.com/watch?v=0OMdOJzeOgI)
+[‪Clara Rockmore - "Hebrew Melody"](https://www.youtube.com/watch?v=0OMdOJzeOgI)
 
 Este programa foi feito com o apoio da\
 ArtRio - Feira Internacional de Arte Contemporânea do Rio de Janeiro
