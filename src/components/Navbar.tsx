@@ -56,6 +56,10 @@ export default function Navbar() {
           name: 'Na História',
           link: '/na-historia',
         },
+        {
+          name: 'Varanda Sonora',
+          link: '/varanda-sonora',
+        },
       ],
     }),
     []
