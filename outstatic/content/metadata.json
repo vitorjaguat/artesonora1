@@ -1,6 +1,6 @@
 {
-  "commit": "c90a0fcee6e9e61259536e576b648714986191f4",
-  "generated": "2024-07-14T20:51:39.979Z",
+  "commit": "b072c7823fd0b6a6912c7ebb1d645e03b6937329",
+  "generated": "2024-07-14T20:55:45.514Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1529,6 +1529,40 @@
       "tags": [
       ],
       "title": "HIS #02 A formação de um campo sensível",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "b072c7823fd0b6a6912c7ebb1d645e03b6937329",
+        "hash": "78112115",
+        "path": "outstatic/content/posts/his-03-transbordando-fronteiras.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2018-07-02T20:35:20.000Z",
+      "slug": "his-03-transbordando-fronteiras",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria03?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #03 Transbordando fronteiras",
       "type": [
         {
           "label": "Na História",
