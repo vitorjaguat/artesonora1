@@ -7,10 +7,11 @@ author:
 slug: 'mix-11-ronaldo-lemos'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F108122920&show_artwork=false&in=artesonora%2Fsets%2Fprogramas2013'
-tags: ''
+soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-11-ronaldo-lemos?in=artesonora/sets/programas2013&si=fa782f7f545e438e8f81d93b71a4abdb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+tags: []
 collaborators: [{"label":"Ronaldo Lemos","value":"ronaldoLemos"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
+fileLink: ''
 publishedAt: '2013-07-26T18:00:58.000Z'
 ---
 
