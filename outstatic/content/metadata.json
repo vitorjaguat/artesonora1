@@ -1,6 +1,6 @@
 {
-  "commit": "2195f8e0f31e912288bf7ec26a1bf7fd037e6c49",
-  "generated": "2024-07-14T21:13:44.705Z",
+  "commit": "33a919a5f7d65c7981f9a4f5a4b698df7cfa7dae",
+  "generated": "2024-07-14T21:15:36.912Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1631,6 +1631,40 @@
       "tags": [
       ],
       "title": "HIS #05 Da vanguarda ao mainstream",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "33a919a5f7d65c7981f9a4f5a4b698df7cfa7dae",
+        "hash": "2488465859",
+        "path": "outstatic/content/posts/his-06-cientistas-do-ritmo.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2018-07-06T20:56:11.000Z",
+      "slug": "his-06-cientistas-do-ritmo",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria06?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #06 Cientistas do Ritmo",
       "type": [
         {
           "label": "Na História",
