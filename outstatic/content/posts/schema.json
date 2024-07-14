@@ -125,6 +125,14 @@
         {
           "value": "exst",
           "label": "EXST"
+        },
+        {
+          "value": "faustoFawcett",
+          "label": "Fausto Fawcett"
+        },
+        {
+          "value": "brunoQueiroz",
+          "label": "Bruno Queiroz"
         }
       ]
     },
@@ -153,6 +161,10 @@
         {
           "value": "naHistória",
           "label": "Na História"
+        },
+        {
+          "value": "varandaSonora",
+          "label": "Varanda Sonora"
         }
       ]
     },
