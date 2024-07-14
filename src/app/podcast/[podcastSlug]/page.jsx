@@ -64,12 +64,12 @@ export default async function PodcastSlug({ params }) {
   // const post = await getData(params);
   // console.log('post', post);
   // console.log('cover image', coverImage);
-  console.log('soundcloudLink', soundcloudLink);
+  // console.log('soundcloudLink', soundcloudLink);
 
-  const soundcloudPageUrl = `https://soundcloud.com/artesonora/${slug.replace(
-    'pod',
-    'podcast'
-  )}`;
+  // const soundcloudPageUrl = `https://soundcloud.com/artesonora/${slug.replace(
+  //   'pod',
+  //   'podcast'
+  // )}`;
   return (
     <>
       <HeaderSubpage
@@ -109,7 +109,7 @@ export default async function PodcastSlug({ params }) {
                 <div className='text-xs flex items-center gap-1'>
                   Disponível também no{' '}
                   <a
-                    href={soundcloudPageUrl}
+                    href={soundcloudLink}
                     target='_blank'
                     rel='noopener noreferrer'
                   >
