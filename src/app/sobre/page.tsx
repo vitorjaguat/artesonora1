@@ -11,7 +11,7 @@ export default function Page() {
       />
 
       {/* submenu */}
-      <div className='w-full h-12 bg-zinc-900 flex items-center justify-center uppercase text-white/70 sticky top-0  border-zinc-500 shadow-md shadow-zinc-900/40'>
+      <div className='w-full h-12 bg-zinc-800 flex items-center justify-center uppercase text-white/70 sticky top-0  border-zinc-500 shadow-md shadow-zinc-900/40'>
         <div className='h-full w-[90%] md:w-[700px] lg:w-[900px] flex justify-between items-center'>
           <Link
             href='/sobre'
@@ -35,7 +35,7 @@ export default function Page() {
       </div>
 
       {/* Content */}
-      <div className='pt-10 pb-60 bg-black w-full flex flex-col items-center'>
+      <div className='pt-10 pb-60 bg-zinc-900 w-full flex flex-col items-center'>
         <div className='w-[90%] md:w-[700px] lg:w-[900px] flex flex-col gap-24 text-white'>
           <div className='flex gap-4 justify-between h-60'>
             <div className='flex-1 bg-white/50'></div>

@@ -28,7 +28,7 @@ export default function Page() {
         title='Contato'
         bgImg='https://placehold.co/1500x1000/png?text=imagem&font=lora'
       />
-      <div className='pt-10 pb-60 min-h-screen w-full flex flex-col items-center bg-black/90 text-white/90'>
+      <div className='pt-10 pb-60 min-h-screen w-full flex flex-col items-center bg-zinc-900 text-white/90'>
         <div className='flex flex-col gap-10 w-[90%] md:w-[700px] lg:w-[900px] items-center'>
           {/* redes sociais: */}
           <div className='w-full p-8 bg-white/20 rounded-lg '>

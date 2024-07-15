@@ -41,7 +41,7 @@ export default async function Page() {
       />
 
       {/* Content */}
-      <div className='pt-10 pb-60 bg-black w-full min-h-screen flex flex-col justify-center items-center'>
+      <div className='pt-10 pb-60 bg-zinc-900 w-full min-h-screen flex flex-col justify-center items-center'>
         <div className='w-full max-w-[90%] md:max-w-[700px] lg:max-w-[900px] flex flex-col items-center justify-center gap-8 text-white'>
           {allCollaborators.map((collab, i) => (
             <>

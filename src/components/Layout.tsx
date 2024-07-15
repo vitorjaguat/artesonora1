@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 import { MainContextProvider } from '../context/mainContext';
 import { useEffect } from 'react';
 import Lenis from 'lenis';
+import { motion, AnimatePresence } from 'framer-motion';
 
 type Props = {
   children: React.ReactNode;
@@ -39,9 +40,25 @@ const Layout = ({ children }: Props) => {
             <PlayerBar />
           </div>
           <div className='md:pl-[52px]'>
-            <main id='main' className='min-h-screen z-[1]'>
+            {/* <AnimatePresence>
+              {children && ( */}
+            <main
+              // variants={{
+              //   initial: { opacity: 0 },
+              //   animate: { opacity: 1 },
+              //   exit: { opacity: 0 },
+              // }}
+              // transition={{ duration: 1 }}
+              // initial='initial'
+              // animate='animate'
+              // exit='exit'
+              id='main'
+              className='min-h-screen z-[1]'
+            >
               {children}
             </main>
+            {/* )}
+            </AnimatePresence> */}
             <Footer />
           </div>
         </div>

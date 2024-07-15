@@ -89,7 +89,7 @@ export default async function ColabSlug({ params }) {
         kind='2'
         blur={true}
       />
-      <div className='pt-10 pb-60 w-full flex flex-col justify-center items-center bg-black/90 text-white/90'>
+      <div className='pt-10 pb-60 w-full flex flex-col justify-center items-center bg-zinc-900 text-white/90'>
         <div className='flex flex-col gap-5 w-[90%] md:w-[700px] lg:w-[900px]'>
           {/* Play subheader (removed) */}
 
