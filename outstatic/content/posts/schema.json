@@ -5,23 +5,10 @@
     "tags": {
       "required": false,
       "description": "Add tags to the post",
+      "values": [],
       "fieldType": "Tags",
       "dataType": "array",
-      "title": "Tags",
-      "values": [
-        {
-          "value": "nextJs",
-          "label": "NextJs"
-        },
-        {
-          "value": "gitHub",
-          "label": "GitHub"
-        },
-        {
-          "value": "outstatic",
-          "label": "Outstatic"
-        }
-      ]
+      "title": "Tags"
     },
     "collaborators": {
       "required": false,
