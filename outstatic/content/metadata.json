@@ -1,6 +1,6 @@
 {
-  "commit": "3140b3333bc0318966cff68cc4eb9097d6d2397e",
-  "generated": "2024-07-14T22:47:57.775Z",
+  "commit": "7bfc73ebca89c7207d74e9259bc1c93b3991698f",
+  "generated": "2024-07-15T14:17:17.131Z",
   "metadata": [
     {
       "__outstatic": {
@@ -542,38 +542,6 @@
       "tags": [
       ],
       "title": "POD #02 CADU",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "2f66359590d923f103ddc0684c5414eb0d2385f5",
-        "hash": "3753849729",
-        "path": "outstatic/content/posts/pod-01-guilherme-vaz.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Guilherme Vaz",
-          "value": "guilhermeVaz"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-03-01T16:13:05.000Z",
-      "slug": "pod-01-guilherme-vaz",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F82689051&show_artwork=false",
-      "status": "published",
-      "tags": "",
-      "title": "POD #01 Guilherme Vaz",
       "type": [
         {
           "label": "Podcast",
@@ -1753,6 +1721,40 @@
         {
           "label": "Varanda Sonora",
           "value": "varandaSonora"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "7bfc73ebca89c7207d74e9259bc1c93b3991698f",
+        "hash": "3136621890",
+        "path": "outstatic/content/posts/pod-01-guilherme-vaz.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Guilherme Vaz",
+          "value": "guilhermeVaz"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-03-01T16:13:05.000Z",
+      "slug": "pod-01-guilherme-vaz",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-01-guilherme-vaz?in=artesonora/sets/podcast&si=e3b75287941e4832963dcb9fc1c851a7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #01 Guilherme Vaz",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
         }
       ]
     }

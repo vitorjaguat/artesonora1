@@ -8,13 +8,14 @@ slug: 'pod-01-guilherme-vaz'
 description: ''
 coverImage: ''
 collaborators: [{"label":"Guilherme Vaz","value":"guilhermeVaz"}]
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F82689051&show_artwork=false'
+soundcloudLink: 'https://soundcloud.com/artesonora/podcast-01-guilherme-vaz?in=artesonora/sets/podcast&si=e3b75287941e4832963dcb9fc1c851a7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
-tags: ''
+tags: []
+fileLink: ''
 publishedAt: '2013-03-01T16:13:05.000Z'
 ---
 
-Artista multimeios, músico experimental e pensador, Guilherme Vaz foi um dos pioneiros da Arte Sonora e um dos responsáveis pela introdução da Música Concreta no cinema brasileiro. 
+Artista multimeios, músico experimental e pensador, Guilherme Vaz foi um dos pioneiros da Arte Sonora e um dos responsáveis pela introdução da Música Concreta no cinema brasileiro.
 
 Num encontro que durou uma tarde inteira, conversamos sobre seu processo de formação em Brasília e na Bahia, entre 1960-66, sua chegada no Rio de Janeiro num momento de efervescência e suas novas pesquisas. Foi abordada, também, sua participação na fundação da Unidade Experimental do Museu de Arte Moderna do Rio de Janeiro e os concertos na sala “Corpo Som”, da exposição Information em Nova Iorque e da polêmica exposição na Petite Galerie, no Rio de Janeiro em 1973.
 
