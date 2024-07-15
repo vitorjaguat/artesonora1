@@ -1,6 +1,6 @@
 {
-  "commit": "694d58ad5d0bfd89ba6c89b779542dd847e3794a",
-  "generated": "2024-07-15T14:23:32.074Z",
+  "commit": "ffdce39d7b851026a112f9a06c83d169fbd0a017",
+  "generated": "2024-07-15T14:24:00.656Z",
   "metadata": [
     {
       "__outstatic": {
@@ -607,39 +607,6 @@
       "status": "published",
       "tags": "",
       "title": "POD #10 Tantão",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "374f998a49844ebf3a3324b9355a9ee47600adb2",
-        "hash": "4107732945",
-        "path": "outstatic/content/posts/pod-08-paulo-nenflidio.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Paulo Nenflidio",
-          "value": "pauloNenflidio"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-05-16T16:29:32.000Z",
-      "slug": "pod-08-paulo-nenflidio",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F100708789&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #08 Paulo Nenflidio",
       "type": [
         {
           "label": "Podcast",
@@ -1758,6 +1725,40 @@
       "tags": [
       ],
       "title": "POD #07 Lenora de Barros",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "ffdce39d7b851026a112f9a06c83d169fbd0a017",
+        "hash": "116385359",
+        "path": "outstatic/content/posts/pod-08-paulo-nenflidio.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Paulo Nenflidio",
+          "value": "pauloNenflidio"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-05-16T16:29:32.000Z",
+      "slug": "pod-08-paulo-nenflidio",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-08-paulo-nenflidio?in=artesonora/sets/podcast&si=8e2ceeed7a4b495597169d7e8e6f504f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #08 Paulo Nenflidio",
       "type": [
         {
           "label": "Podcast",
