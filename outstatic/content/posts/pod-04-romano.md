@@ -11,7 +11,7 @@ tags: []
 collaborators: [{"label":"Romano","value":"romano"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/podcast-04-romano?in=artesonora/sets/podcast&si=cc535380c6ae4d43866dbc24365d3fd8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
-fileLink: ''
+fileLink: 'https://arweave.net/2Uyd9EN3b6y2ybn02521uOH0aVrOlFOgwziYnl7CQ7Q'
 publishedAt: '2013-04-25T16:30:58.000Z'
 ---
 
