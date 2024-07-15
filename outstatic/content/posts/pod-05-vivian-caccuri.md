@@ -9,8 +9,9 @@ description: ''
 coverImage: ''
 tags: []
 collaborators: [{"label":"Vivian Caccuri","value":"vivianCaccuri"}]
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F95223822&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
+soundcloudLink: 'https://soundcloud.com/artesonora/podcast-05-vivian-caccuri?in=artesonora/sets/podcast&si=8bf2e026efb445d3abaa1894913d2d81&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
+fileLink: ''
 publishedAt: '2013-05-13T16:32:14.000Z'
 ---
 

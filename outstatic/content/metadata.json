@@ -1,6 +1,6 @@
 {
-  "commit": "4cd738fa52c7b83b7acea51fc73decfa9b262f6b",
-  "generated": "2024-07-15T14:21:34.250Z",
+  "commit": "0872dda1fb712299e5a76ad97090b73d97a49f42",
+  "generated": "2024-07-15T14:22:05.798Z",
   "metadata": [
     {
       "__outstatic": {
@@ -542,39 +542,6 @@
       "tags": [
       ],
       "title": "POD #07 Lenora de Barros",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "120f51193aa3f8051d2a9e01a14adefa306aecd8",
-        "hash": "1690435745",
-        "path": "outstatic/content/posts/pod-05-vivian-caccuri.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Vivian Caccuri",
-          "value": "vivianCaccuri"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-05-13T16:32:14.000Z",
-      "slug": "pod-05-vivian-caccuri",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F95223822&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #05 Vivian Caccuri",
       "type": [
         {
           "label": "Podcast",
@@ -1754,6 +1721,40 @@
       "tags": [
       ],
       "title": "POD #04 Romano",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "0872dda1fb712299e5a76ad97090b73d97a49f42",
+        "hash": "1845919944",
+        "path": "outstatic/content/posts/pod-05-vivian-caccuri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Vivian Caccuri",
+          "value": "vivianCaccuri"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-05-13T16:32:14.000Z",
+      "slug": "pod-05-vivian-caccuri",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-05-vivian-caccuri?in=artesonora/sets/podcast&si=8bf2e026efb445d3abaa1894913d2d81&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #05 Vivian Caccuri",
       "type": [
         {
           "label": "Podcast",
