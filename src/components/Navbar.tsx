@@ -173,7 +173,7 @@ export default function Navbar() {
             </motion.div>
           </div>
 
-          <Link
+          <TransitionLink
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white overflow-hidden'
             href='/colaboradores'
             onMouseEnter={() => controls.start('off')}
@@ -195,9 +195,9 @@ export default function Navbar() {
             >
               colaboradores
             </motion.div>
-          </Link>
+          </TransitionLink>
 
-          <Link
+          <TransitionLink
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white overflow-hidden'
             href='/arquivos'
             onMouseEnter={() => controls.start('off')}
@@ -219,9 +219,9 @@ export default function Navbar() {
             >
               arquivos
             </motion.div>
-          </Link>
+          </TransitionLink>
 
-          <Link
+          <TransitionLink
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white overflow-hidden'
             href='/contato'
             onMouseEnter={() => controls.start('off')}
@@ -243,7 +243,7 @@ export default function Navbar() {
             >
               contato
             </motion.div>
-          </Link>
+          </TransitionLink>
         </div>
       </div>
       {/* SUBMENU */}
@@ -276,7 +276,7 @@ export default function Navbar() {
       >
         {subMenuData &&
           subMenuData.map((item, i) => (
-            <Link
+            <TransitionLink
               key={i}
               className='w-full'
               href={item.link}
@@ -307,7 +307,7 @@ export default function Navbar() {
               >
                 {item.name}
               </motion.div>
-            </Link>
+            </TransitionLink>
           ))}
       </motion.div>
 
