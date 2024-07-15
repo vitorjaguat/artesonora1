@@ -11,7 +11,7 @@ tags: []
 collaborators: [{"label":"Laura Belém","value":"lauraBelém"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/podcast-03-laura-bel-m?in=artesonora/sets/podcast&si=1d9e6a668edf409296b4c9ef8ecff6b6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
-fileLink: ''
+fileLink: 'https://arweave.net/4wM2Vdi39O0ovpGRUwO06EEVlvxYklqzkXx_a9Qws9A'
 publishedAt: '2013-04-12T16:27:54.000Z'
 ---
 
