@@ -11,7 +11,7 @@ soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2F
 tags: []
 collaborators: [{"label":"EXST","value":"exst"}]
 type: [{"label":"Na História","value":"naHistória"}]
-fileLink: ''
+fileLink: 'https://arweave.net/w1h-1trPBSn5l0xU7vVnRnqwDqh27Ec7h4nfiGUCmEc'
 publishedAt: '2018-03-19T15:09:16.000Z'
 ---
 
