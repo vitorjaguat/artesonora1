@@ -11,7 +11,7 @@ tags: []
 collaborators: [{"label":"Cildo Meireles","value":"cildoMeireles"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/podcast-12-cildo-meireles?in=artesonora/sets/podcast&si=2a3d3645fda049d997f8a2a80b0f3031&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"label":"Podcast","value":"podcast"}]
-fileLink: 'https://arweave.net/iVmwct0EFHzAuy0AH4v8CO_PUfmMguA1eCeLM5qi4c8'
+fileLink: 'https://arweave.net/KFnH21AS6uD8eeNwovGjwnM6q8lQr-Y9Amua--q80nI'
 publishedAt: '2018-03-15T14:43:38.000Z'
 ---
 
