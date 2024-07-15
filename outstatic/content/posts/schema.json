@@ -5,7 +5,12 @@
     "tags": {
       "required": false,
       "description": "Add tags to the post",
-      "values": [],
+      "values": [
+        {
+          "value": "arteSonora",
+          "label": "Arte Sonora"
+        }
+      ],
       "fieldType": "Tags",
       "dataType": "array",
       "title": "Tags"

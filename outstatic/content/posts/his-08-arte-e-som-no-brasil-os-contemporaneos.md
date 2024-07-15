@@ -9,7 +9,7 @@ description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria'
 fileLink: ''
-tags: ''
+tags: [{"label":"Arte Sonora","value":"arteSonora"}]
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]
 publishedAt: '2018-07-08T20:59:48.000Z'
@@ -19,7 +19,7 @@ No último programa dessa série, vamos mostrar como a produção contemporânea
 
 **Links**
 
-[‪Berimbau Eletrônico - Paulo Nenflidio](https://www.youtube.com/watch?v=lYVhn2qbm…ex=5&feature=plcp)
+[‪Berimbau Eletrônico - Paulo Nenflidio](https://www.youtube.com/watch?v=lYVhn2qbm%E2%80%A6ex=5&feature=plcp)
 
 [‪Acusma - Chelpa Ferro](https://www.youtube.com/watch?v=mDyo8CoP7v0)
 

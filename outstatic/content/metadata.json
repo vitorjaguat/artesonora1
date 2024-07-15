@@ -1,6 +1,6 @@
 {
-  "commit": "d51431eae74f1d14045dcf2ae30dc4156af0b8e2",
-  "generated": "2024-07-15T14:28:47.272Z",
+  "commit": "56b88d94de891bd59cb4e23a583ce11274224bbe",
+  "generated": "2024-07-15T14:30:46.148Z",
   "metadata": [
     {
       "__outstatic": {
@@ -920,40 +920,6 @@
     },
     {
       "__outstatic": {
-        "commit": "966fe022602b1b1c03689ec1057b4089d5d92ddd",
-        "hash": "990747050",
-        "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-07-08T20:59:48.000Z",
-      "slug": "his-08-arte-e-som-no-brasil-os-contemporaneos",
-      "soundcloudLink": "https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "0321309c9fc39434ca70959f103f8fa9e747e0c0",
         "hash": "2117003234",
         "path": "outstatic/content/posts/mix-02-daniela-labra.md"
@@ -1769,6 +1735,44 @@
         {
           "label": "Podcast",
           "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "56b88d94de891bd59cb4e23a583ce11274224bbe",
+        "hash": "1398936871",
+        "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2018-07-08T20:59:48.000Z",
+      "slug": "his-08-arte-e-som-no-brasil-os-contemporaneos",
+      "soundcloudLink": "https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Arte Sonora",
+          "value": "arteSonora"
+        }
+      ],
+      "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
         }
       ]
     }
