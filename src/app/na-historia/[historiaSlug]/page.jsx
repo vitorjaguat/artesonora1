@@ -133,13 +133,14 @@ export default async function HistoriaSlug({ params }) {
 
             {collaboratorsData.map((collaborator, i) => (
               <div key={i} className='flex items-center gap-4'>
-                <Image
-                  className='rounded-full'
-                  src={collaborator.coverImage}
-                  width={50}
-                  height={50}
-                  alt={collaborator.title}
-                />
+                <div className='rounded-full overflow-hidden aspect-square w-[50px] h-[50px]'>
+                  <Image
+                    src={collaborator.coverImage}
+                    width={50}
+                    height={50}
+                    alt={collaborator.title}
+                  />
+                </div>
                 <Link href={`/colaboradores/${collaborator.slug}`}>
                   <div className='flex-grow'>{collaborator.title}</div>
                 </Link>
