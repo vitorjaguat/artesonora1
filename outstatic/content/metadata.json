@@ -1,6 +1,6 @@
 {
-  "commit": "c18a08a102242976c26b008b728e4c32b6f34d6c",
-  "generated": "2024-07-15T14:27:12.756Z",
+  "commit": "89132e62a71e052d75aaae6fa4d87beb990778a2",
+  "generated": "2024-07-15T14:27:45.705Z",
   "metadata": [
     {
       "__outstatic": {
@@ -543,38 +543,6 @@
       "tags": [
       ],
       "title": "POD #12 Cildo Meireles",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "3d90681ebe0d791523ea53ddb849446dfd103722",
-        "hash": "2407397848",
-        "path": "outstatic/content/posts/pod-10-tantao.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Tantão",
-          "value": "tantão"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-07-19T17:44:37.000Z",
-      "slug": "pod-10-tantao",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103793305&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": "",
-      "title": "POD #10 Tantão",
       "type": [
         {
           "label": "Podcast",
@@ -1761,6 +1729,40 @@
       "tags": [
       ],
       "title": "POD #09 Rodolfo Caesar",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "89132e62a71e052d75aaae6fa4d87beb990778a2",
+        "hash": "1553665265",
+        "path": "outstatic/content/posts/pod-10-tantao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Tantão",
+          "value": "tantão"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-07-19T17:44:37.000Z",
+      "slug": "pod-10-tantao",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-10-tant-o?in=artesonora/sets/podcast&si=3c3751fb30e543b78cfba09894a52733&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #10 Tantão",
       "type": [
         {
           "label": "Podcast",

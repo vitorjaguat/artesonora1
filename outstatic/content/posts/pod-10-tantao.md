@@ -7,10 +7,11 @@ author:
 slug: 'pod-10-tantao'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103793305&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
-tags: ''
+soundcloudLink: 'https://soundcloud.com/artesonora/podcast-10-tant-o?in=artesonora/sets/podcast&si=3c3751fb30e543b78cfba09894a52733&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+tags: []
 collaborators: [{"label":"Tantão","value":"tantão"}]
 type: [{"value":"podcast","label":"Podcast"}]
+fileLink: ''
 publishedAt: '2013-07-19T17:44:37.000Z'
 ---
 
