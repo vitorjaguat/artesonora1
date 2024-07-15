@@ -1,6 +1,6 @@
 {
-  "commit": "54424448a85239633e9c2cd2c514b72f21a612f6",
-  "generated": "2024-07-15T18:24:26.745Z",
+  "commit": "0746d0bad3c08c479575964499ea9f7171989abd",
+  "generated": "2024-07-15T18:25:00.708Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1094,40 +1094,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ffdce39d7b851026a112f9a06c83d169fbd0a017",
-        "hash": "116385359",
-        "path": "outstatic/content/posts/pod-08-paulo-nenflidio.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Paulo Nenflidio",
-          "value": "pauloNenflidio"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2013-05-16T16:29:32.000Z",
-      "slug": "pod-08-paulo-nenflidio",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-08-paulo-nenflidio?in=artesonora/sets/podcast&si=8e2ceeed7a4b495597169d7e8e6f504f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #08 Paulo Nenflidio",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "c18a08a102242976c26b008b728e4c32b6f34d6c",
         "hash": "3079227157",
         "path": "outstatic/content/posts/pod-09-rodolfo-caesar.md"
@@ -1765,6 +1731,40 @@
       "tags": [
       ],
       "title": "POD #07 Lenora de Barros",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "0746d0bad3c08c479575964499ea9f7171989abd",
+        "hash": "3649640886",
+        "path": "outstatic/content/posts/pod-08-paulo-nenflidio.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Paulo Nenflidio",
+          "value": "pauloNenflidio"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/Vneep9pzqy4fHzJQzu1j9L04hFIWtDwmv86XrCNb3-s",
+      "publishedAt": "2013-05-16T16:29:32.000Z",
+      "slug": "pod-08-paulo-nenflidio",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-08-paulo-nenflidio?in=artesonora/sets/podcast&si=8e2ceeed7a4b495597169d7e8e6f504f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #08 Paulo Nenflidio",
       "type": [
         {
           "label": "Podcast",

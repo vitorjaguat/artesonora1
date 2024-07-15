@@ -11,7 +11,7 @@ tags: []
 collaborators: [{"label":"Paulo Nenflidio","value":"pauloNenflidio"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/podcast-08-paulo-nenflidio?in=artesonora/sets/podcast&si=8e2ceeed7a4b495597169d7e8e6f504f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
-fileLink: ''
+fileLink: 'https://arweave.net/Vneep9pzqy4fHzJQzu1j9L04hFIWtDwmv86XrCNb3-s'
 publishedAt: '2013-05-16T16:29:32.000Z'
 ---
 
