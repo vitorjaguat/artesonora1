@@ -11,7 +11,7 @@ tags: []
 collaborators: [{"label":"Vivian Caccuri","value":"vivianCaccuri"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/podcast-05-vivian-caccuri?in=artesonora/sets/podcast&si=8bf2e026efb445d3abaa1894913d2d81&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
-fileLink: ''
+fileLink: 'https://arweave.net/2ffWlWQPKjlG4uO1xVKZczKas8Dhu2H-KQi7m3wkkGw'
 publishedAt: '2013-05-13T16:32:14.000Z'
 ---
 
