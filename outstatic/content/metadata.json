@@ -1,6 +1,6 @@
 {
-  "commit": "ffdce39d7b851026a112f9a06c83d169fbd0a017",
-  "generated": "2024-07-15T14:24:00.656Z",
+  "commit": "c18a08a102242976c26b008b728e4c32b6f34d6c",
+  "generated": "2024-07-15T14:27:12.756Z",
   "metadata": [
     {
       "__outstatic": {
@@ -543,38 +543,6 @@
       "tags": [
       ],
       "title": "POD #12 Cildo Meireles",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "b8b99e6c1d7ffdec3dd2b326abeebe6ab4b06e5a",
-        "hash": "1663800774",
-        "path": "outstatic/content/posts/pod-09-rodolfo-caesar.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Rodolfo Caesar",
-          "value": "rodolfoCaesar"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-07-01T17:43:19.000Z",
-      "slug": "pod-09-rodolfo-caesar",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F102117408&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": "",
-      "title": "POD #09 Rodolfo Caesar",
       "type": [
         {
           "label": "Podcast",
@@ -1759,6 +1727,40 @@
       "tags": [
       ],
       "title": "POD #08 Paulo Nenflidio",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "c18a08a102242976c26b008b728e4c32b6f34d6c",
+        "hash": "3079227157",
+        "path": "outstatic/content/posts/pod-09-rodolfo-caesar.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Rodolfo Caesar",
+          "value": "rodolfoCaesar"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-07-01T17:43:19.000Z",
+      "slug": "pod-09-rodolfo-caesar",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-09-rodolfo-caesar?in=artesonora/sets/podcast&si=7c3d30ead4334c57b7fbd52bd1fd3015&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #09 Rodolfo Caesar",
       "type": [
         {
           "label": "Podcast",

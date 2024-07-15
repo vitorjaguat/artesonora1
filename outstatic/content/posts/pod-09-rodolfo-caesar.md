@@ -7,10 +7,11 @@ author:
 slug: 'pod-09-rodolfo-caesar'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F102117408&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
-tags: ''
+soundcloudLink: 'https://soundcloud.com/artesonora/podcast-09-rodolfo-caesar?in=artesonora/sets/podcast&si=7c3d30ead4334c57b7fbd52bd1fd3015&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+tags: []
 collaborators: [{"label":"Rodolfo Caesar","value":"rodolfoCaesar"}]
 type: [{"value":"podcast","label":"Podcast"}]
+fileLink: ''
 publishedAt: '2013-07-01T17:43:19.000Z'
 ---
 
