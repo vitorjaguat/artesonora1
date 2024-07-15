@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/podcast-06-chelpa-ferro?in=ar
 tags: []
 collaborators: [{"label":"Chelpa Ferro","value":"chelpaFerro"}]
 type: [{"value":"podcast","label":"Podcast"}]
-fileLink: ''
+fileLink: 'https://arweave.net/HDc-RMourXUmN8z2sPcE2BiOEyGYcQivxfM_9kE5IOM'
 publishedAt: '2013-05-20T16:39:15.000Z'
 ---
 
