@@ -1,6 +1,6 @@
 {
-  "commit": "7bfc73ebca89c7207d74e9259bc1c93b3991698f",
-  "generated": "2024-07-15T14:17:17.131Z",
+  "commit": "e1f586a731751ea1817316f19b88ff525654322d",
+  "generated": "2024-07-15T14:20:21.216Z",
   "metadata": [
     {
       "__outstatic": {
@@ -513,39 +513,6 @@
         {
           "label": "Na História",
           "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "cfed2c9ca92aaee35ac9ec66f49aa817972a456d",
-        "hash": "1310217148",
-        "path": "outstatic/content/posts/pod-02-cadu.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "CADU",
-          "value": "cadu"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-03-15T16:25:35.000Z",
-      "slug": "pod-02-cadu",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026136&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #02 CADU",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
         }
       ]
     },
@@ -1751,6 +1718,40 @@
       "tags": [
       ],
       "title": "POD #01 Guilherme Vaz",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "e1f586a731751ea1817316f19b88ff525654322d",
+        "hash": "2582115785",
+        "path": "outstatic/content/posts/pod-02-cadu.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "CADU",
+          "value": "cadu"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-03-15T16:25:35.000Z",
+      "slug": "pod-02-cadu",
+      "soundcloudLink": "https://soundcloud.com/artesonora/arte-sonora-podcast-02-cadu?in=artesonora/sets/podcast&si=6ded52aee3fd408db1dc8e794bd2666d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #02 CADU",
       "type": [
         {
           "label": "Podcast",

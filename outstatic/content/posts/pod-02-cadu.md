@@ -9,8 +9,9 @@ description: ''
 coverImage: ''
 tags: []
 collaborators: [{"label":"CADU","value":"cadu"}]
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F87026136&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
+soundcloudLink: 'https://soundcloud.com/artesonora/arte-sonora-podcast-02-cadu?in=artesonora/sets/podcast&si=6ded52aee3fd408db1dc8e794bd2666d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
+fileLink: ''
 publishedAt: '2013-03-15T16:25:35.000Z'
 ---
 
