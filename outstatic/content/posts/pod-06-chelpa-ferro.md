@@ -7,10 +7,11 @@ title: 'POD #06 Chelpa Ferro'
 status: 'published'
 slug: 'pod-06-chelpa-ferro'
 description: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F96455732&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
-tags: ''
+soundcloudLink: 'https://soundcloud.com/artesonora/podcast-06-chelpa-ferro?in=artesonora/sets/podcast&si=9b6807ed307f4e46a4f7be817d906e8f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+tags: []
 collaborators: [{"label":"Chelpa Ferro","value":"chelpaFerro"}]
 type: [{"value":"podcast","label":"Podcast"}]
+fileLink: ''
 publishedAt: '2013-05-20T16:39:15.000Z'
 ---
 

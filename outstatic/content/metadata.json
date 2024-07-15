@@ -1,6 +1,6 @@
 {
-  "commit": "0872dda1fb712299e5a76ad97090b73d97a49f42",
-  "generated": "2024-07-15T14:22:05.798Z",
+  "commit": "5120c8c4c7f3455312dcf56b4630834d3f801364",
+  "generated": "2024-07-15T14:22:36.944Z",
   "metadata": [
     {
       "__outstatic": {
@@ -542,38 +542,6 @@
       "tags": [
       ],
       "title": "POD #07 Lenora de Barros",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "5d614685a401a2229ee2f106ae2620d2a9f576c6",
-        "hash": "2757498504",
-        "path": "outstatic/content/posts/pod-06-chelpa-ferro.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Chelpa Ferro",
-          "value": "chelpaFerro"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-05-20T16:39:15.000Z",
-      "slug": "pod-06-chelpa-ferro",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F96455732&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": "",
-      "title": "POD #06 Chelpa Ferro",
       "type": [
         {
           "label": "Podcast",
@@ -1755,6 +1723,40 @@
       "tags": [
       ],
       "title": "POD #05 Vivian Caccuri",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "5120c8c4c7f3455312dcf56b4630834d3f801364",
+        "hash": "1415160540",
+        "path": "outstatic/content/posts/pod-06-chelpa-ferro.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Chelpa Ferro",
+          "value": "chelpaFerro"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-05-20T16:39:15.000Z",
+      "slug": "pod-06-chelpa-ferro",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-06-chelpa-ferro?in=artesonora/sets/podcast&si=9b6807ed307f4e46a4f7be817d906e8f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #06 Chelpa Ferro",
       "type": [
         {
           "label": "Podcast",
