@@ -1,6 +1,6 @@
 {
-  "commit": "b9c85bb4ce54e35fb1e5ec19fb7032cc8de37206",
-  "generated": "2024-07-15T16:13:59.605Z",
+  "commit": "3bc1b2a44cf9d950a5e68524853747cfd7203615",
+  "generated": "2024-07-15T16:15:03.467Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1570,40 +1570,6 @@
     },
     {
       "__outstatic": {
-        "commit": "87819150651092325faddac88694a09f6d597645",
-        "hash": "3134394156",
-        "path": "outstatic/content/posts/his-06-cientistas-do-ritmo.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-07-06T20:56:11.000Z",
-      "slug": "his-06-cientistas-do-ritmo",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria06?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #06 Cientistas do Ritmo",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "c41d521053a7cb10149f72cd76de895b802cb04a",
         "hash": "3622381959",
         "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
@@ -1765,6 +1731,40 @@
       "tags": [
       ],
       "title": "HIS #05 Da vanguarda ao mainstream",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "3bc1b2a44cf9d950a5e68524853747cfd7203615",
+        "hash": "998620511",
+        "path": "outstatic/content/posts/his-06-cientistas-do-ritmo.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/VpWsXjCKLcmMbiv7m5jaQ8lamxMMaDWaQWEWpBmUxZY",
+      "publishedAt": "2018-07-06T20:56:11.000Z",
+      "slug": "his-06-cientistas-do-ritmo",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria06?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #06 Cientistas do Ritmo",
       "type": [
         {
           "label": "Na História",
