@@ -11,7 +11,7 @@ tags: []
 collaborators: [{"label":"CADU","value":"cadu"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/arte-sonora-podcast-02-cadu?in=artesonora/sets/podcast&si=6ded52aee3fd408db1dc8e794bd2666d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
-fileLink: ''
+fileLink: 'https://arweave.net/LoTNtYZAlEUBLAHClVb_hxS_nUmB9oqNTXQMZm2eLQI'
 publishedAt: '2013-03-15T16:25:35.000Z'
 ---
 
