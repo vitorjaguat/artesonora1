@@ -9,8 +9,9 @@ description: ''
 coverImage: ''
 tags: []
 collaborators: [{"label":"Romano","value":"romano"}]
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F92238611&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
+soundcloudLink: 'https://soundcloud.com/artesonora/podcast-04-romano?in=artesonora/sets/podcast&si=cc535380c6ae4d43866dbc24365d3fd8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
+fileLink: ''
 publishedAt: '2013-04-25T16:30:58.000Z'
 ---
 

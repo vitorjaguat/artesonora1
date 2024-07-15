@@ -1,6 +1,6 @@
 {
-  "commit": "c402e61f2ebcebd30b24564ef7fc23d5a35661bf",
-  "generated": "2024-07-15T14:20:48.147Z",
+  "commit": "4cd738fa52c7b83b7acea51fc73decfa9b262f6b",
+  "generated": "2024-07-15T14:21:34.250Z",
   "metadata": [
     {
       "__outstatic": {
@@ -575,39 +575,6 @@
       "tags": [
       ],
       "title": "POD #05 Vivian Caccuri",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "8bb13ec8addd8b26b13aa1b017bcb2dbd47d7f84",
-        "hash": "2867838212",
-        "path": "outstatic/content/posts/pod-04-romano.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Romano",
-          "value": "romano"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-04-25T16:30:58.000Z",
-      "slug": "pod-04-romano",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F92238611&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #04 Romano",
       "type": [
         {
           "label": "Podcast",
@@ -1753,6 +1720,40 @@
       "tags": [
       ],
       "title": "POD #03 Laura Belém",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "4cd738fa52c7b83b7acea51fc73decfa9b262f6b",
+        "hash": "237064931",
+        "path": "outstatic/content/posts/pod-04-romano.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Romano",
+          "value": "romano"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-04-25T16:30:58.000Z",
+      "slug": "pod-04-romano",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-04-romano?in=artesonora/sets/podcast&si=cc535380c6ae4d43866dbc24365d3fd8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #04 Romano",
       "type": [
         {
           "label": "Podcast",
