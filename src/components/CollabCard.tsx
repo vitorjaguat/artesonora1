@@ -7,6 +7,7 @@ import { useContext } from 'react';
 import { MainContext } from '@/context/mainContext';
 import Link from 'next/link';
 import useScreenSize from '../util/useScreenSize';
+import TransitionLink from './TransitionLink';
 
 type CollabCardProps = {
   collabObj: any; // Replace 'any' with the appropriate type for itemObj
@@ -44,7 +45,7 @@ export default function ItemCard({ collabObj, image }: CollabCardProps) {
       : 400;
 
   return (
-    <Link
+    <TransitionLink
       href={`/colaboradores/${collabObj.slug}`}
       className='w-full md:max-w-full h-fit p-4 rounded-lg bg-white/20 flex flex-col md:flex-row justify-between items-center gap-6 group duration-300 shadow-[10px_10px_25px_-8px_rgba(255,255,255,0.3)]'
     >
@@ -75,7 +76,7 @@ export default function ItemCard({ collabObj, image }: CollabCardProps) {
           {collabObj.content.slice(0, sliceMax)}...
         </div>
       </div>
-    </Link>
+    </TransitionLink>
   );
 }
 

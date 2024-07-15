@@ -276,18 +276,14 @@ export default function Navbar() {
       >
         {subMenuData &&
           subMenuData.map((item, i) => (
-            <TransitionLink
-              key={i}
-              className='w-full'
-              href={item.link}
-              onClick={() => {
-                setSubMenuData([]);
-                controls.set('off');
-                controlsContainer.set('off');
-              }}
-            >
+            <TransitionLink key={i} className='w-full' href={item.link}>
               <motion.div
                 // onAnimationComplete={() => handleAnimationComplete(subMenuData)}
+                onClick={() => {
+                  setSubMenuData([]);
+                  controls.set('off');
+                  controlsContainer.set('off');
+                }}
                 initial='off'
                 animate={controls}
                 // transition={{ delay: 0.3 }}
