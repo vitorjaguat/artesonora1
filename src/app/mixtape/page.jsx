@@ -35,10 +35,7 @@ export default async function Page() {
   return (
     <>
       {/* Header */}
-      <HeaderSubpage
-        title='Mixtape'
-        bgImg='https://placehold.co/600x400?text=imagem&font=lora'
-      />
+      <HeaderSubpage title='Mixtape' bgImg='/images/dummyImg.png' />
 
       {/* Content */}
       <div className='pt-10 pb-60 bg-zinc-900 w-full min-h-screen flex flex-col justify-center items-center'>

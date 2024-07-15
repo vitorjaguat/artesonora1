@@ -81,11 +81,7 @@ export default async function ColabSlug({ params }) {
       <HeaderSubpage
         title={title}
         // bgImg='https://placehold.co/600x400?text=imagem&font=lora'
-        bgImg={
-          coverImage
-            ? coverImage
-            : 'https://placehold.co/600x400?text=imagem&font=lora'
-        }
+        bgImg={coverImage ? coverImage : '/images/dummyImg.png'}
         kind='2'
         blur={true}
       />

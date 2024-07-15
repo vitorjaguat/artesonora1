@@ -5,10 +5,7 @@ export default function Page() {
   return (
     <>
       {/* Header */}
-      <HeaderSubpage
-        title='Sobre'
-        bgImg='https://placehold.co/600x400?text=imagem&font=lora'
-      />
+      <HeaderSubpage title='Sobre' bgImg='/images/dummyImg.png' />
 
       {/* submenu */}
       <div className='w-full h-12 bg-zinc-800 flex items-center justify-center uppercase text-white/70 sticky top-0  border-zinc-500 shadow-md shadow-zinc-900/40'>

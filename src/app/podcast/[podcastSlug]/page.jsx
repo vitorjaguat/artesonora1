@@ -78,7 +78,7 @@ export default async function PodcastSlug({ params }) {
         bgImg={
           collaboratorsData[0]?.coverImage
             ? absoluteUrl(collaboratorsData[0]?.coverImage)
-            : 'https://placehold.co/600x400?text=imagem&font=lora'
+            : '/images/dummyImg.png'
         }
         kind='2'
         blur={true}

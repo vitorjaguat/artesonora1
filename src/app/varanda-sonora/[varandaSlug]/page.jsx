@@ -79,7 +79,7 @@ export default async function VarandaSlug({ params }) {
         bgImg={
           collaboratorsData[0]?.coverImage
             ? collaboratorsData[0]?.coverImage
-            : 'https://placehold.co/600x400?text=imagem&font=lora'
+            : '/images/dummyImg.png'
         }
         kind='2'
         blur={true}
