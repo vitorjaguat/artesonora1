@@ -1,6 +1,6 @@
 {
-  "commit": "e1f586a731751ea1817316f19b88ff525654322d",
-  "generated": "2024-07-15T14:20:21.216Z",
+  "commit": "c402e61f2ebcebd30b24564ef7fc23d5a35661bf",
+  "generated": "2024-07-15T14:20:48.147Z",
   "metadata": [
     {
       "__outstatic": {
@@ -575,39 +575,6 @@
       "tags": [
       ],
       "title": "POD #05 Vivian Caccuri",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "abb0c423cd0827edfcbc7958c97dff6ebe01997e",
-        "hash": "3659323374",
-        "path": "outstatic/content/posts/pod-03-laura-belem.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Laura Belém",
-          "value": "lauraBelém"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-04-12T16:27:54.000Z",
-      "slug": "pod-03-laura-belem",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F91175586&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #03 Laura Belém",
       "type": [
         {
           "label": "Podcast",
@@ -1752,6 +1719,40 @@
       "tags": [
       ],
       "title": "POD #02 CADU",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "c402e61f2ebcebd30b24564ef7fc23d5a35661bf",
+        "hash": "3283056188",
+        "path": "outstatic/content/posts/pod-03-laura-belem.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Laura Belém",
+          "value": "lauraBelém"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-04-12T16:27:54.000Z",
+      "slug": "pod-03-laura-belem",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-03-laura-bel-m?in=artesonora/sets/podcast&si=1d9e6a668edf409296b4c9ef8ecff6b6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #03 Laura Belém",
       "type": [
         {
           "label": "Podcast",

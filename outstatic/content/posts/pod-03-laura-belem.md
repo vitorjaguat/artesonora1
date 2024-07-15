@@ -9,8 +9,9 @@ description: ''
 coverImage: ''
 tags: []
 collaborators: [{"label":"Laura Belém","value":"lauraBelém"}]
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F91175586&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
+soundcloudLink: 'https://soundcloud.com/artesonora/podcast-03-laura-bel-m?in=artesonora/sets/podcast&si=1d9e6a668edf409296b4c9ef8ecff6b6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
+fileLink: ''
 publishedAt: '2013-04-12T16:27:54.000Z'
 ---
 
