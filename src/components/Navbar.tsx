@@ -8,6 +8,7 @@ import { AiFillAudio } from 'react-icons/ai';
 import { BiSolidHourglass } from 'react-icons/bi';
 import { GrContact } from 'react-icons/gr';
 import { MdPeopleAlt } from 'react-icons/md';
+import TransitionLink from './TransitionLink';
 
 interface SubMenuData {
   name: string;
@@ -98,7 +99,7 @@ export default function Navbar() {
           onMouseEnter={handleHoverContainer}
           onMouseLeave={() => controlsContainer.start('off')}
         >
-          <Link
+          <TransitionLink
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white'
             href='/'
             onMouseEnter={() => controls.start('off')}
@@ -120,9 +121,9 @@ export default function Navbar() {
             >
               home
             </motion.div>
-          </Link>
+          </TransitionLink>
 
-          <Link
+          <TransitionLink
             href='/sobre'
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white cursor-pointer'
             onMouseEnter={() => handleHover([...subMenuDataManager.sobre])}
@@ -146,7 +147,7 @@ export default function Navbar() {
             >
               sobre
             </motion.div>
-          </Link>
+          </TransitionLink>
 
           <div
             className='w-full flex items-center text-zinc-500 duration-300 hover:text-white  cursor-pointer'
