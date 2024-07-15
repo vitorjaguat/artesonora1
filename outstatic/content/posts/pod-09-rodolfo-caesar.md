@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/podcast-09-rodolfo-caesar?in=
 tags: []
 collaborators: [{"label":"Rodolfo Caesar","value":"rodolfoCaesar"}]
 type: [{"value":"podcast","label":"Podcast"}]
-fileLink: ''
+fileLink: 'https://arweave.net/2kZLfg-wSvr-59OXptQyLjn3-Z3_TXMsi3dXOPfZtj4'
 publishedAt: '2013-07-01T17:43:19.000Z'
 ---
 
