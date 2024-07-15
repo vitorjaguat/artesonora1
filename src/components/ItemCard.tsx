@@ -43,9 +43,9 @@ export default function ItemCard({ itemObj, image, type }: ItemCardProps) {
           <Image
             src={image}
             alt={itemObj.title}
-            width={180}
-            height={180}
-            className=' duration-500 ease-in-out'
+            className='rounded-full object-cover'
+            width={160}
+            height={160}
           />
           <PiPlayLight
             onClick={handleClickPlay}

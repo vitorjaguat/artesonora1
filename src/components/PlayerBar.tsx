@@ -21,6 +21,8 @@ export default function PlayerBar() {
   let player: any;
 
   useEffect(() => {
+    console.log('playSrc', playSrc);
+
     if (!pathname.includes('outstatic') && !pathname.includes('admin')) {
       player = new Player({
         container: playerRef.current,
