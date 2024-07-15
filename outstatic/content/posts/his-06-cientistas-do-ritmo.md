@@ -9,13 +9,13 @@ description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/nahistoria06?in=artesonora/sets/nahistoria'
 fileLink: ''
-tags: ''
+tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]
 publishedAt: '2018-07-06T20:56:11.000Z'
 ---
 
-Neste programa vamos falar sobre a dissolução da fronteira entre música e arte no século XX e XXI, a passagem do padrão analógico para o digital e a entrada do sampler, que vai modificar, definitivamente, a noção de autoria.
+Neste programa vamos falar sobre a dissolução da fronteira entre música e arte no século XX e XXI, a passagem do padrão analógico para o digital e a entrada do sampler, que vai modificar, definitivamente, a noção de autoria. 
 
 **Links**
 

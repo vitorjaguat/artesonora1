@@ -1,6 +1,6 @@
 {
-  "commit": "56b88d94de891bd59cb4e23a583ce11274224bbe",
-  "generated": "2024-07-15T14:30:55.214Z",
+  "commit": "87819150651092325faddac88694a09f6d597645",
+  "generated": "2024-07-15T14:31:38.695Z",
   "metadata": [
     {
       "__outstatic": {
@@ -843,40 +843,6 @@
       "tags": [
       ],
       "title": "HIS #05 Da vanguarda ao mainstream",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "33a919a5f7d65c7981f9a4f5a4b698df7cfa7dae",
-        "hash": "2488465859",
-        "path": "outstatic/content/posts/his-06-cientistas-do-ritmo.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-07-06T20:56:11.000Z",
-      "slug": "his-06-cientistas-do-ritmo",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria06?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #06 Cientistas do Ritmo",
       "type": [
         {
           "label": "Na História",
@@ -1765,6 +1731,40 @@
       "tags": [
       ],
       "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "87819150651092325faddac88694a09f6d597645",
+        "hash": "3134394156",
+        "path": "outstatic/content/posts/his-06-cientistas-do-ritmo.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2018-07-06T20:56:11.000Z",
+      "slug": "his-06-cientistas-do-ritmo",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria06?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #06 Cientistas do Ritmo",
       "type": [
         {
           "label": "Na História",
