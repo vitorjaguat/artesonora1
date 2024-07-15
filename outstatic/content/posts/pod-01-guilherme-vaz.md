@@ -11,7 +11,7 @@ collaborators: [{"label":"Guilherme Vaz","value":"guilhermeVaz"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/podcast-01-guilherme-vaz?in=artesonora/sets/podcast&si=e3b75287941e4832963dcb9fc1c851a7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"value":"podcast","label":"Podcast"}]
 tags: []
-fileLink: ''
+fileLink: 'https://arweave.net/4DZweuv9SG4ZUUwACkyGxnNcevz7UxBxUcXPdOy-yQU'
 publishedAt: '2013-03-01T16:13:05.000Z'
 ---
 

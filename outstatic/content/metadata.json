@@ -1,6 +1,6 @@
 {
-  "commit": "f41b8fb0bd6dffeac16a9613cb01fe8588d9e0d1",
-  "generated": "2024-07-15T16:16:49.327Z",
+  "commit": "47aca5ae7a928c6241139c0e35baa46238377790",
+  "generated": "2024-07-15T18:19:23.676Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1094,40 +1094,6 @@
     },
     {
       "__outstatic": {
-        "commit": "7bfc73ebca89c7207d74e9259bc1c93b3991698f",
-        "hash": "3136621890",
-        "path": "outstatic/content/posts/pod-01-guilherme-vaz.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Guilherme Vaz",
-          "value": "guilhermeVaz"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2013-03-01T16:13:05.000Z",
-      "slug": "pod-01-guilherme-vaz",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-01-guilherme-vaz?in=artesonora/sets/podcast&si=e3b75287941e4832963dcb9fc1c851a7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #01 Guilherme Vaz",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "e1f586a731751ea1817316f19b88ff525654322d",
         "hash": "2582115785",
         "path": "outstatic/content/posts/pod-02-cadu.md"
@@ -1769,6 +1735,40 @@
         {
           "label": "Na História",
           "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "47aca5ae7a928c6241139c0e35baa46238377790",
+        "hash": "1415534268",
+        "path": "outstatic/content/posts/pod-01-guilherme-vaz.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Guilherme Vaz",
+          "value": "guilhermeVaz"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/4DZweuv9SG4ZUUwACkyGxnNcevz7UxBxUcXPdOy-yQU",
+      "publishedAt": "2013-03-01T16:13:05.000Z",
+      "slug": "pod-01-guilherme-vaz",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-01-guilherme-vaz?in=artesonora/sets/podcast&si=e3b75287941e4832963dcb9fc1c851a7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #01 Guilherme Vaz",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
         }
       ]
     }
