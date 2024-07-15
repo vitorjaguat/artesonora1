@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/podcast-11-lilian-zaremba?in=
 tags: []
 collaborators: [{"label":"Lilian Zaremba","value":"lilianZaremba"}]
 type: [{"value":"podcast","label":"Podcast"}]
-fileLink: ''
+fileLink: 'https://arweave.net/_aEHuFr68HCfaGQkaKdANVkN9TWNbgEcUci4Fl5Y8d4'
 publishedAt: '2013-08-02T17:46:31.000Z'
 ---
 
