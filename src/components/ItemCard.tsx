@@ -6,6 +6,7 @@ import { PiPlayLight } from 'react-icons/pi';
 import { useContext } from 'react';
 import { MainContext } from '@/context/mainContext';
 import Link from 'next/link';
+import TransitionLink from './TransitionLink';
 
 type ItemCardProps = {
   itemObj: any; // Replace 'any' with the appropriate type for itemObj
@@ -55,7 +56,7 @@ export default function ItemCard({ itemObj, image, type }: ItemCardProps) {
         </div>
       </div>
 
-      <Link
+      <TransitionLink
         href={`/${type}/${itemObj.slug}`}
         className='h-full md:flex-grow md:w-full flex flex-col justify-between items-center md:items-start gap-2'
       >
@@ -63,7 +64,7 @@ export default function ItemCard({ itemObj, image, type }: ItemCardProps) {
         <div className='text-sm text-center md:text-left mt-2'>
           {itemObj.content.slice(0, 180)}...
         </div>
-      </Link>
+      </TransitionLink>
     </div>
   );
 }

@@ -33,7 +33,7 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <MainContextProvider>
-        <div className='relative w-screen'>
+        <div className='relative w-screen bg-black'>
           <Navbar />
           <div className='relative bottom-0 left-0 bg-black w-screen h-fit'>
             <PlayerBar />
