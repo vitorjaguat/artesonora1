@@ -1,6 +1,6 @@
 {
-  "commit": "87819150651092325faddac88694a09f6d597645",
-  "generated": "2024-07-15T14:31:38.695Z",
+  "commit": "c41d521053a7cb10149f72cd76de895b802cb04a",
+  "generated": "2024-07-15T15:37:31.439Z",
   "metadata": [
     {
       "__outstatic": {
@@ -713,40 +713,6 @@
       "status": "published",
       "title": "Magno Calliman",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "c90a0fcee6e9e61259536e576b648714986191f4",
-        "hash": "3539416961",
-        "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-07-01T20:03:44.000Z",
-      "slug": "his-02-a-formacao-de-um-campo-sensivel",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #02 A formação de um campo sensível",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1765,6 +1731,40 @@
       "tags": [
       ],
       "title": "HIS #06 Cientistas do Ritmo",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "c41d521053a7cb10149f72cd76de895b802cb04a",
+        "hash": "3622381959",
+        "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/7CqWjYINMig54FOZtbUZHXZgK3BAjv9aH7ld1a_OAv0",
+      "publishedAt": "2018-07-01T20:03:44.000Z",
+      "slug": "his-02-a-formacao-de-um-campo-sensivel",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #02 A formação de um campo sensível",
       "type": [
         {
           "label": "Na História",

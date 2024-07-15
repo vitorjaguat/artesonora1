@@ -8,7 +8,7 @@ slug: 'his-02-a-formacao-de-um-campo-sensivel'
 description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria'
-fileLink: ''
+fileLink: 'https://arweave.net/7CqWjYINMig54FOZtbUZHXZgK3BAjv9aH7ld1a_OAv0'
 tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]
