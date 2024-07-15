@@ -1,6 +1,6 @@
 {
-  "commit": "d429fb274d12516468cd1e5aa671c39b9e9d38c5",
-  "generated": "2024-07-15T16:12:59.542Z",
+  "commit": "b9c85bb4ce54e35fb1e5ec19fb7032cc8de37206",
+  "generated": "2024-07-15T16:13:59.605Z",
   "metadata": [
     {
       "__outstatic": {
@@ -679,40 +679,6 @@
       "status": "published",
       "title": "Magno Calliman",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "2195f8e0f31e912288bf7ec26a1bf7fd037e6c49",
-        "hash": "1878791627",
-        "path": "outstatic/content/posts/his-05-da-vanguarda-ao-mainstream.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-07-05T20:53:55.000Z",
-      "slug": "his-05-da-vanguarda-ao-mainstream",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria05?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #05 Da vanguarda ao mainstream",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1765,6 +1731,40 @@
       "tags": [
       ],
       "title": "HIS #04 O fator tecnológico midiático na era do som",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "b9c85bb4ce54e35fb1e5ec19fb7032cc8de37206",
+        "hash": "3296303590",
+        "path": "outstatic/content/posts/his-05-da-vanguarda-ao-mainstream.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/t3-4QOCjcR96hHnpBCjiifN8ZBWWNQxC6nVv_JdYYSM",
+      "publishedAt": "2018-07-05T20:53:55.000Z",
+      "slug": "his-05-da-vanguarda-ao-mainstream",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria05?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #05 Da vanguarda ao mainstream",
       "type": [
         {
           "label": "Na História",

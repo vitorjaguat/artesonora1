@@ -8,8 +8,8 @@ slug: 'his-05-da-vanguarda-ao-mainstream'
 description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/nahistoria05?in=artesonora/sets/nahistoria'
-fileLink: ''
-tags: ''
+fileLink: 'https://arweave.net/t3-4QOCjcR96hHnpBCjiifN8ZBWWNQxC6nVv_JdYYSM'
+tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]
 publishedAt: '2018-07-05T20:53:55.000Z'
