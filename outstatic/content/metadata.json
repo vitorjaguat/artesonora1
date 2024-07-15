@@ -1,6 +1,6 @@
 {
-  "commit": "89132e62a71e052d75aaae6fa4d87beb990778a2",
-  "generated": "2024-07-15T14:27:45.705Z",
+  "commit": "12373edbddbc904f71928ac60768d34009c8d5f6",
+  "generated": "2024-07-15T14:28:16.544Z",
   "metadata": [
     {
       "__outstatic": {
@@ -543,38 +543,6 @@
       "tags": [
       ],
       "title": "POD #12 Cildo Meireles",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "edbdc571f2bbb4ae9add79fd033bc56697e4da7d",
-        "hash": "3733845475",
-        "path": "outstatic/content/posts/pod-11-lilian-zaremba.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Lilian Zaremba",
-          "value": "lilianZaremba"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2013-08-02T17:46:31.000Z",
-      "slug": "pod-11-lilian-zaremba",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F103794877&show_artwork=false&in=artesonora%2Fsets%2Fpodcast",
-      "status": "published",
-      "tags": "",
-      "title": "POD #11 Lilian Zaremba",
       "type": [
         {
           "label": "Podcast",
@@ -1763,6 +1731,40 @@
       "tags": [
       ],
       "title": "POD #10 Tantão",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "12373edbddbc904f71928ac60768d34009c8d5f6",
+        "hash": "276583932",
+        "path": "outstatic/content/posts/pod-11-lilian-zaremba.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Lilian Zaremba",
+          "value": "lilianZaremba"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2013-08-02T17:46:31.000Z",
+      "slug": "pod-11-lilian-zaremba",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-11-lilian-zaremba?in=artesonora/sets/podcast&si=1b8a138cc8664a1185b8f11bb4a9f908&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #11 Lilian Zaremba",
       "type": [
         {
           "label": "Podcast",
