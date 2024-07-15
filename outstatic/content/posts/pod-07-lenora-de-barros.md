@@ -7,10 +7,11 @@ author:
 slug: 'pod-07-lenora-de-barros'
 description: ''
 coverImage: ''
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F98152730&show_artwork=false&in=artesonora%2Fsets%2Fpodcast'
+soundcloudLink: 'https://soundcloud.com/artesonora/podcast-07-lenora-de-barros?in=artesonora/sets/podcast&si=4bd5005d67f94a64ad964563b8c6037e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 tags: []
 collaborators: [{"label":"Lenora de Barros","value":"lenoraDeBarros"}]
 type: [{"value":"podcast","label":"Podcast"}]
+fileLink: ''
 publishedAt: '2013-06-07T16:40:42.000Z'
 ---
 
