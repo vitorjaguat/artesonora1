@@ -9,7 +9,7 @@ description: ''
 coverImage: ''
 tags: []
 collaborators: [{"label":"Cildo Meireles","value":"cildoMeireles"}]
-soundcloudLink: 'https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F110055748&show_artwork=false'
+soundcloudLink: 'https://soundcloud.com/artesonora/podcast-12-cildo-meireles?in=artesonora/sets/podcast&si=2a3d3645fda049d997f8a2a80b0f3031&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"label":"Podcast","value":"podcast"}]
 fileLink: 'https://arweave.net/iVmwct0EFHzAuy0AH4v8CO_PUfmMguA1eCeLM5qi4c8'
 publishedAt: '2018-03-15T14:43:38.000Z'
