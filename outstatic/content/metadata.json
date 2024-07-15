@@ -1,6 +1,6 @@
 {
-  "commit": "0f53e88a496e56679888c4d3cf57d3bf4041f007",
-  "generated": "2024-07-15T16:15:49.011Z",
+  "commit": "f41b8fb0bd6dffeac16a9613cb01fe8588d9e0d1",
+  "generated": "2024-07-15T16:16:49.327Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1502,40 +1502,6 @@
     },
     {
       "__outstatic": {
-        "commit": "56b88d94de891bd59cb4e23a583ce11274224bbe",
-        "hash": "1033662213",
-        "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-07-08T20:59:48.000Z",
-      "slug": "his-08-arte-e-som-no-brasil-os-contemporaneos",
-      "soundcloudLink": "https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "c41d521053a7cb10149f72cd76de895b802cb04a",
         "hash": "3622381959",
         "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
@@ -1765,6 +1731,40 @@
       "tags": [
       ],
       "title": "HIS #07 Arte e Som no Brasil - Os primórdios",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "f41b8fb0bd6dffeac16a9613cb01fe8588d9e0d1",
+        "hash": "3899443556",
+        "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/cx1tKLEzWZXxvJz0qxg1Nqz93t0kzzcMCV9Hb3pFiro",
+      "publishedAt": "2018-07-08T20:59:48.000Z",
+      "slug": "his-08-arte-e-som-no-brasil-os-contemporaneos",
+      "soundcloudLink": "https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
       "type": [
         {
           "label": "Na História",

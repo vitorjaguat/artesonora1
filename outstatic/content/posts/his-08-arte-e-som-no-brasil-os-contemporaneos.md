@@ -8,7 +8,7 @@ slug: 'his-08-arte-e-som-no-brasil-os-contemporaneos'
 description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria'
-fileLink: ''
+fileLink: 'https://arweave.net/cx1tKLEzWZXxvJz0qxg1Nqz93t0kzzcMCV9Hb3pFiro'
 tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]
