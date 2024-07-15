@@ -8,8 +8,8 @@ slug: 'his-07-arte-e-som-no-brasil-os-primordios'
 description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/nahistoria07?in=artesonora/sets/nahistoria'
-fileLink: ''
-tags: ''
+fileLink: 'https://arweave.net/ADU6Ru-hjGz-yc9FinHC7M5VP0e7ZUZzNHqEy6iY4cc'
+tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]
 publishedAt: '2018-07-07T20:57:44.000Z'

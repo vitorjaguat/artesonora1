@@ -1,6 +1,6 @@
 {
-  "commit": "3bc1b2a44cf9d950a5e68524853747cfd7203615",
-  "generated": "2024-07-15T16:15:03.467Z",
+  "commit": "0f53e88a496e56679888c4d3cf57d3bf4041f007",
+  "generated": "2024-07-15T16:15:49.011Z",
   "metadata": [
     {
       "__outstatic": {
@@ -679,40 +679,6 @@
       "status": "published",
       "title": "Magno Calliman",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "6299eab710b5b85e47818a72161ca643d8f81276",
-        "hash": "3562888741",
-        "path": "outstatic/content/posts/his-07-arte-e-som-no-brasil-os-primordios.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-07-07T20:57:44.000Z",
-      "slug": "his-07-arte-e-som-no-brasil-os-primordios",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria07?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #07 Arte e Som no Brasil - Os primórdios",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1765,6 +1731,40 @@
       "tags": [
       ],
       "title": "HIS #06 Cientistas do Ritmo",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "0f53e88a496e56679888c4d3cf57d3bf4041f007",
+        "hash": "1456428480",
+        "path": "outstatic/content/posts/his-07-arte-e-som-no-brasil-os-primordios.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/ADU6Ru-hjGz-yc9FinHC7M5VP0e7ZUZzNHqEy6iY4cc",
+      "publishedAt": "2018-07-07T20:57:44.000Z",
+      "slug": "his-07-arte-e-som-no-brasil-os-primordios",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria07?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #07 Arte e Som no Brasil - Os primórdios",
       "type": [
         {
           "label": "Na História",
