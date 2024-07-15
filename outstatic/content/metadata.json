@@ -1,6 +1,6 @@
 {
-  "commit": "9c15e9e2f112d112212ad68a047b2b23845874d7",
-  "generated": "2024-07-15T16:06:22.968Z",
+  "commit": "6cd1dd4954cf5376cde76187d5c8fe8c482c3813",
+  "generated": "2024-07-15T16:09:40.331Z",
   "metadata": [
     {
       "__outstatic": {
@@ -679,40 +679,6 @@
       "status": "published",
       "title": "Magno Calliman",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "fec19577d9a46215000c96e0f123f1493a247ea8",
-        "hash": "3245279937",
-        "path": "outstatic/content/posts/his-03-transbordando-fronteiras.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-07-02T20:35:20.000Z",
-      "slug": "his-03-transbordando-fronteiras",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria03?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #03 Transbordando fronteiras",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1765,6 +1731,40 @@
       "tags": [
       ],
       "title": "HIS #01 A valorização do entorno acústico",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "6cd1dd4954cf5376cde76187d5c8fe8c482c3813",
+        "hash": "2649074168",
+        "path": "outstatic/content/posts/his-03-transbordando-fronteiras.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/NmrL7R5aDEIbTOpnNyxVuPK6rMTnFN1fvLowgkz8Azw",
+      "publishedAt": "2018-07-02T20:35:20.000Z",
+      "slug": "his-03-transbordando-fronteiras",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria03?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #03 Transbordando fronteiras",
       "type": [
         {
           "label": "Na História",

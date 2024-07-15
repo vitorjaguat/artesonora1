@@ -10,7 +10,7 @@ coverImage: ''
 collaborators: [{"value":"exst","label":"EXST"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/nahistoria03?in=artesonora/sets/nahistoria'
 type: [{"value":"naHistória","label":"Na História"}]
-fileLink: ''
+fileLink: 'https://arweave.net/NmrL7R5aDEIbTOpnNyxVuPK6rMTnFN1fvLowgkz8Azw'
 tags: []
 publishedAt: '2018-07-02T20:35:20.000Z'
 ---
