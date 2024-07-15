@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/podcast-10-tant-o?in=artesono
 tags: []
 collaborators: [{"label":"Tantão","value":"tantão"}]
 type: [{"value":"podcast","label":"Podcast"}]
-fileLink: ''
+fileLink: 'https://arweave.net/W6_0KXyKdqFwPMHD9DxH-JMZHmqejPsBVDVr9Zp3BVg'
 publishedAt: '2013-07-19T17:44:37.000Z'
 ---
 
