@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/podcast-07-lenora-de-barros?i
 tags: []
 collaborators: [{"label":"Lenora de Barros","value":"lenoraDeBarros"}]
 type: [{"value":"podcast","label":"Podcast"}]
-fileLink: ''
+fileLink: 'https://arweave.net/j3Vb9vjGn2FsTBAS9r6zmKNEKPM3PTQpfyGH4lN3Hwk'
 publishedAt: '2013-06-07T16:40:42.000Z'
 ---
 

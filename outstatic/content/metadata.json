@@ -1,6 +1,6 @@
 {
-  "commit": "5fae24494c5576a6f61dd34528339f1a045499da",
-  "generated": "2024-07-15T18:23:38.279Z",
+  "commit": "54424448a85239633e9c2cd2c514b72f21a612f6",
+  "generated": "2024-07-15T18:24:26.745Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1094,40 +1094,6 @@
     },
     {
       "__outstatic": {
-        "commit": "694d58ad5d0bfd89ba6c89b779542dd847e3794a",
-        "hash": "529994386",
-        "path": "outstatic/content/posts/pod-07-lenora-de-barros.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Lenora de Barros",
-          "value": "lenoraDeBarros"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2013-06-07T16:40:42.000Z",
-      "slug": "pod-07-lenora-de-barros",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-07-lenora-de-barros?in=artesonora/sets/podcast&si=4bd5005d67f94a64ad964563b8c6037e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #07 Lenora de Barros",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "ffdce39d7b851026a112f9a06c83d169fbd0a017",
         "hash": "116385359",
         "path": "outstatic/content/posts/pod-08-paulo-nenflidio.md"
@@ -1765,6 +1731,40 @@
       "tags": [
       ],
       "title": "POD #06 Chelpa Ferro",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "54424448a85239633e9c2cd2c514b72f21a612f6",
+        "hash": "4046201922",
+        "path": "outstatic/content/posts/pod-07-lenora-de-barros.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Lenora de Barros",
+          "value": "lenoraDeBarros"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/j3Vb9vjGn2FsTBAS9r6zmKNEKPM3PTQpfyGH4lN3Hwk",
+      "publishedAt": "2013-06-07T16:40:42.000Z",
+      "slug": "pod-07-lenora-de-barros",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-07-lenora-de-barros?in=artesonora/sets/podcast&si=4bd5005d67f94a64ad964563b8c6037e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #07 Lenora de Barros",
       "type": [
         {
           "label": "Podcast",
