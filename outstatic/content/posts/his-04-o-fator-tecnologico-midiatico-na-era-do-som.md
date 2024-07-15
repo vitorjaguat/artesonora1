@@ -8,7 +8,7 @@ slug: 'his-04-o-fator-tecnologico-midiatico-na-era-do-som'
 description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/nahistoria04?in=artesonora/sets/nahistoria'
-fileLink: ''
+fileLink: 'https://arweave.net/Mkn1ZJlKaMp214c7-sL8uZE4lz3Bcgb6yIBa5gdSTo4'
 tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]

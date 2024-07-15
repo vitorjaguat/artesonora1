@@ -1,6 +1,6 @@
 {
-  "commit": "6cd1dd4954cf5376cde76187d5c8fe8c482c3813",
-  "generated": "2024-07-15T16:09:40.331Z",
+  "commit": "d429fb274d12516468cd1e5aa671c39b9e9d38c5",
+  "generated": "2024-07-15T16:12:59.542Z",
   "metadata": [
     {
       "__outstatic": {
@@ -679,40 +679,6 @@
       "status": "published",
       "title": "Magno Calliman",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "0ad287e3a902a013151330bd88dfb4797fc79362",
-        "hash": "3281864857",
-        "path": "outstatic/content/posts/his-04-o-fator-tecnologico-midiatico-na-era-do-som.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-07-04T20:49:02.000Z",
-      "slug": "his-04-o-fator-tecnologico-midiatico-na-era-do-som",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria04?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #04 O fator tecnológico midiático na era do som",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1765,6 +1731,40 @@
       "tags": [
       ],
       "title": "HIS #03 Transbordando fronteiras",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "d429fb274d12516468cd1e5aa671c39b9e9d38c5",
+        "hash": "489346656",
+        "path": "outstatic/content/posts/his-04-o-fator-tecnologico-midiatico-na-era-do-som.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/Mkn1ZJlKaMp214c7-sL8uZE4lz3Bcgb6yIBa5gdSTo4",
+      "publishedAt": "2018-07-04T20:49:02.000Z",
+      "slug": "his-04-o-fator-tecnologico-midiatico-na-era-do-som",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria04?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #04 O fator tecnológico midiático na era do som",
       "type": [
         {
           "label": "Na História",
