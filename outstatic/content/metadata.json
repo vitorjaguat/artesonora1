@@ -1,6 +1,6 @@
 {
   "commit": "56b88d94de891bd59cb4e23a583ce11274224bbe",
-  "generated": "2024-07-15T14:30:46.148Z",
+  "generated": "2024-07-15T14:30:55.214Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1741,7 +1741,7 @@
     {
       "__outstatic": {
         "commit": "56b88d94de891bd59cb4e23a583ce11274224bbe",
-        "hash": "1398936871",
+        "hash": "1033662213",
         "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
       },
       "author": {
@@ -1763,10 +1763,6 @@
       "soundcloudLink": "https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria",
       "status": "published",
       "tags": [
-        {
-          "label": "Arte Sonora",
-          "value": "arteSonora"
-        }
       ],
       "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
       "type": [

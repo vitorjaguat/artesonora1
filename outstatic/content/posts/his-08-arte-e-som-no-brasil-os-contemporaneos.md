@@ -9,7 +9,7 @@ description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria'
 fileLink: ''
-tags: [{"label":"Arte Sonora","value":"arteSonora"}]
+tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]
 publishedAt: '2018-07-08T20:59:48.000Z'
