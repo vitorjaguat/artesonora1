@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/arte-sonora-mixtape-03-chico?
 tags: []
 collaborators: [{"label":"Chico Dub","value":"chicoDub"}]
 type: [{"label":"Mixtape","value":"mixtape"}]
-fileLink: ''
+fileLink: 'https://arweave.net/NSvdEzk2AEYNmpuN9VG2CZQI7Larj8_Rvvw2nZ-CqIw'
 publishedAt: '2018-03-15T14:57:22.000Z'
 ---
 
