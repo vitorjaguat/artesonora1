@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/arte-sonora-mixtape-02-daniel
 tags: []
 collaborators: [{"label":"Daniela Labra","value":"danielaLabra"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
-fileLink: ''
+fileLink: 'https://arweave.net/3T77wePPDBiqcCMvBu2V7XfBhn29ldYbc6DSgM8fPAg'
 publishedAt: '2013-03-22T17:47:42.000Z'
 ---
 
