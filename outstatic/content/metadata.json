@@ -1,6 +1,6 @@
 {
-  "commit": "0839b50eac861219c4456300a19f9274864d3f67",
-  "generated": "2024-07-16T15:13:35.662Z",
+  "commit": "80a69131768bada592f8a9847f7b035ba6285c68",
+  "generated": "2024-07-16T15:18:28.157Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1805,6 +1805,27 @@
           "value": "mixtape"
         }
       ]
+    },
+    {
+      "__outstatic": {
+        "commit": "80a69131768bada592f8a9847f7b035ba6285c68",
+        "hash": "1062302947",
+        "path": "outstatic/content/collaborators/marcos-chaves.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/mc2-k0Nz.jpg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/marcoschaves/",
+      "publishedAt": "2024-07-16T14:55:50.635Z",
+      "slug": "marcos-chaves",
+      "status": "published",
+      "title": "Marcos Chaves",
+      "twitter": ""
     }
   ]
 }
