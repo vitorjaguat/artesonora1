@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-07-bernardo-oliveira?
 tags: []
 collaborators: [{"label":"Bernardo Oliveira","value":"bernardoOliveira"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
-fileLink: ''
+fileLink: 'https://arweave.net/xHiOeIhR2TDi6umvR2AJDEc_Y6h5dc5V51yQ0rI3gRM'
 publishedAt: '2013-05-14T17:54:48.000Z'
 ---
 
