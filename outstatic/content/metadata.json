@@ -1,6 +1,6 @@
 {
-  "commit": "878219d991aea53d17194d2b2be3759fdbe44cca",
-  "generated": "2024-07-16T15:25:30.086Z",
+  "commit": "7df1fe29173e03223502f89f7d99fae5a3bb1a52",
+  "generated": "2024-07-16T15:26:05.703Z",
   "metadata": [
     {
       "__outstatic": {
@@ -679,40 +679,6 @@
       "status": "published",
       "title": "Magno Calliman",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "a813e6d3d16173bcfa7da28155b232332a5322d7",
-        "hash": "1890455895",
-        "path": "outstatic/content/posts/mix-10-ioia.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "IOIA",
-          "value": "ioia"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2013-07-10T17:59:36.000Z",
-      "slug": "mix-10-ioia",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-10-ioia-aka-antonio?in=artesonora/sets/programas2013&si=335f72614fbb4192ada3c81a1580b483&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #10 IOIA",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1820,6 +1786,40 @@
       "tags": [
       ],
       "title": "MIX #09 Batman Zavareze",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "7df1fe29173e03223502f89f7d99fae5a3bb1a52",
+        "hash": "1277121040",
+        "path": "outstatic/content/posts/mix-10-ioia.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "IOIA",
+          "value": "ioia"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/lZNXlYpq4thhTeLBmer_z6wopqnXKAKzKmz4YjQT3kw",
+      "publishedAt": "2013-07-10T17:59:36.000Z",
+      "slug": "mix-10-ioia",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-10-ioia-aka-antonio?in=artesonora/sets/programas2013&si=335f72614fbb4192ada3c81a1580b483&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #10 IOIA",
       "type": [
         {
           "label": "Mixtape",
