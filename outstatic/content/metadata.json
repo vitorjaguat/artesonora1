@@ -1,6 +1,6 @@
 {
-  "commit": "c502e1bed129f4c12868953716f683bbca886184",
-  "generated": "2024-07-16T15:27:13.111Z",
+  "commit": "5f740dbe2aae0df804053af64cf6b74e6571f7be",
+  "generated": "2024-07-16T15:32:12.590Z",
   "metadata": [
     {
       "__outstatic": {
@@ -679,44 +679,6 @@
       "status": "published",
       "title": "Magno Calliman",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "3140b3333bc0318966cff68cc4eb9097d6d2397e",
-        "hash": "3868536412",
-        "path": "outstatic/content/posts/varanda-sonora-01-arto-lindsay-magno-calliman.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Arto Lindsay",
-          "value": "artoLindsay"
-        },
-        {
-          "label": "Magno Calliman",
-          "value": "magnoCalliman"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://drive.google.com/uc?export=download&id=175O6RvQY6RNuW4OZ58ZSo8uIzeuM8F6G",
-      "publishedAt": "2017-07-01T19:00:38.000Z",
-      "slug": "varanda-sonora-01-arto-lindsay-magno-calliman",
-      "soundcloudLink": "https://soundcloud.com/artesonora/varanda-sonora-01-arto-lindsay?in=artesonora/sets/varanda-sonora&si=ee73219ad11f45d0bdc54e85a2a73f94&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Varanda Sonora #01 - Arto Lindsay + Magno Calliman",
-      "type": [
-        {
-          "label": "Varanda Sonora",
-          "value": "varandaSonora"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1824,6 +1786,44 @@
         {
           "label": "Mixtape",
           "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "5f740dbe2aae0df804053af64cf6b74e6571f7be",
+        "hash": "4035266441",
+        "path": "outstatic/content/posts/varanda-sonora-01-arto-lindsay-magno-calliman.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Arto Lindsay",
+          "value": "artoLindsay"
+        },
+        {
+          "label": "Magno Calliman",
+          "value": "magnoCalliman"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2017-07-01T19:00:38.000Z",
+      "slug": "varanda-sonora-01-arto-lindsay-magno-calliman",
+      "soundcloudLink": "https://soundcloud.com/artesonora/varanda-sonora-01-arto-lindsay?in=artesonora/sets/varanda-sonora&si=ee73219ad11f45d0bdc54e85a2a73f94&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Varanda Sonora #01 - Arto Lindsay + Magno Calliman",
+      "type": [
+        {
+          "label": "Varanda Sonora",
+          "value": "varandaSonora"
         }
       ]
     }
