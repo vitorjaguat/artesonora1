@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-08-l-sias-paiva?in=ar
 tags: []
 collaborators: [{"label":"Lísias Paiva","value":"lísiasPaiva"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
-fileLink: ''
+fileLink: 'https://arweave.net/xxnyAuKLz0mYaWUFy65R-zbByoWzi7KgxL9dXhJ9z6k'
 publishedAt: '2013-06-10T17:56:58.000Z'
 ---
 
