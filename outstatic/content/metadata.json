@@ -1,6 +1,6 @@
 {
-  "commit": "a980b97a480d6c411507ba00cf8eb86b1afc5def",
-  "generated": "2024-07-16T15:24:50.812Z",
+  "commit": "878219d991aea53d17194d2b2be3759fdbe44cca",
+  "generated": "2024-07-16T15:25:30.086Z",
   "metadata": [
     {
       "__outstatic": {
@@ -679,40 +679,6 @@
       "status": "published",
       "title": "Magno Calliman",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "f7e287071593d120dc8742970f0b7332266bd116",
-        "hash": "1854212665",
-        "path": "outstatic/content/posts/mix-09-batman-zavareze.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Batman Zavareze",
-          "value": "batmanZavareze"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2013-06-28T17:58:14.000Z",
-      "slug": "mix-09-batman-zavareze",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-09-batman-zavareze?in=artesonora/sets/programas2013&si=30c9c5c86a5e4f7d87363e2d7a112aac&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #09 Batman Zavareze",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1820,6 +1786,40 @@
       "tags": [
       ],
       "title": "MIX #08 Lísias Paiva",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "878219d991aea53d17194d2b2be3759fdbe44cca",
+        "hash": "208771245",
+        "path": "outstatic/content/posts/mix-09-batman-zavareze.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Batman Zavareze",
+          "value": "batmanZavareze"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/AOJjaOsKoZ6TiNpy0xEXMyWm9XVdnGaDE1ZwgLkUsy0",
+      "publishedAt": "2013-06-28T17:58:14.000Z",
+      "slug": "mix-09-batman-zavareze",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-09-batman-zavareze?in=artesonora/sets/programas2013&si=30c9c5c86a5e4f7d87363e2d7a112aac&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #09 Batman Zavareze",
       "type": [
         {
           "label": "Mixtape",

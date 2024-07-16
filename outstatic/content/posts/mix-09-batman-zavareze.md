@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-09-batman-zavareze?in
 tags: []
 collaborators: [{"label":"Batman Zavareze","value":"batmanZavareze"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
-fileLink: ''
+fileLink: 'https://arweave.net/AOJjaOsKoZ6TiNpy0xEXMyWm9XVdnGaDE1ZwgLkUsy0'
 publishedAt: '2013-06-28T17:58:14.000Z'
 ---
 
