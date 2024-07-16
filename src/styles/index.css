@@ -102,3 +102,8 @@ p {
   transform: translateY(40px);
   filter: blur(12px);
 }
+
+/* SplitType split text */
+.target {
+  font-kerning: none;
+}

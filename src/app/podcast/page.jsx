@@ -3,6 +3,7 @@ import markdownToHtml from '../../lib/markdownToHtml';
 import ItemCard from '@/components/ItemCard';
 import HeaderSubpage from '@/components/HeaderSubpage';
 import RevealText from '@/components/RevealText';
+import RevealTextSplit from '@/components/RevealTextSplit';
 // import OutstaticSchema from 'outstatic/dist/utils/server';
 // import imgPlaceholder from '@/public/images/imgPlaceholder.webp';
 
@@ -89,6 +90,7 @@ export default async function Page() {
         <div className='w-full max-w-[90%] md:max-w-[700px] lg:max-w-[900px] flex flex-col items-center justify-center gap-8 text-white'>
           {posts.map((post, i) => (
             <>
+              {/* <RevealText key={i}> */}
               <ItemCard
                 key={i}
                 itemObj={post}
@@ -99,6 +101,7 @@ export default async function Page() {
                   )?.coverImage
                 }
               />
+              {/* </RevealText> */}
               {/* #####{i + 1}#####{' '} */}
               {/* <div
             className=''
