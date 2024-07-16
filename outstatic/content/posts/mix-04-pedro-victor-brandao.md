@@ -11,11 +11,11 @@ soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-04-pedro-victor-brand
 tags: []
 collaborators: [{"label":"Pedro Victor Brandão","value":"pedroVictorBrandão"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
-fileLink: ''
+fileLink: 'https://arweave.net/N4uPjMbz59yREJpV2Xrp_tmn4k63jwd8IruaGI8A4bU'
 publishedAt: '2013-04-19T17:49:54.000Z'
 ---
 
-Pedro reuniu o que chamou de “clássicos e novos clássicos”, que podem aparecer, tanto na pista de dança quanto nos players. 
+Pedro reuniu o que chamou de “clássicos e novos clássicos”, que podem aparecer, tanto na pista de dança quanto nos players.
 
 Pedro Victor é artista visual e fotógrafo. Formado nos cursos livres da EAV Parque Lage e graduado em Fotografia pela Universidade Estácio de Sá, ele desenvolve trabalhos autorais que versam sobre ressignificações da imagem fotográfica hoje. Fotógrafo na técnica, artista na prática e cientista na teoria, ele se interessa pela proposição de dúvidas sobre a conexão da verdade com a fotografia, desestabilizando sistemas com uma crítica do que venha a ser a imagem técnica contemporânea. Pedro utiliza a fotografia como instrumento de ação política. Algumas palavras-chave que podem definir sua pesquisa são: epistemologia, imagem, esquecimento e perenidade.
 
