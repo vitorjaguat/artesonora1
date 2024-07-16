@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-12-andre-amaral?in=ar
 tags: []
 collaborators: [{"label":"André Amaral","value":"andréAmaral"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
-fileLink: ''
+fileLink: 'https://arweave.net/psf3EBNXyayoZHHsnte5WxuNPhxM7tmvSZlMsZGxaNk'
 publishedAt: '2013-09-06T18:07:46.000Z'
 ---
 
