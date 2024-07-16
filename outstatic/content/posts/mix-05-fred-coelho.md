@@ -11,7 +11,7 @@ soundcloudLink: 'https://soundcloud.com/artesonora/mixtape-05-fred-coelho?in=art
 tags: []
 collaborators: [{"label":"Fred Coelho","value":"fredCoelho"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
-fileLink: ''
+fileLink: 'https://arweave.net/B-1SDsIQOeKLlRuIDtEDvpY1hA1Wr0SHYvF3Kri2JJc'
 publishedAt: '2013-05-03T17:51:52.000Z'
 ---
 
