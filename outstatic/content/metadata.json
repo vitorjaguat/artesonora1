@@ -1,6 +1,6 @@
 {
-  "commit": "10a4abd62414f26e6006ae7abd97aff13aaa76a4",
-  "generated": "2024-07-15T18:28:31.368Z",
+  "commit": "0839b50eac861219c4456300a19f9274864d3f67",
+  "generated": "2024-07-16T15:13:35.662Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1769,6 +1769,40 @@
         {
           "label": "Podcast",
           "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "0839b50eac861219c4456300a19f9274864d3f67",
+        "hash": "2865075777",
+        "path": "outstatic/content/posts/mix-01-marcos-chaves.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Marcos Chaves",
+          "value": "marcosChaves"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/L0ulw6ZWjK1HSsctN8pBwSAg7dEtnbdVOi5D-xbPMs8",
+      "publishedAt": "2013-03-15T14:43:06.000Z",
+      "slug": "mix-01-marcos-chaves",
+      "soundcloudLink": "",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #01 Marcos Chaves",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
         }
       ]
     }
