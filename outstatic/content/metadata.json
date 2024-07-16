@@ -1,6 +1,6 @@
 {
-  "commit": "7df1fe29173e03223502f89f7d99fae5a3bb1a52",
-  "generated": "2024-07-16T15:26:05.703Z",
+  "commit": "acc0599f54e50aeae0d1bc6cc7ab7bc8ef9236b5",
+  "generated": "2024-07-16T15:26:34.025Z",
   "metadata": [
     {
       "__outstatic": {
@@ -679,40 +679,6 @@
       "status": "published",
       "title": "Magno Calliman",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "c2b0233c9d02c13594cf07c07f0e8465e82ebe2d",
-        "hash": "2522665998",
-        "path": "outstatic/content/posts/mix-11-ronaldo-lemos.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Ronaldo Lemos",
-          "value": "ronaldoLemos"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "",
-      "publishedAt": "2013-07-26T18:00:58.000Z",
-      "slug": "mix-11-ronaldo-lemos",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-11-ronaldo-lemos?in=artesonora/sets/programas2013&si=fa782f7f545e438e8f81d93b71a4abdb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #11 Ronaldo Lemos",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1820,6 +1786,40 @@
       "tags": [
       ],
       "title": "MIX #10 IOIA",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "acc0599f54e50aeae0d1bc6cc7ab7bc8ef9236b5",
+        "hash": "3823776366",
+        "path": "outstatic/content/posts/mix-11-ronaldo-lemos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Ronaldo Lemos",
+          "value": "ronaldoLemos"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/TS-iTtfbAon1TEEk0CeAo-HwtVlAN5aLsKC8jLN_WqU",
+      "publishedAt": "2013-07-26T18:00:58.000Z",
+      "slug": "mix-11-ronaldo-lemos",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-11-ronaldo-lemos?in=artesonora/sets/programas2013&si=fa782f7f545e438e8f81d93b71a4abdb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #11 Ronaldo Lemos",
       "type": [
         {
           "label": "Mixtape",
