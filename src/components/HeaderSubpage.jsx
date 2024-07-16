@@ -10,7 +10,6 @@ export default function HeaderSubpage({
   blur = false,
 }) {
   const isMobile = useScreenSize() === 'mobile';
-  console.log('bgImg', bgImg);
 
   return (
     <div className={'bg-g h-80 w-full relative'}>

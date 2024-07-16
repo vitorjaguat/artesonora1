@@ -17,10 +17,12 @@ export default function PlayButton({ size, src, img, title, artist }) {
   const handleClickPlay = (event) => {
     event.preventDefault();
     event.stopPropagation();
-    changePlaySrc(src);
-    changePlayImg(img);
-    changePlayTitle(title);
-    changePlayArtist(artist);
+    if (src) {
+      changePlaySrc(src);
+      changePlayImg(img);
+      changePlayTitle(title);
+      changePlayArtist(artist);
+    }
   };
 
   return (

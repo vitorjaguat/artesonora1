@@ -48,11 +48,13 @@ export default function ItemCard({ itemObj, image, type }: ItemCardProps) {
             width={160}
             height={160}
           />
-          <PiPlayLight
-            onClick={handleClickPlay}
-            className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-40 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer'
-            color='white'
-          />
+          {itemObj?.fileLink && (
+            <PiPlayLight
+              onClick={handleClickPlay}
+              className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-40 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer'
+              color='white'
+            />
+          )}
         </div>
       </div>
 
