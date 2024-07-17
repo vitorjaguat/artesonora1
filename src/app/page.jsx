@@ -7,6 +7,7 @@ import { absoluteUrl } from '@/lib/utils';
 import Hero from '@/components/Hero';
 import CarouselContainer from '@/components/CarouselContainer';
 import { load } from 'outstatic/server';
+import ProgramasIntro from '@/components/ProgramasIntro';
 
 export default async function Index() {
   const { newestPosts } = await getData();
@@ -15,7 +16,9 @@ export default async function Index() {
   return (
     <>
       <Hero />
+      <ProgramasIntro />
       <CarouselContainer newestPosts={newestPosts} />
+
       <div className=''>
         <section className='w-full flex items-center justify-center'>
           {/* <div
