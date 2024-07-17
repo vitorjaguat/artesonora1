@@ -3,9 +3,7 @@ import markdownToHtml from '../../lib/markdownToHtml';
 import ItemCard from '@/components/ItemCard';
 import HeaderSubpage from '@/components/HeaderSubpage';
 import RevealText from '@/components/RevealText';
-import RevealTextSplit from '@/components/RevealTextSplit';
-// import OutstaticSchema from 'outstatic/dist/utils/server';
-// import imgPlaceholder from '@/public/images/imgPlaceholder.webp';
+// import RevealTextSplit from '@/components/RevealTextSplit';
 
 // interface Podcast {
 //   title: string;
