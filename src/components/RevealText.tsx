@@ -49,7 +49,7 @@ export default function RevealText({ children, width = 'fit-content' }: Props) {
         }}
         initial='hidden'
         animate={mainControls}
-        transition={{ duration: 0.25, delay: 0.8 }}
+        transition={{ duration: 0.25, delay: 1.2 }}
       >
         {children}
       </motion.div>
@@ -70,7 +70,7 @@ export default function RevealText({ children, width = 'fit-content' }: Props) {
           zIndex: 20,
           // borderRadius: '30% 0% 0% 30%',
         }}
-        transition={{ duration: 0.8, delay: 0 }}
+        transition={{ duration: 1.2, delay: 0 }}
       />
     </div>
   );

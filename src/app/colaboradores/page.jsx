@@ -81,7 +81,7 @@ async function getData() {
       'twitter',
       'instagram',
     ])
-    .sort({ publishedAt: -1 })
+    .sort({ title: 1 })
     .toArray();
 
   // const contentArr = filteredPosts.map((post) => post.content);

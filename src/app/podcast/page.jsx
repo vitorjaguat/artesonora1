@@ -39,13 +39,13 @@ export default async function Page() {
 
       {/* Intro text */}
       <div className='pt-24 pb-16 text-white/90 bg-zinc-900 w-full flex flex-col items-center'>
-        <div className='w-full max-w-[90%] md:max-w-[700px] lg:max-w-[900px] flex flex-col items-center justify-center gap-8 text-white'>
+        <div className='w-full max-w-[90%] md:max-w-[700px] lg:max-w-[900px] flex flex-col items-center justify-center gap-6 text-white'>
           <RevealText>
             <div className=''>
               <span className='font-bold'>Arte Sonora Podcast</span> apresenta
               de forma monográfica os principais artistas e pensadores
-              brasileiros que tem investigando o mundo através do som e suas
-              interfaces,apresentando seu pensamento, obras e interesses.
+              brasileiros que vêm investigando o mundo através do som e suas
+              interfaces, apresentando seu pensamento, obras e interesses.
             </div>
           </RevealText>
           <RevealText>
