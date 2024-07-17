@@ -115,7 +115,7 @@ export default function ProgramasIntro() {
               transitionProperty: 'opacity',
               transitionDuration: '500ms',
             }}
-            priority
+            priority={true}
             //   placeholder='blur'
             //   onLoadingComplete={() => setIsLoading(false)}
           />
