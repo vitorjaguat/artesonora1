@@ -16,33 +16,8 @@ export default async function Index() {
   return (
     <>
       <Hero />
-      <ProgramasIntro />
       <CarouselContainer newestPosts={newestPosts} />
-
-      <div className=''>
-        <section className='w-full flex items-center justify-center'>
-          {/* <div
-            className="prose lg:prose-2xl home-intro"
-            dangerouslySetInnerHTML={{ __html: content }}
-          /> */}
-        </section>
-        <div className='h-[2000px] w-full bg-neutral-800'></div>
-        {/* {allPosts.length > 0 && (
-          <ContentGrid
-            title='Posts'
-            items={allPosts}
-            collection='posts'
-            priority
-          />
-        )}
-        {allProjects.length > 0 && (
-          <ContentGrid
-            title='Projects'
-            items={allProjects}
-            collection='projects'
-          />
-        )} */}
-      </div>
+      <ProgramasIntro />
     </>
   );
 }

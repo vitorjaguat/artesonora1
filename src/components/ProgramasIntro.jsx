@@ -106,28 +106,42 @@ export default function ProgramasIntro() {
     console.log(open);
   }, [open.image]);
 
+  const scale =
+    open.id === 1
+      ? useTransform(scrollYProgress, [0, 0.25], [1, 1.2])
+      : open.id === 2
+      ? useTransform(scrollYProgress, [0.25, 0.5], [1, 1.2])
+      : open.id === 3
+      ? useTransform(scrollYProgress, [0.5, 0.75], [1, 1.2])
+      : useTransform(scrollYProgress, [0.75, 1], [1, 1.2]);
+
   return (
     <section
       ref={containerRef}
-      className='relative text-white/50 w-screen md:w-[calc(100vw-52px)] h-[300vh]  mb-40'
+      className='relative text-white/50 w-screen md:w-[calc(100vw-52px)] h-[400vh]  mb-40'
     >
       <div className='sticky inset-0 w-full h-[calc(100vh-109px)] md:h-[calc(100vh-84px)]'>
         <div className='relative w-full h-full'>
-          <Image
-            src={open.image}
-            alt={open.title}
-            fill
-            style={{
-              objectFit: 'cover',
-              zIndex: 0,
-              opacity: isLoading ? 0 : 1,
-              transitionProperty: 'opacity',
-              transitionDuration: '1000ms',
-            }}
-            priority={true}
-            //   placeholder='blur'
-            //   onLoadingComplete={() => setIsLoading(false)}
-          />
+          <motion.div
+            className='absolute inset-0 w-full h-full'
+            style={{ scale }}
+          >
+            <Image
+              src={open.image}
+              alt={open.title}
+              fill
+              style={{
+                objectFit: 'cover',
+                zIndex: 0,
+                opacity: isLoading ? 0 : 1,
+                transitionProperty: 'opacity',
+                transitionDuration: '1000ms',
+              }}
+              priority={true}
+              //   placeholder='blur'
+              //   onLoadingComplete={() => setIsLoading(false)}
+            />
+          </motion.div>
 
           {/* title */}
           <div
@@ -149,6 +163,9 @@ export default function ProgramasIntro() {
         </div>
 
         {/* progress */}
+        {/* <div className="absolute bottom-5 left-5">
+            <motion.div></motion.div>
+        </div> */}
         <div className='absolute bottom-5 left-5 flex flex-col gap-1'>
           <div className='h-8 w-4 border-zinc-200 border-[1px] bg-zinc-200'></div>
           <div
