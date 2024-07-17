@@ -73,28 +73,28 @@ export default function ProgramasIntro() {
     if (latest < 0.25) {
       if (open.title !== data.podcast.title) {
         setIsLoading(true);
-        await sleep(500);
+        await sleep(1000);
         setOpen(data.podcast);
         setIsLoading(false);
       }
     } else if (latest > 0.25 && latest < 0.5) {
       if (open.title !== data.mixtape.title) {
         setIsLoading(true);
-        await sleep(500);
+        await sleep(1000);
         setOpen(data.mixtape);
         setIsLoading(false);
       }
     } else if (latest > 0.5 && latest < 0.75) {
       if (open.title !== data.naHistória.title) {
         setIsLoading(true);
-        await sleep(500);
+        await sleep(1000);
         setOpen(data.naHistória);
         setIsLoading(false);
       }
     } else if (latest > 0.75) {
       if (open.title !== data.varandaSonora.title) {
         setIsLoading(true);
-        await sleep(500);
+        await sleep(1000);
         setOpen(data.varandaSonora);
         setIsLoading(false);
       }
@@ -122,7 +122,7 @@ export default function ProgramasIntro() {
               zIndex: 0,
               opacity: isLoading ? 0 : 1,
               transitionProperty: 'opacity',
-              transitionDuration: '500ms',
+              transitionDuration: '1000ms',
             }}
             priority={true}
             //   placeholder='blur'
