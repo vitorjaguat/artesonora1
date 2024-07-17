@@ -118,7 +118,7 @@ export default function ProgramasIntro() {
   return (
     <section
       ref={containerRef}
-      className='relative text-white/50 w-screen md:w-[calc(100vw-52px)] h-[400vh]  mb-40'
+      className='relative text-white/50 w-screen md:w-[calc(100vw-52px)] h-[500vh]  mb-40'
     >
       <div className='sticky inset-0 w-full h-[calc(100vh-109px)] md:h-[calc(100vh-84px)]'>
         <div className='relative w-full h-full'>
@@ -151,14 +151,20 @@ export default function ProgramasIntro() {
               transitionProperty: 'opacity',
               transitionDuration: '500ms',
             }}
-            onClick={() => setOpen(data.podcast)}
           >
             {open.title}
           </div>
         </div>
 
         {/* description */}
-        <div className='absolute right-5 bottom-5 w-2/3 md:w-1/3 text-right text-sm md:text-base text-white/90'>
+        <div
+          className='absolute right-5 bottom-5 w-2/3 md:w-1/3 text-right text-sm md:text-base text-white/90'
+          style={{
+            opacity: isLoading ? 0 : 1,
+            transitionProperty: 'opacity',
+            transitionDuration: '500ms',
+          }}
+        >
           {open.description}
         </div>
 
