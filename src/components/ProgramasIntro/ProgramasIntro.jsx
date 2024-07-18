@@ -151,9 +151,9 @@ export default function ProgramasIntro({ firstThree }) {
   return (
     <section
       ref={containerRef}
-      className='hidden md:block relative text-white/50 w-screen md:w-[calc(100vw-52px)] h-[600vh]  mb-40'
+      className='block relative text-white/50 max-w-[100vw] md:max-w-none md:w-[calc(100vw-52px)] h-[400vh] md:h-[600vh]  mb-40'
     >
-      <div className='sticky inset-0 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)]'>
+      <div className='sticky inset-0 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
         <div className='relative w-full h-full overflow-hidden'>
           <motion.div
             className='absolute inset-0 w-full h-full '
@@ -217,14 +217,14 @@ export default function ProgramasIntro({ firstThree }) {
 
           {/* title */}
           <div
-            className='absolute top-14 right-5 font-light z-10 text-8xl text-right cursor-pointer max-w-[calc(100vw-52px)] flex items-center justify-end'
+            className='absolute top-14 right-5 font-light z-10 text-5xl md:text-8xl text-right cursor-pointer max-w-none md:max-w-[calc(100vw-52px)] flex items-center justify-end'
             style={{
               opacity: isLoading ? 0 : 1,
               transitionProperty: 'opacity',
               transitionDuration: '500ms',
             }}
           >
-            <div className='w-40 text-right flex justify-end text-white/70'>
+            <div className='md:w-40 text-right flex justify-end text-white/70'>
               {open.title}
             </div>
           </div>
@@ -232,7 +232,7 @@ export default function ProgramasIntro({ firstThree }) {
 
         {/* description */}
         <div
-          className='absolute right-5 bottom-10 w-2/3 md:w-1/3 text-right text-sm md:text-base text-white/90'
+          className='absolute right-5 bottom-5 md:bottom-10 w-2/3 md:w-1/3 text-right text-xs md:text-base text-white/90'
           style={{
             opacity: isLoading ? 0 : 1,
             transitionProperty: 'opacity',
@@ -291,8 +291,8 @@ export default function ProgramasIntro({ firstThree }) {
       </div>
 
       {/* select program */}
-      <div className={'sticky top-0 left-0 flex'}>
-        {/* <div
+      {/* <div className={'sticky top-0 left-0 flex'}> */}
+      {/* <div
           className='rounded-md bg-white/20 px-6 py-4 text-right cursor-pointer duration-300 hover:bg-white/40'
           onClick={() => setOpen(data.mixtape)}
         >
@@ -310,7 +310,7 @@ export default function ProgramasIntro({ firstThree }) {
         >
           Varanda Sonora
         </div> */}
-      </div>
+      {/* </div> */}
     </section>
   );
 }
