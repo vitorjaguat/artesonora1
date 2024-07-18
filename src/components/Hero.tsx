@@ -22,7 +22,7 @@ export default function Hero() {
   return (
     <section
       className={
-        'relative bg-neutral-900 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-84px)] mb-96'
+        'relative bg-neutral-900 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-84px)] mb-40 md:mb-96'
       }
     >
       {/* background image */}

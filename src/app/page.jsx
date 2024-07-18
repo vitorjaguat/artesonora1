@@ -7,17 +7,20 @@ import { absoluteUrl } from '@/lib/utils';
 import Hero from '@/components/Hero';
 import CarouselContainer from '@/components/CarouselContainer';
 import { load } from 'outstatic/server';
-import ProgramasIntro from '@/components/ProgramasIntro';
+import ProgramasIntro from '@/components/ProgramasIntro/ProgramasIntro';
+import getProgramasIntroData from '@/components/ProgramasIntro/getProgramasIntroData';
 
 export default async function Index() {
   const { newestPosts } = await getData();
-  console.log('newestPosts', newestPosts);
+  // console.log('newestPosts', newestPosts);
+  const firstThree = await getProgramasIntroData();
+  // console.log('firstThree', firstThree);
 
   return (
     <>
       <Hero />
+      <ProgramasIntro firstThree={firstThree} />
       <CarouselContainer newestPosts={newestPosts} />
-      <ProgramasIntro />
     </>
   );
 }

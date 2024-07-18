@@ -8,10 +8,15 @@ import {
   motion,
   useMotionValueEvent,
 } from 'framer-motion';
-import dummyPodcast from '../../public/images/dummyPodcast.jpg';
-import dummyMixtape from '../../public/images/dummyMixtape.jpg';
-import dummyHistoria from '../../public/images/dummyHistoria.jpg';
-import dummyVaranda from '../../public/images/dummyVaranda.jpg';
+import dummyPodcast from '../../../public/images/dummyPodcast.jpg';
+import dummyMixtape from '../../../public/images/dummyMixtape.jpg';
+import dummyHistoria from '../../../public/images/dummyHistoria.jpg';
+import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
+import PodcastIntro from './FirstThreePrograms';
+import getProgramasIntroData from './getProgramasIntroData';
+import { set } from 'date-fns';
+import FirstThreePrograms from './FirstThreePrograms';
+import RevealText from '../RevealText';
 
 const data = {
   podcast: {
@@ -52,7 +57,35 @@ const data = {
   },
 };
 
-export default function ProgramasIntro() {
+export default function ProgramasIntro({ firstThree }) {
+  // const [firstThree, setFirstThree] = useState([]);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const {
+  //       filteredPodcasts,
+  //       filteredMixtapes,
+  //       filteredHistoria,
+  //       filteredVaranda,
+  //     } = await getProgramasIntroData();
+  //     return {
+  //       filteredPodcasts,
+  //       filteredMixtapes,
+  //       filteredHistoria,
+  //       filteredVaranda,
+  //     };
+  //   };
+  //   const firstThreeData = fetchData();
+  //   console.log('firstThreeData', firstThreeData);
+  //   setFirstThree(firstThreeData);
+  // }, []);
+
+  const {
+    filteredPodcasts: podcast,
+    filteredMixtapes: mixtape,
+    filteredHistoria: naHistória,
+    filteredVaranda: varandaSonora,
+  } = firstThree;
+
   const [open, setOpen] = useState(data.podcast);
   const containerRef = useRef(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -118,54 +151,101 @@ export default function ProgramasIntro() {
   return (
     <section
       ref={containerRef}
-      className='relative text-white/50 w-screen md:w-[calc(100vw-52px)] h-[500vh]  mb-40'
+      className='hidden md:block relative text-white/50 w-screen md:w-[calc(100vw-52px)] h-[600vh]  mb-40'
     >
-      <div className='sticky inset-0 w-full h-[calc(100vh-109px)] md:h-[calc(100vh-84px)]'>
-        <div className='relative w-full h-full'>
+      <div className='sticky inset-0 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-84px)]'>
+        <div className='relative w-full h-full overflow-hidden'>
           <motion.div
-            className='absolute inset-0 w-full h-full'
+            className='absolute inset-0 w-full h-full '
             style={{ scale }}
           >
             <Image
-              src={open.image}
-              alt={open.title}
+              src={data.podcast.image}
+              alt={data.podcast.title}
               fill
               style={{
                 objectFit: 'cover',
                 zIndex: 0,
-                opacity: isLoading ? 0 : 1,
+                opacity: isLoading || open.image !== data.podcast.image ? 0 : 1,
                 transitionProperty: 'opacity',
                 transitionDuration: '1000ms',
               }}
               priority={true}
-              //   placeholder='blur'
-              //   onLoadingComplete={() => setIsLoading(false)}
+            />
+            <Image
+              src={data.mixtape.image}
+              alt={data.mixtape.title}
+              fill
+              style={{
+                objectFit: 'cover',
+                zIndex: 0,
+                opacity: isLoading || open.image !== data.mixtape.image ? 0 : 1,
+                transitionProperty: 'opacity',
+                transitionDuration: '1000ms',
+              }}
+              priority={true}
+            />
+            <Image
+              src={data.naHistória.image}
+              alt={data.naHistória.title}
+              fill
+              style={{
+                objectFit: 'cover',
+                zIndex: 0,
+                opacity:
+                  isLoading || open.image !== data.naHistória.image ? 0 : 1,
+                transitionProperty: 'opacity',
+                transitionDuration: '1000ms',
+              }}
+              priority={true}
+            />
+            <Image
+              src={data.varandaSonora.image}
+              alt={data.varandaSonora.title}
+              fill
+              style={{
+                objectFit: 'cover',
+                zIndex: 0,
+                opacity:
+                  isLoading || open.image !== data.varandaSonora.image ? 0 : 1,
+                transitionProperty: 'opacity',
+                transitionDuration: '1000ms',
+              }}
+              priority={true}
             />
           </motion.div>
 
           {/* title */}
           <div
-            className='absolute top-5 right-5 z-10 font-thin text-8xl text-right cursor-pointer'
+            className='absolute top-14 right-5 font-light z-10 text-8xl text-right cursor-pointer max-w-[calc(100vw-52px)] flex items-center justify-end'
             style={{
               opacity: isLoading ? 0 : 1,
               transitionProperty: 'opacity',
               transitionDuration: '500ms',
             }}
           >
-            {open.title}
+            <div className='w-40 text-right flex justify-end text-white/70'>
+              {open.title}
+            </div>
           </div>
         </div>
 
         {/* description */}
         <div
-          className='absolute right-5 bottom-5 w-2/3 md:w-1/3 text-right text-sm md:text-base text-white/90'
+          className='absolute right-5 bottom-10 w-2/3 md:w-1/3 text-right text-sm md:text-base text-white/90'
           style={{
             opacity: isLoading ? 0 : 1,
             transitionProperty: 'opacity',
             transitionDuration: '500ms',
           }}
         >
-          {open.description}
+          {open.description.split('.').map((sentence, i) => (
+            <RevealText width='100%' key={i}>
+              <div className='w-full flex justify-end text-right'>
+                {sentence}
+              </div>
+            </RevealText>
+          ))}
         </div>
 
         {/* progress */}
@@ -193,6 +273,21 @@ export default function ProgramasIntro() {
             }
           ></div>
         </div>
+
+        {/* cards */}
+        {/* {open.title === data.podcast.title && ( */}
+        <FirstThreePrograms
+          firstThree={
+            open.id === 1
+              ? podcast
+              : open.id === 2
+              ? mixtape
+              : open.id === 3
+              ? naHistória
+              : varandaSonora
+          }
+        />
+        {/* )} */}
       </div>
 
       {/* select program */}

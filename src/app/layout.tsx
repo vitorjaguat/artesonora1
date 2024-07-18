@@ -9,6 +9,17 @@ import Lenis from 'lenis';
 import { Metadata } from 'next';
 import { absoluteUrl } from '@/lib/utils';
 
+import { Lato } from 'next/font/google';
+
+const lato = Lato({
+  subsets: ['latin'],
+  weight: ['100', '300', '400', '700'],
+  style: ['normal'],
+  display: 'swap',
+  variable: '--font-lato',
+  adjustFontFallback: false,
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://artesonora1.vercel.app/'),
   title: {
@@ -42,6 +53,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  console.log('Lato', lato);
+
   // let pathname;
   // let shouldExcludeLayout;
   // if (typeof window !== 'undefined') {
@@ -57,12 +70,15 @@ export default function RootLayout({
   // }
 
   return (
-    <html lang='en' className='max-w-[100vw] overflow-x-hidden '>
+    <html
+      lang='en'
+      className={` ${lato.variable} ${lato.className} font-lato max-w-[100vw] overflow-x-hidden `}
+    >
       {/* <link
         href='https://fonts.googleapis.com/css2?family=Ubuntu:wght@200;400;700&display=swap'
         rel='stylesheet'
       /> */}
-      <body className=''>
+      <body className={` ${lato.variable} font-lato`}>
         <Layout>{children}</Layout>
       </body>
     </html>

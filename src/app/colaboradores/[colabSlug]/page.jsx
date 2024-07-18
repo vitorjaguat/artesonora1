@@ -70,7 +70,7 @@ export default async function ColabSlug({ params }) {
     facebook,
   } = await getData(params);
 
-  console.log('instagram', instagram);
+  // console.log('instagram', instagram);
   // const soundcloudPageUrl = `https://soundcloud.com/artesonora/${slug.replace(
   //   'pod',
   //   'podcast'

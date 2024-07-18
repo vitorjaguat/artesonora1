@@ -92,9 +92,9 @@ export default function Navbar() {
   return (
     <>
       {/* DESKTOP NAV */}
-      <div className='hidden md:inline fixed top-0 left-0 w-fit h-screen bg-black z-10'>
+      <div className='hidden md:inline fixed top-0 left-0 w-fit h-screen bg-neutral-800 z-[100]'>
         <div
-          className='md:flex flex-col w-fit h-[calc(100vh-84px)] px-4 pt-6 items-center gap-6 uppercase'
+          className='md:flex flex-col w-fit h-[calc(100vh)] px-4 pt-6 items-center gap-6 uppercase'
           // style={{ writingMode: 'vertical-rl' }}
           onMouseEnter={handleHoverContainer}
           onMouseLeave={() => controlsContainer.start('off')}

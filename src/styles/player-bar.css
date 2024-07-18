@@ -1,10 +1,11 @@
 /* my: */
 
 .player-container .shk {
-  --background-body: black;
+  /* --background-body: black; */
+  --background-body: rgb(38, 38, 38)
   --shadow-body: none;
   --shadow-body-mobile: none;
-  font-family: 'Trebuchet MS', sans-serif;
+  /* font-family: 'Trebuchet MS', sans-serif; */
   height: 50%;
   overflow: hidden;
   /* scale: 0.75; */
@@ -440,7 +441,7 @@ svg.shk-btn_mute,
   align-items: center;
   text-transform: uppercase;
   font-size: 0.8em;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   color: var(--color-live-text);
 }
 .shk .shk-live::before {
@@ -521,6 +522,7 @@ svg.shk-btn_mute,
     height: 110px;
     padding: 5px 16px;
     box-shadow: var(--shadow-body-mobile);
+    background-color: rgb(38,38,38);
   }
   .shk[data-fixed-type='auto'] {
     position: fixed;

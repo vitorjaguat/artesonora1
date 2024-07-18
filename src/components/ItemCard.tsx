@@ -30,7 +30,7 @@ export default function ItemCard({ itemObj, image, type }: ItemCardProps) {
     changePlayArtist(
       itemObj.collaborators.map((colObj: any) => colObj.label).join(', ')
     );
-    console.log(itemObj);
+    // console.log(itemObj);
   };
 
   return (

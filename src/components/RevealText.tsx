@@ -38,7 +38,7 @@ export default function RevealText({ children, width = 'fit-content' }: Props) {
   const r4 = getRandom();
   const r5 = getRandom();
   const r6 = getRandom();
-  console.log(r1, r2, r3, r4);
+  // console.log(r1, r2, r3, r4);
 
   return (
     <div ref={ref} style={{ position: 'relative', width, overflow: 'hidden' }}>
