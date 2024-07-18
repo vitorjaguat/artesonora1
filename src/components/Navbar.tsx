@@ -94,7 +94,7 @@ export default function Navbar() {
       {/* DESKTOP NAV */}
       <div className='hidden md:inline fixed top-0 left-0 w-fit h-screen bg-neutral-800 z-[100]'>
         <div
-          className='md:flex flex-col w-fit h-[calc(100vh)] px-4 pt-6 items-center gap-6 uppercase'
+          className='md:flex flex-col w-fit h-[100vh] px-4 pt-6 items-center gap-6 uppercase'
           // style={{ writingMode: 'vertical-rl' }}
           onMouseEnter={handleHoverContainer}
           onMouseLeave={() => controlsContainer.start('off')}
@@ -115,7 +115,7 @@ export default function Navbar() {
                   width: 0,
                   marginLeft: 0,
                 },
-                on: { width: 130, marginLeft: 12 },
+                on: { width: 150, marginLeft: 12 },
               }}
               className=' overflow-hidden'
             >
@@ -141,7 +141,7 @@ export default function Navbar() {
                   width: 0,
                   marginLeft: 0,
                 },
-                on: { width: 130, marginLeft: 12 },
+                on: { width: 150, marginLeft: 12 },
               }}
               className='overflow-hidden'
             >
@@ -165,7 +165,7 @@ export default function Navbar() {
                   width: 0,
                   marginLeft: 0,
                 },
-                on: { width: 130, marginLeft: 12 },
+                on: { width: 150, marginLeft: 12 },
               }}
               className=' overflow-hidden'
             >
@@ -189,7 +189,7 @@ export default function Navbar() {
                   width: 0,
                   marginLeft: 0,
                 },
-                on: { width: 130, marginLeft: 12 },
+                on: { width: 150, marginLeft: 12 },
               }}
               className=' overflow-hidden'
             >
@@ -213,7 +213,7 @@ export default function Navbar() {
                   width: 0,
                   marginLeft: 0,
                 },
-                on: { width: 130, marginLeft: 12 },
+                on: { width: 150, marginLeft: 12 },
               }}
               className=' '
             >
@@ -237,7 +237,7 @@ export default function Navbar() {
                   width: 0,
                   marginLeft: 0,
                 },
-                on: { width: 130, marginLeft: 12 },
+                on: { width: 150, marginLeft: 12 },
               }}
               className=' overflow-hidden'
             >
