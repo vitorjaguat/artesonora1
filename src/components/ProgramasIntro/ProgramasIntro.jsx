@@ -153,7 +153,7 @@ export default function ProgramasIntro({ firstThree }) {
       ref={containerRef}
       className='hidden md:block relative text-white/50 w-screen md:w-[calc(100vw-52px)] h-[600vh]  mb-40'
     >
-      <div className='sticky inset-0 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-84px)]'>
+      <div className='sticky inset-0 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)]'>
         <div className='relative w-full h-full overflow-hidden'>
           <motion.div
             className='absolute inset-0 w-full h-full '

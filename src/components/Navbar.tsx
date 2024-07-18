@@ -248,7 +248,7 @@ export default function Navbar() {
       </div>
       {/* SUBMENU */}
       <motion.div
-        className='hidden fixed top-0 left-[190px] bg-neutral-800 h-[calc(100vh-84px)] pt-6 flex-col justify-start items-end gap-6 uppercase z-10'
+        className='hidden fixed top-0 left-[190px] bg-neutral-800 h-[calc(100vh-92px)] pt-6 flex-col justify-start items-end gap-6 uppercase z-10'
         onMouseEnter={() => {
           controls.start('on');
           controlsContainer.start('on');

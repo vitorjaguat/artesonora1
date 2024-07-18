@@ -22,7 +22,7 @@ export default function Hero() {
   return (
     <section
       className={
-        'relative bg-neutral-900 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-84px)] mb-40 md:mb-96'
+        'relative bg-neutral-900 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] mb-40 md:mb-96'
       }
     >
       {/* background image */}
@@ -38,7 +38,7 @@ export default function Hero() {
       </div>
 
       {/* title */}
-      <div className='absolute right-auto top-1/4 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-auto md:top-5 md:right-5 tracking-widest text-7xl md:text-8xl text-neutral-500 text-center md:text-right'>
+      <div className='absolute right-auto top-1/4 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-auto md:top-5 md:right-5 tracking-widest text-7xl md:text-8xl text-neutral-700 text-center md:text-right'>
         <motion.div
           initial='off'
           animate='on'

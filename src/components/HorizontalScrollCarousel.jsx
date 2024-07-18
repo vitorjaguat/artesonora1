@@ -21,7 +21,7 @@ const HorizontalScrollCarousel = ({ newestPosts }) => {
       ref={targetRef}
       className='relative md:w-[calc(100vw-52px)] h-[300vh] bg-neutral-900'
     >
-      <div className='sticky top-0 flex w-full h-[calc(100vh)] md:h-[calc(100vh-84px)] items-center overflow-hidden'>
+      <div className='sticky top-0 flex w-full h-[calc(100vh)] md:h-[calc(100vh-92px)] items-center overflow-hidden'>
         <div className='absolute top-20 md:top-6 left-6 mb-6 text-6xl md:text-7xl pr-10 w-full text-right text-white/10'>
           EM DESTAQUE
         </div>
