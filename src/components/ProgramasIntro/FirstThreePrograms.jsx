@@ -4,10 +4,12 @@ import { MainContext } from '@/context/mainContext';
 import { PiPlayLight } from 'react-icons/pi';
 import Link from 'next/link';
 import { formatPostType } from '@/lib/utils';
+import { useMediaQuery } from '@/util/useMediaQuery';
 
 export default function FirstThreePrograms({ firstThree }) {
   // console.log('firstThree', firstThree);
   const [description, setDescription] = useState(null);
+  const isDesktop = useMediaQuery('md');
 
   const {
     changePlaySrc,
@@ -45,8 +47,12 @@ export default function FirstThreePrograms({ firstThree }) {
                 (description === post.content ? ' bg-black/40 scale-105' : '') +
                 (index > 1 && ' hidden md:block')
               }
-              onMouseEnter={() => setDescription(post.content)}
-              onMouseLeave={() => setDescription(null)}
+              onMouseEnter={() => {
+                if (isDesktop) setDescription(post.content);
+              }}
+              onMouseLeave={() => {
+                if (isDesktop) setDescription(null);
+              }}
             >
               {/* image */}
               <div className='p-2 w-full flex justify-center h-fit bg-neutral-300/20'>
