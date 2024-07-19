@@ -1,0 +1,157 @@
+import Image from 'next/image';
+import { useContext, useEffect, useState } from 'react';
+import { MainContext } from '@/context/mainContext';
+import { PiPlayLight } from 'react-icons/pi';
+import Link from 'next/link';
+import { formatPostType } from '@/lib/utils';
+import {
+  useMotionValueEvent,
+  motion,
+  useTransform,
+  useAnimationControls,
+} from 'framer-motion';
+import FTPCard from './FTPCard';
+import { set } from 'date-fns';
+
+export default function FirstThreePrograms2({
+  firstThree,
+  scrollYProgress,
+  sideRight = false,
+}) {
+  // console.log('firstThree', firstThree);
+  const [description, setDescription] = useState(null);
+  const [show, setShow] = useState(0);
+  const controls = useAnimationControls();
+
+  const {
+    changePlaySrc,
+    playSrc,
+    changePlayImg,
+    changePlayTitle,
+    changePlayArtist,
+  } = useContext(MainContext);
+
+  const handleClickPlay = (e, post) => {
+    // console.log('collaborators', post.collaborators);
+    e.preventDefault();
+    e.stopPropagation();
+    changePlaySrc(post.fileLink);
+    changePlayImg(post.collaborators[0].coverImage);
+    changePlayTitle(post.title);
+    changePlayArtist(
+      post.collaborators.map((colObj) => colObj.title).join(', ')
+    );
+  };
+
+  useMotionValueEvent(scrollYProgress, 'change', async (latest) => {
+    // console.log('scrollYProgress', latest);
+    if (latest < 0.1) {
+      if (show !== 0) {
+        setShow(0);
+        setDescription(null);
+      }
+    }
+    if (latest > 0.1 && latest < 0.4) {
+      if (show !== 1) {
+        setShow(1);
+        setDescription(firstThree[0].content);
+      }
+    } else if (latest > 0.4 && latest < 0.7) {
+      if (show !== 2) {
+        setShow(2);
+        setDescription(firstThree[1].content);
+      }
+    } else if (latest > 0.7 && latest < 1) {
+      if (show !== 3) {
+        setShow(3);
+        setDescription(firstThree[2].content);
+      }
+    }
+    console.log(show);
+  });
+
+  // useEffect(() => {
+  //   if (show === 1) {
+  //     controls.start('visible1');
+  //   } else if (show === 2) {
+  //     controls.
+  //     controls.start('visible2');
+  //   } else if (show === 3) {
+  //     controls.start('visible3');
+  //   }
+  // }, [show])
+
+  const cardVariants = {
+    hidden: { opacity: 0 },
+    visible1: { opacity: 1 },
+    visible2: { opacity: 1 },
+    visible3: { opacity: 1 },
+  };
+
+  return (
+    <div
+      className={
+        'absolute flex md:block w-[calc(100vw-80px)] md:w-1/2 top-32 md:top-10 ' +
+        (sideRight
+          ? 'left-auto right-10 md:left-auto md:right-10'
+          : 'left-10 right-auto md:left-10 md:right-auto')
+      }
+    >
+      <div className='w-full  flex flex-col gap-4'>
+        <div className='-mb-2 w-full text-center md:tracking-[4px]'>
+          episódios mais recentes:
+        </div>
+        <div className='flex  gap-2 text-white/90'>
+          <div
+            className={
+              'flex-1 duration-300' + (show > 0 ? ' opacity-100' : ' opacity-0')
+            }
+          >
+            <FTPCard
+              post={firstThree[0]}
+              setDescription={setDescription}
+              description={description}
+              handleClickPlay={handleClickPlay}
+            />
+          </div>
+          <div
+            className={
+              'flex-1 duration-300' + (show > 1 ? ' opacity-100' : ' opacity-0')
+            }
+          >
+            <FTPCard
+              post={firstThree[1]}
+              setDescription={setDescription}
+              description={description}
+              handleClickPlay={handleClickPlay}
+            />
+          </div>
+          <div
+            className={
+              'flex-1 duration-300' + (show > 2 ? ' opacity-100' : ' opacity-0')
+            }
+          >
+            <FTPCard
+              post={firstThree[2]}
+              setDescription={setDescription}
+              description={description}
+              handleClickPlay={handleClickPlay}
+            />
+          </div>
+        </div>
+
+        {/* description */}
+        {description && (
+          <div className='w-full flex flex-col justify-end text-white/70 p-2 rounded-md bg-black/70 font-light'>
+            <div
+              className='w-full'
+              dangerouslySetInnerHTML={{
+                __html: description.split('\n')[0],
+              }}
+            />
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

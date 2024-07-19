@@ -9,6 +9,9 @@ import CarouselContainer from '@/components/CarouselContainer';
 import { load } from 'outstatic/server';
 import ProgramasIntro from '@/components/ProgramasIntro/ProgramasIntro';
 import getProgramasIntroData from '@/components/ProgramasIntro/getProgramasIntroData';
+import HomePodcast from '@/components/ProgramasIntro/HomePodcast';
+import HomeMixtape from '@/components/ProgramasIntro/HomeMixtape';
+import HomeHistoria from '@/components/ProgramasIntro/HomeHistoria';
 
 export default async function Index() {
   const { newestPosts } = await getData();
@@ -19,8 +22,11 @@ export default async function Index() {
   return (
     <>
       <Hero />
-      <ProgramasIntro firstThree={firstThree} />
       <CarouselContainer newestPosts={newestPosts} />
+      <HomePodcast firstThree={firstThree.filteredPodcasts} />
+      <HomeMixtape firstThree={firstThree.filteredMixtapes} />
+      <HomeHistoria firstThree={firstThree.filteredHistoria} />
+      {/* <ProgramasIntro firstThree={firstThree} /> */}
     </>
   );
 }

@@ -8,14 +8,14 @@ import {
   motion,
   useMotionValueEvent,
 } from 'framer-motion';
-import dummyPodcast from '../../../public/images/dummyPodcast.jpg';
+import dummyPodcast from '../../../public/images/dummyPodcast2.jpg';
 import dummyMixtape from '../../../public/images/dummyMixtape.jpg';
 import dummyHistoria from '../../../public/images/dummyHistoria.jpg';
 import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import PodcastIntro from './FirstThreePrograms';
 import getProgramasIntroData from './getProgramasIntroData';
 import { set } from 'date-fns';
-import FirstThreePrograms from './FirstThreePrograms';
+import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
 
 const data = {
@@ -23,8 +23,7 @@ const data = {
     title: 'Podcast',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt voluptatibus odio fuga sint eaque ipsa, est maiores veniam aspernatur magnam eligendi quis aliquam, consectetur blanditiis voluptate nisi accusantium labore. Amet. Placeat aut iste unde explicabo dolor delectus quidem! A aspernatur eius molestias animi! Nulla accusamus est aliquid vero porro labore unde praesentium rerum sint quaerat, iure nisi assumenda? Est, placeat?',
-    image: '/images/dummyPodcast.jpg',
-    //   image: dummyPodcast,
+    image: dummyPodcast,
     id: 1,
     link: '/podcast',
   },
@@ -79,12 +78,7 @@ export default function ProgramasIntro({ firstThree }) {
   //   setFirstThree(firstThreeData);
   // }, []);
 
-  const {
-    filteredPodcasts: podcast,
-    filteredMixtapes: mixtape,
-    filteredHistoria: naHistória,
-    filteredVaranda: varandaSonora,
-  } = firstThree;
+  const podcast = firstThree;
 
   const [open, setOpen] = useState(data.podcast);
   const containerRef = useRef(null);
@@ -101,57 +95,17 @@ export default function ProgramasIntro({ firstThree }) {
     return new Promise((resolve) => setTimeout(resolve, duration));
   };
 
-  useMotionValueEvent(scrollYProgress, 'change', async (latest) => {
-    // console.log('scrollYProgress', latest);
-    if (latest < 0.25) {
-      if (open.title !== data.podcast.title) {
-        setIsLoading(true);
-        await sleep(1000);
-        setOpen(data.podcast);
-        setIsLoading(false);
-      }
-    } else if (latest > 0.25 && latest < 0.5) {
-      if (open.title !== data.mixtape.title) {
-        setIsLoading(true);
-        await sleep(1000);
-        setOpen(data.mixtape);
-        setIsLoading(false);
-      }
-    } else if (latest > 0.5 && latest < 0.75) {
-      if (open.title !== data.naHistória.title) {
-        setIsLoading(true);
-        await sleep(1000);
-        setOpen(data.naHistória);
-        setIsLoading(false);
-      }
-    } else if (latest > 0.75) {
-      if (open.title !== data.varandaSonora.title) {
-        setIsLoading(true);
-        await sleep(1000);
-        setOpen(data.varandaSonora);
-        setIsLoading(false);
-      }
-    }
-  });
-
-  const scale =
-    open.id === 1
-      ? useTransform(scrollYProgress, [0, 0.25], [1, 1.2])
-      : open.id === 2
-      ? useTransform(scrollYProgress, [0.25, 0.5], [1, 1.2])
-      : open.id === 3
-      ? useTransform(scrollYProgress, [0.5, 0.75], [1, 1.2])
-      : useTransform(scrollYProgress, [0.75, 1], [1, 1.2]);
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
 
   return (
     <section
       ref={containerRef}
-      className='block relative text-white/50 max-w-[100vw] md:max-w-none md:w-[calc(100vw-52px)] h-[400vh] md:h-[600vh]  mb-40'
+      className='block relative text-white/50 max-w-[100vw] md:max-w-none md:w-[calc(100vw-52px)] h-[130vh] md:h-[200vh]  mb-40'
     >
       <div className='sticky inset-0 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
         <div className='relative w-full h-full overflow-hidden'>
           <motion.div
-            className='absolute inset-0 w-full h-full'
+            className='absolute inset-0 w-full h-full '
             style={{ scale }}
           >
             <Image
@@ -161,52 +115,7 @@ export default function ProgramasIntro({ firstThree }) {
               style={{
                 objectFit: 'cover',
                 zIndex: 0,
-                opacity:
-                  isLoading || open.image !== data.podcast.image ? 0 : 0.4,
-                transitionProperty: 'opacity',
-                transitionDuration: '1000ms',
-              }}
-              priority={true}
-            />
-            <Image
-              src={data.mixtape.image}
-              alt={data.mixtape.title}
-              fill
-              style={{
-                objectFit: 'cover',
-                zIndex: 0,
-                opacity:
-                  isLoading || open.image !== data.mixtape.image ? 0 : 0.4,
-                transitionProperty: 'opacity',
-                transitionDuration: '1000ms',
-              }}
-              priority={true}
-            />
-            <Image
-              src={data.naHistória.image}
-              alt={data.naHistória.title}
-              fill
-              style={{
-                objectFit: 'cover',
-                zIndex: 0,
-                opacity:
-                  isLoading || open.image !== data.naHistória.image ? 0 : 0.4,
-                transitionProperty: 'opacity',
-                transitionDuration: '1000ms',
-              }}
-              priority={true}
-            />
-            <Image
-              src={data.varandaSonora.image}
-              alt={data.varandaSonora.title}
-              fill
-              style={{
-                objectFit: 'cover',
-                zIndex: 0,
-                opacity:
-                  isLoading || open.image !== data.varandaSonora.image
-                    ? 0
-                    : 0.4,
+                opacity: isLoading ? 0 : 0.4,
                 transitionProperty: 'opacity',
                 transitionDuration: '1000ms',
               }}
@@ -216,29 +125,29 @@ export default function ProgramasIntro({ firstThree }) {
 
           {/* title */}
           <div
-            className='absolute top-14 right-5 font-light z-10 text-5xl md:text-8xl text-right cursor-pointer max-w-none md:max-w-[calc(100vw-52px)] flex items-center justify-end'
+            className='absolute top-14 right-5 md:right-8 font-light z-10 text-5xl md:text-8xl text-right cursor-pointer max-w-none md:max-w-[calc(100vw-52px)] flex items-center justify-end'
             style={{
               opacity: isLoading ? 0 : 1,
               transitionProperty: 'opacity',
               transitionDuration: '500ms',
             }}
           >
-            <div className='md:w-40 text-right flex justify-end text-white/70'>
-              {open.title}
+            <div className='md:w-40 text-right flex justify-end text-white/70 font-chakra '>
+              {data.podcast.title}
             </div>
           </div>
         </div>
 
         {/* description */}
         <div
-          className='absolute right-5 bottom-5 md:bottom-10 w-2/3 md:w-1/3 text-right text-xs md:text-base text-white/90'
+          className='absolute right-5 md:right-8 bottom-5 md:bottom-8 w-2/3 md:w-1/3 text-right text-xs md:text-base text-white/90'
           style={{
             opacity: isLoading ? 0 : 1,
             transitionProperty: 'opacity',
             transitionDuration: '500ms',
           }}
         >
-          {open.description.split('.').map((sentence, i) => (
+          {data.podcast.description.split('.').map((sentence, i) => (
             <RevealText width='100%' key={i}>
               <div className='w-full flex justify-end text-right'>
                 {sentence}
@@ -248,10 +157,7 @@ export default function ProgramasIntro({ firstThree }) {
         </div>
 
         {/* progress */}
-        {/* <div className="absolute bottom-5 left-5">
-            <motion.div></motion.div>
-        </div> */}
-        <div className='absolute bottom-5 left-5 flex flex-col gap-1'>
+        {/* <div className='absolute bottom-5 left-5 flex flex-col gap-1'>
           <div className='h-8 w-4 border-zinc-200 border-[1px] bg-zinc-200'></div>
           <div
             className={
@@ -271,20 +177,13 @@ export default function ProgramasIntro({ firstThree }) {
               (open.id > 3 && 'bg-zinc-200')
             }
           ></div>
-        </div>
+        </div> */}
 
         {/* cards */}
         {/* {open.title === data.podcast.title && ( */}
-        <FirstThreePrograms
-          firstThree={
-            open.id === 1
-              ? podcast
-              : open.id === 2
-              ? mixtape
-              : open.id === 3
-              ? naHistória
-              : varandaSonora
-          }
+        <FirstThreePrograms2
+          firstThree={firstThree}
+          scrollYProgress={scrollYProgress}
         />
         {/* )} */}
       </div>

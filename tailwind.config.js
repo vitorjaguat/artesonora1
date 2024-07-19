@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         lato: ['var(--font-lato)'],
+        chakra: ['var(--font-chakra)'],
       },
     },
   },

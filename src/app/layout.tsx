@@ -9,7 +9,7 @@ import Lenis from 'lenis';
 import { Metadata } from 'next';
 import { absoluteUrl } from '@/lib/utils';
 
-import { Lato } from 'next/font/google';
+import { Lato, Chakra_Petch } from 'next/font/google';
 
 const lato = Lato({
   subsets: ['latin'],
@@ -17,6 +17,15 @@ const lato = Lato({
   style: ['normal'],
   display: 'swap',
   variable: '--font-lato',
+  adjustFontFallback: false,
+});
+
+const chakra = Chakra_Petch({
+  subsets: ['latin'],
+  weight: ['300', '400', '600', '700'],
+  style: ['normal'],
+  display: 'swap',
+  variable: '--font-chakra',
   adjustFontFallback: false,
 });
 
@@ -70,13 +79,13 @@ export default function RootLayout({
   return (
     <html
       lang='en'
-      className={` ${lato.variable} ${lato.className} font-lato max-w-[100vw] overflow-x-hidden `}
+      className={` ${lato.variable} ${lato.className} ${chakra.variable} font-lato max-w-[100vw] overflow-x-hidden `}
     >
       {/* <link
         href='https://fonts.googleapis.com/css2?family=Ubuntu:wght@200;400;700&display=swap'
         rel='stylesheet'
       /> */}
-      <body className={` ${lato.variable} font-lato`}>
+      <body>
         <Layout>{children}</Layout>
       </body>
     </html>
