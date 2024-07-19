@@ -22,15 +22,15 @@ export default function NavbarMobile() {
         className='md:hidden fixed top-5 right-5 cursor-pointer select-none z-10'
         onClick={() => setIsOpen(true)}
       >
-        <RxHamburgerMenu size={30} className='text-zinc-500' />
+        <RxHamburgerMenu size={30} className='text-neutral-500' />
       </div>
       {isOpen && (
-        <div className='fixed top-0 left-0 right-0 bottom-[90px] bg-black text-zinc-500 z-10 select-none'>
+        <div className='fixed top-0 left-0 right-0 bottom-[90px] bg-black text-neutral-500 z-10 select-none'>
           <div className='relative w-full h-full flex flex-col gap-3 items-center justify-center uppercase'>
             <div className='absolute top-5 right-5'>
               <GrClose
                 size={30}
-                className='text-zinc-500 cursor-pointer'
+                className='text-neutral-500 cursor-pointer'
                 onClick={() => {
                   setIsOpen(false);
                   setSobreSubMenu(false);
@@ -55,7 +55,7 @@ export default function NavbarMobile() {
             >
               <Link href='/' className='flex items-center gap-3'>
                 <ImHome size={25} />
-                <div className='text-2xl'>home</div>
+                <div className='text-3xl'>home</div>
               </Link>
             </motion.div>
             <motion.div
@@ -75,11 +75,11 @@ export default function NavbarMobile() {
             >
               <div className='flex items-center gap-3'>
                 <PiBookOpenUserFill size={25} />
-                <div className='text-2xl'>sobre</div>
+                <div className='text-3xl'>sobre</div>
               </div>
               <div
                 className={
-                  'flex flex-col items-end w-[80vw] text-lg overflow-hidden duration-300 ' +
+                  'flex flex-col items-end w-[80vw] text-2xl text-neutral-400 tracking-widest whitespace-nowrap  duration-300 ' +
                   (sobreSubMenu
                     ? 'h-auto pb-4 opacity-100'
                     : 'h-0 pb-0 opacity-0')
@@ -122,11 +122,11 @@ export default function NavbarMobile() {
                 onClick={() => setProgramasSubMenu(!programasSubMenu)}
               >
                 <AiFillAudio size={25} />
-                <div className='text-2xl'>programas</div>
+                <div className='text-3xl'>programas</div>
               </div>
               <div
                 className={
-                  'flex flex-col items-end w-[80vw] text-lg overflow-hidden duration-300 ' +
+                  'flex flex-col items-end w-[80vw] text-2xl tracking-widest text-neutral-400 overflow-hidden duration-300 ' +
                   (programasSubMenu
                     ? 'h-fit pb-4 opacity-100'
                     : 'h-0 pb-0 opacity-0')
@@ -160,7 +160,7 @@ export default function NavbarMobile() {
             >
               <Link href='/colaboradores' className='flex items-center gap-3'>
                 <MdPeopleAlt size={25} />
-                <div className='text-2xl'>colaboradores</div>
+                <div className='text-3xl'>colaboradores</div>
               </Link>
             </motion.div>
 
@@ -180,7 +180,7 @@ export default function NavbarMobile() {
             >
               <Link href='/arquivo' className='flex items-center gap-3'>
                 <BiSolidHourglass size={25} />
-                <div className='text-2xl'>arquivo</div>
+                <div className='text-3xl'>arquivo</div>
               </Link>
             </motion.div>
 
@@ -200,7 +200,7 @@ export default function NavbarMobile() {
             >
               <Link href='/contato' className='flex items-center gap-3'>
                 <GrContact size={25} />
-                <div className='text-2xl'>contato</div>
+                <div className='text-3xl'>contato</div>
               </Link>
             </motion.div>
           </div>
