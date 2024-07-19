@@ -34,7 +34,7 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <MainContextProvider>
-        <div className='relative w-screen  h-full bg-zinc-900 '>
+        <div className='relative w-screen  h-full bg-zinc-900'>
           <Navbar />
           {/* <div className='relative w-screen h-screen  '> */}
           <PlayerBar />
@@ -53,7 +53,7 @@ const Layout = ({ children }: Props) => {
               // animate='animate'
               // exit='exit'
               id='main'
-              className='min-h-screen z-[1] w-screen bg-zinc-900'
+              className='md:min-h-screen z-[1] w-screen bg-zinc-900'
             >
               {children}
             </main>

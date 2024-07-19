@@ -1,17 +1,8 @@
-import Image from 'next/image';
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useState } from 'react';
 import { MainContext } from '@/context/mainContext';
-import { PiPlayLight } from 'react-icons/pi';
-import Link from 'next/link';
-import { formatPostType } from '@/lib/utils';
-import {
-  useMotionValueEvent,
-  motion,
-  useTransform,
-  useAnimationControls,
-} from 'framer-motion';
+import { useMotionValueEvent } from 'framer-motion';
 import FTPCard from './FTPCard';
-import { set } from 'date-fns';
+import { useMediaQuery } from '@/util/useMediaQuery';
 
 export default function FirstThreePrograms2({
   firstThree,
@@ -21,7 +12,7 @@ export default function FirstThreePrograms2({
   // console.log('firstThree', firstThree);
   const [description, setDescription] = useState(null);
   const [show, setShow] = useState(0);
-  const controls = useAnimationControls();
+  const isDesktop = useMediaQuery('md');
 
   const {
     changePlaySrc,
@@ -48,23 +39,23 @@ export default function FirstThreePrograms2({
     if (latest < 0.1) {
       if (show !== 0) {
         setShow(0);
-        setDescription(null);
+        if (isDesktop) setDescription(null);
       }
     }
     if (latest > 0.1 && latest < 0.4) {
       if (show !== 1) {
         setShow(1);
-        setDescription(firstThree[0].content);
+        if (isDesktop) setDescription(firstThree[0].content);
       }
     } else if (latest > 0.4 && latest < 0.7) {
       if (show !== 2) {
         setShow(2);
-        setDescription(firstThree[1].content);
+        if (isDesktop) setDescription(firstThree[1].content);
       }
     } else if (latest > 0.7 && latest < 1) {
       if (show !== 3) {
         setShow(3);
-        setDescription(firstThree[2].content);
+        if (isDesktop) setDescription(firstThree[2].content);
       }
     }
     console.log(show);
@@ -141,7 +132,7 @@ export default function FirstThreePrograms2({
         </div>
 
         {/* description */}
-        {description && (
+        {description && isDesktop && (
           <div className='w-full flex flex-col justify-end text-white/70 p-2 rounded-md bg-black/70 font-light'>
             <div
               className='w-full'

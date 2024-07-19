@@ -56,7 +56,7 @@ const data = {
   },
 };
 
-export default function HomeMixtape({ firstThree }) {
+export default function HomeVaranda({ firstThree }) {
   // const [firstThree, setFirstThree] = useState([]);
   // useEffect(() => {
   //   const fetchData = async () => {
@@ -78,7 +78,7 @@ export default function HomeMixtape({ firstThree }) {
   //   setFirstThree(firstThreeData);
   // }, []);
 
-  const [open, setOpen] = useState(data.mixtape);
+  const [open, setOpen] = useState(data.varandaSonora);
   const containerRef = useRef(null);
   const [isLoading, setIsLoading] = useState(false);
   const { scrollYProgress } = useScroll({
@@ -107,8 +107,8 @@ export default function HomeMixtape({ firstThree }) {
             style={{ scale }}
           >
             <Image
-              src={data.mixtape.image}
-              alt={data.mixtape.title}
+              src={data.varandaSonora.image}
+              alt={data.varandaSonora.title}
               fill
               style={{
                 objectFit: 'cover',
@@ -131,7 +131,7 @@ export default function HomeMixtape({ firstThree }) {
             }}
           >
             <div className='md:w-40 text-left flex justify-start text-white/70 font-chakra '>
-              {data.mixtape.title}
+              {data.varandaSonora.title}
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function HomeMixtape({ firstThree }) {
             transitionDuration: '500ms',
           }}
         >
-          {data.mixtape.description.split('.').map((sentence, i) => (
+          {data.varandaSonora.description.split('.').map((sentence, i) => (
             <RevealText width='100%' key={i}>
               <div className='w-full flex justify-end text-left'>
                 {sentence}

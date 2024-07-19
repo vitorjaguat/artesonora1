@@ -12,6 +12,7 @@ import getProgramasIntroData from '@/components/ProgramasIntro/getProgramasIntro
 import HomePodcast from '@/components/ProgramasIntro/HomePodcast';
 import HomeMixtape from '@/components/ProgramasIntro/HomeMixtape';
 import HomeHistoria from '@/components/ProgramasIntro/HomeHistoria';
+import HomeVaranda from '@/components/ProgramasIntro/HomeVaranda';
 
 export default async function Index() {
   const { newestPosts } = await getData();
@@ -26,6 +27,8 @@ export default async function Index() {
       <HomePodcast firstThree={firstThree.filteredPodcasts} />
       <HomeMixtape firstThree={firstThree.filteredMixtapes} />
       <HomeHistoria firstThree={firstThree.filteredHistoria} />
+      <HomeVaranda firstThree={firstThree.filteredVaranda} />
+
       {/* <ProgramasIntro firstThree={firstThree} /> */}
     </>
   );

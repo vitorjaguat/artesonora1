@@ -38,7 +38,7 @@ export default function Hero() {
       </div>
 
       {/* title */}
-      <div className='absolute right-auto top-1/4 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-auto md:top-5 md:right-5 tracking-widest text-7xl md:text-8xl text-neutral-700 text-center md:text-right'>
+      <div className='absolute right-auto top-1/4 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-auto md:top-5 md:right-5 tracking-widest text-7xl md:text-8xl text-neutral-700 text-center md:text-right font-chakra font-semibold'>
         <motion.div
           initial='off'
           animate='on'
@@ -61,7 +61,7 @@ export default function Hero() {
 
       {/* realização */}
       <motion.div
-        className='absolute right-5 bottom-5 text-neutral-600 text-base md:text-lg tracking-wider'
+        className='absolute right-5 bottom-5 text-neutral-600 text-base md:text-lg tracking-wider font-chakra'
         initial='off'
         animate='on'
         transition={{ delay: 0.3 }}
