@@ -45,7 +45,7 @@ export default function FirstThreePrograms({ firstThree }) {
               className={
                 'flex w-full flex-col items-center gap-0 rounded-md overflow-hidden duration-300' +
                 (description === post.content ? ' bg-black/40 scale-105' : '') +
-                (index > 1 && ' hidden md:block')
+                (index > 1 && ' hidden md:inline-flex')
               }
               onMouseEnter={() => {
                 if (isDesktop) setDescription(post.content);

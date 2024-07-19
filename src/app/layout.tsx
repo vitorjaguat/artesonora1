@@ -53,8 +53,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  console.log('Lato', lato);
-
   // let pathname;
   // let shouldExcludeLayout;
   // if (typeof window !== 'undefined') {
