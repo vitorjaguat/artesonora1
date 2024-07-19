@@ -8,23 +8,23 @@ export default function Page() {
       <HeaderSubpage title='Sobre' bgImg='/images/dummyImg.png' />
 
       {/* submenu */}
-      <div className='w-full h-12 bg-zinc-800 flex items-center justify-center uppercase text-white/70 sticky top-0  border-zinc-500 shadow-md shadow-zinc-900/40'>
-        <div className='h-full w-[90%] md:w-[700px] lg:w-[900px] flex justify-between items-center'>
+      <div className='w-full h-24 md:h-12 bg-zinc-800 flex items-center justify-center uppercase text-white/70 sticky top-0  border-zinc-500 shadow-md shadow-zinc-900/40'>
+        <div className='h-full w-[90%] md:w-[700px] lg:w-[900px] flex justify-between items-end md:items-center text-sm md:text-base mb-5 md:mb-0'>
           <Link
             href='/sobre'
-            className='w-full h-full text-left  hover:bg-white/30 flex items-center justify-center duration-300'
+            className='hidden md:flex w-full md:h-full text-left  hover:bg-white/30 items-center justify-center duration-300'
           >
             sobre o arte sonora
           </Link>
           <Link
             href='/sobre#quem-somos'
-            className='w-full h-full text-center  hover:bg-white/30 flex items-center duration-300 justify-center'
+            className='w-full md:h-full md:text-center  hover:bg-white/30 flex items-center duration-300 md:justify-center'
           >
             quem somos
           </Link>
           <Link
             href='/sobre#breve-historia'
-            className='w-full h-full text-right  hover:bg-white/30 flex items-center duration-300 justify-center'
+            className='w-full md:h-full text-right  hover:bg-white/30 flex items-center duration-300 justify-end md:justify-center'
           >
             uma breve história
           </Link>
@@ -34,8 +34,8 @@ export default function Page() {
       {/* Content */}
       <div className='pt-10 pb-60 bg-zinc-900 w-full flex flex-col items-center'>
         <div className='w-[90%] md:w-[700px] lg:w-[900px] flex flex-col gap-24 text-white'>
-          <div className='flex gap-4 justify-between h-60'>
-            <div className='flex-1 bg-white/50'></div>
+          <div className='flex flex-col md:flex-row gap-4 justify-between md:h-60'>
+            <div className='md:flex-1 bg-white/50 h-40 md:h-auto w-full md:w-auto'></div>
             <div className='flex-1'>
               Arte Sonora é uma prática artística coletiva desenvolvida pelo duo
               de artistas <span className='font-bold'>Franz Manata</span> e{' '}
@@ -44,13 +44,13 @@ export default function Page() {
               happenings, programas de rádio, publicações etc.
             </div>
           </div>
-          <div className='flex gap-4 justify-between h-60'>
+          <div className='flex flex-col md:flex-row gap-4 justify-between md:h-60'>
             <div className='flex-1'>
               O programa teve início em 2009, na Escola de Artes Visuais do
               Parque Lage – RJ, como um curso de formação com happening ao
               final, apresentando os trabalhos dos participantes.
             </div>
-            <div className='flex-1 bg-white/60'></div>
+            <div className='md:flex-1 bg-white/50 h-40 md:h-auto w-full md:w-auto'></div>
           </div>
           <div className='my-8 flex justify-center w-full'>
             <div className='bg-white/[0.15] w-[85%]  italic text-lg py-4 px-8 rounded-lg'>
@@ -60,18 +60,18 @@ export default function Page() {
               arte sonora no Séc. XX e contribuir para construção desta cena.
             </div>
           </div>
-          <div className='ml-[20%]'>
+          <div className='md:ml-[20%]'>
             Desde o início do programa já foi produzido extenso conteúdo sobre o
             tema, abordando suas mais diversas manifestações sensíveis,
             divididos em:
           </div>
-          <ul className='-my-10 ml-[20%] flex flex-col gap-2'>
+          <ul className='-my-14 md:-my-10 md:ml-[20%] flex flex-col gap-2'>
             <Link href='/na-historia'>
               <li className='bg-white/10 hover:bg-white/20 p-2 grid grid-cols-5 gap-3 duration-300'>
-                <span className='text-2xl text-white/70 col-span-1'>
+                <span className='text-2xl text-white/70 col-span-2 md:col-span-1'>
                   Na História
                 </span>
-                <span className='text-sm col-span-4'>
+                <span className='text-sm col-span-3'>
                   Oito programas que apresentam a formação deste campo sensível,
                   suas principais questões, artistas e obras do século XX.
                 </span>
@@ -79,10 +79,10 @@ export default function Page() {
             </Link>
             <Link href='/podcast'>
               <li className='bg-white/10 hover:bg-white/20 p-2 grid grid-cols-5 gap-3 duration-300 '>
-                <span className='text-white/70 text-2xl col-span-1 '>
+                <span className='text-white/70 text-2xl col-span-2 md:col-span-1'>
                   Podcasts
                 </span>
-                <span className='col-span-4 text-sm'>
+                <span className='col-span-3 md:col-span-4 text-sm'>
                   Artistas e pensadores brasileiros que investigam o mundo
                   através do som e suas interfaces.
                 </span>
@@ -90,10 +90,10 @@ export default function Page() {
             </Link>
             <Link href='/mixtape'>
               <li className='bg-white/10 hover:bg-white/20 p-2 grid grid-cols-5 gap-3 duration-300'>
-                <span className='text-white/70  text-2xl col-span-1'>
+                <span className='text-white/70  text-2xl col-span-2 md:col-span-1'>
                   Mixtapes
                 </span>
-                <span className='col-span-4 text-sm'>
+                <span className='col-span-3 md:col-span-4 text-sm'>
                   Artistas, críticos e pensadores da cultura contemporânea
                   selecionam faixas de seu universo afetivo.
                 </span>
@@ -101,17 +101,17 @@ export default function Page() {
             </Link>
             <Link href='/arquivos'>
               <li className='bg-white/10 hover:bg-white/20 p-2 grid grid-cols-5 gap-3 duration-300'>
-                <span className='text-white/70  text-2xl col-span-1'>
+                <span className='text-white/70  text-2xl col-span-2 md:col-span-1'>
                   Arquivos
                 </span>
-                <span className='col-span-4 text-sm'>
+                <span className='col-span-3 md:col-span-4 text-sm'>
                   Textos, imagens e vídeos sobre o tema e os projetos especiais
                   e ocupações desenvolvidas pelo programa.
                 </span>
               </li>
             </Link>
           </ul>
-          <div className=' ml-[20%]'>
+          <div className=' md:ml-[20%]'>
             <span>Em 2017 teve início o </span>
             <span className='text-white/70  text-2xl'>Varanda Sonora</span>
             <span>
@@ -140,10 +140,10 @@ export default function Page() {
           </div>
 
           {/* quem somos */}
-          <div className='pt-16 text-5xl' id='quem-somos'>
+          <div className='pt-16 text-4xl md:text-5xl' id='quem-somos'>
             Quem somos
           </div>
-          <div className='-mt-10 flex gap-4 justify-between h-60'>
+          <div className='-mt-10 flex flex-col md:flex-row gap-4 justify-between md:h-60'>
             <div className='flex-1'>
               <span className='font-bold'>Franz Manata</span> (1964) é artista,
               curador e professor e{' '}
@@ -157,12 +157,13 @@ export default function Page() {
               do Parque Lage. Atualmente, são representados pela Galeria Sé –
               São Paulo, BR.
             </div>
-            <div className='flex-1 bg-white/50'></div>
+            <div className='md:flex-1 bg-white/50 h-40 md:h-auto w-full md:w-auto'></div>
           </div>
 
           {/* uma breve história */}
-          <div className='pt-16 text-5xl' id='breve-historia'>
-            Uma breve história <span className='text-3xl'>da Arte Sonora</span>
+          <div className='pt-16 text-4xl' id='breve-historia'>
+            Uma breve história{' '}
+            <span className='text-2xl block md:inline'>da Arte Sonora</span>
           </div>
           <div className='-mt-10 flex flex-col gap-4'>
             <div className=''>
