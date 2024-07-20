@@ -70,5 +70,94 @@ export default function Description() {
         </RevealTextWhenMount>
       </div>
     );
-  // return null;
+
+  if (!description && pathname === '/mixtape')
+    return (
+      <div className='w-full text-white/90 text-sm flex flex-col gap-2'>
+        <RevealTextWhenMount>
+          <div className=''>
+            <span className='font-bold'>Arte Sonora Mixtape</span> aborda o
+            universo sonoro e a influência da música no trabalho de artistas,
+            críticos e pensadores da cultura contemporânea, que selecionam
+            faixas afetivas.
+          </div>
+        </RevealTextWhenMount>
+        <RevealTextWhenMount>
+          <div className=''>
+            Nos três primeiros minutos nosso convidado fala do percurso e
+            interesses, comenta sobre o papel da música no trabalho e na vida,
+            além de apresentar as faixas escolhidas.
+          </div>
+        </RevealTextWhenMount>
+        <RevealTextWhenMount>
+          <div className=''>
+            Cada mixtape é um mundo particular. Puro divertimento. Pode ser
+            funk, mpb, pop, étinico, clássico, regional e uma infinidade de
+            repertórios, mas o que os une é o carinho e a dedicação dos
+            participantes.
+          </div>
+        </RevealTextWhenMount>
+      </div>
+    );
+
+  if (!description && pathname === '/na-historia')
+    return (
+      <div className='w-full text-white/90 text-sm flex flex-col gap-2'>
+        <RevealTextWhenMount>
+          <div className=''>
+            <span className='font-bold'>Arte Sonora na História</span> é uma
+            série de oito programas onde apresentamos a formação deste campo
+            sensível, suas principais questões, artistas e obras, criadas ao
+            longo do século XX até os dias de hoje.
+          </div>
+        </RevealTextWhenMount>
+        <RevealTextWhenMount>
+          <div className=''>
+            Nos programas, a Arte Sonora é abordada desde os seus primórdios,
+            com os Futuristas e Dadaístas, passando pelo desenvolvimento da
+            tecnologia como suporte para criação, o legado da música
+            eletroacústica e suas reverberações nas produções conceituais do
+            pós-guerra, até chegar à relação desenvolvida entre arte e música no
+            Brasil.
+          </div>
+        </RevealTextWhenMount>
+        <RevealTextWhenMount>
+          <div className=''>
+            Na primeira parte do programa, de forma clara e direta, apresentamos
+            os artistas, seus pensamentos e obras; na sequência um{' '}
+            <span className=' italic'>setlist</span> cobre grande parte do
+            assunto discutido em cada podcast e, pra fechar o programa, criamos
+            uma seção chamada “hora do recreio”, quando indicamos de forma livre
+            faixas afetivas que se relacionam ou não com o tema do programa.
+          </div>
+        </RevealTextWhenMount>
+        <RevealTextWhenMount>
+          <div className=''>
+            Este programas receberam o apoio institucional da ArtRio - Feira
+            Internacional de Arte Contemporânea do Rio de Janeiro, para sua
+            realização.
+          </div>
+        </RevealTextWhenMount>
+      </div>
+    );
+
+  if (!description && pathname === '/varanda-sonora')
+    return (
+      <div className='w-full text-white/90 text-sm flex flex-col gap-2'>
+        <RevealTextWhenMount>
+          <div className=''>
+            <span className='font-bold'>Varanda Sonora</span> é ...
+          </div>
+        </RevealTextWhenMount>
+        <RevealTextWhenMount>
+          <div className=''>...</div>
+        </RevealTextWhenMount>
+        <RevealTextWhenMount>
+          <div className=''>...</div>
+        </RevealTextWhenMount>
+        <RevealTextWhenMount>
+          <div className=''>...</div>
+        </RevealTextWhenMount>
+      </div>
+    );
 }
