@@ -12,7 +12,7 @@ import FirstThreePrograms2 from '@/components/ProgramasIntro/FirstThreePrograms2
 import AllCards from '@/components/subpages/AllCards';
 import Description from '@/components/subpages/Description';
 
-export const data = {
+const data = {
   podcast: {
     title: 'Podcast',
     description:
