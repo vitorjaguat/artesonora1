@@ -53,12 +53,6 @@ export default async function Page() {
   const mixtapes = await getData();
   const isLoading = false;
 
-  const {
-    filteredPosts: posts,
-    // contentArrHtml,
-    collabImages,
-  } = await getData();
-
   // console.log(mixtapes[0].collaborators);
 
   return (
@@ -120,7 +114,7 @@ export default async function Page() {
       </div>
 
       {/* cards */}
-      <AllCards mainDescription={data.mixtape.description} items={mixtapes} />
+      <AllCards items={mixtapes} />
     </section>
   );
 }

@@ -53,12 +53,6 @@ export default async function Page() {
   const podcasts = await getData();
   const isLoading = false;
 
-  const {
-    filteredPosts: posts,
-    // contentArrHtml,
-    collabImages,
-  } = await getData();
-
   // console.log(podcasts[0].collaborators);
 
   return (
@@ -120,7 +114,7 @@ export default async function Page() {
       </div>
 
       {/* cards */}
-      <AllCards mainDescription={data.podcast.description} items={podcasts} />
+      <AllCards items={podcasts} />
     </section>
   );
 }
