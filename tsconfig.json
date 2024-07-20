@@ -30,7 +30,8 @@
     ".next/types/**/*.ts",
     "src/app/podcast/page.jsx",
     "src/app/page.jsx",
-    "src/app/contato/page.jsx"
+    "src/app/contato/page.jsx",
+    "src/components/Hero.jsx"
   ],
   "exclude": ["node_modules"]
 }

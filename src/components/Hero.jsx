@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
+import WaterDropGrid from './WaterDropGridBG';
 
 export default function Hero() {
   // let vh = 1;
@@ -34,6 +35,11 @@ export default function Hero() {
             fill
             style={{ objectFit: 'cover' }}
           />
+
+          {/* grid */}
+          {/* <div className='absolute top-20 left-20 opacity-60'>
+            <WaterDropGrid />
+          </div> */}
         </motion.div>
       </div>
 
