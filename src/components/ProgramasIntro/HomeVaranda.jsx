@@ -48,7 +48,7 @@ const data = {
   varandaSonora: {
     title: 'Varanda Sonora',
     description:
-      'Laboriosam neque debitis voluptatem maxime modi omnis adipisci vel voluptate cum dolore quas doloremque harum blanditiis, nulla animi molestias dolores odio amet fugit deserunt quidem quod error. Possimus, aliquam architecto. Qui id necessitatibus quia aliquid ipsam soluta est repellendus nostrum at sunt! Optio magnam dolore itaque natus libero numquam delectus fugiat nostrum doloribus! Ducimus sed illum eos sequi sit mollitia.',
+      'Laboriosam neque debitis voluptatem maxime modi omnis adipisci vel voluptate cum dolore quas doloremque harum blanditiis, nulla animi molestias dolores odio amet fugit deserunt quidem quod error. Qui id necessitatibus quia aliquid ipsam soluta est repellendus nostrum at sunt! Optio magnam dolore itaque natus libero numquam delectus fugiat nostrum doloribus! Ducimus sed illum eos sequi sit mollitia.',
     // image: '/images/dummyVaranda.jpg',
     image: dummyVaranda,
     id: 4,
@@ -98,7 +98,7 @@ export default function HomeVaranda({ firstThree }) {
   return (
     <section
       ref={containerRef}
-      className='block relative text-white/50 max-w-[100vw] md:max-w-none md:w-[calc(100vw-52px)] h-[130vh] md:h-[200vh]  mb-40'
+      className='block relative text-white/50 max-w-[100vw] md:max-w-none md:w-[calc(100vw-52px)] h-[130vh] md:h-[200vh]'
     >
       <div className='sticky inset-0 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
         <div className='relative w-full h-full overflow-hidden '>
@@ -145,10 +145,11 @@ export default function HomeVaranda({ firstThree }) {
             transitionDuration: '500ms',
           }}
         >
-          {data.varandaSonora.description.split('.').map((sentence, i) => (
+          {data.varandaSonora.description.split('.').map((sentence, i, arr) => (
             <RevealText width='100%' key={i}>
-              <div className='w-full flex justify-end text-left'>
+              <div className='w-full flex text-left'>
                 {sentence}
+                {i < arr.length - 1 ? '.' : ''}
               </div>
             </RevealText>
           ))}

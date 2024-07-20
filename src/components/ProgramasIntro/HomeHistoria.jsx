@@ -98,7 +98,7 @@ export default function HomeHistoria({ firstThree }) {
   return (
     <section
       ref={containerRef}
-      className='block relative text-white/50 max-w-[100vw] md:max-w-none md:w-[calc(100vw-52px)] h-[130vh] md:h-[200vh]  mb-40'
+      className='block relative text-white/50 max-w-[100vw] md:max-w-none md:w-[calc(100vw-52px)] h-[130vh] md:h-[200vh]'
     >
       <div className='sticky inset-0 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
         <div className='relative w-full h-full overflow-hidden'>
