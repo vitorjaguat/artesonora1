@@ -88,7 +88,7 @@ export default async function Page() {
             <div className='md:w-40 text-right flex justify-end text-white/70 font-light font-chakra text-5xl md:text-8xl'>
               {data.podcast.title}
             </div>
-            <div className='w-[45%]'>
+            <div className='w-[38%]'>
               <Description />
             </div>
           </div>

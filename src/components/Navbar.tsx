@@ -92,7 +92,7 @@ export default function Navbar() {
   return (
     <>
       {/* DESKTOP NAV */}
-      <div className='hidden md:inline fixed top-0 left-0 w-fit h-screen bg-neutral-800 z-[100]'>
+      <div className='hidden md:inline fixed top-0 left-0 w-fit h-screen bg-neutral-800 z-[100] font-chakra tracking-wider'>
         <div
           className='md:flex flex-col w-fit h-[100vh] px-4 pt-6 items-center gap-6 uppercase'
           // style={{ writingMode: 'vertical-rl' }}
@@ -248,7 +248,7 @@ export default function Navbar() {
       </div>
       {/* SUBMENU */}
       <motion.div
-        className='hidden fixed top-0 left-[190px] bg-neutral-800 h-[calc(100vh-92px)] pt-6 flex-col justify-start items-end gap-6 uppercase z-10'
+        className='hidden fixed top-0 left-[190px] bg-neutral-800 h-[calc(100vh-92px)] pt-6 flex-col justify-start items-end gap-6 uppercase z-10 font-chakra tracking-wider'
         onMouseEnter={() => {
           controls.start('on');
           controlsContainer.start('on');
@@ -299,7 +299,7 @@ export default function Navbar() {
                     transition: { delay: 0.2, duration: 0.1 },
                   },
                 }}
-                className='w-full text-right justify-end items-center pr-6 text-neutral-300 duration-300 hover:text-white '
+                className='w-full text-right justify-end items-center pr-6 text-neutral-300 duration-300 hover:text-white whitespace-break-spaces'
               >
                 {item.name}
               </motion.div>

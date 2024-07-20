@@ -60,7 +60,7 @@ export default function Card({
         {post.title}
 
         {/* saiba mais */}
-        <div className='absolute bottom-0 right-1 hover:animate-pulse group-hover:text-white duration-300'>
+        <div className='absolute bottom-0 right-1 hover:animate-pulse group-hover:text-white group-hover:scale-150 duration-300'>
           +
         </div>
       </div>

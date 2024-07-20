@@ -51,7 +51,7 @@ export default function PlayerBar() {
   return (
     <div
       ref={playerRef}
-      className='player-container fixed bottom-0 left-0 w-full px-20 md:pl-14 md:pr-2 md:pt-2 bg-neutral-800 z-[10000] font-lato max-w-[100vw]'
+      className='player-container fixed bottom-0 left-0 w-full px-20 md:pl-14 md:pr-2 md:pt-2 bg-neutral-800 z-[10000] font-chakra max-w-[100vw]'
     ></div>
   );
 }
