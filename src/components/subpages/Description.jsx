@@ -4,15 +4,29 @@
 import RevealTextWhenMount from '../RevealTextWhenMount';
 import { useContext } from 'react';
 import { MainContext } from '@/context/mainContext';
+import { usePathname } from 'next/navigation';
 
 export default function Description() {
   const { description } = useContext(MainContext);
   let title, content;
   title = description?.title;
   content = description?.content?.split('\n')[1];
-  console.log(description);
+  // console.log(description);
+  const pathname = usePathname();
 
-  if (!description)
+  if (description)
+    return (
+      <div className='w-full text-white/90 text-sm flex flex-col gap-4'>
+        <RevealTextWhenMount width='100%'>
+          <div className='font-chakra text-xl w-full'>{title}</div>
+        </RevealTextWhenMount>
+        <RevealTextWhenMount width='100%'>
+          <div className='w-full flex justify-end text-right'>{content}</div>
+        </RevealTextWhenMount>
+      </div>
+    );
+
+  if (!description && pathname === '/podcast')
     return (
       <div className='w-full text-white/90 text-sm flex flex-col gap-2'>
         <RevealTextWhenMount>
@@ -57,14 +71,4 @@ export default function Description() {
       </div>
     );
   // return null;
-  return (
-    <div className='w-full text-white/90 text-sm flex flex-col gap-4'>
-      <RevealTextWhenMount width='100%'>
-        <div className='font-chakra text-xl w-full'>{title}</div>
-      </RevealTextWhenMount>
-      <RevealTextWhenMount width='100%'>
-        <div className='w-full flex justify-end text-right'>{content}</div>
-      </RevealTextWhenMount>
-    </div>
-  );
 }

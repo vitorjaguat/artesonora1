@@ -17,6 +17,7 @@ import getProgramasIntroData from './getProgramasIntroData';
 import { set } from 'date-fns';
 import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
+import Link from 'next/link';
 
 export const data = {
   podcast: {
@@ -135,6 +136,11 @@ export default function ProgramasIntro({ firstThree }) {
             <div className='md:w-40 text-right flex justify-end text-white/70 font-chakra '>
               {data.podcast.title}
             </div>
+          </div>
+
+          {/* saiba mais */}
+          <div className='absolute bottom-10 left-10 text-white/50 hover:text-white/80 hover:scale-[1.02] text-lg tracking-wider duration-300'>
+            <Link href='/podcast'>+ acesse todos os episódios</Link>
           </div>
         </div>
 

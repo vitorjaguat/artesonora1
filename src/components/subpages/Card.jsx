@@ -54,7 +54,7 @@ export default function Card({
 
       {/* title */}
       <div
-        className='relative py-2 w-full flex justify-center items-center text-center text-xs md:text-sm px-4 bg-neutral-300/50 h-full text-black font-chakra'
+        className='relative py-2 w-full flex justify-center items-center text-center text-xs md:text-sm px-4 bg-neutral-300/50 h-full text-black font-chakra group-hover:text-white/90 duration-300'
         // style={{ writingMode: 'vertical-rl' }}
       >
         {post.title}
