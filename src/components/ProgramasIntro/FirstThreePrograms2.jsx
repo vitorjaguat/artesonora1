@@ -1,3 +1,5 @@
+'use client';
+
 import { useContext, useState } from 'react';
 import { MainContext } from '@/context/mainContext';
 import { useMotionValueEvent } from 'framer-motion';

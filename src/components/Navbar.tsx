@@ -100,7 +100,7 @@ export default function Navbar() {
           onMouseLeave={() => controlsContainer.start('off')}
         >
           <TransitionLink
-            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white'
+            className='w-full flex items-center text-neutral-500 duration-300 hover:text-white'
             href='/'
             onMouseEnter={() => controls.start('off')}
           >
@@ -125,7 +125,7 @@ export default function Navbar() {
 
           <TransitionLink
             href='/sobre'
-            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white cursor-pointer'
+            className='w-full flex items-center text-neutral-500 duration-300 hover:text-white cursor-pointer'
             onMouseEnter={() => handleHover([...subMenuDataManager.sobre])}
 
             // onMouseLeave={() => controls.start('off')}
@@ -150,7 +150,7 @@ export default function Navbar() {
           </TransitionLink>
 
           <div
-            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white  cursor-pointer'
+            className='w-full flex items-center text-neutral-500 duration-300 hover:text-white  cursor-pointer'
             onMouseEnter={() => handleHover([...subMenuDataManager.programas])}
             // onMouseLeave={() => controls.start('off')}
           >
@@ -174,7 +174,7 @@ export default function Navbar() {
           </div>
 
           <TransitionLink
-            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white overflow-hidden'
+            className='w-full flex items-center text-neutral-500 duration-300 hover:text-white overflow-hidden'
             href='/colaboradores'
             onMouseEnter={() => controls.start('off')}
           >
@@ -198,7 +198,7 @@ export default function Navbar() {
           </TransitionLink>
 
           <TransitionLink
-            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white overflow-hidden'
+            className='w-full flex items-center text-neutral-500 duration-300 hover:text-white overflow-hidden'
             href='/arquivos'
             onMouseEnter={() => controls.start('off')}
           >
@@ -222,7 +222,7 @@ export default function Navbar() {
           </TransitionLink>
 
           <TransitionLink
-            className='w-full flex items-center text-zinc-500 duration-300 hover:text-white overflow-hidden'
+            className='w-full flex items-center text-neutral-500 duration-300 hover:text-white overflow-hidden'
             href='/contato'
             onMouseEnter={() => controls.start('off')}
           >
@@ -299,7 +299,7 @@ export default function Navbar() {
                     transition: { delay: 0.2, duration: 0.1 },
                   },
                 }}
-                className='w-full text-right justify-end items-center pr-6 text-zinc-300 duration-300 hover:text-white '
+                className='w-full text-right justify-end items-center pr-6 text-neutral-300 duration-300 hover:text-white '
               >
                 {item.name}
               </motion.div>

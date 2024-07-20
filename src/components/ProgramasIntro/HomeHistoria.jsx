@@ -39,7 +39,7 @@ const data = {
   naHistória: {
     title: 'Na História',
     description:
-      'Culpa repudiandae veritatis ipsam porro ea, debitis praesentium laudantium molestias. Labore non eaque quas eum explicabo, sint ea nemo nostrum minima odit iure culpa ipsa similique earum, sapiente, fuga aliquam! Reprehenderit, deleniti accusantium illum odio, molestiae sit vero modi, quis quisquam id earum suscipit at temporibus dicta consequatur possimus eum inventore. Porro similique officia voluptate, incidunt sed impedit nostrum iure?',
+      'Arte Sonora na História é uma série de oito programas onde apresentamos a formação deste campo sensível, suas principais questões, artistas e obras, criadas ao longo do século XX até os dias de hoje. Nos programas, a Arte Sonora é abordada desde os seus primórdios, com os Futuristas e Dadaístas, passando pelo desenvolvimento da tecnologia como suporte para criação, o legado da música eletroacústica e suas reverberações nas produções conceituais do pós-guerra, até chegar à relação desenvolvida entre arte e música no Brasil.',
     // image: '/images/dummyHistoria.jpg',
     image: dummyHistoria,
     id: 3,
@@ -145,10 +145,11 @@ export default function HomeHistoria({ firstThree }) {
             transitionDuration: '500ms',
           }}
         >
-          {data.naHistória.description.split('.').map((sentence, i) => (
+          {data.naHistória.description.split('.').map((sentence, i, arr) => (
             <RevealText width='100%' key={i}>
               <div className='w-full flex justify-end text-right'>
                 {sentence}
+                {i < arr.length - 1 ? '.' : ''}
               </div>
             </RevealText>
           ))}

@@ -29,6 +29,11 @@ const reducer = (state, action) => {
         ...state,
         playArtist: action.payload,
       };
+    case 'CHANGE_DESCRIPTION':
+      return {
+        ...state,
+        description: action.payload,
+      };
     default:
       return state;
   }
@@ -51,6 +56,7 @@ const MainContextProvider = ({ children }) => {
     playTitle: 'Sky Fits Heaven (demo)',
     playArtist: 'Madonna',
     playState: 'stop',
+    description: null,
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -85,6 +91,12 @@ const MainContextProvider = ({ children }) => {
       payload: state,
     });
   };
+  const changeDescription = (description) => {
+    dispatch({
+      type: 'CHANGE_DESCRIPTION',
+      payload: description,
+    });
+  };
 
   // console.log('showFooter', state.noShowFooter);
 
@@ -101,6 +113,8 @@ const MainContextProvider = ({ children }) => {
         changePlayArtist,
         playState: state.playState,
         changePlayState,
+        description: state.description,
+        changeDescription,
       }}
     >
       {children}

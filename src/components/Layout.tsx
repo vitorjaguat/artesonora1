@@ -53,17 +53,17 @@ const Layout = ({ children }: Props) => {
               // animate='animate'
               // exit='exit'
               id='main'
-              className='md:min-h-screen z-[1] w-screen bg-zinc-900'
+              className=' z-[1] w-screen bg-zinc-900'
             >
               {children}
             </main>
             {/* )}
             </AnimatePresence> */}
-            <Footer />
+
+            {/* <Footer /> */}
+            {pathname === '/' && <Footer />}
           </div>
         </div>
-
-        {/* <Footer /> */}
       </MainContextProvider>
     </>
   );

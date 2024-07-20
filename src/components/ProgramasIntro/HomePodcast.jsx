@@ -18,11 +18,11 @@ import { set } from 'date-fns';
 import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
 
-const data = {
+export const data = {
   podcast: {
     title: 'Podcast',
     description:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt voluptatibus odio fuga sint eaque ipsa, est maiores veniam aspernatur magnam eligendi quis aliquam, consectetur blanditiis voluptate nisi accusantium labore. Amet. Placeat aut iste unde explicabo dolor delectus quidem! A aspernatur eius molestias animi! Nulla accusamus est aliquid vero porro labore unde praesentium rerum sint quaerat, iure nisi assumenda? Est, placeat?',
+      'Arte Sonora Podcast apresenta de forma monográfica os principais artistas e pensadores brasileiros que vêm investigando o mundo através do som e suas interfaces, apresentando seu pensamento, obras e interesses. O programa foi estruturado na forma de uma conversa informal, e algumas das vezes foi gravado no próprio espaço do entrevistado, exceto um depoimento e duas palestras que ocorreram na Escola de Artes Visuais do Parque Lage.',
     image: dummyPodcast,
     id: 1,
     link: '/podcast',
@@ -100,7 +100,7 @@ export default function ProgramasIntro({ firstThree }) {
   return (
     <section
       ref={containerRef}
-      className='block relative text-white/50 max-w-[100vw] md:max-w-none md:w-[calc(100vw-52px)] h-[130vh] md:h-[200vh]  mb-40'
+      className='block relative text-white/50 max-w-[100vw] md:max-w-none md:w-[calc(100vw-52px)] h-[130vh] md:h-[200vh]'
     >
       <div className='sticky inset-0 w-screen md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
         <div className='relative w-full h-full overflow-hidden'>
@@ -147,10 +147,11 @@ export default function ProgramasIntro({ firstThree }) {
             transitionDuration: '500ms',
           }}
         >
-          {data.podcast.description.split('.').map((sentence, i) => (
+          {data.podcast.description.split('.').map((sentence, i, arr) => (
             <RevealText width='100%' key={i}>
               <div className='w-full flex justify-end text-right'>
                 {sentence}
+                {i < arr.length - 1 ? '.' : ''}
               </div>
             </RevealText>
           ))}

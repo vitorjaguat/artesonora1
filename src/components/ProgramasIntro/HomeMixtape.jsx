@@ -30,7 +30,7 @@ const data = {
   mixtape: {
     title: 'Mixtape',
     description:
-      'Aperiam expedita dolores unde doloribus repudiandae quia, earum voluptatum eius quisquam. Obcaecati laudantium vel, illo minima iste officiis maiores debitis reiciendis quasi aliquid qui officia, expedita delectus? A, tenetur cumque! Voluptates ex, sunt quibusdam reprehenderit sequi suscipit ad quidem, earum officia totam architecto velit quia. Mollitia, exercitationem aliquam impedit voluptatem adipisci, deleniti temporibus repudiandae iste magni laborum, recusandae sequi quae!',
+      'O Arte Sonora Mixtape aborda o universo sonoro e a influência da música no trabalho de artistas, críticos e pensadores da cultura contemporânea, que selecionam faixas afetivas. Nos três primeiros minutos nosso convidado fala do percurso e interesses, comenta sobre o papel da música no trabalho e na vida, além de apresentar as faixas escolhidas.',
     // image: '/images/dummyMixtape.jpg',
     image: dummyMixtape,
     id: 2,
@@ -145,10 +145,11 @@ export default function HomeMixtape({ firstThree }) {
             transitionDuration: '500ms',
           }}
         >
-          {data.mixtape.description.split('.').map((sentence, i) => (
+          {data.mixtape.description.split('.').map((sentence, i, arr) => (
             <RevealText width='100%' key={i}>
-              <div className='w-full flex justify-end text-left'>
+              <div className='w-full flex text-left'>
                 {sentence}
+                {i < arr.length - 1 ? '.' : ''}
               </div>
             </RevealText>
           ))}
