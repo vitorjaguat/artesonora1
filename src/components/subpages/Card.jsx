@@ -28,9 +28,9 @@ export default function Card({
     >
       {/* image */}
       <div className='p-2 w-full flex justify-center h-fit bg-neutral-300/20'>
-        <div className='w-20 h-20  flex justify-center items-center'>
+        <div className='sm:w-20 sm:h-20  flex justify-center items-center'>
           <div
-            className='relative w-20 h-20 rounded-full overflow-hidden'
+            className='relative sm:w-20 sm:h-20 rounded-full overflow-hidden'
             //   style={{ zIndex: '0 !important' }}
             //   style={{ filter: 'saturate(0)' }}
           >
@@ -44,7 +44,7 @@ export default function Card({
             {post?.fileLink && (
               <PiPlayLight
                 onClick={(e) => handleClickPlay(e, post)}
-                className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-40 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer'
+                className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-50 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer'
                 color='white'
               />
             )}
@@ -54,13 +54,19 @@ export default function Card({
 
       {/* title */}
       <div
-        className='relative py-2 w-full flex justify-center items-center text-center text-xs md:text-sm px-4 bg-neutral-300/50 h-full text-black font-chakra group-hover:text-white/90 duration-300'
+        className='relative py-2 w-full flex flex-col md:flex-row justify-center items-center text-center  px-4 bg-neutral-300/70 md:bg-neutral-300/50 h-full text-black font-chakra group-hover:text-white/90 duration-300'
         // style={{ writingMode: 'vertical-rl' }}
       >
-        {post.title}
+        <div className='font-semibold md:font-normal text-lg md:text-sm'>
+          {post.title}
+        </div>
+
+        <div className='block md:hidden pt-2'>
+          {post.content.slice(0, 200)}...
+        </div>
 
         {/* saiba mais */}
-        <div className='absolute bottom-0 right-1 hover:animate-pulse group-hover:text-white group-hover:scale-150 duration-300'>
+        <div className='absolute bottom-0 right-2 md:bottom-0 md:right-1 hover:animate-pulse group-hover:text-white group-hover:scale-150 duration-300 font-semibold md:font-normal text-lg md:text-base'>
           +
         </div>
       </div>

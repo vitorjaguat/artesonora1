@@ -85,7 +85,7 @@ export default function RootLayout({
         href='https://fonts.googleapis.com/css2?family=Ubuntu:wght@200;400;700&display=swap'
         rel='stylesheet'
       /> */}
-      <body>
+      <body className='bg-zinc-900'>
         <Layout>{children}</Layout>
       </body>
     </html>

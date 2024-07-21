@@ -56,7 +56,7 @@ export default async function Page() {
   // console.log(podcasts[0].collaborators);
 
   return (
-    <section className='relative text-white/50 max-w-[100vw] md:max-w-none md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-full md:min-h-[calc(100vh-92px)]'>
+    <section className='relative text-white/50 max-w-none h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)]'>
       {/* fixed: */}
       <div className='fixed inset-0 w-screen md:ml-[52px] md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
         <div className='relative w-full h-full overflow-hidden'>
@@ -88,7 +88,7 @@ export default async function Page() {
             <div className='md:w-40 text-right flex justify-end text-white/70 font-light font-chakra text-5xl md:text-8xl'>
               {data.podcast.title}
             </div>
-            <div className='w-[38%]'>
+            <div className='hidden md:block w-[38%]'>
               <Description />
             </div>
           </div>

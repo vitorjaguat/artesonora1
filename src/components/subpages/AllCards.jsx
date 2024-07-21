@@ -6,6 +6,7 @@ import { useMotionValueEvent } from 'framer-motion';
 import Card from '@/components/subpages/Card';
 import { useMediaQuery } from '@/util/useMediaQuery';
 import RevealText from '../RevealText';
+import Description from './Description';
 
 export default function AllCards({ items, sideRight = false }) {
   const isDesktop = useMediaQuery('md');
@@ -41,10 +42,13 @@ export default function AllCards({ items, sideRight = false }) {
 
   return (
     <>
-      <div className={'flex w-[calc(100vw-52px)]'}>
-        <div className='relative sm:pt-8 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[109px] flex-1 flex flex-wrap gap-2'>
+      <div className={'flex md:w-[calc(100vw-52px)]'}>
+        <div className='relative pt-36 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[109px] flex-1 flex flex-wrap gap-4 md:gap-2 justify-center md:justify-normal'>
+          <div className='block sm:hidden pb-8'>
+            <Description />
+          </div>
           {items.map((item, i) => (
-            <div key={i} className={' duration-300 w-32'}>
+            <div key={i} className={' duration-300 w-full sm:w-32'}>
               <Card
                 post={item}
                 changeDescription={changeDescription}
@@ -54,7 +58,7 @@ export default function AllCards({ items, sideRight = false }) {
             </div>
           ))}
         </div>
-        <div className='flex-1 text-right text-white/90 pt-44 pr-8'></div>
+        <div className='hidden md:block flex-1 text-right text-white/90 pt-44 pr-8'></div>
       </div>
 
       {/* {description && isDesktop && (
