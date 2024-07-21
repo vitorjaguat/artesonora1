@@ -29,17 +29,17 @@ export default function Hero() {
       {/* background image */}
       <div ref={bgContainer} className='h-full overflow-hidden'>
         <motion.div style={{ y }} className='relative h-full'>
-          <Image
+          {/* <Image
             src='/images/dummyHero.jpg'
             alt='Arte Sonora'
             fill
             style={{ objectFit: 'cover' }}
-          />
+          /> */}
 
           {/* grid */}
-          {/* <div className='absolute top-20 left-20 opacity-60'>
+          <div className='absolute top-0 left-0 opacity-60'>
             <WaterDropGrid />
-          </div> */}
+          </div>
         </motion.div>
       </div>
 
