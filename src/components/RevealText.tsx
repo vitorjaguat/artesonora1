@@ -6,9 +6,14 @@ import { useEffect, useRef } from 'react';
 interface Props {
   children: JSX.Element;
   width?: 'fit-content' | '100%';
+  duration?: number;
 }
 
-export default function RevealText({ children, width = 'fit-content' }: Props) {
+export default function RevealText({
+  children,
+  width = 'fit-content',
+  duration = 1.2,
+}: Props) {
   const ref = useRef(null);
   const isInView = useInView(ref, {
     once: false,
@@ -49,7 +54,7 @@ export default function RevealText({ children, width = 'fit-content' }: Props) {
         }}
         initial='hidden'
         animate={mainControls}
-        transition={{ duration: 0.25, delay: 1.2 }}
+        transition={{ duration: 0.25, delay: duration }}
       >
         {children}
       </motion.div>
@@ -70,7 +75,7 @@ export default function RevealText({ children, width = 'fit-content' }: Props) {
           zIndex: 20,
           // borderRadius: '30% 0% 0% 30%',
         }}
-        transition={{ duration: 1.2, delay: 0 }}
+        transition={{ duration: duration, delay: 0 }}
       />
     </div>
   );

@@ -1,22 +1,15 @@
 'use client';
 
 import Image from 'next/image';
-import { useState, useRef, useEffect } from 'react';
-import {
-  useScroll,
-  useTransform,
-  motion,
-  useMotionValueEvent,
-} from 'framer-motion';
+import { useState, useRef } from 'react';
+import { useScroll, useTransform, motion } from 'framer-motion';
 import dummyPodcast from '../../../public/images/dummyPodcast2.jpg';
 import dummyMixtape from '../../../public/images/dummyMixtape.jpg';
 import dummyHistoria from '../../../public/images/dummyHistoria.jpg';
 import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
-import PodcastIntro from './FirstThreePrograms';
-import getProgramasIntroData from './getProgramasIntroData';
-import { set } from 'date-fns';
 import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
+import Link from 'next/link';
 
 const data = {
   podcast: {
@@ -130,14 +123,23 @@ export default function HomeHistoria({ firstThree }) {
               transitionDuration: '500ms',
             }}
           >
-            <div className='md:w-40 text-right flex justify-end text-white/70 font-chakra '>
+            <Link
+              href='na-historia'
+              className='md:w-40 text-right flex justify-end text-white/70 hover:scale-[1.02] duration-300 ease-in-out font-chakra '
+            >
               {data.naHistória.title}
-            </div>
+            </Link>
+          </div>
+
+          {/* saiba mais */}
+          <div className='hidden md:block absolute bottom-10 left-10 text-white/50 hover:text-white/80 hover:scale-[1.02] text-lg tracking-wider duration-300'>
+            <Link href='/na-historia'>+ acesse todos os episódios</Link>
           </div>
         </div>
 
         {/* description */}
-        <div
+        <Link
+          href='na-historia'
           className='absolute right-5 md:right-8 bottom-5 md:bottom-8 w-2/3 md:w-1/3 text-right text-xs md:text-base text-white/90'
           style={{
             opacity: isLoading ? 0 : 1,
@@ -153,7 +155,7 @@ export default function HomeHistoria({ firstThree }) {
               </div>
             </RevealText>
           ))}
-        </div>
+        </Link>
 
         {/* progress */}
         {/* <div className='absolute bottom-5 left-5 flex flex-col gap-1'>

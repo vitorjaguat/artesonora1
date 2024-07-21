@@ -9,6 +9,8 @@ import { BiSolidHourglass } from 'react-icons/bi';
 import { GrContact } from 'react-icons/gr';
 import { MdPeopleAlt } from 'react-icons/md';
 import TransitionLink from './TransitionLink';
+import RevealTextWhenMount from './RevealTextWhenMount';
+import RevealText from './RevealText';
 
 interface SubMenuData {
   name: string;
@@ -299,9 +301,11 @@ export default function Navbar() {
                     transition: { delay: 0.2, duration: 0.1 },
                   },
                 }}
-                className='w-full text-right justify-end items-center pr-6 text-neutral-300 duration-300 hover:text-white whitespace-break-spaces'
+                className='w-full text-right justify-end items-center pr-6 text-neutral-300 duration-300 hover:text-white'
               >
-                {item.name}
+                {/* <RevealText duration={0.8}> */}
+                <div className='max-w-[120px]'>{item.name}</div>
+                {/* </RevealText> */}
               </motion.div>
             </TransitionLink>
           ))}

@@ -86,15 +86,15 @@ export default function FirstThreePrograms2({
       className={
         'absolute flex md:block w-[calc(100vw-80px)] md:w-1/2 top-32 md:top-10 ' +
         (sideRight
-          ? 'left-auto right-10 md:left-auto md:right-10'
-          : 'left-10 right-auto md:left-10 md:right-auto')
+          ? 'left-1/2 -translate-x-1/2 right-auto md:left-auto md:translate-x-0 md:right-10'
+          : 'left-1/2 -translate-x-1/2 right-auto md:left-10 md:translate-x-0 md:right-auto')
       }
     >
       <div className='w-full  flex flex-col gap-4'>
-        <div className='-mb-2 w-full text-center md:tracking-[4px]'>
+        <div className='-mb-2 w-full text-center tracking-[3px] md:tracking-[4px]'>
           episódios mais recentes:
         </div>
-        <div className='flex  gap-2 text-white/90'>
+        <div className='flex  gap-2 text-white/90 justify-center md:justify-start'>
           <div
             className={
               'flex-1 duration-300' + (show > 0 ? ' opacity-100' : ' opacity-0')
