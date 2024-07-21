@@ -14,7 +14,7 @@ export default function Title({ title }) {
   const controls = useAnimationControls();
 
   useMotionValueEvent(scrollY, 'change', (latest) => {
-    if (latest < 60) {
+    if (!latest || latest < 60) {
       controls.start('visible');
     } else {
       controls.start('hidden');
