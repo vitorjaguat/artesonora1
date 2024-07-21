@@ -42,11 +42,11 @@ export default function NavbarMobile() {
             exit='off'
             className='fixed top-0 left-0 right-0 bottom-[90px] bg-neutral-800 text-white/70 z-10 select-none font-chakra'
           >
-            <div className='relative w-full h-full flex flex-col gap-3 items-center justify-center uppercase'>
-              <div className='absolute top-5 right-5'>
+            <div className='relative w-full h-full flex flex-col gap-3 items-center justify-center uppercase select-none'>
+              <div className='absolute top-5 right-5 select-none'>
                 <GrClose
                   size={30}
-                  className='text-neutral-500 cursor-pointer'
+                  className='text-neutral-500 cursor-pointer select-none'
                   onClick={() => {
                     setIsOpen(false);
                     setSobreSubMenu(false);
@@ -69,7 +69,7 @@ export default function NavbarMobile() {
                 animate='on'
                 onClick={() => setIsOpen(false)}
               >
-                <Link href='/' className='flex items-center gap-3'>
+                <Link href='/' className='flex items-center gap-3 select-none'>
                   <ImHome size={25} />
                   <div className='text-3xl'>home</div>
                 </Link>
