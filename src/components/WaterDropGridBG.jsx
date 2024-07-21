@@ -63,7 +63,7 @@ const DotGrid = ({ gridWidth, gridHeight }) => {
         from: e.target.dataset.index,
       }),
       direction: 'alternate',
-      loop: true,
+      loop: 3,
     });
   };
 

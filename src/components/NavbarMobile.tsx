@@ -98,7 +98,7 @@ export default function NavbarMobile() {
                     'flex flex-col items-end w-[80vw] text-2xl text-neutral-500 tracking-widest whitespace-nowrap  duration-300 ' +
                     (sobreSubMenu
                       ? 'h-auto w-auto pb-4 opacity-100'
-                      : 'h-0 w-0 pb-0 opacity-0')
+                      : 'h-0 w-0 overflow-hidden pb-0 opacity-0')
                   }
                   onClick={() => setIsOpen(false)}
                 >
@@ -145,7 +145,7 @@ export default function NavbarMobile() {
                     'flex flex-col items-end w-[80vw] text-2xl tracking-widest text-neutral-500 overflow-hidden duration-300 ' +
                     (programasSubMenu
                       ? 'h-fit pb-4 opacity-100'
-                      : 'h-0 pb-0 opacity-0')
+                      : 'h-0 w-0 overflow-hidden pb-0 opacity-0')
                   }
                 >
                   <Link href='/podcast' onClick={() => setIsOpen(false)}>

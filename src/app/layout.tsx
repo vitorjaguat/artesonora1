@@ -43,9 +43,9 @@ export const metadata: Metadata = {
     siteName: 'Arte Sonora',
     images: [
       {
-        url: absoluteUrl('/images/play.png'),
-        width: 1800,
-        height: 1600,
+        url: 'https://artesonora1.vercel.app/images/play.png',
+        width: 416,
+        height: 384,
       },
     ],
     locale: 'pt_BR',
