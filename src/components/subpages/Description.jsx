@@ -16,7 +16,7 @@ export default function Description() {
 
   if (description)
     return (
-      <div className='w-full text-white/90 text-sm flex flex-col gap-4'>
+      <div className='w-full text-white/90 text-base md:text-sm flex flex-col gap-4'>
         <RevealTextWhenMount width='100%'>
           <div className='font-chakra text-xl w-full'>{title}</div>
         </RevealTextWhenMount>
@@ -28,7 +28,7 @@ export default function Description() {
 
   if (!description && pathname === '/podcast')
     return (
-      <div className='w-full text-white/90 text-sm flex flex-col gap-2'>
+      <div className='w-full text-white/90 text-base md:text-sm flex flex-col gap-2'>
         <RevealTextWhenMount>
           <div className=''>
             <span className='font-bold'>Arte Sonora Podcast</span> apresenta de
@@ -73,7 +73,7 @@ export default function Description() {
 
   if (!description && pathname === '/mixtape')
     return (
-      <div className='w-full text-white/90 text-sm flex flex-col gap-2'>
+      <div className='w-full text-white/90 text-base md:text-sm flex flex-col gap-2'>
         <RevealTextWhenMount>
           <div className=''>
             <span className='font-bold'>Arte Sonora Mixtape</span> aborda o
@@ -102,7 +102,7 @@ export default function Description() {
 
   if (!description && pathname === '/na-historia')
     return (
-      <div className='w-full text-white/90 text-sm flex flex-col gap-2'>
+      <div className='w-full text-white/90 text-base md:text-sm flex flex-col gap-2'>
         <RevealTextWhenMount>
           <div className=''>
             <span className='font-bold'>Arte Sonora na História</span> é uma
@@ -143,7 +143,7 @@ export default function Description() {
 
   if (!description && pathname === '/varanda-sonora')
     return (
-      <div className='w-full text-white/90 text-sm flex flex-col gap-2'>
+      <div className='w-full text-white/90 text-base md:text-sm flex flex-col gap-2'>
         <RevealTextWhenMount>
           <div className=''>
             <span className='font-bold'>Varanda Sonora</span> é ...

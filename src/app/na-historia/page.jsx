@@ -1,16 +1,12 @@
 import { load } from 'outstatic/server';
-import markdownToHtml from '../../lib/markdownToHtml';
-import ItemCard from '@/components/ItemCard';
-import HeaderSubpage from '@/components/HeaderSubpage';
-import RevealText from '@/components/RevealText';
 import Image from 'next/image';
 import dummyPodcast from '../../../public/images/dummyPodcast2.jpg';
 import dummyMixtape from '../../../public/images/dummyMixtape.jpg';
 import dummyHistoria from '../../../public/images/dummyHistoria.jpg';
 import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
-import FirstThreePrograms2 from '@/components/ProgramasIntro/FirstThreePrograms2';
 import AllCards from '@/components/subpages/AllCards';
 import Description from '@/components/subpages/Description';
+import Title from '@/components/subpages/Title';
 
 const data = {
   podcast: {
@@ -86,7 +82,10 @@ export default async function Page() {
             }}
           >
             <div className='md:w-40 text-right flex justify-end text-white/70 font-light font-chakra text-5xl md:text-8xl'>
-              {data.naHistória.title}
+              <div className='block md:hidden'>
+                <Title title='Na História' />
+              </div>
+              <div className='hidden md:block'>Na História</div>
             </div>
             <div className='hidden md:block w-[38%]'>
               <Description />

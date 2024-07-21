@@ -11,6 +11,7 @@ import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import FirstThreePrograms2 from '@/components/ProgramasIntro/FirstThreePrograms2';
 import AllCards from '@/components/subpages/AllCards';
 import Description from '@/components/subpages/Description';
+import Title from '@/components/subpages/Title';
 
 const data = {
   podcast: {
@@ -53,8 +54,6 @@ export default async function Page() {
   const podcasts = await getData();
   const isLoading = false;
 
-  // console.log(podcasts[0].collaborators);
-
   return (
     <section className='relative text-white/50 max-w-none h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)]'>
       {/* fixed: */}
@@ -86,7 +85,10 @@ export default async function Page() {
             }}
           >
             <div className='md:w-40 text-right flex justify-end text-white/70 font-light font-chakra text-5xl md:text-8xl'>
-              {data.podcast.title}
+              <div className='block md:hidden'>
+                <Title title='Podcast' />
+              </div>
+              <div className='hidden md:block'>Podcast</div>
             </div>
             <div className='hidden md:block w-[38%]'>
               <Description />
