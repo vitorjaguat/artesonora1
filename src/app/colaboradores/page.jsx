@@ -58,7 +58,7 @@ export default async function Page() {
           {/* title */}
           <div className='absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 xl:right-14  z-10  text-right  text-white/70 font-light font-chakra text-5xl md:text-8xl  flex flex-col items-end gap-6'>
             <div className='block md:hidden'>
-              <Title title='Podcast' />
+              <Title title='Colaboradores' />
             </div>
             <div className='hidden  md:block'>Colaboradores</div>
             <div className='hidden md:block w-[38%]'>
