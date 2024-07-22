@@ -21,9 +21,9 @@ const Layout = ({ children }: Props) => {
 
   useEffect(() => {
     const lenis = new Lenis({
-      smoothWheel: true,
-      syncTouch: true,
-      syncTouchLerp: 1,
+      // smoothWheel: true,
+      // syncTouch: true,
+      // syncTouchLerp: 1,
     });
 
     function raf(time: number) {
