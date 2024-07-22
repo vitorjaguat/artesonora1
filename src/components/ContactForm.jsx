@@ -60,7 +60,7 @@ export default function ContactForm() {
             nome
           </label>
           <input
-            className='rounded-sm p-2 flex w-full text-neutral-200 bg-neutral-800 outline-none'
+            className='rounded-sm p-1 md:p-2 flex w-full text-neutral-200 bg-neutral-800 outline-none'
             type='text'
             name='from_name'
             id='from_name'
@@ -77,7 +77,7 @@ export default function ContactForm() {
             type='email'
             name='reply_to'
             id='reply_to'
-            className='rounded-sm p-2 flex bg-neutral-800 text-neutral-200 outline-none'
+            className='rounded-sm p-1 md:p-2 flex bg-neutral-800 text-neutral-200 outline-none'
             required
             onChange={(e) => setEmail(e.target.value)}
             value={email}
@@ -91,7 +91,7 @@ export default function ContactForm() {
             type='text'
             name='subject'
             id='subject'
-            className='rounded-sm p-2 flex bg-neutral-800 text-neutral-200 outline-none'
+            className='rounded-sm p-1 md:p-2 flex bg-neutral-800 text-neutral-200 outline-none'
             required
             onChange={(e) => setSubject(e.target.value)}
             value={subject}
@@ -102,7 +102,7 @@ export default function ContactForm() {
             Mensagem
           </label>
           <textarea
-            className='rounded-sm p-2  bg-neutral-800 text-neutral-200 outline-none'
+            className='rounded-sm p-1 md:p-2  bg-neutral-800 text-neutral-200 outline-none'
             rows='10'
             name='message'
             id='message'
