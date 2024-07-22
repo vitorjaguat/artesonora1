@@ -20,7 +20,10 @@ const Layout = ({ children }: Props) => {
   }
 
   useEffect(() => {
-    const lenis = new Lenis();
+    const lenis = new Lenis({
+      smoothWheel: true,
+      syncTouch: true,
+    });
 
     function raf(time: number) {
       lenis.raf(time);

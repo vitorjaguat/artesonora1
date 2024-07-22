@@ -4,9 +4,11 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@200;400;700&display=swap'); */
 
+/*  */
+
 html {
   /* scroll-behavior: smooth !important; */
-  max-width: 100vh;
+  max-width: 100vw;
   overflow-x: hidden;
 }
 
