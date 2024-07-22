@@ -7,6 +7,7 @@
 import ReCAPTCHA from 'react-google-recaptcha';
 import { useRef, useState } from 'react';
 import { verifyCaptcha } from '@/util/verifyCaptcha';
+import { useMediaQuery } from '@/util/useMediaQuery';
 
 export default function ContactForm() {
   const [name, setName] = useState('');
@@ -17,6 +18,7 @@ export default function ContactForm() {
 
   const recaptchaRef = useRef();
   const [isVerified, setIsVerified] = useState(false);
+  const isDesktop = useMediaQuery('md');
 
   const sendEmail = async () => {
     console.log(name, email, subject, message);
@@ -43,6 +45,7 @@ export default function ContactForm() {
         setIsVerified(true);
         setShowCaptcha(false);
         sendEmail();
+        alert('Mensagem enviada com sucesso! Em breve entraremos em contato.');
       })
       .catch(() => setIsVerified(false));
   }
@@ -103,7 +106,7 @@ export default function ContactForm() {
           </label>
           <textarea
             className='rounded-sm p-1 md:p-2  bg-neutral-800 text-neutral-200 outline-none'
-            rows='10'
+            rows={isDesktop ? 10 : 6}
             name='message'
             id='message'
             required
