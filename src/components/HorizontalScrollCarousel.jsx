@@ -27,7 +27,7 @@ const HorizontalScrollCarousel = ({ newestPosts }) => {
         </div>
         <motion.div style={{ x }} className='flex mt-8 gap-4'>
           {newestPosts.map((post, i) => {
-            if (i > 3) return null;
+            if (!isDesktop && i > 3) return null;
             return <CarouselCard post={post} key={i} />;
           })}
         </motion.div>
