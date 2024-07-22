@@ -10,7 +10,7 @@ import { verifyCaptcha } from '@/util/verifyCaptcha';
 import Image from 'next/image';
 import Title from '@/components/subpages/Title';
 import Description from '@/components/subpages/Description';
-import contactBg from '../../../public/images/contactBg.jpg';
+import contactBg from '../../../public/images/contactBg2.jpg';
 
 export default function Page() {
   // return (
@@ -27,11 +27,11 @@ export default function Page() {
   // );
 
   return (
-    <section className='relative text-white/50 max-w-[100vw] h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)] '>
+    <section className='relative text-white/90 max-w-[100vw] h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)] '>
       {/* fixed: */}
       <div className='fixed top-0 md:left-[52px] w-full  md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
-        <div className='relative w-full h-full overflow-hidden'>
-          <div className='absolute inset-0 max-h-full w-full h-full'>
+        <div className='relative w-full h-full overflow-hidden '>
+          <div className='absolute inset-0 max-h-full w-full h-full opacity-20'>
             <Image
               src={contactBg}
               alt='Contato'
@@ -45,7 +45,7 @@ export default function Page() {
           </div>
 
           {/* title */}
-          <div className='absolute top-[69px] md:top-14 right-5 md:right-8 xl:right-14  z-10  text-right  text-white/70 font-light font-chakra text-5xl md:text-8xl  flex flex-col items-end gap-6'>
+          <div className='absolute top-[69px] md:top-14 right-5 md:right-8 xl:right-14  z-10  text-right  text-white/90 font-light font-chakra text-5xl md:text-8xl  flex flex-col items-end gap-6'>
             <div className='block md:hidden'>
               <Title title='Contato' />
             </div>
