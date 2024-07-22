@@ -1,6 +1,7 @@
 'use client';
 
 import useScreenSize from '@/util/useScreenSize';
+import { useEffect } from 'react';
 import {
   useScroll,
   motion,
@@ -12,6 +13,10 @@ export default function Title({ title }) {
   const isMobile = useScreenSize() === 'mobile';
   const { scrollY } = useScroll();
   const controls = useAnimationControls();
+
+  useEffect(() => {
+    controls.start('visible');
+  }, []);
 
   useMotionValueEvent(scrollY, 'change', (latest) => {
     if (!latest || latest < 60) {
@@ -27,12 +32,7 @@ export default function Title({ title }) {
   };
 
   return (
-    <motion.div
-      variants={titleVariants}
-      animate={controls}
-      initial='hidden'
-      className=''
-    >
+    <motion.div variants={titleVariants} animate={controls} initial='hidden'>
       {title}
     </motion.div>
   );

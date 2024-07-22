@@ -57,7 +57,7 @@ export default async function Page() {
   return (
     <section className='relative text-white/50 max-w-none h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)]'>
       {/* fixed: */}
-      <div className='fixed inset-0 w-screen md:ml-[52px] md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
+      <div className='fixed top-0 md:left-[52px] w-full  md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
         <div className='relative w-full h-full overflow-hidden'>
           <div className='absolute inset-0 max-h-full w-full h-full'>
             <Image
@@ -67,29 +67,17 @@ export default async function Page() {
               style={{
                 objectFit: 'cover',
                 zIndex: 0,
-                opacity: isLoading ? 0 : 0.4,
-                transitionProperty: 'opacity',
-                transitionDuration: '1000ms',
               }}
               priority={true}
             />
           </div>
 
           {/* title */}
-          <div
-            className='absolute top-14 right-5 md:right-8 xl:right-14  z-10  text-right max-w-none md:max-w-[calc(100vw-52px)] flex flex-col justify-center items-end gap-6'
-            style={{
-              opacity: isLoading ? 0 : 1,
-              transitionProperty: 'opacity',
-              transitionDuration: '500ms',
-            }}
-          >
-            <div className='md:w-40 text-right flex justify-end text-white/70 font-light font-chakra text-5xl md:text-8xl'>
-              <div className='block md:hidden'>
-                <Title title='Podcast' />
-              </div>
-              <div className='hidden md:block'>Podcast</div>
+          <div className='absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 xl:right-14  z-10  text-right  text-white/70 font-light font-chakra text-5xl md:text-8xl  flex flex-col items-end gap-6'>
+            <div className='block md:hidden'>
+              <Title title='Podcast' />
             </div>
+            <div className='hidden  md:block'>Podcast</div>
             <div className='hidden md:block w-[38%]'>
               <Description />
             </div>
