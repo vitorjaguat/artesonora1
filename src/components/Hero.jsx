@@ -58,7 +58,7 @@ export default function Hero() {
       </div>
 
       {/* text */}
-      <div className='block absolute bottom-5 left-5 text-white/80 w-1/2 md:w-1/3 text-sm -translate-y-[40px] md:translate-y-0'>
+      <div className='block absolute bottom-5 left-5 text-white/80 w-1/2 md:w-1/3 text-sm -translate-y-[58px] md:translate-y-0'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eveniet
         totam natus fugit dolore itaque adipisci laudantium beatae neque officia
         veritatis alias, reprehenderit culpa enim, aspernatur sed consequuntur!
@@ -67,7 +67,7 @@ export default function Hero() {
 
       {/* realização */}
       <motion.div
-        className='absolute right-5 bottom-5 text-neutral-600 text-base md:text-lg tracking-wider font-chakra -translate-y-[40px] md:translate-y-0'
+        className='absolute right-5 bottom-5 text-neutral-600 text-base md:text-lg tracking-wider font-chakra -translate-y-[55px] md:translate-y-0'
         initial='off'
         animate='on'
         transition={{ delay: 0.3 }}
