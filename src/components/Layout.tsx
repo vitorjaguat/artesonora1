@@ -23,6 +23,7 @@ const Layout = ({ children }: Props) => {
     const lenis = new Lenis({
       smoothWheel: true,
       syncTouch: true,
+      syncTouchLerp: 0,
     });
 
     function raf(time: number) {
