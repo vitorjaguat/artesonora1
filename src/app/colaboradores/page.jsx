@@ -2,6 +2,11 @@ import { load } from 'outstatic/server';
 import markdownToHtml from '../../lib/markdownToHtml';
 import CollabCard from '@/components/CollabCard';
 import HeaderSubpage from '@/components/HeaderSubpage';
+import Image from 'next/image';
+import collabBg from '../../../public/images/collabBg.jpg';
+import Title from '@/components/subpages/Title';
+import Description from '@/components/subpages/Description';
+import AllCards from '@/components/subpages/AllCards';
 // import OutstaticSchema from 'outstatic/dist/utils/server';
 // import imgPlaceholder from '@/public/images/imgPlaceholder.webp';
 
@@ -33,31 +38,57 @@ export default async function Page() {
   // return null;
 
   return (
-    <>
-      {/* Header */}
-      <HeaderSubpage title='Colaboradores' bgImg='/images/dummyImg.png' />
+    <section className='relative text-white/50 max-w-[100vw] h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)] '>
+      {/* fixed: */}
+      <div className='fixed top-0 md:left-[52px] w-full  md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
+        <div className='relative w-full h-full overflow-hidden'>
+          <div className='absolute inset-0 max-h-full w-full h-full'>
+            <Image
+              src={collabBg}
+              alt='Colaboradores'
+              fill
+              style={{
+                objectFit: 'cover',
+                zIndex: 0,
+              }}
+              priority={true}
+            />
+          </div>
 
-      {/* Content */}
-      <div className='pt-10 pb-60 bg-zinc-900 w-full min-h-screen flex flex-col justify-center items-center'>
-        <div className='w-full max-w-[90%] md:max-w-[700px] lg:max-w-[900px] flex flex-col items-center justify-center gap-8 text-white'>
-          {allCollaborators.map((collab, i) => (
-            <>
-              <CollabCard
-                key={i}
-                collabObj={collab}
-                image={collab.coverImage}
-              />
-              {/* #####{i + 1}#####{' '} */}
-              {/* <div
-            className=''
-            dangerouslySetInnerHTML={{ __html: contentArrHtml[i] }}
-          /> */}
-              {/* <div className=''>{podcast.content}</div> */}
-            </>
-          ))}
+          {/* title */}
+          <div className='absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 xl:right-14  z-10  text-right  text-white/70 font-light font-chakra text-5xl md:text-8xl  flex flex-col items-end gap-6'>
+            <div className='block md:hidden'>
+              <Title title='Podcast' />
+            </div>
+            <div className='hidden  md:block'>Colaboradores</div>
+            <div className='hidden md:block w-[38%]'>
+              <Description />
+            </div>
+          </div>
         </div>
+
+        {/* description */}
+        {/* <div
+          className='absolute right-5 md:right-8 bottom-5 md:bottom-8 w-2/3 md:w-1/3 text-right text-xs md:text-base text-white/90'
+          style={{
+            opacity: isLoading ? 0 : 1,
+            transitionProperty: 'opacity',
+            transitionDuration: '500ms',
+          }}
+        >
+          {data.podcast.description.split('.').map((sentence, i) => (
+            <RevealText width='100%' key={i}>
+              <div className='w-full flex justify-end text-right'>
+                {sentence}
+              </div>
+            </RevealText>
+          ))}
+        </div> */}
       </div>
-    </>
+
+      {/* cards */}
+      <AllCards items={allCollaborators} />
+    </section>
   );
 }
 

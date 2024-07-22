@@ -15,7 +15,11 @@ export default function Card({
 
   return (
     <Link
-      href={`${formatPostType(post.type[0].label)}/${post.slug}`}
+      href={`${
+        post?.type?.length > 0
+          ? formatPostType(post.type[0].label)
+          : 'colaboradores'
+      }/${post.slug}`}
       className={
         'relative flex w-full h-full flex-col items-center gap-0 rounded-md overflow-hidden duration-300 border-[1px] border-neutral-400 border-opacity-0 group hover:border-opacity-100'
       }
@@ -35,7 +39,11 @@ export default function Card({
             //   style={{ filter: 'saturate(0)' }}
           >
             <Image
-              src={post.collaborators[0].coverImage}
+              src={
+                post?.collaborators?.length > 0
+                  ? post.collaborators[0].coverImage
+                  : post.coverImage
+              }
               alt={post.title}
               className='rounded-full object-cover aspect-square'
               width={160}
