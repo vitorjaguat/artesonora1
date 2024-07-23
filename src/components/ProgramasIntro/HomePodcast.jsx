@@ -10,6 +10,7 @@ import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
 import Link from 'next/link';
+import bgPodcast from '../../../public/images/bgPodcast.jpg';
 
 export const data = {
   podcast: {
@@ -102,7 +103,7 @@ export default function ProgramasIntro({ firstThree }) {
             style={{ scale }}
           >
             <Image
-              src={data.podcast.image}
+              src={bgPodcast}
               alt={data.podcast.title}
               fill
               style={{

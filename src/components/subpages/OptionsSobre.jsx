@@ -2,9 +2,13 @@
 
 import { useContext } from 'react';
 import { MainContext } from '@/context/mainContext';
+import { useMediaQuery } from '@/util/useMediaQuery';
 
 export default function OptionsSobre() {
   const { changeSobreOption, sobreOption } = useContext(MainContext);
+  const isDesktop = useMediaQuery('md');
+
+  if (!isDesktop) return null;
 
   return (
     <div className='text-base text-white flex flex-col gap-2 items-end opacity-100'>

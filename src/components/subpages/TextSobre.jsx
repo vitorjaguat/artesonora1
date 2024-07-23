@@ -47,24 +47,10 @@ export default function TextSobre({ items, sideRight = false }) {
     <>
       <div className={'flex md:w-[calc(100vw-52px)]'}>
         <div className='relative pt-36 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex flex-wrap gap-4 md:gap-4 justify-center md:justify-normal'>
-          {/* <div className='block sm:hidden pb-8'>
-            <Description />
-          </div>
-          {items.map((item, i) => (
-            <div key={i} className={' duration-300 w-full sm:w-32'}>
-              <Card
-                post={item}
-                changeDescription={changeDescription}
-                handleClickPlay={handleClickPlay}
-                description={description}
-              />
-            </div>
-          ))} */}
           {sobreOption === 1 && (
             <>
-              <div className='text-2xl font-chakra mb-6'>
-                Sobre o{' '}
-                <span className='block md:inline text-3xl'>Arte Sonora</span>
+              <div className='text-2xl font-chakra mt-6 mb-3 md:mt-0 md:mb-6 w-full'>
+                Sobre o <span className='text-3xl'>Arte Sonora</span>
               </div>
               <div className=''></div>
               <div className=''>

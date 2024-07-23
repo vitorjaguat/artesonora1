@@ -12,6 +12,7 @@ import FirstThreePrograms2 from '@/components/ProgramasIntro/FirstThreePrograms2
 import AllCards from '@/components/subpages/AllCards';
 import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
+import bgPodcast from '../../../public/images/bgPodcast.jpg';
 
 const data = {
   podcast: {
@@ -61,7 +62,7 @@ export default async function Page() {
         <div className='relative w-full h-full overflow-hidden'>
           <div className='absolute inset-0 max-h-full w-full h-full'>
             <Image
-              src={data.podcast.image}
+              src={bgPodcast}
               alt={data.podcast.title}
               fill
               style={{
