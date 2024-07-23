@@ -14,6 +14,7 @@ import TextSobre from '@/components/subpages/TextSobre';
 import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
 import OptionsSobre from '@/components/subpages/OptionsSobre';
+import bgSobre from '../../../public/images/bgSobre.jpg';
 
 const data = {
   podcast: {
@@ -63,8 +64,8 @@ export default async function Page() {
         <div className='relative w-full h-full overflow-hidden'>
           <div className='absolute inset-0 max-h-full w-full h-full'>
             <Image
-              src={data.podcast.image}
-              alt={data.podcast.title}
+              src={bgSobre}
+              alt='Sobre'
               fill
               style={{
                 objectFit: 'cover',
