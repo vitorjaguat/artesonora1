@@ -31,7 +31,8 @@
     "src/app/podcast/page.jsx",
     "src/app/page.jsx",
     "src/app/contato/page.jsx",
-    "src/components/Hero.jsx"
+    "src/components/Hero.jsx",
+    "src/app/sobre/page.jsx"
   ],
   "exclude": ["node_modules"]
 }

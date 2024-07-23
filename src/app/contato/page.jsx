@@ -60,7 +60,7 @@ export default function Page() {
                   Acompanhe as nossas{' '}
                   <span className='text-3xl'>redes sociais</span>
                 </div> */}
-                <div className='md:pt-6 w-full flex justify-end items-center gap-4 '>
+                <div className='md:pt-6 w-full flex justify-end items-center gap-4 text-white/60'>
                   <a
                     href='https://www.instagram.com/manatalaudares/'
                     target='_blank'

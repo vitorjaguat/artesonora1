@@ -34,6 +34,11 @@ const reducer = (state, action) => {
         ...state,
         description: action.payload,
       };
+    case 'CHANGE_SOBRE_TEXT':
+      return {
+        ...state,
+        sobreText: action.payload,
+      };
     default:
       return state;
   }
@@ -57,6 +62,7 @@ const MainContextProvider = ({ children }) => {
     playArtist: 'Madonna',
     playState: 'stop',
     description: null,
+    sobreText: 1,
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -97,6 +103,12 @@ const MainContextProvider = ({ children }) => {
       payload: description,
     });
   };
+  const changeSobreText = (sobreText) => {
+    dispatch({
+      type: 'CHANGE_SOBRE_TEXT',
+      payload: sobreText,
+    });
+  };
 
   // console.log('showFooter', state.noShowFooter);
 
@@ -115,6 +127,8 @@ const MainContextProvider = ({ children }) => {
         changePlayState,
         description: state.description,
         changeDescription,
+        sobreText: state.sobreText,
+        changeSobreText,
       }}
     >
       {children}
