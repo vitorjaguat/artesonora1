@@ -786,6 +786,385 @@ export default function SobreText({ items, sideRight = false }) {
                   seres humanos.
                 </div>
               </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Julio Santa Cecília
+                </div>
+                <div className='pb-2'>
+                  Julio é um músico, produtor e artista audiovisual que vive e
+                  trabalha no Rio de Janeiro. Formado em produção musical, seu
+                  foco é a dimensão sonora das artes. Seus trabalhos apresentam
+                  uma visualidade e sonoridade do tempo suspenso. Sua paleta
+                  sonora transita entre o drone e o glitch, usando elementos e
+                  superfícies analógicas, loops de fita cassete, samples e sons
+                  sintetizados.
+                </div>
+                <div className='font-semibold'>Ritornelo</div>
+                <div className=''>2021</div>
+                <div className=''>Vídeo em loop</div>
+                <div className=''>
+                  Inspirado nos ensinamentos do Bardo Thodol (livro Tibetano dos
+                  Mortos), o trabalho é composto por vídeos, eventos sonoros e
+                  histórias. Um passeio onírico e surrealista por paisagens
+                  remotas que coexistem, subjetivamente, em suas memórias. A
+                  trilha sonora é composta de sons extraídos e manipulados do
+                  site Freesound e as imagens vêm de relatos dos parentes de
+                  pessoas falecidas, eternizadas nas imagens do banco de dados
+                  do Google Street View.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Leliene Rodrigues
+                </div>
+                <div className='pb-2'>
+                  Leliene Rodrigues vive e trabalha no Rio de Janeiro. Seus
+                  trabalhos transitam entre o vídeo, objeto, fotografia e
+                  instalações num jogo de sensações continuadas, onde o
+                  participante/espectador investiga aspectos da alteridade. A
+                  partir de histórias cotidianas, a artista propõe experiências
+                  onde as cenas se estruturam em narrativas quase documentais:
+                  momentos, acasos e situações que fazem parte da exuberância,
+                  finitude e mazelas da vida humana.
+                </div>
+                <div className='font-semibold'>Êta vida!</div>
+                <div className=''>16'96"</div>
+                <div className=''>
+                  Cena 1: Numa cidade pequena, que poderia ser qualquer lugar,
+                  cavalos "pastam" no lixo como cachorros. Cena 2: Em meio ao
+                  anúncio de tempestade o urutau protege sua cria ao se
+                  mimetizar com a natureza. Cena 3: Uma pequena capela e sua
+                  crença bastam para sustentar o mito da Cruz da Moça , que se
+                  ficciona através de depoimentos.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Luísa Sequeira
+                </div>
+                <div className='pb-2'>
+                  Luísa Sequeira é cineasta, artista visual, investigadora e
+                  curadora de cinema. Com doutorado em Arte Mídia, explora as
+                  fronteiras entre o digital e o analógico. Trabalha com
+                  colagem, arquivo e cinema expandido. Entre os seus trabalhos
+                  destacam-se: "Quem é Bárbara Virgínia?", "Os Cravos e a
+                  Rocha", "Que Podem as Palavras", "Rosas de Maio" e "All Women
+                  Are Maria". Co-fundadora, com o artista Sama, da Oficina
+                  Imperfeita, em Portugal.
+                </div>
+                <div className='font-semibold'>Limite</div>
+                <div className=''>2021</div>
+                <div className=''>1'20"</div>
+                <div className=''>
+                  O vídeo explora a ideia de barreiras invisíveis que nos
+                  separam e nos definem, convidando à reflexão sobre os limites
+                  que estabelecemos na vida e na sociedade.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Mary Fê
+                </div>
+                <div className='pb-2'>
+                  Mary Fê nasceu no Rio de Janeiro e reside em Nova Iorque,
+                  desde 2012. A artista multi-plataforma dedica-se à pesquisa
+                  DIY (“do it yourself” ou “faça você mesmo”) para criar
+                  equipamentos usados em suas performances. Mary se interessa
+                  por design sonoro, música pop experimental, eletrônica em
+                  geral, teatro e movimento.
+                </div>
+                <div className='font-semibold'>
+                  Meu Pequeno Terrorismo de Bolso
+                </div>
+                <div className=''>2010</div>
+                <div className=''>7'59"</div>
+                <div className=''>
+                  Performance urbana móvel, utilizando mini amplificadores,
+                  lanterna, mini sistemas de produção de som, Nintendo DS e
+                  transmissão via streaming ao vivo para a internet. A artista
+                  canta e toca sua canção “Meu Pequeno Terrorismo de Bolso”,
+                  invadindo locais públicos e privados.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Sama (aka Eduardo Filipe)
+                </div>
+                <div className='pb-2'>
+                  Sama é um artista brasileiro que vive e trabalha em Portugal.
+                  Produz desenho, pintura, escrita, colagem, performance,
+                  objeto, teatro, HQs e cinema experimental. Se interessa pelo
+                  impacto da cultura de massas na poética contemporânea. Publica
+                  livros e zines distribuídos no Brasil, França e Portugal.
+                  Junto com Luísa Sequeira, fundou a OFICINA IMPERFEITA.
+                </div>
+                <div className='font-semibold'>Detective Ayahuasca</div>
+                <div className=''>2021</div>
+                <div className=''>9'58"</div>
+                <div className=''>
+                  Relato investigativo de seu alter ego sob estado alterado de
+                  consciência. O texto narra visões, para estabelecer nexos
+                  entre a nossa condição existencial contemporânea, com
+                  vislumbres da ancestralidade integrada à natureza. Paisagem
+                  sonora de Guilherme Barros e imagens próprias e de Luísa
+                  Sequeira. O vídeo acompanha uma publicação com textos e HQs.
+                </div>
+              </div>
+            </>
+          )}
+
+          {ativacoesOption === 5 && (
+            <>
+              <div className='pb-6 font-semibold font-chakra uppercase text-2xl'>
+                HAPPENING
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Ajítẹnà Marco Scarassatti
+                </div>
+                <div className=''>
+                  "Habitar as coisas", uma trabalho executado a partir de
+                  instrumentos criados pelo artista, que lida com composição e
+                  improvisação, como se pudesse habitar âmbas, se tornando parte
+                  delas.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Ed Marola (AKA Eduardo Politzer)
+                </div>
+                <div className=''>
+                  Realizará um live utilizando Theremin e um moog, trazendo
+                  sonoridades particulares que remetem a tílias de filmes
+                  fantasmagóricos do início do século XX.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Marcelo Mudou e Savio de Queiroz
+                </div>
+                <div className='pb-2'>
+                  O duo apresenta uma live performance com diferentes paisagens
+                  sonoras, indo da ambient a noise music, numa improvisação
+                  feita a partir de um instrumento desenvolvido por eles chamado
+                  Death Machine. É um instrumento acústico e elétrico que
+                  contempla diferentes fontes sonoras: cordas, guitarra
+                  amplificada, daxophone, proto hurdy-gurdy e diferentes
+                  possibilidades de ritmos tal qual as noise-boxes.
+                </div>
+                <div className='pb-2'>
+                  <span className='font-bold'>Mudou</span> trabalha com imagens,
+                  objetos e sons. Utilizando-se da capacidade relacional entre
+                  os conceitos próprios de cada mídia, explora a formação das
+                  imagens através de patologias sociais e seu entorno
+                  psicológico. Estudou Design Gráfico na ESPM (RJ), IADE
+                  (Lisboa) e UniverCidade (RJ). Durante 2 anos, frequentou a EAV
+                  Parque Lage (RJ), onde fez cursos de Fotografia Contemporânea,
+                  Pintura, Vídeo e Arte Sonora.
+                </div>
+                <div className=''>
+                  <span className='font-bold'>Savio de Queiroz</span> é músico,
+                  produtor musical e artista sonoro. Além de sua carreira solo,
+                  faz parte do duo Ceticências com Cadu Tenório e tem dois selos
+                  fonográficos: Lugar Alto e Subsubtropics. Foi membro da banda
+                  Teto Preto, entre 2017 e 2020, com a qual gravou o disco Pedra
+                  Preta, assinando a produção e a mixagem junto com Pedro
+                  Zopelar.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Gabriel Ferrera e Leandro Araujo
+                </div>
+                <div className='font-semibold'>Paisagens Eletromagnéticas</div>
+                <div className=''>2023</div>
+                <div className=''>Performance audiovisual, 30'</div>
+                <div className=''>
+                  Resultante de investigações sobre as ondas invisíveis dos
+                  dispositivos eletrônicos ao nosso redor, a performance
+                  audiovisual sítio-dependente utiliza os sinais
+                  eletromagnéticos presentes no local da apresentação,
+                  manipulando e processando-os através de antenas e circuitos
+                  DIY, pedais de efeitos, softwares e programação para desvelar
+                  aspectos da materialidade-imaterialidade das tecnologias
+                  ocultas que atravessam o humano e o natural no antropoceno.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  FormigANTI
+                </div>
+
+                <div className=''>
+                  FormigANTI vive e trabalha no Rio de Janeiro. É uma artista
+                  transmídia que atua entre imagem e som, corpo e espaço,
+                  questões de sujeito e território e suas reverberações nas
+                  noções de identidade e localidade. Artesania com materiais de
+                  diversas essências, relacionando um imaginário popular com
+                  questões globais numa ecologia que apropria e reinventa a
+                  realidade à volta, num universo expandido de um realismo
+                  mágico-contemporâneo.
+                </div>
+                <div className=''>
+                  Sua performance apresenta seu álbum inédito, onde fabula sobre
+                  diferentes gêneros de uma mpb psicodélica, que reverbera uma
+                  experiência performática de feedback num processo construtivo
+                  multifacetado, manipulando materiais que geram suas vestes e
+                  trocas de pele. Uma trama entre som e imagem, vibração e
+                  gesto.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Azullllllll
+                </div>
+
+                <div className=''>
+                  Azullllllll é uma artista que vive e trabalha no Rio de
+                  Janeiro. Atua nos campos da performance, música, artes visuais
+                  e cênicas, buscando os pontos de entrelaçamento entre
+                  linguagem e experiência, arte & vida, eztetyka ética: Exercer
+                  a liberdade que se faz urgente na experimentação do corpo e no
+                  reconhecimento e ressignificação de suas marcas, e
+                  possibilidades.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Pek0
+                </div>
+
+                <div className=''>
+                  Entre a poesia e os beats eletrônicos, Pek0 é performer e
+                  atua, desde 2018, na cena carioca e fala sobre suas vivências.
+                  Construída em um cenário clubber a artista transita entre o
+                  techno, house e noise criando live acts evocando o medo na
+                  dança.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  DJ Frontinn (aka Juliana Frontin)
+                </div>
+
+                <div className=''>
+                  Conhecida por sua pesquisa musical que abrange diferentes
+                  estilos e sonoridades, DJ Frontinn cria experiências imersivas
+                  com ritmos quebrados e costura elementos analógicos,
+                  minimalistas, obscuros e hipnóticos.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Marta Supernova
+                </div>
+
+                <div className=''>
+                  Marta é artista visual, DJ e produtora. Como DJ, combina os
+                  subgêneros da House Music com elementos sonoros orgânicos numa
+                  intersecção brasileira e afro-indígena. Seu trabalho tece
+                  questionamentos poéticos e metafísicos em uma tapeçaria
+                  emocional, onde materiais e conceitos se entrelaçam em
+                  composições sonoras e visuais.
+                </div>
+              </div>
+            </>
+          )}
+
+          {ativacoesOption === 6 && (
+            <>
+              <div className='pb-6 font-semibold font-chakra uppercase text-2xl w-full'>
+                SERVIÇO
+              </div>
+
+              <div className='text-sm pb-4 w-full'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Inauguração
+                </div>
+                <div className=''>24 de julho de 2024, das 16h às 22h</div>
+              </div>
+
+              <div className='text-sm pb-4 w-full'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Encerramento
+                </div>
+                <div className=''>29 de setembro de 2024</div>
+              </div>
+
+              <div className='text-sm pb-4 w-full'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Sessão de vídeos
+                </div>
+                <div className=''>29 de agosto das 19h às 21h</div>
+              </div>
+
+              <div className='text-sm pb-4 w-full'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Palestras
+                </div>
+                <div className=''>
+                  1º e 15 de agosto; 12 de setembro, das 19h às 21h
+                </div>
+              </div>
+
+              <div className='text-sm pb-4 w-full'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Happening de encerramento
+                </div>
+                <div className=''>
+                  27 de setembro, sexta-feira, das 15h às 23h
+                </div>
+              </div>
+              <div className='text-sm pb-4 w-full'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Local
+                </div>
+                <div className=''>
+                  Cavalariças, auditório e outros espaços da EAV Parque Lage
+                </div>
+              </div>
+              <div className='text-sm pb-4 w-full'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Endereço
+                </div>
+                <div className=''>Rua Jardim Botânico, 414, Rio de Janeiro</div>
+              </div>
+              <div className='text-sm pb-4 w-full'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Visitação
+                </div>
+                <div className=''>
+                  Quinta a terça, das 10h às 17h (fechado às quartas)
+                </div>
+                <div className=''>
+                  Gratuito e aberto ao público, classificação livre.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4 w-full'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Contatos
+                </div>
+                <div className=''>EAV Parque Lage (21) 2535-7336</div>
+                <div className=''>
+                  Manata Laudares (21) 981 398 050 (whatsapp/texto)
+                </div>
+                <div className=''>info@exst.net e manatalaudares@gmail.com</div>
+              </div>
             </>
           )}
         </div>

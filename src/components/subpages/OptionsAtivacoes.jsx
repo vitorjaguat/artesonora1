@@ -38,11 +38,29 @@ export default function OptionsAtivacoes() {
       <div
         className={
           'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
-          (ativacoesOption === 3 ? ' bg-white/30' : '')
+          (ativacoesOption === 4 ? ' bg-white/30' : '')
         }
         onClick={() => changeAtivacoesOption(4)}
       >
         Sessão de vídeos
+      </div>
+      <div
+        className={
+          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
+          (ativacoesOption === 5 ? ' bg-white/30' : '')
+        }
+        onClick={() => changeAtivacoesOption(5)}
+      >
+        Happening
+      </div>
+      <div
+        className={
+          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
+          (ativacoesOption === 6 ? ' bg-white/30' : '')
+        }
+        onClick={() => changeAtivacoesOption(6)}
+      >
+        Serviço
       </div>
     </div>
   );
