@@ -14,6 +14,7 @@ import TextAtivacoes from '@/components/subpages/TextAtivacoes';
 import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
 import OptionsAtivacoes from '@/components/subpages/OptionsAtivacoes';
+import bgAtivacoes from '../../../public/images/bgAtivacoes.jpg';
 
 const data = {
   podcast: {
@@ -63,8 +64,8 @@ export default async function Page() {
         <div className='relative w-full h-full overflow-hidden'>
           <div className='absolute inset-0 max-h-full w-full h-full'>
             <Image
-              src={data.podcast.image}
-              alt={data.podcast.title}
+              src={bgAtivacoes}
+              alt='Ativações'
               fill
               style={{
                 objectFit: 'cover',
