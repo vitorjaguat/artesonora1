@@ -10,7 +10,7 @@ import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
 import Link from 'next/link';
-import bgPodcast from '../../../public/images/bgPodcast.jpg';
+import bgPodcast from '../../../public/images/bgPodcast2.jpg';
 
 export const data = {
   podcast: {
@@ -128,7 +128,7 @@ export default function ProgramasIntro({ firstThree }) {
           >
             <Link
               href='/podcast'
-              className='md:w-40 text-right flex justify-end text-white/70 hover:scale-[1.02] ease-in-out font-chakra '
+              className='md:w-40 text-right flex justify-end text-white/70 hover:scale-[1.02] ease-in-out duration-300 font-chakra '
             >
               {data.podcast.title}
             </Link>

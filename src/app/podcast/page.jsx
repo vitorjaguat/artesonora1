@@ -12,7 +12,7 @@ import FirstThreePrograms2 from '@/components/ProgramasIntro/FirstThreePrograms2
 import AllCards from '@/components/subpages/AllCards';
 import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
-import bgPodcast from '../../../public/images/bgPodcast.jpg';
+import bgPodcast from '../../../public/images/bgPodcast2.jpg';
 
 const data = {
   podcast: {
