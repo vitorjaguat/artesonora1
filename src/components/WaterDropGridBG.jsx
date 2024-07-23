@@ -10,8 +10,8 @@ const WaterDropGrid = () => {
   useEffect(() => {
     const handleResize = () => {
       if (typeof window !== 'undefined') {
-        setGridHeight(Math.floor(window.innerHeight / 24));
-        setGridWidth(Math.floor(window.innerWidth / 24));
+        setGridHeight(Math.floor((window.innerHeight + 48) / 24));
+        setGridWidth(Math.floor((window.innerWidth + 48) / 24));
         // console.log('resized to', window.innerHeight);
       }
     };

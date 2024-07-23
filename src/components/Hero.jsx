@@ -58,11 +58,13 @@ export default function Hero() {
       </div>
 
       {/* text */}
-      <div className='block absolute bottom-5 left-5 text-white/80 w-1/2 md:w-1/3 text-base -translate-y-[58px] md:translate-y-0'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eveniet
-        totam natus fugit dolore itaque adipisci laudantium beatae neque officia
-        veritatis alias, reprehenderit culpa enim, aspernatur sed consequuntur!
-        Fugit, impedit!
+      <div className='absolute bottom-5 md:left-5 text-white/80 w-3/4 text-left md:text-left md:pb-0 px-5 md:px-0 md:w-1/3 text-base -translate-y-[170px] md:translate-y-0'>
+        Arte Sonora é uma prática artística coletiva desenvolvida pelo duo de
+        artistas <span className='font-bold'>Franz Manata</span> e{' '}
+        <span className='font-bold'>Saulo Laudares</span>, com formatos, como
+        cursos, residências, exposições, happenings, programas de rádio,
+        publicações etc. Neste site você encontrará materiais que documentam os
+        15 anos desta prática.
       </div>
 
       {/* realização */}
