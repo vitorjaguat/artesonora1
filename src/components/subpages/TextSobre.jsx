@@ -62,6 +62,11 @@ export default function TextSobre({ items, sideRight = false }) {
           ))} */}
           {sobreOption === 1 && (
             <>
+              <div className='text-2xl font-chakra mb-6'>
+                Sobre o{' '}
+                <span className='block md:inline text-3xl'>Arte Sonora</span>
+              </div>
+              <div className=''></div>
               <div className=''>
                 Arte Sonora é uma prática artística coletiva desenvolvida pelo
                 duo de artistas <span className='font-bold'>Franz Manata</span>{' '}
@@ -161,26 +166,91 @@ export default function TextSobre({ items, sideRight = false }) {
           )}
 
           {sobreOption === 2 && (
-            <div className=''>
-              <span className='font-bold'>Franz Manata</span> (1964) é artista,
-              curador e professor e{' '}
-              <span className='font-bold'>Saulo Laudares</span> (1976) é
-              artista, professor e DJ produtor, ambos vivem no Rio de Janeiro –
-              BR. O duo nasceu em 1996, fruto de sua observação acerca do
-              universo do comportamento e a cultura da música contemporânea. Os
-              artistas vem realizando programas de residência e participando de
-              mostras, individuais e coletivas, dentro e fora do Brasil. Desde
-              2009 coordenam o programa Arte Sonora na Escola de Artes Visuais
-              do Parque Lage. Atualmente, são representados pela Galeria Sé –
-              São Paulo, BR.
-            </div>
+            <>
+              <div className='text-3xl font-chakra mb-6'>Quem somos</div>
+              <div className=''>
+                <span className='font-bold'>Franz Manata</span> (1964) é
+                artista, curador e professor e{' '}
+                <span className='font-bold'>Saulo Laudares</span> (1976) é
+                artista, professor e DJ produtor, ambos vivem no Rio de Janeiro
+                – BR. O duo nasceu em 1996, fruto de sua observação acerca do
+                universo do comportamento e a cultura da música contemporânea.
+                Os artistas vem realizando programas de residência e
+                participando de mostras, individuais e coletivas, dentro e fora
+                do Brasil. Desde 2009 coordenam o programa Arte Sonora na Escola
+                de Artes Visuais do Parque Lage. Atualmente, são representados
+                pela Galeria Sé – São Paulo, BR.
+              </div>
+            </>
           )}
 
           {sobreOption === 3 && (
-            <div className='text-4xl' id='breve-historia'>
-              Uma breve história{' '}
-              <span className='text-2xl block md:inline'>da Arte Sonora</span>
-            </div>
+            <>
+              <div className='text-3xl font-chakra mb-6'>
+                Uma breve história{' '}
+                <span className='text-xl block md:inline'>da Arte Sonora</span>
+              </div>
+              <div className=''>
+                Apesar de ser um fenômeno recente – pois se insere
+                definitivamente como um campo sensível da arte contemporânea a
+                partir dos anos 1990 – a Arte Sonora remonta a séculos atrás
+                quando o som era mixado com artes visuais nas igrejas.
+              </div>
+              <div className=''>
+                Com o surgimento das salas de concerto no Século XIX e o
+                crescimento das cidades, a arte começa a expandir seu campo
+                usual ao misturar músicas e movimento através da dança, mas é o
+                Século XX que irá valorizar o entorno acústico esteticamente.
+              </div>
+              <div className=''>
+                Os primeiros a ficarem atentos a esta nova sensibilidade moderna
+                foram os Futuristas italianos – Filippo Tommaso Marinetti,
+                Umberto Boccioni, Luigi Russolo e Carlo Carrà – e os Dadaístas,
+                via Marcel Duchamp. Nos anos 40, do século passado, a música
+                eletrônica deixa de ser uma mera curiosidade científica. Os
+                novos instrumentos vão despertar interesse da música clássica
+                acadêmica, como forma de sobrepujar os limites dos instrumentos
+                eletroacústicos.
+              </div>
+              <div className=''>
+                John Cage vai ampliar as concepções e possibilidades da música
+                ao provocar os ouvintes a escutar o silêncio nas composições e
+                sentir os ruídos espontâneos nos concertos e ao introduzir o
+                acaso como parte da composição, sem determinação prévia. A
+                música e a arte nunca mais foram as mesmas.
+              </div>
+              <div className=''>
+                Influenciado por estas idéias, os artistas do grupo FLUXUS vão
+                realizar a primeira releitura das vanguardas históricas e, ao
+                mesmo tempo, incorporar o discurso sonoro a performance, ao
+                happening, aos ambientes e esculturas sonoras, contribuindo
+                decisivamente para atribuir estatuto estético ao som.
+              </div>
+              <div className=''>
+                O planeta já está conectado às novas mídias, aos procedimentos
+                mecânicos e a velocidade da informação. Surge como objeto de
+                reflexão da arte: o poder da publicidade, a comunicação de massa
+                e o consumo exacerbado de mercadorias. A tecnologia de áudio
+                analógico, principalmente pós Segunda Grande Guerra Mundial,
+                permite uma substancial transformação da arte sonora e sua
+                expressividade, inundando diversos campos.
+              </div>
+              <div className=''>
+                A música eletrônica deixa de ser uma curiosidade científica ou
+                acadêmica e passa a ser incorporada ao repertório de
+                compositores vanguardistas com a possibilidade de se expandir os
+                limites dos instrumentos eletroacústicos e experimentar novas
+                sonoridades.
+              </div>
+              <div className=''>
+                Hoje passamos por uma mudança de paradigmas. Do padrão
+                tecnológico analógico para o digital, em todos os processos de
+                produção, distribuição e comercialização. Agora, a network nos
+                permite pensar on time, on line e on site, simultaneamente. A
+                Era Digital nos exige uma nova reflexão sobre o fazer, o meio
+                técnico e o endereçamento.
+              </div>
+            </>
           )}
         </div>
 

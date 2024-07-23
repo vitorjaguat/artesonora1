@@ -39,6 +39,11 @@ const reducer = (state, action) => {
         ...state,
         sobreOption: action.payload,
       };
+    case 'CHANGE_ATIVACOES_OPTION':
+      return {
+        ...state,
+        ativacoesOption: action.payload,
+      };
     default:
       return state;
   }
@@ -63,6 +68,7 @@ const MainContextProvider = ({ children }) => {
     playState: 'stop',
     description: null,
     sobreOption: 1,
+    ativacoesOption: 1,
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -109,6 +115,12 @@ const MainContextProvider = ({ children }) => {
       payload: sobreOption,
     });
   };
+  const changeAtivacoesOption = (ativacoesOption) => {
+    dispatch({
+      type: 'CHANGE_ATIVACOES_OPTION',
+      payload: ativacoesOption,
+    });
+  };
 
   // console.log('showFooter', state.noShowFooter);
 
@@ -129,6 +141,8 @@ const MainContextProvider = ({ children }) => {
         changeDescription,
         sobreOption: state.sobreOption,
         changeSobreOption,
+        ativacoesOption: state.ativacoesOption,
+        changeAtivacoesOption,
       }}
     >
       {children}

@@ -13,6 +13,7 @@ import AllCards from '@/components/subpages/AllCards';
 import TextAtivacoes from '@/components/subpages/TextAtivacoes';
 import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
+import OptionsAtivacoes from '@/components/subpages/OptionsAtivacoes';
 
 const data = {
   podcast: {
@@ -79,9 +80,10 @@ export default async function Page() {
               <Title title='Ativações' />
             </div>
             <div className='hidden  md:block'>Ativações</div>
-            <div className='hidden md:block w-[38%]'>
+            {/* <div className='hidden md:block w-[38%]'>
               <Description />
-            </div>
+            </div> */}
+            <OptionsAtivacoes />
           </div>
         </div>
       </div>

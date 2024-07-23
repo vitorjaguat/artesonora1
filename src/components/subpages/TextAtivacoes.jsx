@@ -22,7 +22,7 @@ export default function SobreText({ items, sideRight = false }) {
     changePlayArtist,
     changeDescription,
     description,
-    sobreText,
+    ativacoesOption,
   } = useContext(MainContext);
 
   const handleClickPlay = (e, post) => {
@@ -60,7 +60,7 @@ export default function SobreText({ items, sideRight = false }) {
               />
             </div>
           ))} */}
-          {sobreText === 1 && (
+          {ativacoesOption === 1 && (
             <>
               <div className='mb-6 font-semibold font-chakra uppercase text-2xl'>
                 Arte Sonora ANO 15
@@ -104,8 +104,12 @@ export default function SobreText({ items, sideRight = false }) {
                 semanalmente, além de toda memória desses quinze anos de
                 atividades, 14 podcasts inéditos.
               </div>
+            </>
+          )}
 
-              <div className='pt-12 pb-6 font-semibold font-chakra uppercase text-2xl'>
+          {ativacoesOption === 2 && (
+            <>
+              <div className='pb-6 font-semibold font-chakra uppercase text-2xl'>
                 PROGRAMAÇÃO
               </div>
               <div className='font-semibold font-chakra text-xl w-full'>
@@ -203,6 +207,14 @@ export default function SobreText({ items, sideRight = false }) {
                   sido responsável pela publicação do primeiro disco deste
                   gênero por aqui.
                 </div>
+              </div>
+            </>
+          )}
+
+          {ativacoesOption === 3 && (
+            <>
+              <div className='pb-6 font-semibold font-chakra uppercase text-2xl'>
+                ARTISTAS
               </div>
             </>
           )}
