@@ -6,6 +6,7 @@ import { ImHome } from 'react-icons/im';
 import { PiBookOpenUserFill } from 'react-icons/pi';
 import { AiFillAudio } from 'react-icons/ai';
 import { BiSolidHourglass } from 'react-icons/bi';
+import { FiActivity } from 'react-icons/fi';
 import { GrContact } from 'react-icons/gr';
 import { MdPeopleAlt } from 'react-icons/md';
 import Link from 'next/link';
@@ -194,9 +195,9 @@ export default function NavbarMobile() {
                 animate='on'
                 onClick={() => setIsOpen(false)}
               >
-                <Link href='/arquivo' className='flex items-center gap-3'>
-                  <BiSolidHourglass size={25} />
-                  <div className='text-3xl'>arquivo</div>
+                <Link href='/ativacoes' className='flex items-center gap-3'>
+                  <FiActivity size={25} />
+                  <div className='text-3xl'>ativações</div>
                 </Link>
               </motion.div>
 
@@ -215,7 +216,7 @@ export default function NavbarMobile() {
                 onClick={() => setIsOpen(false)}
               >
                 <Link href='/contato' className='flex items-center gap-3'>
-                  <GrContact size={25} />
+                  <GrContact size={23} />
                   <div className='text-3xl'>contato</div>
                 </Link>
               </motion.div>

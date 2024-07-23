@@ -8,6 +8,7 @@ import { AiFillAudio } from 'react-icons/ai';
 import { BiSolidHourglass } from 'react-icons/bi';
 import { GrContact } from 'react-icons/gr';
 import { MdPeopleAlt } from 'react-icons/md';
+import { FiActivity } from 'react-icons/fi';
 import TransitionLink from './TransitionLink';
 import RevealTextWhenMount from './RevealTextWhenMount';
 import RevealText from './RevealText';
@@ -201,11 +202,11 @@ export default function Navbar() {
 
           <TransitionLink
             className='w-full flex items-center text-neutral-500 duration-300 hover:text-white overflow-hidden'
-            href='/arquivos'
+            href='/ativacoes'
             onMouseEnter={() => controls.start('off')}
           >
             <div className='flex justify-center w-full max-w-[20px]'>
-              <BiSolidHourglass size={20} className='' />
+              <FiActivity size={20} className='' />
             </div>
             <motion.div
               initial='off'
@@ -219,7 +220,7 @@ export default function Navbar() {
               }}
               className=' '
             >
-              arquivos
+              ativações
             </motion.div>
           </TransitionLink>
 
