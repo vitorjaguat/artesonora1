@@ -674,6 +674,120 @@ export default function SobreText({ items, sideRight = false }) {
               </div>
             </>
           )}
+
+          {ativacoesOption === 4 && (
+            <>
+              <div className='pb-6 font-semibold font-chakra uppercase text-2xl'>
+                SESSÃO DE VÍDEOS
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Ajítẹnà Marco Scarassatti
+                </div>
+                <div className='pb-2'>
+                  Ajítẹnà Marco Scarassatti Ìbí eré alárà, ou numa tradução
+                  livre e poética do yorubá, o nascimento de uma criação
+                  sobrenatural, estaria no lugar daquilo que nos acostumamos a
+                  chamar de poética. Algo que na brincadeira, nasce como
+                  criação, ou transformação do ordinário em extraordinário. No
+                  meu caso, a partir da escuta dos sons percebo a forma, a
+                  imagem. Escolho para essa mostra, os trabalhos que tenho
+                  dividido com Luiz Pretti, artista que, a partir da imagem
+                  percebe o som, constroi a música.
+                </div>
+                <div className='font-semibold'>Anestesia, filme-partitura</div>
+                <div className=''>22'</div>
+                <div className=''>
+                  Anestesia é um filme-partitura de Ajítẹnà Marco Scarassatti e
+                  Luiz Pretti, inspirados na obra de Walter Smetak, composta em
+                  1971. Realizado durante a pandemia do COVID-19 Algumas das
+                  indicações gráficas de Anestesia original, se fundem aos
+                  contornos dos instrumentos musicais, aos corpos e gestos
+                  desses músicos na interpretação, conferindo movimento, som,
+                  simbolismo e visualidade à partitura original, para que também
+                  possa ser interpretada por outros grupos de músicos e
+                  artistas, em geral.
+                </div>
+                <div className=''>
+                  Concepção e direção musical: Ajítẹnà Marco Scarassatti
+                </div>
+                <div className=''>Direção fílmica: Luiz Pretti</div>
+                <div className=''>
+                  Com músicos do conjunto de improvisação livre GILU da
+                  Universidade Federal de Minas Gerais (UFMG)
+                </div>
+                <div className=''>Imagens em openFrameworks: Caio Campos</div>
+                <div className=''>
+                  Mixagem e edição de som: Ajítẹnà Marco Scarassatti e João
+                  Viana
+                </div>
+                <div className=''>Edição de imagem: Luiz Pretti</div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Eliane Terra
+                </div>
+                <div className='pb-2'>
+                  Eliane Terra é arquiteta e artista visual, vive e trabalha
+                  entre o Brasil e Portugal. Explora conversas entre as imagens
+                  em camadas sobrepostas, e constrói experiências/narrativas
+                  visuais-sonoras: paisagens como territórios de “meta-morfose”
+                  e objetos como fragmentos de memória. Durante sua pesquisa de
+                  material - tanto do acervo do “arquivo universal” quanto de
+                  seu arquivo pessoal questões diversas surgem num jogo de
+                  atração-fricção.
+                </div>
+                <div className='font-semibold'>derivando pelo caminho</div>
+                <div className=''>5'42"</div>
+                <div className=''>
+                  Um areal permanece na tela enquanto a ideia de floresta
+                  paradisíaca inunda nossos ouvidos. Cantos de pássaros do
+                  Brasil, acompanhados de uma narração ufanista, traz a força e
+                  beleza das matas e rios da nossa hipnose diária. Tudo está
+                  bem?
+                </div>
+                <div className='pt-1 font-semibold'>Dançar a Terra</div>
+                <div className=''>8'22"</div>
+                <div className=''>
+                  Caminhar sobre a Terra desenhando rituais, tecendo nosso estar
+                  em casa no mundo. A estória aproxima diversos toques de
+                  tambores ancestrais que entrelaçam cantos e danças,
+                  transcendendo supostas fronteiras. Assim, somos linguagem e
+                  oração, som em respiração, canto de um corpo que dança.
+                </div>
+              </div>
+
+              <div className='text-sm pb-4'>
+                <div className='font-chakra font-semibold text-base pb-1'>
+                  Felipe Mussel
+                </div>
+                <div className='pb-2'>
+                  Artista, diretor de som, realizador audiovisual e professor. É
+                  responsável pelo som de mais 40 filmes do cinema brasileiro,
+                  tendo recebido por três vezes o prêmio de Melhor Som no
+                  Festival de Brasília e o Prêmio Especial do Júri no Festival
+                  de Cinema do Rio. Já participou em mais de 20 festivais
+                  internacionais. É professor do Departamento de Comunicação
+                  Social da PUC-Rio, Doutorando em Estudos Contemporâneos das
+                  Artes e Mestre em Estudos do Cinema e Audiovisual, ambos pela
+                  UFF.
+                </div>
+                <div className='font-semibold'>Espectro Restauración</div>
+                <div className=''>2022</div>
+                <div className=''>8'</div>
+                <div className=''>
+                  De dentro do espectrograma sonoro de um incêndio no Pantanal,
+                  o filme evoca a frase “La naturaleza tiene derecho a la
+                  restauración”, trecho da Constituição do Equador de 2008 que,
+                  de forma pioneira no mundo, elevou a Natureza (Pacha Mama) a
+                  condição de sujeito titular de direitos legais iguais aos dos
+                  seres humanos.
+                </div>
+              </div>
+            </>
+          )}
         </div>
 
         <div className='hidden md:block flex-1 text-right text-white/90 pt-44 pr-8'></div>
