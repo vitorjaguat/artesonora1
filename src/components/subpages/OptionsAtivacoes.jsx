@@ -33,7 +33,16 @@ export default function OptionsAtivacoes() {
         }
         onClick={() => changeAtivacoesOption(3)}
       >
-        Artistas
+        Exposição
+      </div>
+      <div
+        className={
+          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
+          (ativacoesOption === 3 ? ' bg-white/30' : '')
+        }
+        onClick={() => changeAtivacoesOption(4)}
+      >
+        Sessão de vídeos
       </div>
     </div>
   );
