@@ -13,6 +13,7 @@ import AllCards from '@/components/subpages/AllCards';
 import TextSobre from '@/components/subpages/TextSobre';
 import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
+import OptionsSobre from '@/components/subpages/OptionsSobre';
 
 const data = {
   podcast: {
@@ -79,9 +80,14 @@ export default async function Page() {
               <Title title='Sobre' />
             </div>
             <div className='hidden  md:block'>Sobre</div>
-            <div className='hidden md:block w-[38%]'>
+            {/* <div className='hidden md:block w-[38%]'>
               <Description />
-            </div>
+            </div> */}
+
+            {/* options */}
+            <OptionsSobre />
+
+            {/* image */}
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ export default function TextSobre({ items, sideRight = false }) {
     changePlayArtist,
     changeDescription,
     description,
-    sobreText,
+    sobreOption,
   } = useContext(MainContext);
 
   const handleClickPlay = (e, post) => {
@@ -60,7 +60,7 @@ export default function TextSobre({ items, sideRight = false }) {
               />
             </div>
           ))} */}
-          {sobreText === 1 && (
+          {sobreOption === 1 && (
             <>
               <div className=''>
                 Arte Sonora é uma prática artística coletiva desenvolvida pelo
@@ -158,6 +158,29 @@ export default function TextSobre({ items, sideRight = false }) {
                 foi produzido em “fair use”.
               </div>
             </>
+          )}
+
+          {sobreOption === 2 && (
+            <div className=''>
+              <span className='font-bold'>Franz Manata</span> (1964) é artista,
+              curador e professor e{' '}
+              <span className='font-bold'>Saulo Laudares</span> (1976) é
+              artista, professor e DJ produtor, ambos vivem no Rio de Janeiro –
+              BR. O duo nasceu em 1996, fruto de sua observação acerca do
+              universo do comportamento e a cultura da música contemporânea. Os
+              artistas vem realizando programas de residência e participando de
+              mostras, individuais e coletivas, dentro e fora do Brasil. Desde
+              2009 coordenam o programa Arte Sonora na Escola de Artes Visuais
+              do Parque Lage. Atualmente, são representados pela Galeria Sé –
+              São Paulo, BR.
+            </div>
+          )}
+
+          {sobreOption === 3 && (
+            <div className='text-4xl' id='breve-historia'>
+              Uma breve história{' '}
+              <span className='text-2xl block md:inline'>da Arte Sonora</span>
+            </div>
           )}
         </div>
 

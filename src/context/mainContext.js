@@ -34,10 +34,10 @@ const reducer = (state, action) => {
         ...state,
         description: action.payload,
       };
-    case 'CHANGE_SOBRE_TEXT':
+    case 'CHANGE_SOBRE_OPTION':
       return {
         ...state,
-        sobreText: action.payload,
+        sobreOption: action.payload,
       };
     default:
       return state;
@@ -62,7 +62,7 @@ const MainContextProvider = ({ children }) => {
     playArtist: 'Madonna',
     playState: 'stop',
     description: null,
-    sobreText: 1,
+    sobreOption: 1,
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -103,10 +103,10 @@ const MainContextProvider = ({ children }) => {
       payload: description,
     });
   };
-  const changeSobreText = (sobreText) => {
+  const changeSobreOption = (sobreOption) => {
     dispatch({
-      type: 'CHANGE_SOBRE_TEXT',
-      payload: sobreText,
+      type: 'CHANGE_SOBRE_OPTION',
+      payload: sobreOption,
     });
   };
 
@@ -127,8 +127,8 @@ const MainContextProvider = ({ children }) => {
         changePlayState,
         description: state.description,
         changeDescription,
-        sobreText: state.sobreText,
-        changeSobreText,
+        sobreOption: state.sobreOption,
+        changeSobreOption,
       }}
     >
       {children}
