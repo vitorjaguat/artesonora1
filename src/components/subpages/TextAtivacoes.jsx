@@ -46,7 +46,7 @@ export default function SobreText({ items, sideRight = false }) {
   return (
     <>
       <div className={'flex md:w-[calc(100vw-52px)]'}>
-        <div className='relative pt-36 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex flex-wrap gap-4 md:gap-4 justify-center md:justify-normal'>
+        <div className='relative pt-36 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex flex-wrap gap-4 md:gap-4 md:justify-normal'>
           {/* <div className='block sm:hidden pb-8'>
             <Description />
           </div>
@@ -150,6 +150,59 @@ export default function SobreText({ items, sideRight = false }) {
                 Participam da mostra: Denise Alves-Rodrigues, Eliane Terra,
                 Felippe Schultz Mussel, Julio Santa Cecília, Leliene Rodrigues,
                 Luísa Sequeira, Mary Fê, Marco Scarassatti e Sama.
+              </div>
+
+              <div className='pt-4 font-semibold font-chakra text-xl uppercase'>
+                4. Happening de encerramento [The Place]
+              </div>
+              <div className=''>
+                No dia 27 de setembro, das 15h às 23h, acontece o happening de
+                encerramento com Live performances inéditas, apresentando o
+                seguinte line up: Ed Marola (AKA Eduardo Politzer), Ajítẹnà
+                Marco Scarassatti, Marcelo Mudou e Savio de Queiroz, Gabriel
+                Ferreira e Leandro Araújo, FormigANTI, Azullllllll, Pek0, DJ
+                Frontinn (aka Juliana Frontin) e Marta Supernova.
+              </div>
+
+              <div className='pt-4 font-semibold font-chakra text-xl uppercase'>
+                5. Entrevistas
+              </div>
+              <div className='pb-3'>
+                <div className='font-chakra font-semibold '>
+                  [ 1º de agosto ]
+                </div>
+                <div className='font-chakra font-semibold'>
+                  Alberto do Campo (Berlim)
+                </div>
+                <div className='text-sm'>
+                  Artista e professor de arte gerativa e computacional no
+                  Institute for Time-Based Media, da Universidade de Berlim.
+                </div>
+              </div>
+              <div className='pb-3'>
+                <div className='font-chakra font-semibold '>
+                  [ 15 de agosto ]
+                </div>
+                <div className='font-chakra font-semibold'>
+                  Rees Archibald (Austrália)
+                </div>
+                <div className='text-sm'>
+                  Artista sonoro que realiza instalações, composições e
+                  performances.
+                </div>
+              </div>
+              <div className='pb-3'>
+                <div className='font-chakra font-semibold '>
+                  [ 12 de setembro ]
+                </div>
+                <div className='font-chakra font-semibold'>
+                  Jorge Antunes (Brasil)
+                </div>
+                <div className='text-sm'>
+                  Maestro e precursor da música eletrônica brasileira, tendo
+                  sido responsável pela publicação do primeiro disco deste
+                  gênero por aqui.
+                </div>
               </div>
 
               <ul className='flex flex-col gap-2'>
