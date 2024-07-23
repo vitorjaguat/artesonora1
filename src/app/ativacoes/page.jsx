@@ -10,7 +10,7 @@ import dummyHistoria from '../../../public/images/dummyHistoria.jpg';
 import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import FirstThreePrograms2 from '@/components/ProgramasIntro/FirstThreePrograms2';
 import AllCards from '@/components/subpages/AllCards';
-import TextSobre from '@/components/subpages/TextSobre';
+import TextAtivacoes from '@/components/subpages/TextAtivacoes';
 import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
 
@@ -76,9 +76,9 @@ export default async function Page() {
           {/* title */}
           <div className='absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 xl:right-14  z-10  text-right  text-white/70 font-light font-chakra text-5xl md:text-8xl  flex flex-col items-end gap-6'>
             <div className='block md:hidden'>
-              <Title title='Sobre' />
+              <Title title='Ativações' />
             </div>
-            <div className='hidden  md:block'>Sobre</div>
+            <div className='hidden  md:block'>Ativações</div>
             <div className='hidden md:block w-[38%]'>
               <Description />
             </div>
@@ -87,7 +87,7 @@ export default async function Page() {
       </div>
 
       {/* cards */}
-      <TextSobre items={podcasts} />
+      <TextAtivacoes items={podcasts} />
     </section>
   );
 }
