@@ -1,6 +1,6 @@
 ---
 title: 'Varanda Sonora #02 - Fausto Fawcett + Bruno Queiroz'
-status: 'published'
+status: 'draft'
 author:
   name: 'Vitor Butkus'
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'
@@ -9,7 +9,7 @@ description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/varanda-sonora-02-fausto?in=artesonora/sets/varanda-sonora&si=6d437134e8aa46c4b1b4c628e899465f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 fileLink: ''
-tags: ''
+tags: []
 collaborators: [{"label":"Fausto Fawcett","value":"faustoFawcett"},{"label":"Bruno Queiroz","value":"brunoQueiroz"}]
 type: [{"label":"Varanda Sonora","value":"varandaSonora"}]
 publishedAt: '2017-12-01T17:55:19.000Z'
