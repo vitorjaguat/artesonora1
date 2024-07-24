@@ -12,7 +12,7 @@ tags: []
 collaborators: [{"label":"Lilian Zaremba","value":"lilianZaremba"}]
 type: [{"value":"podcast","label":"Podcast"}]
 fileLink: 'https://arweave.net/_aEHuFr68HCfaGQkaKdANVkN9TWNbgEcUci4Fl5Y8d4'
-publishedAt: '2013-08-02T17:46:31.000Z'
+publishedAt: '2024-07-17T17:46:31.000Z'
 ---
 
 Lilian Zaremba é artista visual, roteirista, radioasta e pesquisadora universitária, na área de Comunicação e Cultura. O programa foi gravado na forma de um depoimento onde Lilian conta como foi sua formação, seu interesse pelo rádio, pela radioarte, suas influências e seus rumos.
