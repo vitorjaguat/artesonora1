@@ -15,7 +15,7 @@ type: [{"label":"Varanda Sonora","value":"varandaSonora"}]
 publishedAt: '2017-12-01T17:55:19.000Z'
 ---
 
-\[ EM BREVE \] Nesse encontro, gravado em dezembro de 2017, na Varanda da Biblioteca da Escola de Artes Visuais do Parque Lage, nosso convidado é o poeta, músico e compositor Fausto Fawcett que apresenta uma opereta eletrônica inédita em parceria com o dj produtor Bruno Queiroz.
+(EM BREVE) Nesse encontro, gravado em dezembro de 2017, na Varanda da Biblioteca da Escola de Artes Visuais do Parque Lage, nosso convidado é o poeta, músico e compositor Fausto Fawcett que apresenta uma opereta eletrônica inédita em parceria com o dj produtor Bruno Queiroz.
 
 Fausto utiliza a performance para apresentar seu universo que mistura teatro, música e poesia narrada, permeado, ao fundo, por uma trilha que parece 'emanar do submundo da cidade'.
 
