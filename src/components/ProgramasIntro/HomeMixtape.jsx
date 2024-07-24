@@ -140,7 +140,7 @@ export default function HomeMixtape({ firstThree }) {
         {/* description */}
         <Link
           href='/mixtape'
-          className='absolute left-5 md:left-8 bottom-4 md:bottom-8 w-[80%] md:w-1/3 text-left text-base text-white/90 leading-snug  flex flex-col gap-2'
+          className='absolute left-5 md:left-8 bottom-4 md:bottom-8 w-[80%] md:w-1/3 text-left text-base text-white/90 leading-snug  flex flex-col gap-2 pointer-events-none md:pointer-events-auto'
           style={{
             opacity: isLoading ? 0 : 1,
             transitionProperty: 'opacity',

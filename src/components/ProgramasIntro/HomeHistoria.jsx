@@ -140,7 +140,7 @@ export default function HomeHistoria({ firstThree }) {
         {/* description */}
         <Link
           href='na-historia'
-          className='absolute right-5 md:right-8 bottom-4 md:bottom-8 w-[80%] md:w-1/3 text-right text-base text-white/90 flex flex-col gap-2 leading-snug'
+          className='absolute right-5 md:right-8 bottom-4 md:bottom-8 w-[80%] md:w-1/3 text-right text-base text-white/90 flex flex-col gap-2 leading-snug pointer-events-none md:pointer-events-auto'
           style={{
             opacity: isLoading ? 0 : 1,
             transitionProperty: 'opacity',

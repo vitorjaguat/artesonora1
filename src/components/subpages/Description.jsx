@@ -147,7 +147,7 @@ export default function Description() {
         <RevealTextWhenMount>
           <div className=''>
             VARANDA SONORA reúne a documentação de encontros ocorridos na
-            varanda da biblioteca da Escola de Artes Visuais do Parque Lage que
+            varanda da biblioteca da Escola de Artes Visuais do Parque Lage, que
             contribuíram para a expansão na noção de convivência, uso e produção
             de conteúdo de uma biblioteca de arte, hoje.
           </div>
@@ -155,8 +155,8 @@ export default function Description() {
         <RevealTextWhenMount>
           <div className=''>
             O som e suas manifestações são a questão central desses encontros,
-            que podem assumir diversos formatos, que vão desde apresentações
-            musicais, leitura de poemas, entrevistas ou debates sobre o assunto,
+            que podem assumir diversos formatos: de apresentações musicais a
+            leitura de poemas, entrevistas ou debates sobre o assunto,
             instalações sonoras-espaciais e todas as possibilidades que podem
             estabelecer um diálogo com a arquitetura da Escola e seu meio
             ambiente.

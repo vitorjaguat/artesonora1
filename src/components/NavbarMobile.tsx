@@ -21,7 +21,7 @@ export default function NavbarMobile() {
         className='md:hidden fixed top-5 right-5 cursor-pointer select-none z-10'
         onClick={() => setIsOpen(true)}
       >
-        <RxHamburgerMenu size={30} className='text-neutral-500' />
+        <RxHamburgerMenu size={30} className='text-neutral-400' />
       </div>
       <AnimatePresence>
         {isOpen && (

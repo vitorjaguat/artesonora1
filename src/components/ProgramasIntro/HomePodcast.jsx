@@ -11,6 +11,8 @@ import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
 import Link from 'next/link';
 import bgPodcast from '../../../public/images/bgPodcast2.jpg';
+import { useMediaQuery } from '@/util/useMediaQuery';
+import { useRouter } from 'next/navigation';
 
 export const data = {
   podcast: {
@@ -74,6 +76,8 @@ export default function ProgramasIntro({ firstThree }) {
 
   const podcast = firstThree;
 
+  const isDesktop = useMediaQuery('md');
+  const router = useRouter();
   const [open, setOpen] = useState(data.podcast);
   const containerRef = useRef(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -143,7 +147,7 @@ export default function ProgramasIntro({ firstThree }) {
         {/* description */}
         <Link
           href='/podcast'
-          className='absolute right-5 md:right-8 bottom-4 md:bottom-8 w-[80%] md:w-1/3 text-right text-base text-white/90 flex flex-col gap-2 leading-snug '
+          className='absolute right-5 md:right-8 bottom-4 md:bottom-8 w-[80%] md:w-1/3 text-right text-base text-white/90 flex flex-col gap-2 leading-snug pointer-events-none md:pointer-events-auto '
           style={{
             opacity: isLoading ? 0 : 1,
             transitionProperty: 'opacity',
@@ -184,35 +188,11 @@ export default function ProgramasIntro({ firstThree }) {
         </div> */}
 
         {/* cards */}
-        {/* {open.title === data.podcast.title && ( */}
         <FirstThreePrograms2
           firstThree={firstThree}
           scrollYProgress={scrollYProgress}
         />
-        {/* )} */}
       </div>
-
-      {/* select program */}
-      {/* <div className={'sticky top-0 left-0 flex'}> */}
-      {/* <div
-          className='rounded-md bg-white/20 px-6 py-4 text-right cursor-pointer duration-300 hover:bg-white/40'
-          onClick={() => setOpen(data.mixtape)}
-        >
-          Mixtape
-        </div>
-        <div
-          className='rounded-md bg-white/20 px-6 py-4 text-right cursor-pointer duration-300 hover:bg-white/40'
-          onClick={() => setOpen(data.naHistória)}
-        >
-          Na História
-        </div>
-        <div
-          className='rounded-md bg-white/20 px-6 py-4 text-right cursor-pointer duration-300 hover:bg-white/40'
-          onClick={() => setOpen(data.varandaSonora)}
-        >
-          Varanda Sonora
-        </div> */}
-      {/* </div> */}
     </section>
   );
 }

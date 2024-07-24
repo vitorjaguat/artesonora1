@@ -38,7 +38,7 @@ const data = {
   varandaSonora: {
     title: 'Varanda Sonora',
     description:
-      'Laboriosam neque debitis voluptatem maxime modi omnis adipisci vel voluptate cum dolore quas doloremque harum blanditiis, nulla animi molestias dolores odio amet fugit deserunt quidem quod error. Possimus, aliquam architecto. Qui id necessitatibus quia aliquid ipsam soluta est repellendus nostrum at sunt! Optio magnam dolore itaque natus libero numquam delectus fugiat nostrum doloribus! Ducimus sed illum eos sequi sit mollitia.',
+      'VARANDA SONORA reúne a documentação de encontros ocorridos na varanda da biblioteca da Escola de Artes Visuais do Parque Lage, que contribuíram para a expansão na noção de convivência, uso e produção de conteúdo de uma biblioteca de arte, hoje.  O som e suas manifestações são a questão central desses encontros, que podem assumir diversos formatos: de apresentações musicais a leitura de poemas, entrevistas ou debates sobre o assunto, instalações sonoras-espaciais e todas as possibilidades que podem estabelecer um diálogo com a arquitetura da Escola e seu meio ambiente.',
     // image: '/images/dummyVaranda.jpg',
     image: dummyVaranda,
     id: 4,
