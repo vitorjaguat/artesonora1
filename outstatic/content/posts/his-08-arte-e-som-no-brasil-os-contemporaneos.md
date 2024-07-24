@@ -12,7 +12,7 @@ fileLink: 'https://arweave.net/cx1tKLEzWZXxvJz0qxg1Nqz93t0kzzcMCV9Hb3pFiro'
 tags: []
 collaborators: [{"value":"exst","label":"EXST"}]
 type: [{"value":"naHistória","label":"Na História"}]
-publishedAt: '2018-07-08T20:59:48.000Z'
+publishedAt: '2024-07-18T20:59:48.000Z'
 ---
 
 No último programa dessa série, vamos mostrar como a produção contemporânea brasileira tem caráter plural e transita num campo expandido que cruza arte e som. Vamos apresentar alguns dos vários artistas e práticas que tratam o som como: campo de reflexão, representação de signos gráficos, imagens, forma, espaço relacional e dispositivo social.
