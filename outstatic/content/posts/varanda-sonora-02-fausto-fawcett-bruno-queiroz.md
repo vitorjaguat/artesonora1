@@ -1,6 +1,6 @@
 ---
 title: 'Varanda Sonora #02 - Fausto Fawcett + Bruno Queiroz'
-status: 'draft'
+status: 'published'
 author:
   name: 'Vitor Butkus'
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'

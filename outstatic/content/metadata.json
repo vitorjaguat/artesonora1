@@ -1,6 +1,6 @@
 {
-  "commit": "c0048d19114d093ccf541266156b785a0ee39f29",
-  "generated": "2024-07-24T17:53:34.124Z",
+  "commit": "52be9e40d20cd3863519010e3c4ffb0f8bd040c1",
+  "generated": "2024-07-24T18:08:18.230Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1791,8 +1791,8 @@
     },
     {
       "__outstatic": {
-        "commit": "c0048d19114d093ccf541266156b785a0ee39f29",
-        "hash": "1101005488",
+        "commit": "52be9e40d20cd3863519010e3c4ffb0f8bd040c1",
+        "hash": "1148323174",
         "path": "outstatic/content/posts/varanda-sonora-02-fausto-fawcett-bruno-queiroz.md"
       },
       "author": {
@@ -1816,7 +1816,7 @@
       "publishedAt": "2017-12-01T17:55:19.000Z",
       "slug": "varanda-sonora-02-fausto-fawcett-bruno-queiroz",
       "soundcloudLink": "https://soundcloud.com/artesonora/varanda-sonora-02-fausto?in=artesonora/sets/varanda-sonora&si=6d437134e8aa46c4b1b4c628e899465f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "draft",
+      "status": "published",
       "tags": [
       ],
       "title": "Varanda Sonora #02 - Fausto Fawcett + Bruno Queiroz",
