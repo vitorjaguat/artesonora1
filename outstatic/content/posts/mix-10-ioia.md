@@ -12,7 +12,7 @@ tags: []
 collaborators: [{"label":"IOIA","value":"ioia"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
 fileLink: 'https://arweave.net/lZNXlYpq4thhTeLBmer_z6wopqnXKAKzKmz4YjQT3kw'
-publishedAt: '2013-07-16T17:59:36.000Z'
+publishedAt: '2024-07-16T17:59:36.000Z'
 ---
 
 Uma mestiçagem musical que a dupla define como sincretismo dançante. Uma fusão dos simples compassos do tecno e da musica house, com a síncope e contratempo dos ritmos afro-latinos.
