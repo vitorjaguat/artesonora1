@@ -1,6 +1,6 @@
 {
-  "commit": "40e68ffe2a1d659d7b969c7ac55c9aa5614588c7",
-  "generated": "2024-07-24T14:57:06.630Z",
+  "commit": "7b1785f445a5ed014116d44d678bd47c0bd51be0",
+  "generated": "2024-07-24T14:58:00.589Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1625,40 +1625,6 @@
     },
     {
       "__outstatic": {
-        "commit": "a70f40cee3d1ee2e79f19973087a360fa9a9bb1d",
-        "hash": "156072072",
-        "path": "outstatic/content/posts/pod-10-tantao.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Tantão",
-          "value": "tantão"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/W6_0KXyKdqFwPMHD9DxH-JMZHmqejPsBVDVr9Zp3BVg",
-      "publishedAt": "2013-07-20T17:44:37.000Z",
-      "slug": "pod-10-tantao",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-10-tant-o?in=artesonora/sets/podcast&si=3c3751fb30e543b78cfba09894a52733&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #10 Tantão",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "868bfa8446e39a33f78f5675c0d53e9a2e53f435",
         "hash": "718585916",
         "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
@@ -1820,6 +1786,40 @@
       "tags": [
       ],
       "title": "POD #11 Lilian Zaremba",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "7b1785f445a5ed014116d44d678bd47c0bd51be0",
+        "hash": "2433725151",
+        "path": "outstatic/content/posts/pod-10-tantao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Tantão",
+          "value": "tantão"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/W6_0KXyKdqFwPMHD9DxH-JMZHmqejPsBVDVr9Zp3BVg",
+      "publishedAt": "2024-07-16T17:44:37.000Z",
+      "slug": "pod-10-tantao",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-10-tant-o?in=artesonora/sets/podcast&si=3c3751fb30e543b78cfba09894a52733&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #10 Tantão",
       "type": [
         {
           "label": "Podcast",

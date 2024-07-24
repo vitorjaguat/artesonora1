@@ -12,7 +12,7 @@ tags: []
 collaborators: [{"label":"Tantão","value":"tantão"}]
 type: [{"value":"podcast","label":"Podcast"}]
 fileLink: 'https://arweave.net/W6_0KXyKdqFwPMHD9DxH-JMZHmqejPsBVDVr9Zp3BVg'
-publishedAt: '2013-07-20T17:44:37.000Z'
+publishedAt: '2024-07-16T17:44:37.000Z'
 ---
 
 Tantão é o cara deste tempo. Se hoje nos articulamos de forma horizontal, mobilizando múltiplos projetos, ele vem fazendo isto desde os anos 80. Punk, marginal e maldito são adjetivos apropriados para descrever este artista singular que é, também, precursor, original e experimental. Tantão empresta a alma as parcerias, com suas performances vocais cheias de improviso e suas programações eletrônicas.
