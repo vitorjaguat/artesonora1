@@ -107,6 +107,7 @@ export default function FirstThreePrograms2({
               handleClickPlay={handleClickPlay}
             />
           </div>
+          {/* {show <= 1 && <div className='flex-1'></div>} */}
           <div
             className={
               'flex-1 duration-300' + (show > 1 ? ' opacity-100' : ' opacity-0')

@@ -31,7 +31,7 @@ async function getData(params) {
     .find(
       {
         collection: 'collaborators',
-        title: { $in: post.collaborators.map((col) => col.label) },
+        title: { $in: post?.collaborators.map((col) => col.label) },
         // title: post.collaborators[0].label,
       },
       ['title', 'coverImage', 'slug']
