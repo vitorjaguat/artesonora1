@@ -12,7 +12,7 @@ tags: []
 collaborators: [{"label":"André Amaral","value":"andréAmaral"}]
 type: [{"value":"mixtape","label":"Mixtape"}]
 fileLink: 'https://arweave.net/psf3EBNXyayoZHHsnte5WxuNPhxM7tmvSZlMsZGxaNk'
-publishedAt: '2024-07-16T18:07:46.000Z'
+publishedAt: '2013-08-02T18:07:46.000Z'
 ---
 
 A presença do grave como base e do Dub como procedimento.

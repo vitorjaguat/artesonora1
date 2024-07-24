@@ -1,6 +1,6 @@
 {
-  "commit": "868bfa8446e39a33f78f5675c0d53e9a2e53f435",
-  "generated": "2024-07-24T14:48:36.118Z",
+  "commit": "8355efef1c00d6f527d7463eaf124007c3289707",
+  "generated": "2024-07-24T14:50:58.686Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1693,40 +1693,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1a000ccfff3428549cd0ab25dc42b75db227395a",
-        "hash": "872349288",
-        "path": "outstatic/content/posts/mix-12-andre-amaral.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "André Amaral",
-          "value": "andréAmaral"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/psf3EBNXyayoZHHsnte5WxuNPhxM7tmvSZlMsZGxaNk",
-      "publishedAt": "2024-07-16T18:07:46.000Z",
-      "slug": "mix-12-andre-amaral",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-12-andre-amaral?in=artesonora/sets/programas2013&si=7aa3aa3f3deb412f82e5b5fd3123f07c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #12 André Amaral",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "a70f40cee3d1ee2e79f19973087a360fa9a9bb1d",
         "hash": "156072072",
         "path": "outstatic/content/posts/pod-10-tantao.md"
@@ -1824,6 +1790,40 @@
         {
           "label": "Na História",
           "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "8355efef1c00d6f527d7463eaf124007c3289707",
+        "hash": "2103713954",
+        "path": "outstatic/content/posts/mix-12-andre-amaral.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "André Amaral",
+          "value": "andréAmaral"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/psf3EBNXyayoZHHsnte5WxuNPhxM7tmvSZlMsZGxaNk",
+      "publishedAt": "2013-08-02T18:07:46.000Z",
+      "slug": "mix-12-andre-amaral",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-12-andre-amaral?in=artesonora/sets/programas2013&si=7aa3aa3f3deb412f82e5b5fd3123f07c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #12 André Amaral",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
         }
       ]
     }
