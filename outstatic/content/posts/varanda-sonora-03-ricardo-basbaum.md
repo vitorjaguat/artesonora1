@@ -1,6 +1,6 @@
 ---
 title: 'Varanda Sonora #03 - Ricardo Basbaum'
-status: 'draft'
+status: 'published'
 author:
   name: 'Vitor Butkus'
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'
