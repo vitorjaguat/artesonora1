@@ -59,12 +59,13 @@ const MainContextProvider = ({ children }) => {
 
   // Initial state
   const initialState = {
-    playSrc:
-      'https://ia904507.us.archive.org/16/items/madonna-rol-demos/01%20Sky%20Fits%20Heaven.mp3',
-    playImg:
-      'https://1.bp.blogspot.com/-LoKlow8dGZc/XQ9jIeR9DxI/AAAAAAABGVc/EKlE83PyBm8owjwVuF9ywBE5SS2xZjJGgCLcBGAs/s1600/Ray%2Bof%2BLight%2BDemo%2BAssembly%2Bby%2Balb69.jpg',
-    playTitle: 'Sky Fits Heaven (demo)',
-    playArtist: 'Madonna',
+    // playSrc: 'https://ia904507.us.archive.org/16/items/madonna-rol-demos/01%20Sky%20Fits%20Heaven.mp3', //madonna test
+    playSrc: 'https://arweave.net/CHXN5Qzm1mA24_sEG-PxNXjlAgLtTzw1mR6FzphJnRY', // var arto
+    // playImg: 'https://1.bp.blogspot.com/-LoKlow8dGZc/XQ9jIeR9DxI/AAAAAAABGVc/EKlE83PyBm8owjwVuF9ywBE5SS2xZjJGgCLcBGAs/s1600/Ray%2Bof%2BLight%2BDemo%2BAssembly%2Bby%2Balb69.jpg', //madonna test
+    playImg: '/images/arto-U5Nz.webp', // var arto
+    // playTitle: 'Sky Fits Heaven (demo)',
+    playTitle: 'Varanda Sonora #01 - Arto Lindsay + Magno Calliman',
+    playArtist: 'Arto Lindsay, Magno Calliman',
     playState: 'stop',
     description: null,
     sobreOption: 1,
