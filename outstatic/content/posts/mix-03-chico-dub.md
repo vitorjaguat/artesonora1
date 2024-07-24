@@ -12,7 +12,7 @@ tags: []
 collaborators: [{"label":"Chico Dub","value":"chicoDub"}]
 type: [{"label":"Mixtape","value":"mixtape"}]
 fileLink: 'https://arweave.net/NSvdEzk2AEYNmpuN9VG2CZQI7Larj8_Rvvw2nZ-CqIw'
-publishedAt: '2018-03-15T14:57:22.000Z'
+publishedAt: '2013-03-23T14:57:22.000Z'
 ---
 
 Chico escolheu faixas experimentais contemporâneas, numa seleção que se apropria das questões da arte conceitual e sound art, com gravações de campo, microsons, sons da natureza, ambiências e explorações físicas sobre o som.
