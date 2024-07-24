@@ -1,6 +1,6 @@
 ---
 title: 'Varanda Sonora #03 - Ricardo Basbaum'
-status: 'published'
+status: 'draft'
 author:
   name: 'Vitor Butkus'
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'
@@ -9,7 +9,7 @@ description: ''
 coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/varanda-sonora-03-ricardo'
 fileLink: ''
-tags: ''
+tags: []
 collaborators: [{"label":"Ricardo Basbaum","value":"ricardoBasbaum"}]
 type: [{"value":"varandaSonora","label":"Varanda Sonora"}]
 publishedAt: '2018-03-01T19:03:01.000Z'
