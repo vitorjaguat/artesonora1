@@ -21,7 +21,7 @@ export default function Card({
           : 'colaboradores'
       }/${post.slug}`}
       className={
-        'relative flex w-full h-full flex-col items-center gap-0 rounded-md overflow-hidden duration-300 border-[1px] border-neutral-400 border-opacity-0 group hover:border-opacity-100'
+        'relative flex w-full h-full flex-col items-center gap-0 rounded-md overflow-hidden duration-300 border-[1px] border-neutral-400 border-opacity-0 group md:hover:border-opacity-100'
       }
       onMouseEnter={() => {
         if (isDesktop) changeDescription(post);
@@ -52,7 +52,7 @@ export default function Card({
             {post?.fileLink && (
               <PiPlayLight
                 onClick={(e) => handleClickPlay(e, post)}
-                className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-50 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer'
+                className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-50 md:hover:opacity-90 duration-300 md:hover:scale-110 ease-in-out cursor-pointer'
                 color='white'
               />
             )}
@@ -62,7 +62,7 @@ export default function Card({
 
       {/* title */}
       <div
-        className='relative py-2 w-full flex flex-col md:flex-row justify-center items-center text-center  px-4 bg-neutral-300/70 md:bg-neutral-300/50 h-full text-black font-chakra group-hover:text-white/90 duration-300'
+        className='relative py-2 w-full flex flex-col md:flex-row justify-center items-center text-center  px-4 bg-neutral-300/70 md:bg-neutral-300/50 h-full text-black font-chakra md:group-hover:text-white/90 duration-300'
         // style={{ writingMode: 'vertical-rl' }}
       >
         <div className='font-semibold md:font-normal text-lg md:text-sm'>
@@ -74,7 +74,7 @@ export default function Card({
         </div>
 
         {/* saiba mais */}
-        <div className='absolute bottom-0 right-2 md:bottom-0 md:right-1 hover:animate-pulse group-hover:text-white group-hover:scale-150 duration-300 font-semibold md:font-normal text-lg md:text-base'>
+        <div className='absolute bottom-0 right-2 md:bottom-0 md:right-1 md:hover:animate-pulse md:group-hover:text-white md:group-hover:scale-150 duration-300 font-semibold md:font-normal text-lg md:text-base'>
           +
         </div>
       </div>

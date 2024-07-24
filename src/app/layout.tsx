@@ -30,7 +30,7 @@ const chakra = Chakra_Petch({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://artesonora1.vercel.app/'),
+  metadataBase: new URL('https://artesonora.net/'),
   title: {
     default: 'Arte Sonora',
     template: '%s | Arte Sonora',
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Arte Sonora',
     description: 'Um projeto de Franz Manata e Saulo Laudares',
-    url: absoluteUrl('/'),
+    url: 'https://artesonora.net/',
     siteName: 'Arte Sonora',
     images: [
       {
-        url: 'https://artesonora1.vercel.app/images/play.png',
-        width: 416,
-        height: 384,
+        url: 'https://artesonora.net/images/ogImage.png',
+        width: 1157,
+        height: 630,
       },
     ],
     locale: 'pt_BR',

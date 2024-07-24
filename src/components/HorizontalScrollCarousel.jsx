@@ -13,7 +13,7 @@ const HorizontalScrollCarousel = ({ newestPosts }) => {
   const isDesktop = useMediaQuery('md');
 
   const x = isDesktop
-    ? useTransform(scrollYProgress, [0, 1], ['0.5%', '-75%'])
+    ? useTransform(scrollYProgress, [0, 1], ['0.5%', '-65%'])
     : useTransform(scrollYProgress, [0, 1], ['0.5%', '-80%']);
 
   return (

@@ -44,7 +44,7 @@ export default function FTPCard({
             {post?.fileLink && (
               <PiPlayLight
                 onClick={(e) => handleClickPlay(e, post)}
-                className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-60 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer'
+                className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-60 md:hover:opacity-90 duration-300 md:hover:scale-110 ease-in-out cursor-pointer'
                 color='white'
               />
             )}
