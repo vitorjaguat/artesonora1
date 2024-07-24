@@ -115,9 +115,9 @@ export default function NavbarMobile() {
                   {/* <Link href='/colaboradores' className=''>
                   colaboradores
                 </Link> */}
-                  <Link href='/links' className=''>
+                  {/* <Link href='/links' className=''>
                     links
-                  </Link>
+                  </Link> */}
                 </div>
               </motion.div>
               <motion.div
@@ -157,6 +157,9 @@ export default function NavbarMobile() {
                   </Link>
                   <Link href='/na-historia' onClick={() => setIsOpen(false)}>
                     na história
+                  </Link>
+                  <Link href='/varanda-sonora' onClick={() => setIsOpen(false)}>
+                    varanda sonora
                   </Link>
                 </div>
               </motion.div>
