@@ -1,6 +1,6 @@
 {
-  "commit": "2e52709b9dc1ab082e46b9b55f82e79ff8d723c1",
-  "generated": "2024-07-24T14:54:32.445Z",
+  "commit": "753421957c0c15cb4a32fd5384a66b54ede7b745",
+  "generated": "2024-07-24T14:56:15.081Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1693,40 +1693,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8e10d161b84f18ccf92a42f0f1b6f66a5a8d3f8f",
-        "hash": "659079201",
-        "path": "outstatic/content/posts/mix-10-ioia.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "IOIA",
-          "value": "ioia"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/lZNXlYpq4thhTeLBmer_z6wopqnXKAKzKmz4YjQT3kw",
-      "publishedAt": "2024-07-16T17:59:36.000Z",
-      "slug": "mix-10-ioia",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-10-ioia-aka-antonio?in=artesonora/sets/programas2013&si=335f72614fbb4192ada3c81a1580b483&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #10 IOIA",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "868bfa8446e39a33f78f5675c0d53e9a2e53f435",
         "hash": "718585916",
         "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
@@ -1820,6 +1786,40 @@
       "tags": [
       ],
       "title": "MIX #03 Chico Dub",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "753421957c0c15cb4a32fd5384a66b54ede7b745",
+        "hash": "1630835256",
+        "path": "outstatic/content/posts/mix-10-ioia.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "IOIA",
+          "value": "ioia"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/lZNXlYpq4thhTeLBmer_z6wopqnXKAKzKmz4YjQT3kw",
+      "publishedAt": "2013-07-02T17:59:36.000Z",
+      "slug": "mix-10-ioia",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-10-ioia-aka-antonio?in=artesonora/sets/programas2013&si=335f72614fbb4192ada3c81a1580b483&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #10 IOIA",
       "type": [
         {
           "label": "Mixtape",
