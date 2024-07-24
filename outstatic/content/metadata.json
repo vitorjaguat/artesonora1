@@ -1,6 +1,6 @@
 {
-  "commit": "52be9e40d20cd3863519010e3c4ffb0f8bd040c1",
-  "generated": "2024-07-24T18:08:18.230Z",
+  "commit": "bc251a1850ed3be65eff8fe74ca7228f97729801",
+  "generated": "2024-07-24T18:12:41.304Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1791,8 +1791,8 @@
     },
     {
       "__outstatic": {
-        "commit": "52be9e40d20cd3863519010e3c4ffb0f8bd040c1",
-        "hash": "1148323174",
+        "commit": "bc251a1850ed3be65eff8fe74ca7228f97729801",
+        "hash": "3813572120",
         "path": "outstatic/content/posts/varanda-sonora-02-fausto-fawcett-bruno-queiroz.md"
       },
       "author": {
