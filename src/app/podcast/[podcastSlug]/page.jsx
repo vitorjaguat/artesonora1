@@ -20,7 +20,11 @@ async function getData(params) {
     'soundcloudLink',
     'type',
     'fileLink',
+    'status',
   ]);
+
+  if (post?.status === 'draft') return null;
+
   const db = await load();
   // const imgArr = post.collaborators.map(col => col.label).map(async (label) => await db.find({collection: 'collaborators', title: label}).first())
   const collaboratorsData = await db
@@ -38,6 +42,8 @@ async function getData(params) {
 
   const content = await markdownToHtml(post.content);
   // console.log('post', post);
+
+  if (post?.type[0].label !== 'Podcast') return null;
 
   return {
     ...post,
