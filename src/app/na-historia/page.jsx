@@ -115,7 +115,7 @@ async function getData() {
   const db = await load();
 
   // posts
-  let posts = await db
+  const allPosts = await db
     .find({ collection: 'posts', 'type.label': 'Na História' }, [
       'title',
       'content',
@@ -124,9 +124,12 @@ async function getData() {
       'collaborators',
       'fileLink',
       'type',
+      'status',
     ])
     .sort({ publishedAt: -1 })
     .toArray();
+
+  let posts = allPosts.filter((post) => post.status === 'published');
 
   const collabs = posts.map((post) => post.collaborators[0]);
 

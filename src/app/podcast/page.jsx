@@ -114,7 +114,7 @@ async function getData() {
   const db = await load();
 
   // podcasts
-  let podcasts = await db
+  const allPodcasts = await db
     .find({ collection: 'posts', 'type.value': 'podcast' }, [
       'title',
       'content',
@@ -123,9 +123,12 @@ async function getData() {
       'collaborators',
       'fileLink',
       'type',
+      'status',
     ])
     .sort({ publishedAt: -1 })
     .toArray();
+
+  let podcasts = allPodcasts.filter((post) => post.status === 'published');
 
   const collabs = podcasts.map((post) => post.collaborators[0]);
 
