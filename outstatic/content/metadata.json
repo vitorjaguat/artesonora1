@@ -1,6 +1,6 @@
 {
   "commit": "d78cf03222870ea2fd0e1d11a259198a840b3729",
-  "generated": "2024-07-25T15:59:10.658Z",
+  "generated": "2024-07-25T15:59:57.265Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1796,7 +1796,7 @@
     {
       "__outstatic": {
         "commit": "d78cf03222870ea2fd0e1d11a259198a840b3729",
-        "hash": "3702398802",
+        "hash": "873580417",
         "path": "outstatic/content/posts/mix-04-pedro-victor-brandao.md"
       },
       "author": {
@@ -1816,7 +1816,7 @@
       "publishedAt": "2013-04-19T17:49:54.000Z",
       "slug": "mix-04-pedro-victor-brandao",
       "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-04-pedro-victor-brand?in=artesonora/sets/programas2013&si=5d568f3d950f47a7a6db16192449b17e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "draft",
+      "status": "published",
       "tags": [
       ],
       "title": "MIX #04 Pedro Victor Brandão",
