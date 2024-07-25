@@ -32,7 +32,7 @@ const data = {
   naHistória: {
     title: 'Na História',
     description:
-      'Arte Sonora na História é uma série de 8 programas onde apresentamos a formação deste campo sensível, suas principais questões, artistas e obras, criadas do século XX até os dias de hoje. A Arte Sonora é abordada desde seus primórdios, com os Futuristas e Dadaístas, passando pelo desenvolvimento da tecnologia como suporte para criação, as reverberações da música eletroacústica nas produções conceituais do pós-guerra, até chegar à relação entre arte e música no Brasil.',
+      'Arte Sonora na História é uma série de 8 programas onde apresentamos a formação deste campo sensível, suas principais questões, artistas e obras, criadas do século XX até os dias de hoje. A Arte Sonora é abordada desde seus primórdios, passando pelo desenvolvimento da tecnologia como suporte para criação, as reverberações da música eletroacústica nas produções conceituais do pós-guerra, até chegar à relação entre arte e música no Brasil.',
     // image: '/images/dummyHistoria.jpg',
     image: dummyHistoria,
     id: 3,
