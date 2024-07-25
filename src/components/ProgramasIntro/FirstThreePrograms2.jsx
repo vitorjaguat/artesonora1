@@ -102,42 +102,42 @@ export default function FirstThreePrograms2({
               'flex-1 duration-300' + (show > 0 ? ' opacity-100' : ' opacity-0')
             }
           >
-            <div className={show > 0 ? 'block h-full w-full' : 'hidden'}>
-              <FTPCard
-                post={firstThree[0]}
-                setDescription={setDescription}
-                description={description}
-                handleClickPlay={handleClickPlay}
-              />
-            </div>
+            {/* <div className={show > 0 ? 'block h-full w-full' : 'hidden'}> */}
+            <FTPCard
+              post={firstThree[0]}
+              setDescription={setDescription}
+              description={description}
+              handleClickPlay={handleClickPlay}
+            />
+            {/* </div> */}
           </div>
           <div
             className={
               'flex-1 duration-300' + (show > 1 ? ' opacity-100' : ' opacity-0')
             }
           >
-            <div className={show > 1 ? 'block h-full w-full' : 'hidden'}>
-              <FTPCard
-                post={firstThree[1]}
-                setDescription={setDescription}
-                description={description}
-                handleClickPlay={handleClickPlay}
-              />
-            </div>
+            {/* <div className={show > 1 ? 'block h-full w-full' : 'hidden'}> */}
+            <FTPCard
+              post={firstThree[1]}
+              setDescription={setDescription}
+              description={description}
+              handleClickPlay={handleClickPlay}
+            />
+            {/* </div> */}
           </div>
           <div
             className={
               'flex-1 duration-300' + (show > 2 ? ' opacity-100' : ' opacity-0')
             }
           >
-            <div className={show > 2 ? 'block h-full w-full' : 'hidden'}>
-              <FTPCard
-                post={firstThree[2]}
-                setDescription={setDescription}
-                description={description}
-                handleClickPlay={handleClickPlay}
-              />
-            </div>
+            {/* <div className={show > 2 ? 'block h-full w-full' : 'hidden'}> */}
+            <FTPCard
+              post={firstThree[2]}
+              setDescription={setDescription}
+              description={description}
+              handleClickPlay={handleClickPlay}
+            />
+            {/* </div> */}
           </div>
         </div>
 
