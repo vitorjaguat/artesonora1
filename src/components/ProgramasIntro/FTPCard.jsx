@@ -54,7 +54,7 @@ export default function FTPCard({
 
       {/* title */}
       <div
-        className='py-2 w-full flex justify-center items-center text-center text-xs md:text-sm px-4 bg-neutral-300/50 h-full text-black font-chakra'
+        className='py-2 w-full flex justify-center items-center text-center text-xs md:text-sm px-3 md:px-4 bg-neutral-300/50 h-full text-black font-chakra'
         // style={{ writingMode: 'vertical-rl' }}
       >
         {post.title}
