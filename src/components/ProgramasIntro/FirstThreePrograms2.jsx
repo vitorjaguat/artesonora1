@@ -2,7 +2,7 @@
 
 import { useContext, useState } from 'react';
 import { MainContext } from '@/context/mainContext';
-import { useMotionValueEvent } from 'framer-motion';
+import { useMotionValueEvent, motion, useTransform } from 'framer-motion';
 import FTPCard from './FTPCard';
 import { useMediaQuery } from '@/util/useMediaQuery';
 
@@ -38,23 +38,23 @@ export default function FirstThreePrograms2({
 
   useMotionValueEvent(scrollYProgress, 'change', async (latest) => {
     // console.log('scrollYProgress', latest);
-    if (latest < 0.1) {
+    if (latest < 0.05) {
       if (show !== 0) {
         setShow(0);
         if (isDesktop) setDescription(null);
       }
     }
-    if (latest > 0.1 && latest < 0.4) {
+    if (latest > 0.05 && latest < 0.35) {
       if (show !== 1) {
         setShow(1);
         if (isDesktop) setDescription(firstThree[0].content);
       }
-    } else if (latest > 0.4 && latest < 0.7) {
+    } else if (latest > 0.35 && latest < 0.65) {
       if (show !== 2) {
         setShow(2);
         if (isDesktop) setDescription(firstThree[1].content);
       }
-    } else if (latest > 0.7 && latest < 1) {
+    } else if (latest > 0.65 && latest < 1) {
       if (show !== 3) {
         setShow(3);
         if (isDesktop) setDescription(firstThree[2].content);
@@ -80,6 +80,8 @@ export default function FirstThreePrograms2({
     visible2: { opacity: 1 },
     visible3: { opacity: 1 },
   };
+
+  const width = useTransform(scrollYProgress, [0, 1], ['0%', '100%']);
 
   return (
     <div
@@ -131,6 +133,13 @@ export default function FirstThreePrograms2({
               handleClickPlay={handleClickPlay}
             />
           </div>
+        </div>
+
+        <div className='w-full h-2'>
+          <motion.div
+            className='bg-white/80 h-2 rounded-md'
+            style={{ width }}
+          ></motion.div>
         </div>
 
         {/* description */}
