@@ -36,6 +36,7 @@ export default function PlayerBar() {
           src: playSrc,
         },
         download: true,
+        autoplay: false,
       });
       player.play();
 
