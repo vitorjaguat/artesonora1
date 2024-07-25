@@ -1,6 +1,6 @@
 {
   "commit": "9f0b8d0614b4834a5953c6d3dc7fec5656b2bab1",
-  "generated": "2024-07-25T16:01:52.672Z",
+  "generated": "2024-07-25T16:02:27.116Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1796,7 +1796,7 @@
     {
       "__outstatic": {
         "commit": "9f0b8d0614b4834a5953c6d3dc7fec5656b2bab1",
-        "hash": "2230472609",
+        "hash": "1414836991",
         "path": "outstatic/content/posts/varanda-sonora-03-ricardo-basbaum.md"
       },
       "author": {
@@ -1816,7 +1816,7 @@
       "publishedAt": "2018-03-01T19:03:01.000Z",
       "slug": "varanda-sonora-03-ricardo-basbaum",
       "soundcloudLink": "https://soundcloud.com/artesonora/varanda-sonora-03-ricardo",
-      "status": "draft",
+      "status": "published",
       "tags": [
       ],
       "title": "Varanda Sonora #03 - Ricardo Basbaum",
