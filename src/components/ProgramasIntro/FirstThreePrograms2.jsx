@@ -108,6 +108,8 @@ export default function FirstThreePrograms2({
               setDescription={setDescription}
               description={description}
               handleClickPlay={handleClickPlay}
+              id={0}
+              show={show}
             />
             {/* </div> */}
           </div>
@@ -122,6 +124,8 @@ export default function FirstThreePrograms2({
               setDescription={setDescription}
               description={description}
               handleClickPlay={handleClickPlay}
+              id={1}
+              show={show}
             />
             {/* </div> */}
           </div>
@@ -136,6 +140,8 @@ export default function FirstThreePrograms2({
               setDescription={setDescription}
               description={description}
               handleClickPlay={handleClickPlay}
+              id={2}
+              show={show}
             />
             {/* </div> */}
           </div>

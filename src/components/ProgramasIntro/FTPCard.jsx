@@ -9,15 +9,19 @@ export default function FTPCard({
   setDescription,
   description,
   handleClickPlay,
+  id,
+  show,
 }) {
   const isDesktop = useMediaQuery('md');
+  // console.log('show key', show, id);
 
   return (
     <Link
       href={`${formatPostType(post.type[0].label)}/${post.slug}`}
       className={
-        'flex w-full h-full flex-col items-center gap-0 rounded-md overflow-hidden duration-300 border-[1px] border-neutral-400 border-opacity-0' +
-        (description === post.content ? ' border-opacity-100' : '')
+        'flex w-full h-full flex-col items-center gap-0 rounded-md overflow-hidden duration-300 border-[1px] border-neutral-400 border-opacity-0 select-none' +
+        (description === post.content ? ' border-opacity-100' : '') +
+        (show > id ? ' cursor-pointer' : ' cursor-default pointer-events-none')
       }
       onMouseEnter={() => {
         if (isDesktop) setDescription(post.content);
