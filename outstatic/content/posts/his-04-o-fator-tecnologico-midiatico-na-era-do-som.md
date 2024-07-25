@@ -1,6 +1,6 @@
 ---
 title: 'HIS #04 O fator tecnológico midiático na era do som'
-status: 'draft'
+status: 'published'
 author:
   name: 'Vitor Butkus'
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'
