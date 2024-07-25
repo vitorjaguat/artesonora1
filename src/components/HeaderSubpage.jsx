@@ -33,7 +33,7 @@ export default function HeaderSubpage({
           (kind === '1' ? 'text-5xl md:text-8xl' : 'text-3xl md:text-5xl')
         }
       >
-        <div className='h-full w-[90%] md:w-[700px] lg:w-[900px] flex items-end justify-end text-right'>
+        <div className='h-full w-[90%] md:w-[700px] lg:w-[900px] flex items-end justify-end text-right font-chakra'>
           {title}
         </div>
       </div>

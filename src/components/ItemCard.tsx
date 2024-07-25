@@ -51,7 +51,7 @@ export default function ItemCard({ itemObj, image, type }: ItemCardProps) {
           {itemObj?.fileLink && (
             <PiPlayLight
               onClick={handleClickPlay}
-              className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-40 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer'
+              className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-60 hover:opacity-90 duration-300 hover:scale-110 ease-in-out cursor-pointer'
               color='white'
             />
           )}
@@ -62,7 +62,9 @@ export default function ItemCard({ itemObj, image, type }: ItemCardProps) {
         href={`/${type}/${itemObj.slug}`}
         className='h-full md:flex-grow md:w-full flex flex-col justify-between items-center md:items-start gap-2'
       >
-        <div className='text-2xl'>{itemObj.title}</div>
+        <div className='text-2xl font-chakra w-full md:w-auto text-center md:text-left'>
+          {itemObj.title}
+        </div>
         <div className='text-sm text-center md:text-left mt-2'>
           {itemObj.content.slice(0, 180)}...
         </div>
