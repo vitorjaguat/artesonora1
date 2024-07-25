@@ -1,5 +1,10 @@
 import HeaderSubpage from '@/components/HeaderSubpage';
-import { getDocumentBySlug, load, getDocumentSlugs } from 'outstatic/server';
+import {
+  getDocumentBySlug,
+  load,
+  getDocumentSlugs,
+  getDocuments,
+} from 'outstatic/server';
 import markdownToHtml from '../../../lib/markdownToHtml';
 import { absoluteUrl } from '@/lib/utils';
 import PlayButton from '@/components/PlayButton';
@@ -158,7 +163,22 @@ export default async function VarandaSlug({ params }) {
   );
 }
 
+// export async function generateStaticParams() {
+//   const posts = getDocumentSlugs('posts');
+//   return posts.map((slug) => ({ varandaSlug: slug }));
+// }
+
 export async function generateStaticParams() {
-  const posts = getDocumentSlugs('posts');
-  return posts.map((slug) => ({ varandaSlug: slug }));
+  const allPosts = getDocuments('posts', ['type', 'slug', 'status']);
+  const allVaranda = allPosts.filter(
+    (post) => post.type.map((type) => type.label).includes('Varanda Sonora')
+    // && post.status === 'published' // TODO: when at least 3 posts are published, remove comment out
+  );
+
+  // const posts = getDocumentSlugs('posts');
+  return allVaranda.map((post) => {
+    return {
+      varandaSlug: post.slug,
+    };
+  });
 }

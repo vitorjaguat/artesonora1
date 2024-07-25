@@ -1,5 +1,10 @@
 import HeaderSubpage from '@/components/HeaderSubpage';
-import { getDocumentBySlug, load, getDocumentSlugs } from 'outstatic/server';
+import {
+  getDocumentBySlug,
+  load,
+  getDocumentSlugs,
+  getDocuments,
+} from 'outstatic/server';
 import markdownToHtml from '../../../lib/markdownToHtml';
 import { absoluteUrl } from '@/lib/utils';
 import PlayButton from '@/components/PlayButton';
@@ -158,7 +163,19 @@ export default async function PodcastSlug({ params }) {
   );
 }
 
+// export const dynamicParams = false;
 export async function generateStaticParams() {
-  const posts = getDocumentSlugs('posts');
-  return posts.map((slug) => ({ podcastSlug: slug }));
+  const allPosts = getDocuments('posts', ['type', 'slug', 'status']);
+  const allPodcasts = allPosts.filter(
+    (post) =>
+      post.type.map((type) => type.label).includes('Podcast') &&
+      post.status === 'published'
+  );
+
+  // const posts = getDocumentSlugs('posts');
+  return allPodcasts.map((post) => {
+    return {
+      podcastSlug: post.slug,
+    };
+  });
 }
