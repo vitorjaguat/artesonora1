@@ -163,7 +163,7 @@ export default async function PodcastSlug({ params }) {
   );
 }
 
-// export const dynamicParams = false;
+export const dynamicParams = false;
 export async function generateStaticParams() {
   const allPosts = getDocuments('posts', ['type', 'slug', 'status']);
   const allPodcasts = allPosts.filter(

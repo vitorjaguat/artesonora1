@@ -71,16 +71,7 @@ export default async function VarandaSlug({ params }) {
     fileLink,
     collaboratorsData,
   } = await getData(params);
-  // const post = await getData(params);
-  // console.log('post', post);
-  // console.log('cover image', coverImage);
-  // console.log('soundcloudLink', soundcloudLink);
 
-  // const soundcloudPageUrl = `https://soundcloud.com/artesonora/${slug.replace(
-  //   'mix',
-  //   'mixtape'
-  // )}`;
-  console.log('fileLink', fileLink);
   return (
     <>
       <HeaderSubpage
