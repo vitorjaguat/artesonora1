@@ -1,6 +1,6 @@
 ---
 title: 'MIX #04 Pedro Victor Brandão'
-status: 'published'
+status: 'draft'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'
