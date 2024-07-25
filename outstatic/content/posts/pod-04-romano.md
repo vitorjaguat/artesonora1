@@ -1,6 +1,6 @@
 ---
 title: 'POD #04 Romano'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'

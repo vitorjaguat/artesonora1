@@ -1,6 +1,6 @@
 {
-  "commit": "0583f9a15212b58eeb842a9ab7dfe1b9951e447b",
-  "generated": "2024-07-25T16:01:09.065Z",
+  "commit": "2d6d46353d6a121f7c03f9a870b32515996a0ec4",
+  "generated": "2024-07-25T16:01:31.515Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1727,40 +1727,6 @@
     },
     {
       "__outstatic": {
-        "commit": "3a464fd8740543e252b43ae987c28d794fbe55a5",
-        "hash": "330852261",
-        "path": "outstatic/content/posts/pod-04-romano.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Romano",
-          "value": "romano"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/2Uyd9EN3b6y2ybn02521uOH0aVrOlFOgwziYnl7CQ7Q",
-      "publishedAt": "2013-04-25T16:30:58.000Z",
-      "slug": "pod-04-romano",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-04-romano?in=artesonora/sets/podcast&si=cc535380c6ae4d43866dbc24365d3fd8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "POD #04 Romano",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "d78cf03222870ea2fd0e1d11a259198a840b3729",
         "hash": "873580417",
         "path": "outstatic/content/posts/mix-04-pedro-victor-brandao.md"
@@ -1824,6 +1790,40 @@
         {
           "label": "Na História",
           "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "2d6d46353d6a121f7c03f9a870b32515996a0ec4",
+        "hash": "1112231138",
+        "path": "outstatic/content/posts/pod-04-romano.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Romano",
+          "value": "romano"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/2Uyd9EN3b6y2ybn02521uOH0aVrOlFOgwziYnl7CQ7Q",
+      "publishedAt": "2013-04-25T16:30:58.000Z",
+      "slug": "pod-04-romano",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-04-romano?in=artesonora/sets/podcast&si=cc535380c6ae4d43866dbc24365d3fd8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #04 Romano",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
         }
       ]
     }
