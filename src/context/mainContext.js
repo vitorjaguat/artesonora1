@@ -34,11 +34,6 @@ const reducer = (state, action) => {
         ...state,
         description: action.payload,
       };
-    case 'CHANGE_SOBRE_OPTION':
-      return {
-        ...state,
-        sobreOption: action.payload,
-      };
     case 'CHANGE_ATIVACOES_OPTION':
       return {
         ...state,
@@ -68,7 +63,6 @@ const MainContextProvider = ({ children }) => {
     playArtist: 'Arto Lindsay, Magno Calliman',
     playState: 'stop',
     description: null,
-    sobreOption: 1,
     ativacoesOption: 1,
   };
   const [state, dispatch] = useReducer(reducer, initialState);
@@ -110,12 +104,6 @@ const MainContextProvider = ({ children }) => {
       payload: description,
     });
   };
-  const changeSobreOption = (sobreOption) => {
-    dispatch({
-      type: 'CHANGE_SOBRE_OPTION',
-      payload: sobreOption,
-    });
-  };
   const changeAtivacoesOption = (ativacoesOption) => {
     dispatch({
       type: 'CHANGE_ATIVACOES_OPTION',
@@ -140,8 +128,6 @@ const MainContextProvider = ({ children }) => {
         changePlayState,
         description: state.description,
         changeDescription,
-        sobreOption: state.sobreOption,
-        changeSobreOption,
         ativacoesOption: state.ativacoesOption,
         changeAtivacoesOption,
       }}
