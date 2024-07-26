@@ -1,59 +1,26 @@
-'use client';
-
-import { useContext, useState } from 'react';
-import { MainContext } from '@/context/mainContext';
-import { useMotionValueEvent } from 'framer-motion';
-import Card from '@/components/subpages/Card';
-import { useMediaQuery } from '@/util/useMediaQuery';
-import RevealText from '../RevealText';
-import Description from './Description';
 import Link from 'next/link';
-import { Suspense } from 'react';
 
 //this was based on AllCards.jsx
-export default function TextSobre({ items, sideRight = false }) {
-  const isDesktop = useMediaQuery('md');
-  const firstThree = items;
-
-  const {
-    changePlaySrc,
-    playSrc,
-    changePlayImg,
-    changePlayTitle,
-    changePlayArtist,
-    changeDescription,
-    description,
-    sobreOption,
-  } = useContext(MainContext);
-
-  const handleClickPlay = (e, post) => {
-    e.preventDefault();
-    e.stopPropagation();
-    changePlaySrc(post.fileLink);
-    changePlayImg(post.collaborators[0].coverImage);
-    changePlayTitle(post.title);
-    changePlayArtist(
-      post.collaborators.map((colObj) => colObj.title).join(', ')
-    );
-  };
-
-  const cardVariants = {
-    hidden: { opacity: 0 },
-    visible1: { opacity: 1 },
-    visible2: { opacity: 1 },
-    visible3: { opacity: 1 },
-  };
+export default function TextSobre({ sobreOption }) {
+  // const {
+  //   changePlaySrc,
+  //   playSrc,
+  //   changePlayImg,
+  //   changePlayTitle,
+  //   changePlayArtist,
+  //   changeDescription,
+  //   description,
+  // } = useContext(MainContext);
 
   return (
     <>
       <div className={'flex md:w-[calc(100vw-52px)]'}>
         <div className='relative pt-36 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex flex-wrap gap-4 md:gap-4 justify-center md:justify-normal'>
-          {sobreOption === 1 && (
+          {sobreOption === 'sobre' && (
             <>
-              <div className='text-2xl font-chakra mt-6 mb-3 md:mt-0 md:mb-6 w-full'>
+              <div className='text-2xl font-chakra mt-6 mb-3 md:mt-0 md:mb-6 w-full text-left'>
                 Sobre o <span className='text-3xl'>Arte Sonora</span>
               </div>
-              <div className=''></div>
               <div className=''>
                 Arte Sonora é uma prática artística coletiva desenvolvida pelo
                 duo de artistas <span className='font-bold'>Franz Manata</span>{' '}
@@ -152,9 +119,9 @@ export default function TextSobre({ items, sideRight = false }) {
             </>
           )}
 
-          {sobreOption === 2 && (
+          {sobreOption === 'quem-somos' && (
             <>
-              <div className='text-3xl font-chakra mb-6'>Quem somos</div>
+              <div className='text-3xl font-chakra mb-6 w-full'>Quem somos</div>
               <div className=''>
                 <span className='font-bold'>Franz Manata</span> (1964) é
                 artista, curador e professor e{' '}
@@ -171,9 +138,9 @@ export default function TextSobre({ items, sideRight = false }) {
             </>
           )}
 
-          {sobreOption === 3 && (
+          {sobreOption === 'breve-historia' && (
             <>
-              <div className='text-3xl font-chakra mb-6'>
+              <div className='text-3xl font-chakra mb-6 w-full'>
                 Uma breve história{' '}
                 <span className='text-xl block md:inline'>da Arte Sonora</span>
               </div>

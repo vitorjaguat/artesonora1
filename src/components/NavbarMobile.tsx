@@ -106,10 +106,10 @@ export default function NavbarMobile() {
                   <Link href='/sobre' className=''>
                     sobre o Arte Sonora
                   </Link>
-                  <Link href='/sobre#quem-somos' className=''>
+                  <Link href='/sobre?q=quem-somos' className=''>
                     quem somos
                   </Link>
-                  <Link href='/sobre#breve-historia' className=''>
+                  <Link href='/sobre?q=breve-historia' className=''>
                     breve história
                   </Link>
                   {/* <Link href='/colaboradores' className=''>

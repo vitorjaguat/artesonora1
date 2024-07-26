@@ -53,9 +53,10 @@ const data = {
     link: '/varanda-sonora',
   },
 };
-export default async function Page() {
-  const podcasts = await getData();
-  const isLoading = false;
+export default async function Page({ searchParams }) {
+  const sobreOption = searchParams.q || 'sobre';
+
+  // const podcasts = await getData();
 
   return (
     <section className='relative text-white/50 max-w-[100vw] h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)] '>
@@ -85,8 +86,8 @@ export default async function Page() {
               <Description />
             </div> */}
 
-            {/* options */}
-            <OptionsSobre />
+            {/* options (only for desktop) */}
+            <OptionsSobre sobreOption={sobreOption} />
 
             {/* image */}
           </div>
@@ -94,7 +95,7 @@ export default async function Page() {
       </div>
 
       {/* cards */}
-      <TextSobre items={podcasts} />
+      <TextSobre sobreOption={sobreOption} />
     </section>
   );
 }

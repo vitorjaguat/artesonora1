@@ -1,44 +1,41 @@
-'use client';
+import Link from 'next/link';
 
-import { useContext } from 'react';
-import { MainContext } from '@/context/mainContext';
-import { useMediaQuery } from '@/util/useMediaQuery';
-
-export default function OptionsSobre() {
-  const { changeSobreOption, sobreOption } = useContext(MainContext);
-  const isDesktop = useMediaQuery('md');
-
-  if (!isDesktop) return null;
-
+export default function OptionsSobre({ sobreOption }) {
   return (
-    <div className='text-base text-white flex flex-col gap-2 items-end opacity-100'>
-      <div
+    <div className='hidden md:flex text-base text-white flex-col gap-2 items-end opacity-100'>
+      <Link
+        href='/sobre?q=sobre'
+        replace
         className={
           'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
-          (sobreOption === 1 ? ' bg-white/30' : '')
+          (sobreOption === 'sobre' ? ' bg-white/30' : '')
         }
-        onClick={() => changeSobreOption(1)}
+        // onClick={() => changeSobreOption('sobre')}
       >
         Sobre o Arte Sonora
-      </div>
-      <div
+      </Link>
+      <Link
+        replace
+        href='/sobre?q=quem-somos'
         className={
           'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
-          (sobreOption === 2 ? ' bg-white/30' : '')
+          (sobreOption === 'quem-somos' ? ' bg-white/30' : '')
         }
-        onClick={() => changeSobreOption(2)}
+        // onClick={() => changeSobreOption('quem-somos')}
       >
         Quem somos
-      </div>
-      <div
+      </Link>
+      <Link
+        replace
+        href='/sobre?q=breve-historia'
         className={
           'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
-          (sobreOption === 3 ? ' bg-white/30' : '')
+          (sobreOption === 'breve-historia' ? ' bg-white/30' : '')
         }
-        onClick={() => changeSobreOption(3)}
+        // onClick={() => changeSobreOption('breve-historia')}
       >
         Uma breve história da Arte Sonora
-      </div>
+      </Link>
     </div>
   );
 }

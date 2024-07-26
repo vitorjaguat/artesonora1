@@ -32,20 +32,20 @@ export default function Navbar() {
         },
         {
           name: 'Quem somos',
-          link: '/sobre#quem-somos',
+          link: '/sobre?q=quem-somos',
         },
         {
           name: 'Uma breve história',
-          link: '/sobre#breve-historia',
+          link: '/sobre?q=breve-historia',
         },
         // {
         //   name: 'Colaboradores',
         //   link: '/colaboradores',
         // },
-        {
-          name: 'Links',
-          link: '/links',
-        },
+        // {
+        //   name: 'Links',
+        //   link: '/links',
+        // },
       ],
       programas: [
         {
