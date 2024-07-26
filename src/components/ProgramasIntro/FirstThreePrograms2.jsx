@@ -60,7 +60,7 @@ export default function FirstThreePrograms2({
         if (isDesktop) setDescription(firstThree[2].content);
       }
     }
-    console.log(show);
+    // console.log(show);
   });
 
   // useEffect(() => {

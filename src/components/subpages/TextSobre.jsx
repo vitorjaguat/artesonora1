@@ -8,6 +8,7 @@ import { useMediaQuery } from '@/util/useMediaQuery';
 import RevealText from '../RevealText';
 import Description from './Description';
 import Link from 'next/link';
+import { Suspense } from 'react';
 
 //this was based on AllCards.jsx
 export default function TextSobre({ items, sideRight = false }) {

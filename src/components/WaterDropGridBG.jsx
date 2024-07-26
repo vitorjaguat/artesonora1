@@ -40,8 +40,8 @@ const WaterDropGrid = () => {
 // const GRID_HEIGHT = 32;
 
 const DotGrid = ({ gridWidth, gridHeight }) => {
-  console.log('gridWidth', gridWidth);
-  console.log('gridHeight', gridHeight);
+  // console.log('gridWidth', gridWidth);
+  // console.log('gridHeight', gridHeight);
   const handleDotClick = (e) => {
     anime({
       targets: '.dot-point',

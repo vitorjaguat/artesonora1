@@ -61,10 +61,10 @@ export default function Hero() {
       <div className='absolute top-5 md:top-auto bottom-auto md:bottom-5 md:left-5 text-white/80 w-3/4 text-left md:text-left md:pb-0 px-5 md:px-0 md:w-1/3 text-sm md:text-base'>
         Arte Sonora é uma prática artística coletiva desenvolvida pelo duo de
         artistas <span className='font-bold'>Franz Manata</span> e{' '}
-        <span className='font-bold'>Saulo Laudares</span>, com formatos, como
-        cursos, residências, exposições, happenings, programas de rádio,
-        publicações etc. Neste site você encontrará materiais que documentam os
-        15 anos desta prática.
+        <span className='font-bold'>Saulo Laudares</span>, através de cursos,
+        residências, exposições, happenings, programas de rádio, publicações
+        etc. Neste site você encontrará materiais que documentam os 15 anos
+        desta prática.
       </div>
 
       {/* realização */}
