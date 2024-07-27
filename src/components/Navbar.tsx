@@ -22,6 +22,10 @@ export default function Navbar() {
   const controlsContainer = useAnimationControls();
   const controls = useAnimationControls();
   const [subMenuData, setSubMenuData] = useState<SubMenuData[] | []>([]);
+  const [isClicked, setIsClicked] = useState(false);
+  const [isEntered, setIsEntered] = useState(false);
+  const [isMoved, setIsMoved] = useState(false);
+  // let isClicked = false;
 
   const subMenuDataManager = useMemo(
     () => ({
@@ -99,8 +103,33 @@ export default function Navbar() {
         <div
           className='md:flex flex-col w-fit h-[100vh] px-4 pt-6 items-center gap-6 uppercase'
           // style={{ writingMode: 'vertical-rl' }}
-          onMouseEnter={handleHoverContainer}
+          onMouseEnter={() => {
+            setIsEntered(true);
+            if (!isClicked) controlsContainer.start('on');
+            setTimeout(() => {
+              setIsEntered(false);
+            }, 500);
+          }}
+          onMouseMove={() => {
+            !isClicked &&
+              !isEntered &&
+              !isMoved &&
+              controlsContainer.start('on');
+            setIsMoved(true);
+            setTimeout(() => {
+              setIsMoved(false);
+            }, 500);
+          }}
+          // onMouseMove={() => controlsContainer.start('on')}
           onMouseLeave={() => controlsContainer.start('off')}
+          onClick={() => {
+            setIsClicked(true);
+            controlsContainer.start('off');
+            controls.start('off');
+            setTimeout(() => {
+              setIsClicked(false);
+            }, 100);
+          }}
         >
           <TransitionLink
             className='w-full flex items-center text-neutral-500 duration-300 hover:text-white'
