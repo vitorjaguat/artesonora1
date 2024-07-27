@@ -95,7 +95,7 @@ async function getProgramasIntroData() {
       'type',
     ])
     .limit(3)
-    .sort({ publishedAt: -1 })
+    .sort({ publishedAt: 1 })
     .toArray();
 
   const collabsH = filteredHistoria.map((post) => post.collaborators[0]);
