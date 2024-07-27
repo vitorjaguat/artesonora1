@@ -126,7 +126,7 @@ async function getData() {
       'type',
       'status',
     ])
-    .sort({ publishedAt: -1 })
+    .sort({ publishedAt: 1 })
     .toArray();
 
   let posts = allPosts.filter((post) => post.status === 'published');
