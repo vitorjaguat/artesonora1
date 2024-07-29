@@ -10,6 +10,7 @@ export default function FirstThreePrograms({ firstThree }) {
   // console.log('firstThree', firstThree);
   const [description, setDescription] = useState(null);
   const isDesktop = useMediaQuery('md');
+  let testingFork;
 
   const {
     changePlaySrc,
