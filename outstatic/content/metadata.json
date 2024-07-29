@@ -1,6 +1,6 @@
 {
-  "commit": "9f0b8d0614b4834a5953c6d3dc7fec5656b2bab1",
-  "generated": "2024-07-25T16:02:27.116Z",
+  "commit": "ff68f2e41463314c966879e794bc5706797a28f3",
+  "generated": "2024-07-29T16:35:32.014Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1824,6 +1824,40 @@
         {
           "label": "Varanda Sonora",
           "value": "varandaSonora"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "ff68f2e41463314c966879e794bc5706797a28f3",
+        "hash": "2836109858",
+        "path": "outstatic/content/posts/mix-13-test.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/175142165?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "",
+      "publishedAt": "2024-07-29T16:16:48.595Z",
+      "slug": "mix-13-test",
+      "soundcloudLink": "",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #13 test",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
         }
       ]
     }
