@@ -40,6 +40,17 @@ export default function PlayerBar() {
       });
       player.play();
 
+      //add a link in player:
+      // const titleElement = document.querySelector('.shk-title');
+
+      // if (titleElement) {
+      //   const handleClick = () => {
+      //     window.location.href = '/';
+      //   };
+
+      //   titleElement.addEventListener('click', handleClick);
+      // }
+
       // Clean up function
       return () => {
         player.destroy();

@@ -42,7 +42,14 @@ const WaterDropGrid = () => {
 const DotGrid = ({ gridWidth, gridHeight }) => {
   // console.log('gridWidth', gridWidth);
   // console.log('gridHeight', gridHeight);
+  const [shine, setShine] = useState(0);
+  const [isPulsing, setIsPulsing] = useState(false);
+
   const handleDotClick = (e) => {
+    setIsPulsing(true);
+    // setTimeout(() => {
+    //   setIsPulsing(false);
+    // }, 7000);
     anime({
       targets: '.dot-point',
       scale: [
@@ -63,7 +70,9 @@ const DotGrid = ({ gridWidth, gridHeight }) => {
         from: e.target.dataset.index,
       }),
       direction: 'alternate',
-      loop: 2,
+      loop: 1,
+      // changeComplete: () => setIsPulsing(false),
+      complete: () => setIsPulsing(false),
     });
   };
 
@@ -81,7 +90,20 @@ const DotGrid = ({ gridWidth, gridHeight }) => {
           key={`${i}-${j}`}
         >
           <div
-            className='dot-point h-2 w-2 rounded-full bg-gradient-to-b from-neutral-500 to-neutral-400 opacity-50 '
+            className={
+              'dot-point h-2 w-2 rounded-full duration-300 ease-in-out '
+            }
+            style={{
+              backgroundColor: shine === index ? '#a3a3a3' : '#737373',
+              opacity: shine === index ? 1 : 0.5,
+              transitionTimingFunction: 'ease-in-out',
+              transitionDuration: shine === index ? '0.5s' : 'inherit',
+              scale: shine === index ? '1.1' : '1',
+              boxShadow:
+                shine === index
+                  ? '0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff'
+                  : 'none',
+            }}
             data-index={index}
           />
         </div>
@@ -89,6 +111,20 @@ const DotGrid = ({ gridWidth, gridHeight }) => {
       index++;
     }
   }
+
+  useEffect(() => {
+    console.log('dots.length', dots.length);
+    const interval = setInterval(() => {
+      if (!isPulsing) {
+        setShine(Math.floor(Math.random() * dots.length));
+      }
+    }, 2000);
+    return () => clearInterval(interval);
+  }, [dots.length, isPulsing]);
+
+  useEffect(() => {
+    console.log('shine', shine);
+  }, [shine]);
 
   return (
     <div

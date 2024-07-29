@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
 import WaterDropGrid from './WaterDropGridBG';
+import WaterDropGridHoverLight from './WaterDropGridHoverLight';
 
 export default function Hero() {
   // let vh = 1;
@@ -37,8 +38,9 @@ export default function Hero() {
           /> */}
 
           {/* grid */}
-          <div className='absolute top-0 left-0 opacity-60'>
+          <div className='absolute top-0 left-0 opacity-100'>
             <WaterDropGrid />
+            {/* <WaterDropGridHoverLight /> */}
           </div>
         </motion.div>
       </div>

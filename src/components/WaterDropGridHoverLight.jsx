@@ -62,8 +62,8 @@ const DotGrid = ({ gridWidth, gridHeight }) => {
         grid: [gridWidth, gridHeight],
         from: e.target.dataset.index,
       }),
-      direction: 'alternate',
-      loop: 2,
+      // direction: 'alternate',
+      loop: 1,
     });
   };
 
@@ -76,12 +76,12 @@ const DotGrid = ({ gridWidth, gridHeight }) => {
     for (let j = 0; j < gridHeight; j++) {
       dots.push(
         <div
-          className='group cursor-crosshair rounded-full p-2 transition-colors duration-300 hover:bg-[radial-gradient(circle_at_50%_50%,#d3d3d380,#00009920)]'
+          className='group cursor-crosshair rounded-full w-6 h-6 grid place-content-center transition-colors duration-300 '
           data-index={index}
           key={`${i}-${j}`}
         >
           <div
-            className='dot-point h-2 w-2 rounded-full bg-gradient-to-b from-neutral-500 to-neutral-400 opacity-50 '
+            className='dot-point h-2 w-2 rounded-full duration-300 bg-neutral-500 hover:scale-105 group-hover:shadow-custom-light opacity-50 '
             data-index={index}
           />
         </div>
