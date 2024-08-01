@@ -73,7 +73,7 @@ async function getData() {
 
       return {
         ...post,
-        image: collaborator ? absoluteUrl(collaborator.coverImage) : null,
+        image: collaborator ? collaborator.coverImage : null,
       };
     })
   );
