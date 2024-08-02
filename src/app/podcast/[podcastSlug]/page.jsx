@@ -5,7 +5,7 @@ import Link from 'next/link';
 import PlaySlug from '@/components/PlaySlug';
 import { HiOutlineArrowNarrowDown } from 'react-icons/hi';
 import Title from '@/components/subpages/Title';
-import bgPodcast from '../../../public/images/bgPodcast2.jpg';
+import bgPodcast from '../../../../public/images/bgPodcast2.jpg';
 
 async function getData(params) {
   const post = getDocumentBySlug('posts', params.podcastSlug, [
