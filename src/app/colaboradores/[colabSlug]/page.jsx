@@ -9,6 +9,10 @@ import ItemCard from '@/components/ItemCard';
 import { RxInstagramLogo } from 'react-icons/rx';
 import { LiaFacebookSquare } from 'react-icons/lia';
 import { RiTwitterXFill } from 'react-icons/ri';
+import Title from '@/components/subpages/Title';
+import bgVarandaSlug from '../../../../public/images/bgVarandaSlug.jpg';
+import Card from '@/components/subpages/Card';
+import CardProgramForCollab from '@/components/subpages/CardProgramForCollab';
 
 async function getData(params) {
   const collab = getDocumentBySlug('collaborators', params.colabSlug, [
@@ -77,81 +81,149 @@ export default async function ColabSlug({ params }) {
   // )}`;
 
   return (
-    <>
-      <HeaderSubpage
-        title={title}
-        // bgImg='https://placehold.co/600x400?text=imagem&font=lora'
-        bgImg={coverImage ? coverImage : '/images/dummyImg.png'}
-        kind='2'
-        blur={true}
-      />
-      <div className='pt-10 pb-60 w-full flex flex-col justify-center items-center bg-zinc-900 text-white/90'>
-        <div className='flex flex-col gap-5 w-[90%] md:w-[700px] lg:w-[900px]'>
-          {/* Play subheader (removed) */}
+    <section className='relative text-white/50 max-w-[100vw] h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)] '>
+      {/* fixed: */}
+      <div className='fixed top-0 md:left-[52px] w-full  md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
+        <div className='relative w-full h-full overflow-hidden'>
+          <div className='absolute inset-0 max-h-full w-full h-full'>
+            <Image
+              src={bgVarandaSlug}
+              alt='Varanda Sonora'
+              fill
+              style={{
+                objectFit: 'cover',
+                zIndex: 0,
+              }}
+              priority={true}
+            />
+          </div>
 
-          {/* Collab links: */}
+          {/* title */}
+          <div
+            className={
+              'absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 lg:right-14 xl:right-24  z-50  text-right  text-white/70 font-light font-chakra md:text-5xl h-full flex flex-col items-end gap-10' +
+              (title.length >= 40
+                ? ' text-3xl'
+                : title.length > 16 && title.length < 40
+                ? ' text-4xl'
+                : ' text-5xl')
+            }
+          >
+            <div className='block px-4 md:hidden'>
+              <Title title={title} />
+            </div>
+            <div className='hidden md:block'>{title}</div>
+
+            {/* Social + Programs DESKTOP */}
+            {/* Social DESKTOP */}
+            {(instagram || twitter || facebook) && (
+              <div className='hidden sm:flex w-full items-center justify-end gap-4'>
+                {instagram && (
+                  <a
+                    href={instagram}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='hover:text-white hover:scale-105 duration-300'
+                  >
+                    <RxInstagramLogo size={23} />
+                  </a>
+                )}
+                {twitter && (
+                  <a
+                    href={twitter}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='hover:text-white hover:scale-105 duration-300'
+                  >
+                    <RiTwitterXFill size={23} />
+                  </a>
+                )}
+                {facebook && (
+                  <a
+                    href={facebook}
+                    className='-ml-1 hover:text-white hover:scale-105 duration-300'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <LiaFacebookSquare size={28} />
+                  </a>
+                )}
+              </div>
+            )}
+
+            {/* Programs DESKTOP */}
+            <div className='hidden sm:flex w-1/2 gap-4 flex-wrap justify-end'>
+              {collabPosts.length > 0 &&
+                collabPosts.map((item, i) => (
+                  <CardProgramForCollab
+                    key={i}
+                    post={item}
+                    image={coverImage}
+                  />
+                ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* not fixed */}
+      <div className={'flex mt-4 sm:mt-20 md:w-[calc(100vw-52px)]'}>
+        <div className='pt-48 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex flex-col sm:flex-row gap-4 md:gap-4 md:justify-normal'>
+          {/* Social + Programs MOBILE */}
+
+          {/* Programs MOBILE */}
+          <div className='flex sm:hidden w-full gap-4 flex-wrap justify-center'>
+            {collabPosts.length > 0 &&
+              collabPosts.map((item, i) => (
+                <CardProgramForCollab key={i} post={item} image={coverImage} />
+              ))}
+          </div>
+
+          {/* Social MOBILE */}
           {(instagram || twitter || facebook) && (
-            <div className='w-full flex items-center justify-end gap-4'>
+            <div className='pt-4 flex sm:hidden w-fit items-center justify-end gap-4 z-[9]'>
               {instagram && (
-                <a href={instagram} target='_blank' rel='noopener noreferrer'>
-                  <RxInstagramLogo size={23} />
+                <a
+                  href={instagram}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='hover:text-white hover:scale-105 duration-300'
+                >
+                  <RxInstagramLogo size={30} />
                 </a>
               )}
               {twitter && (
-                <a href={twitter} target='_blank' rel='noopener noreferrer'>
-                  <RiTwitterXFill size={23} />
+                <a
+                  href={twitter}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='hover:text-white hover:scale-105 duration-300'
+                >
+                  <RiTwitterXFill size={30} />
                 </a>
               )}
               {facebook && (
                 <a
                   href={facebook}
-                  className='-ml-1'
+                  className='-ml-1 hover:text-white hover:scale-105 duration-300'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <LiaFacebookSquare size={28} />
+                  <LiaFacebookSquare size={36} />
                 </a>
               )}
             </div>
           )}
 
+          {/* content */}
           <div
-            className='w-full'
+            className='sm:w-1/2 relative'
             dangerouslySetInnerHTML={{ __html: content }}
-          />
-
-          {/* Posts com esse colaborador: */}
-          {/* <div className='mt-10 p-4 flex flex-col gap-3 border-neutral-300 rounded-lg bg-white/10'>
-            <div className='text-neutral-500 text-sm'>
-              Conteúdo relacionado:
-            </div> */}
-
-          <div className='w-full flex flex-col gap-5'>
-            {collabPosts.map((post, i) => (
-              // <div key={i} className='flex items-center gap-4'>
-              //   <Image
-              //     className='rounded-full'
-              //     src={absoluteUrl(collaborator.coverImage)}
-              //     width={50}
-              //     height={50}
-              //     alt={collaborator.title}
-              //   />
-              //   <Link href={`/${post.type[0].value}/${post.slug}`}>
-              //     <div className='flex-grow'>{post.title}</div>
-              //   </Link>
-              // </div>
-              <ItemCard
-                key={i}
-                itemObj={post}
-                image={coverImage}
-                type={post.type[0].value}
-              />
-            ))}
-          </div>
-          {/* </div> */}
+          ></div>
+          <div className=' bg-green-300'></div>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 
