@@ -1,18 +1,12 @@
 import HeaderSubpage from '@/components/HeaderSubpage';
-import {
-  getDocumentBySlug,
-  load,
-  getDocumentSlugs,
-  getDocuments,
-} from 'outstatic/server';
+import { getDocumentBySlug, load, getDocuments } from 'outstatic/server';
 import markdownToHtml from '../../../lib/markdownToHtml';
-import { absoluteUrl } from '@/lib/utils';
-import PlayButton from '@/components/PlayButton';
 import Image from 'next/image';
 import Link from 'next/link';
-import { SlSocialSoundcloud } from 'react-icons/sl';
-
-// import { generateStaticParams } from '@/app/posts/[slug]/page';
+import PlaySlug from '@/components/PlaySlug';
+import { HiOutlineArrowNarrowDown } from 'react-icons/hi';
+import Title from '@/components/subpages/Title';
+import bgVarandaSlug from '../../../../public/images/bgVarandaSlug.jpg';
 
 async function getData(params) {
   const post = getDocumentBySlug('posts', params.varandaSlug, [
@@ -73,84 +67,140 @@ export default async function VarandaSlug({ params }) {
   } = await getData(params);
 
   return (
-    <>
-      <HeaderSubpage
-        title={title}
-        // bgImg='https://placehold.co/600x400?text=imagem&font=lora'
-        bgImg={
-          collaboratorsData[0]?.coverImage
-            ? collaboratorsData[0]?.coverImage
-            : '/images/dummyImg.png'
-        }
-        kind='2'
-        blur={true}
-      />
-      <div className='pt-10 pb-60 w-full flex flex-col justify-center items-center bg-black/90 text-white/90'>
-        <div className='flex flex-col gap-5 w-[90%] md:w-[700px] lg:w-[900px]'>
-          {/* Play subheader */}
-          <div className='flex items-center gap-4 p-4 w-full rounded-full bg-zinc-600'>
-            <PlayButton
-              size={25}
-              src={fileLink}
-              title={title}
-              img={collaboratorsData[0]?.coverImage}
-              artist={collaborators
-                .map((collaborator) => collaborator.label)
-                .join(', ')}
+    <section className='relative text-white/50 max-w-[100vw] h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)] '>
+      {/* fixed: */}
+      <div className='fixed top-0 md:left-[52px] w-full  md:w-[calc(100vw-52px)] h-[calc(100vh-109px)] md:h-[calc(100vh-92px)] overflow-x-hidden'>
+        <div className='relative w-full h-full overflow-hidden'>
+          <div className='absolute inset-0 max-h-full w-full h-full'>
+            <Image
+              src={bgVarandaSlug}
+              alt='Varanda Sonora'
+              fill
+              style={{
+                objectFit: 'cover',
+                zIndex: 0,
+              }}
+              priority={true}
             />
-            <div className='flex flex-col text-neutral-300'>
-              <div className='text-sm'>Ouça agora</div>
-              <div className='text-sm'>{title}</div>
-              {/* {collaborators.length > 0 && (
-                <div className='text-xs'>
-                  com a participação de{' '}
-                  {collaborators.map((col) => col.label).join(', ')}
-                </div>
-              )} */}
-              {soundcloudLink && (
-                <div className='text-xs flex items-center gap-1'>
-                  Disponível também no{' '}
-                  <a
-                    href={soundcloudLink}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <SlSocialSoundcloud size={20} />
-                  </a>
-                </div>
-              )}
-            </div>
           </div>
-          <div
-            className='w-full'
-            dangerouslySetInnerHTML={{ __html: content }}
-          />
-          <div className='mt-10 p-4 flex flex-col gap-3 border-neutral-300 rounded-lg bg-white/10'>
-            <div className='text-neutral-500 text-sm'>
-              Colabor{collaboratorsData.length > 1 ? 'aram' : 'ou'} neste
-              episódio:
-            </div>
-            {/* Colaboradores */}
 
-            {collaboratorsData.map((collaborator, i) => (
-              <div key={i} className='flex items-center gap-4'>
-                <div className='rounded-full overflow-hidden aspect-square w-[50px] h-[50px]'>
-                  <Image
-                    src={collaborator.coverImage}
-                    width={50}
-                    height={50}
-                    alt={collaborator.title}
-                  />
+          {/* title */}
+          <div
+            className={
+              'absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 lg:right-14 xl:right-24  z-50  text-right  text-white/70 font-light font-chakra md:text-5xl h-full flex flex-col items-end gap-10' +
+              (title.length >= 40
+                ? ' text-3xl'
+                : title.length > 16 && title.length < 40
+                ? ' text-4xl'
+                : ' text-5xl')
+            }
+          >
+            <div className='block px-4 md:hidden'>
+              <Title title={title} />
+            </div>
+            <div className='hidden md:block'>{title}</div>
+
+            {/* Play + Colaboradores DESKTOP */}
+            <div className='hidden sm:flex md:h-[calc(100vh-300px)] flex-col justify-end items-end gap-6 z-50'>
+              <PlaySlug
+                title={title}
+                fileLink={fileLink}
+                soundcloudLink={soundcloudLink}
+                collaborators={collaborators}
+                collaboratorsData={collaboratorsData}
+              />
+
+              {/* Colaboradores */}
+              <div className=' p-4 flex flex-col items-center gap-6 border-neutral-300 rounded-lg bg-white/10'>
+                <div className='text-neutral-400 text-sm'>
+                  Colabor{collaboratorsData.length > 1 ? 'aram' : 'ou'} neste
+                  episódio:
+                  {/* <HiOutlineArrowNarrowDown
+                    size={18}
+                    className='inline animate-bounce'
+                  /> */}
                 </div>
-                <Link href={`/colaboradores/${collaborator.slug}`}>
-                  <div className='flex-grow'>{collaborator.title}</div>
-                </Link>
+
+                {collaboratorsData.map((collaborator, i) => (
+                  <Link
+                    key={i}
+                    className='flex items-center gap-6'
+                    href={`/colaboradores/${collaborator.slug}`}
+                  >
+                    <div className='flex-grow text-base'>
+                      {collaborator.title}
+                    </div>
+
+                    <div className='rounded-full overflow-hidden aspect-square w-[80px] h-[80px]'>
+                      <Image
+                        src={collaborator.coverImage}
+                        width={80}
+                        height={80}
+                        alt={collaborator.title}
+                      />
+                    </div>
+                  </Link>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>
-    </>
+
+      {/* not fixed */}
+      <div className={'flex mt-4 sm:mt-20 md:w-[calc(100vw-52px)]'}>
+        <div className='pt-48 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex flex-col sm:flex-row gap-4 md:gap-4 md:justify-normal'>
+          {/* Play + Colaboradores MOBILE */}
+          <div className='sm:hidden flex flex-col justify-center items-center gap-6 z-[9]'>
+            <PlaySlug
+              title={title}
+              fileLink={fileLink}
+              soundcloudLink={soundcloudLink}
+              collaborators={collaborators}
+              collaboratorsData={collaboratorsData}
+            />
+
+            {/* Colaboradores */}
+            <div className='w-full p-2 flex flex-col items-center gap-3 border-neutral-300 rounded-lg bg-white/10'>
+              <div className='text-neutral-400 text-base'>
+                Colabor{collaboratorsData.length > 1 ? 'aram' : 'ou'} neste
+                episódio:
+                {/* <HiOutlineArrowNarrowDown
+                    size={18}
+                    className='inline animate-bounce'
+                  /> */}
+              </div>
+
+              {collaboratorsData.map((collaborator, i) => (
+                <Link
+                  key={i}
+                  className='flex items-center gap-6'
+                  href={`/colaboradores/${collaborator.slug}`}
+                >
+                  <div className='flex-grow text-lg'>{collaborator.title}</div>
+
+                  <div className='rounded-full overflow-hidden aspect-square w-[70px] h-[70px]'>
+                    <Image
+                      src={collaborator.coverImage}
+                      width={70}
+                      height={70}
+                      alt={collaborator.title}
+                    />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* content */}
+          <div
+            className='sm:w-1/2 relative'
+            dangerouslySetInnerHTML={{ __html: content }}
+          ></div>
+          <div className=' bg-green-300'></div>
+        </div>
+      </div>
+    </section>
   );
 }
 
