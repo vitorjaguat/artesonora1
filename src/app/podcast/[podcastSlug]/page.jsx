@@ -1,26 +1,11 @@
-import HeaderSubpage from '@/components/HeaderSubpage';
-import {
-  getDocumentBySlug,
-  load,
-  getDocumentSlugs,
-  getDocuments,
-} from 'outstatic/server';
+import { getDocumentBySlug, load, getDocuments } from 'outstatic/server';
 import markdownToHtml from '../../../lib/markdownToHtml';
-import { absoluteUrl } from '@/lib/utils';
-import PlayButton from '@/components/PlayButton';
 import Image from 'next/image';
 import Link from 'next/link';
-import { SlSocialSoundcloud } from 'react-icons/sl';
 import PlaySlug from '@/components/PlaySlug';
 import { HiOutlineArrowNarrowDown } from 'react-icons/hi';
-
-import TextAtivacoes from '@/components/subpages/TextAtivacoes';
-import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
-import OptionsAtivacoes from '@/components/subpages/OptionsAtivacoes';
-import bgAtivacoes from '../../../../public/images/bgAtivacoes.jpg';
-
-// import { generateStaticParams } from '@/app/posts/[slug]/page';
+import bgPodcast from '../../../public/images/bgPodcast2.jpg';
 
 async function getData(params) {
   const post = getDocumentBySlug('posts', params.podcastSlug, [
@@ -51,12 +36,7 @@ async function getData(params) {
     )
     .toArray();
 
-  // console.log('collaboratorsData', collaboratorsData);
-
   const content = await markdownToHtml(post.content);
-  // console.log('post', post);
-
-  // if (post?.type[0].label !== 'Podcast') return null;
 
   return {
     ...post,
@@ -80,15 +60,7 @@ export default async function PodcastSlug({ params }) {
     fileLink,
     collaboratorsData,
   } = await getData(params);
-  // const post = await getData(params);
-  // console.log('post', post);
-  // console.log('cover image', coverImage);
-  // console.log('soundcloudLink', soundcloudLink);
 
-  // const soundcloudPageUrl = `https://soundcloud.com/artesonora/${slug.replace(
-  //   'pod',
-  //   'podcast'
-  // )}`;
   return (
     <section className='relative text-white/50 max-w-[100vw] h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)] '>
       {/* fixed: */}
@@ -96,7 +68,7 @@ export default async function PodcastSlug({ params }) {
         <div className='relative w-full h-full overflow-hidden'>
           <div className='absolute inset-0 max-h-full w-full h-full'>
             <Image
-              src={bgAtivacoes}
+              src={bgPodcast}
               alt='Ativações'
               fill
               style={{
@@ -110,8 +82,12 @@ export default async function PodcastSlug({ params }) {
           {/* title */}
           <div
             className={
-              'absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 lg:right-14 xl:right-24  z-50  text-right  text-white/70 font-light font-chakra text-4xl md:text-5xl h-full flex flex-col items-end gap-10' +
-              (title.length > 16 ? ' text-4xl' : ' text-5xl')
+              'absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 lg:right-14 xl:right-24  z-50  text-right  text-white/70 font-light font-chakra md:text-5xl h-full flex flex-col items-end gap-10' +
+              (title.length >= 40
+                ? ' text-3xl'
+                : title.length > 16 && title.length < 40
+                ? ' text-4xl'
+                : ' text-5xl')
             }
           >
             <div className='block px-4 md:hidden'>

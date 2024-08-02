@@ -8,7 +8,7 @@ export default function PlaySlug({
   collaborators,
 }) {
   return (
-    <div className='w-full sm:w-fit flex items-center gap-10 rounded-full bg-zinc-600 font-lato pl-2'>
+    <div className='w-full sm:w-fit flex items-center gap-10 rounded-full bg-zinc-600/70 sm:bg-zinc-600 font-lato pl-2'>
       <PlayButton
         size={25}
         src={fileLink}
@@ -20,7 +20,7 @@ export default function PlaySlug({
       />
       <div className='flex flex-col w-full items-start text-neutral-300 mr-8 py-3'>
         <div className='text-sm'>Ouça agora</div>
-        <div className='text-base font-chakra font-semibold whitespace-nowrap'>
+        <div className='text-base font-chakra font-semibold sm:whitespace-nowrap'>
           {title}
         </div>
         {/* {collaborators.length > 0 && (
