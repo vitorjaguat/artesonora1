@@ -108,7 +108,12 @@ export default async function PodcastSlug({ params }) {
           </div>
 
           {/* title */}
-          <div className='absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 xl:right-14  z-50  text-right  text-white/70 font-light font-chakra text-[2.5rem] md:text-5xl h-full flex flex-col items-end gap-10'>
+          <div
+            className={
+              'absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 lg:right-14 xl:right-24  z-50  text-right  text-white/70 font-light font-chakra text-4xl md:text-5xl h-full flex flex-col items-end gap-10' +
+              (title.length > 16 ? ' text-4xl' : ' text-5xl')
+            }
+          >
             <div className='block px-4 md:hidden'>
               <Title title={title} />
             </div>
@@ -162,7 +167,7 @@ export default async function PodcastSlug({ params }) {
       </div>
 
       {/* not fixed */}
-      <div className={'z-0 flex mt-4 sm:mt-20 md:w-[calc(100vw-52px)]'}>
+      <div className={'flex mt-4 sm:mt-20 md:w-[calc(100vw-52px)]'}>
         <div className='pt-48 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex flex-col sm:flex-row gap-4 md:gap-4 md:justify-normal'>
           {/* Play + Colaboradores MOBILE */}
           <div className='sm:hidden flex flex-col justify-center items-center gap-6 z-[9]'>
@@ -175,7 +180,7 @@ export default async function PodcastSlug({ params }) {
             />
 
             {/* Colaboradores */}
-            <div className='w-full p-2 flex flex-col items-center gap-4 border-neutral-300 rounded-lg bg-white/10'>
+            <div className='w-full p-2 flex flex-col items-center gap-3 border-neutral-300 rounded-lg bg-white/10'>
               <div className='text-neutral-400 text-base'>
                 Colabor{collaboratorsData.length > 1 ? 'aram' : 'ou'} neste
                 episódio:
