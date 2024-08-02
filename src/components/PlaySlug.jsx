@@ -8,7 +8,7 @@ export default function PlaySlug({
   collaborators,
 }) {
   return (
-    <div className='flex items-center gap-10 w-fit rounded-full bg-zinc-600 font-lato pl-2'>
+    <div className='w-full sm:w-fit flex items-center gap-10 rounded-full bg-zinc-600 font-lato pl-2'>
       <PlayButton
         size={25}
         src={fileLink}

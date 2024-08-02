@@ -108,14 +108,14 @@ export default async function PodcastSlug({ params }) {
           </div>
 
           {/* title */}
-          <div className='absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 xl:right-14  z-50  text-right  text-white/70 font-light font-chakra text-5xl md:text-5xl h-full flex flex-col items-end gap-10'>
-            <div className='block md:hidden'>
+          <div className='absolute md:w-fit top-[69px] md:top-14 right-5 md:right-8 xl:right-14  z-50  text-right  text-white/70 font-light font-chakra text-[2.5rem] md:text-5xl h-full flex flex-col items-end gap-10'>
+            <div className='block px-4 md:hidden'>
               <Title title={title} />
             </div>
             <div className='hidden md:block'>{title}</div>
 
-            {/* Play + Colaboradores */}
-            <div className='md:h-[calc(100vh-300px)] flex flex-col justify-end items-end gap-6 z-50'>
+            {/* Play + Colaboradores DESKTOP */}
+            <div className='hidden sm:flex md:h-[calc(100vh-300px)] flex-col justify-end items-end gap-6 z-50'>
               <PlaySlug
                 title={title}
                 fileLink={fileLink}
@@ -161,11 +161,54 @@ export default async function PodcastSlug({ params }) {
         </div>
       </div>
 
-      {/* content */}
-      <div className={'z-0 flex mt-20 md:w-[calc(100vw-52px)]'}>
-        <div className='pt-48 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex gap-4 md:gap-4 md:justify-normal'>
+      {/* not fixed */}
+      <div className={'z-0 flex mt-4 sm:mt-20 md:w-[calc(100vw-52px)]'}>
+        <div className='pt-48 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex flex-col sm:flex-row gap-4 md:gap-4 md:justify-normal'>
+          {/* Play + Colaboradores MOBILE */}
+          <div className='sm:hidden flex flex-col justify-center items-center gap-6 z-[9]'>
+            <PlaySlug
+              title={title}
+              fileLink={fileLink}
+              soundcloudLink={soundcloudLink}
+              collaborators={collaborators}
+              collaboratorsData={collaboratorsData}
+            />
+
+            {/* Colaboradores */}
+            <div className='w-full p-2 flex flex-col items-center gap-4 border-neutral-300 rounded-lg bg-white/10'>
+              <div className='text-neutral-400 text-base'>
+                Colabor{collaboratorsData.length > 1 ? 'aram' : 'ou'} neste
+                episódio:
+                {/* <HiOutlineArrowNarrowDown
+                    size={18}
+                    className='inline animate-bounce'
+                  /> */}
+              </div>
+
+              {collaboratorsData.map((collaborator, i) => (
+                <Link
+                  key={i}
+                  className='flex items-center gap-6'
+                  href={`/colaboradores/${collaborator.slug}`}
+                >
+                  <div className='flex-grow text-lg'>{collaborator.title}</div>
+
+                  <div className='rounded-full overflow-hidden aspect-square w-[70px] h-[70px]'>
+                    <Image
+                      src={collaborator.coverImage}
+                      width={70}
+                      height={70}
+                      alt={collaborator.title}
+                    />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* content */}
           <div
-            className='w-1/2 relative'
+            className='sm:w-1/2 relative'
             dangerouslySetInnerHTML={{ __html: content }}
           ></div>
           <div className=' bg-green-300'></div>
