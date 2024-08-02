@@ -73,7 +73,7 @@ export default async function Page() {
           </div>
 
           {/* title */}
-          <div className='absolute top-[69px] md:top-14 right-5 md:right-8 xl:right-14  z-10  text-right max-w-none md:max-w-[calc(100vw-52px)] flex flex-col justify-center items-end gap-6'>
+          <div className='absolute top-[69px] md:top-14 right-5 md:right-8 lg:right-14 xl:right-24  z-10  text-right max-w-none md:max-w-[calc(100vw-52px)] flex flex-col justify-center items-end gap-6'>
             <div className='md:w-40 text-right flex justify-end text-white/70 font-light font-chakra text-5xl md:text-8xl'>
               <div className='block md:hidden'>
                 <Title title='Na História' />

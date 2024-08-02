@@ -11,11 +11,11 @@ export default function OptionsAtivacoes() {
   if (!isDesktop) return null;
 
   return (
-    <div className='text-base text-white flex flex-col gap-2 items-end opacity-100'>
+    <div className='mt-10 text-base text-white flex flex-col gap-2 items-end opacity-100'>
       <div
         className={
-          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
-          (ativacoesOption === 1 ? ' bg-white/30' : '')
+          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer border-[1px] border-transparent' +
+          (ativacoesOption === 1 ? ' bg-white/30 border-white/50' : '')
         }
         onClick={() => changeAtivacoesOption(1)}
       >
@@ -23,8 +23,8 @@ export default function OptionsAtivacoes() {
       </div>
       <div
         className={
-          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
-          (ativacoesOption === 2 ? ' bg-white/30' : '')
+          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer  border-[1px] border-transparent' +
+          (ativacoesOption === 2 ? ' bg-white/30 border-white/50' : '')
         }
         onClick={() => changeAtivacoesOption(2)}
       >
@@ -32,8 +32,10 @@ export default function OptionsAtivacoes() {
       </div>
       <div
         className={
-          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
-          (ativacoesOption === 3 ? ' bg-white/30' : '')
+          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-3 py-1 cursor-pointer  border-[1px] ' +
+          (ativacoesOption === 3
+            ? ' bg-white/30 border-white/40'
+            : ' border-transparent')
         }
         onClick={() => changeAtivacoesOption(3)}
       >
@@ -41,8 +43,8 @@ export default function OptionsAtivacoes() {
       </div>
       <div
         className={
-          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
-          (ativacoesOption === 4 ? ' bg-white/30' : '')
+          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-3 py-1 cursor-pointer border-[1px] border-transparent' +
+          (ativacoesOption === 4 ? ' bg-white/30 border-white/40' : '')
         }
         onClick={() => changeAtivacoesOption(4)}
       >
@@ -50,8 +52,8 @@ export default function OptionsAtivacoes() {
       </div>
       <div
         className={
-          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
-          (ativacoesOption === 5 ? ' bg-white/30' : '')
+          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-3 py-1 cursor-pointer border-[1px] border-transparent' +
+          (ativacoesOption === 5 ? ' bg-white/30 border-white/40' : '')
         }
         onClick={() => changeAtivacoesOption(5)}
       >
@@ -59,8 +61,8 @@ export default function OptionsAtivacoes() {
       </div>
       <div
         className={
-          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-2 py-1 cursor-pointer' +
-          (ativacoesOption === 6 ? ' bg-white/30' : '')
+          'rounded-md bg-white/20 hover:bg-white/30 duration-300 ease-in-out px-3 py-1 cursor-pointer border-[1px] border-transparent' +
+          (ativacoesOption === 6 ? ' bg-white/30 border-white/40' : '')
         }
         onClick={() => changeAtivacoesOption(6)}
       >
