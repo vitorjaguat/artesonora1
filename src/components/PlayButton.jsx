@@ -28,7 +28,7 @@ export default function PlayButton({ size, src, img, title, artist }) {
   return (
     <div
       className={
-        'p-4 w-[30%] rounded-full flex items-center justify-center overflow-hidden aspect-square bg-black'
+        'p-4  rounded-full flex items-center justify-center overflow-hidden aspect-square bg-black'
       }
       onClick={(event) => handleClickPlay(event)}
 

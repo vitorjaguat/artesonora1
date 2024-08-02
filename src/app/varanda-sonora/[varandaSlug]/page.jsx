@@ -131,12 +131,12 @@ export default async function VarandaSlug({ params }) {
                       {collaborator.title}
                     </div>
 
-                    <div className='rounded-full overflow-hidden aspect-square w-[80px] h-[80px]'>
+                    <div className='relative rounded-full overflow-hidden aspect-square w-[80px] h-[80px]'>
                       <Image
                         src={collaborator.coverImage}
-                        width={80}
-                        height={80}
+                        fill
                         alt={collaborator.title}
+                        className='object-cover'
                       />
                     </div>
                   </Link>
@@ -179,12 +179,12 @@ export default async function VarandaSlug({ params }) {
                 >
                   <div className='flex-grow text-lg'>{collaborator.title}</div>
 
-                  <div className='rounded-full overflow-hidden aspect-square w-[70px] h-[70px]'>
+                  <div className='relative rounded-full overflow-hidden aspect-square w-[70px] h-[70px]'>
                     <Image
                       src={collaborator.coverImage}
-                      width={70}
-                      height={70}
+                      fill
                       alt={collaborator.title}
+                      className='object-cover'
                     />
                   </div>
                 </Link>

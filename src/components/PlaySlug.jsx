@@ -8,7 +8,7 @@ export default function PlaySlug({
   collaborators,
 }) {
   return (
-    <div className='w-full sm:w-fit flex items-center gap-10 rounded-full bg-zinc-600/70 sm:bg-zinc-600 font-lato pl-2'>
+    <div className='w-full sm:w-fit sm:max-w-[400px] flex items-center justify-between gap-10 rounded-full bg-zinc-600/70 sm:bg-zinc-600 font-lato py-4 pl-4'>
       <PlayButton
         size={25}
         src={fileLink}
@@ -18,9 +18,9 @@ export default function PlaySlug({
           .map((collaborator) => collaborator.label)
           .join(', ')}
       />
-      <div className='flex flex-col w-full items-start text-neutral-300 mr-8 py-3'>
+      <div className='flex flex-col w-full items-start text-neutral-300 pr-4 py-3'>
         <div className='text-sm'>Ouça agora</div>
-        <div className='text-base font-chakra font-semibold sm:whitespace-nowrap'>
+        <div className='text-base font-chakra font-semibold w-full text-left'>
           {title}
         </div>
         {/* {collaborators.length > 0 && (
