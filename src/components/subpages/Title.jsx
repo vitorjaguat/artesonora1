@@ -32,7 +32,12 @@ export default function Title({ title }) {
   };
 
   return (
-    <motion.div variants={titleVariants} animate={controls} initial='hidden'>
+    <motion.div
+      variants={titleVariants}
+      animate={controls}
+      initial='hidden'
+      transition={{ type: 'tween' }}
+    >
       {title}
     </motion.div>
   );
