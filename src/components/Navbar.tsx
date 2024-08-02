@@ -101,7 +101,7 @@ export default function Navbar() {
       {/* DESKTOP NAV */}
       <div className='hidden md:inline fixed top-0 left-0 w-fit h-screen bg-neutral-800 z-[100] font-chakra tracking-wider'>
         <div
-          className='md:flex flex-col w-fit h-[100vh] px-4 pt-6 items-center gap-6 uppercase'
+          className='md:flex flex-col w-fit h-[100vh] px-4 pt-6 items-center gap-6 uppercase border-r-[1px] border-neutral-700'
           // style={{ writingMode: 'vertical-rl' }}
           onMouseEnter={() => {
             setIsEntered(true);
@@ -280,7 +280,7 @@ export default function Navbar() {
       </div>
       {/* SUBMENU */}
       <motion.div
-        className='hidden fixed top-0 left-[190px] bg-neutral-800 h-[calc(100vh-92px)] pt-6 flex-col justify-start items-end gap-6 uppercase z-10 font-chakra tracking-wider'
+        className='hidden fixed top-0 left-[190px] bg-neutral-800 h-[calc(100vh-92px)] pt-6 flex-col justify-start items-end gap-6 uppercase z-10 font-chakra tracking-wider border-r-[1px] border-neutral-700'
         onMouseEnter={() => {
           controls.start('on');
           controlsContainer.start('on');
@@ -300,7 +300,7 @@ export default function Navbar() {
         variants={{
           off: { width: 0, display: 'none', opacity: 0 },
           on: {
-            width: 170,
+            width: 190,
             display: 'flex',
             opacity: 1,
           },
