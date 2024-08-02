@@ -2,6 +2,7 @@
 
 import useScreenSize from '@/util/useScreenSize';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 export default function HeaderSubpage({
   title,
@@ -10,22 +11,39 @@ export default function HeaderSubpage({
   blur = false,
 }) {
   const isMobile = useScreenSize() === 'mobile';
+  console.log('isMobile', isMobile);
+  console.log('blur', blur);
+
+  const [hasMounted, setHasMounted] = useState(false);
+
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
 
   return (
     <div className={'bg-g h-80 w-full relative'}>
       <div className='absolute inset-0 bg-black w-full h-full overflow-hidden z-0'>
-        <Image
-          src={bgImg}
-          alt={title}
-          fill
-          className='object-cover object-center'
-          // className={'' + (blur ? ' blur-sm' : '')}
-          style={{
-            filter: blur && !isMobile && 'blur(5px)',
-            // backdropFilter: blur && 'blur(10px)',
-            opacity: blur && !isMobile && '70%',
-          }}
-        />
+        <div
+          className={
+            'absolute inset-0 w-full h-full overflow-hidden ' +
+            (blur && !isMobile && hasMounted && 'blur-sm opacity-70')
+          }
+        >
+          <Image
+            src={bgImg}
+            alt={title}
+            fill
+            className={
+              'object-cover object-center '
+              // +
+              // (blur && !isMobile && 'blur-sm opacity-70')
+            }
+            // style={{
+            //   filter: blur && !isMobile && 'blur(5px)',
+            //   opacity: blur && !isMobile && '70%',
+            // }}
+          />
+        </div>
       </div>
       <div
         className={
