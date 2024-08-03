@@ -19,7 +19,7 @@ const HorizontalScrollCarousel = ({ newestPosts }) => {
   return (
     <section
       ref={targetRef}
-      className='relative md:w-[calc(100vw-52px)] h-[350vh] md:h-[300vh] bg-neutral-900'
+      className='relative md:w-[calc(100vw-52px)] h-[350vh] md:h-[300vh] bg-neutral-900  border-t-[1px] border-neutral-700'
     >
       <div className='sticky top-0 flex w-full h-[calc(100vh)] md:h-[calc(100vh-92px)] items-center overflow-hidden'>
         <div className='absolute top-20 md:top-6 left-6 mb-6 text-5xl md:text-7xl pr-10 w-full text-right text-white/20 font-chakra'>
