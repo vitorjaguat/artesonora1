@@ -45,7 +45,7 @@ export default function AllCards({ items, sideRight = false }) {
   return (
     <>
       <div className={'flex md:w-[calc(100vw-52px)]'}>
-        <div className='relative pt-36 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[109px] flex-1 flex flex-wrap gap-4 md:gap-2 justify-center md:justify-normal'>
+        <div className='relative pt-36 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[159px] flex-1 flex flex-wrap gap-4 md:gap-2 justify-center md:justify-normal'>
           <div className='block sm:hidden pb-8'>
             {pathname !== '/colaboradores' && <Description />}
           </div>
