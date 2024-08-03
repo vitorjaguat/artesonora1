@@ -10,6 +10,7 @@ import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
 import Link from 'next/link';
+import bgMixtapeSlug from '../../../public/images/bgMixtapeSlug.jpg';
 
 const data = {
   podcast: {
@@ -100,8 +101,9 @@ export default function HomeMixtape({ firstThree }) {
             style={{ scale }}
           >
             <Image
-              src={data.mixtape.image}
-              alt={data.mixtape.title}
+              // src={data.mixtape.image}
+              src={bgMixtapeSlug}
+              alt='Mixtape'
               fill
               style={{
                 objectFit: 'cover',

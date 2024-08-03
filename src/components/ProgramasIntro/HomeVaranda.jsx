@@ -10,6 +10,7 @@ import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
 import Link from 'next/link';
+import bgVarandaSlug from '../../../public/images/bgVarandaSlug.jpg';
 
 const data = {
   podcast: {
@@ -100,8 +101,9 @@ export default function HomeVaranda({ firstThree }) {
             style={{ scale }}
           >
             <Image
-              src={data.varandaSonora.image}
-              alt={data.varandaSonora.title}
+              // src={data.varandaSonora.image}
+              src={bgVarandaSlug}
+              alt='Varanda Sonora'
               fill
               style={{
                 objectFit: 'cover',
