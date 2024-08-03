@@ -41,7 +41,7 @@ const data = {
   varandaSonora: {
     title: 'Varanda Sonora',
     description:
-      'VARANDA SONORA reúne a documentação de encontros ocorridos na varanda da biblioteca da Escola de Artes Visuais do Parque Lage, que contribuíram para a expansão na noção de convivência, uso e produção de conteúdo de uma biblioteca de arte, hoje.  O som e suas manifestações são a questão central desses encontros, que podem assumir diversos formatos: de apresentações musicais a leitura de poemas, entrevistas ou debates sobre o assunto, instalações sonoras-espaciais e todas as possibilidades que podem estabelecer um diálogo com a arquitetura da Escola e seu meio ambiente.',
+      'VARANDA SONORA reúne a documentação de encontros ocorridos na varanda da biblioteca da Escola de Artes Visuais do Parque Lage, que contribuíram para a expansão na noção de convivência, uso e produção de conteúdo de uma biblioteca de arte, hoje. O som e suas manifestações são a questão central desses encontros, que podem assumir diversos formatos: de apresentações musicais a leitura de poemas, entrevistas ou debates, instalações sonoras-espaciais e outros diálogos com a arquitetura da Escola e seu meio ambiente.',
     // image: '/images/dummyVaranda.jpg',
     image: dummyVaranda,
     id: 4,
@@ -149,7 +149,7 @@ export default function HomeVaranda({ firstThree }) {
         >
           {data.varandaSonora.description.split('.').map((sentence, i, arr) => (
             <RevealText width='100%' key={i}>
-              <div className='w-full flex text-left'>
+              <div className='w-full flex text-left text-sm md:text-base'>
                 {sentence}
                 {i < arr.length - 1 ? '.' : ''}
               </div>
