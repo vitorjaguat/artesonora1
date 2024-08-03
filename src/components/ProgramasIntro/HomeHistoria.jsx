@@ -10,6 +10,8 @@ import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
 import Link from 'next/link';
+import bgHistoriaSlug from '../../../public/images/bgHistoriaSlug.jpg';
+import { bg } from 'date-fns/locale';
 
 const data = {
   podcast: {
@@ -100,8 +102,9 @@ export default function HomeHistoria({ firstThree }) {
             style={{ scale }}
           >
             <Image
-              src={data.naHistória.image}
-              alt={data.naHistória.title}
+              // src={data.naHistória.image}
+              src={bgHistoriaSlug}
+              alt='Na História'
               fill
               style={{
                 objectFit: 'cover',
