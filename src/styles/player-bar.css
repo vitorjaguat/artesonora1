@@ -532,6 +532,7 @@ svg.shk-btn_mute,
     padding: 5px 16px;
     box-shadow: var(--shadow-body-mobile);
     background-color: rgb(38,38,38);
+
   }
   .shk[data-fixed-type='auto'] {
     position: fixed;
@@ -539,6 +540,7 @@ svg.shk-btn_mute,
     bottom: 0;
     left: 0;
     width: 100%;
+    border-top: 1px solid #555555;
   }
   .shk[data-fixed-type='auto'][data-fixed-pos='top'] {
     top: 0;
@@ -555,6 +557,8 @@ svg.shk-btn_mute,
     max-width: none;
     flex-direction: column;
     align-items: center;
+
+
     /* padding-left: 44px; */
   }
   .shk-end {
