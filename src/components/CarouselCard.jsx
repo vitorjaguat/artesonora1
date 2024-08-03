@@ -25,14 +25,27 @@ const CarouselCard = ({ post }) => {
             <div className='text-center leading-4 mb-1 font-chakra text-lg'>
               {post.title}
             </div>
-            <div className='font-thin text-sm'>
+            <div className='md:hidden font-thin text-sm'>
               {post.content.split('.')[0]}.
             </div>
           </div>
           <div className='flex justify-between h-full w-full'>
             <div className='h-full w-full bg-transparent'></div>
             <div className='h-full w-full flex items-center justify-center text-white font-light bg-transparent text-base duration-500 border-t-[1px] border-neutral-700'>
-              {post.type[0].label}
+              <div className='hidden md:block'>{post.type[0].label}</div>
+              <div className='md:hidden'>
+                {post?.fileLink && (
+                  <div className='md:hidden'>
+                    <PlayButton
+                      size={40}
+                      src={post?.fileLink}
+                      img={post?.image}
+                      title={post?.title}
+                      artist={post?.collaborators[0]?.label}
+                    />
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
