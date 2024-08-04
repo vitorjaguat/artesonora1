@@ -10,7 +10,7 @@ coverImage: '/images/artesonora15convite-ExMz.jpg'
 publishedAt: '2024-07-23T15:19:11.000Z'
 ---
 
-Neste ano comemoramos 15 anos do **ARTE SONORA**, um programa pioneiro, proposto e conduzido pelo duo de artistas e professores **Franz Manata** e **Saulo Laudares**, na Escola de Artes Visuais do Parque Lage.
+Neste ano comemoramos 15 anos do ARTE SONORA, um programa pioneiro, proposto e conduzido pelo duo de artistas e professores **Franz Manata** e **Saulo Laudares**, na Escola de Artes Visuais do Parque Lage.
 
 Este encontro é também um agradecimento aos mais de 250 artistas que passaram por ele e que, gentilmente, com suas trocas e experiências particulares, contribuíram para a formação e consolidação de uma cena artística em torno do som. Sem a decisiva participação e entrega nada seria possível!
 

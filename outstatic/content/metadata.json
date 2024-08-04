@@ -1,6 +1,6 @@
 {
-  "commit": "f0d20aaca8f91d7445d087323e56adfd4cd63a2c",
-  "generated": "2024-08-04T23:48:45.212Z",
+  "commit": "dfb9e011e49f48e8e1ea19cee34b9ba7ef9faf4a",
+  "generated": "2024-08-04T23:55:20.053Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1828,24 +1828,6 @@
     },
     {
       "__outstatic": {
-        "commit": "a96340fa5a69686b7fbf289bf164f8c5d9e2e1c9",
-        "hash": "3870658023",
-        "path": "outstatic/content/news/arte-sonora-ano-15.md"
-      },
-      "author": {
-        "name": "EXST",
-        "picture": "https://avatars.githubusercontent.com/u/175142165?v=4"
-      },
-      "collection": "news",
-      "coverImage": "/images/artesonora15convite-ExMz.jpg",
-      "description": "",
-      "publishedAt": "2024-07-23T15:19:11.000Z",
-      "slug": "arte-sonora-ano-15",
-      "status": "published",
-      "title": "ARTE SONORA ANO 15"
-    },
-    {
-      "__outstatic": {
         "commit": "623c44d4ad2385d0015a1f57ef7017f9afd3838b",
         "hash": "841483847",
         "path": "outstatic/content/news/exposicao-arte-sonora-ano-15.md"
@@ -1879,6 +1861,24 @@
       "slug": "sessao-de-videos",
       "status": "published",
       "title": "SESSÃO DE VÍDEOS Arte Sonora  Ano 15"
+    },
+    {
+      "__outstatic": {
+        "commit": "dfb9e011e49f48e8e1ea19cee34b9ba7ef9faf4a",
+        "hash": "1876458717",
+        "path": "outstatic/content/news/arte-sonora-ano-15.md"
+      },
+      "author": {
+        "name": "EXST",
+        "picture": "https://avatars.githubusercontent.com/u/175142165?v=4"
+      },
+      "collection": "news",
+      "coverImage": "/images/artesonora15convite-ExMz.jpg",
+      "description": "",
+      "publishedAt": "2024-07-23T15:19:11.000Z",
+      "slug": "arte-sonora-ano-15",
+      "status": "published",
+      "title": "ARTE SONORA ANO 15"
     }
   ]
 }
