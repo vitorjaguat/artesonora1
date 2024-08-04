@@ -15,8 +15,8 @@ export default function AllCardsAtivacoes({ items }) {
 
   return (
     <div className={'flex md:w-[calc(100vw-52px)]'}>
-      <div className='relative pt-36 sm:pt-[13rem] px-4 sm:px-0 sm:pl-8 lg:pl-14 xl:pl-24 pb-[130px] sm:pb-[159px] flex-1 flex flex-col gap-8 sm:gap-10 justify-center md:justify-normal'>
-        <div className='block sm:hidden py-4 text-lg'>
+      <div className='relative pt-36 sm:pt-[13rem] px-4 sm:px-0 sm:pl-8 lg:pl-14 xl:pl-24 pb-[160px] sm:pb-[159px] flex-1 flex flex-col gap-12 sm:gap-10 justify-center md:justify-normal'>
+        <div className='block sm:hidden pt-4 text-lg'>
           Ao longo dos anos, realizamos diversas ativações, que aos poucos serão
           documentadas por aqui.
         </div>
