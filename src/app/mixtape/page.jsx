@@ -7,6 +7,7 @@ import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import AllCards from '@/components/subpages/AllCards';
 import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
+import bgMixtapeSlug from '../../../public/images/bgMixtapeSlug.jpg';
 
 const data = {
   podcast: {
@@ -58,8 +59,9 @@ export default async function Page() {
         <div className='relative w-full h-full overflow-hidden'>
           <div className='absolute inset-0 max-h-full w-full h-full'>
             <Image
-              src={data.mixtape.image}
-              alt={data.mixtape.title}
+              // src={data.mixtape.image}
+              src={bgMixtapeSlug}
+              alt='Mixtape'
               fill
               style={{
                 objectFit: 'cover',
