@@ -1,6 +1,6 @@
 {
-  "commit": "25f5ce4464dd6c77f4c87c21947378773506e605",
-  "generated": "2024-08-04T22:15:28.821Z",
+  "commit": "f0d20aaca8f91d7445d087323e56adfd4cd63a2c",
+  "generated": "2024-08-04T23:47:45.407Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1864,8 +1864,8 @@
     },
     {
       "__outstatic": {
-        "commit": "25f5ce4464dd6c77f4c87c21947378773506e605",
-        "hash": "2125225334",
+        "commit": "f0d20aaca8f91d7445d087323e56adfd4cd63a2c",
+        "hash": "4212276269",
         "path": "outstatic/content/news/sessao-de-videos.md"
       },
       "author": {
@@ -1873,7 +1873,7 @@
         "picture": "https://avatars.githubusercontent.com/u/175142165?v=4"
       },
       "collection": "news",
-      "coverImage": "/images/vhs-M5OT.jpg",
+      "coverImage": "",
       "description": "",
       "publishedAt": "2024-07-25T21:36:17.000Z",
       "slug": "sessao-de-videos",
