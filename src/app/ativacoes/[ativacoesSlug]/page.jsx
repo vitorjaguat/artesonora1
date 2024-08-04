@@ -1,24 +1,57 @@
-import { load } from 'outstatic/server';
-import markdownToHtml from '../../lib/markdownToHtml';
-import ItemCard from '@/components/ItemCard';
-import HeaderSubpage from '@/components/HeaderSubpage';
-import RevealText from '@/components/RevealText';
+import { getDocuments, getDocumentBySlug } from 'outstatic/server';
+import markdownToHtml from '../../../lib/markdownToHtml';
+
 import Image from 'next/image';
-import dummyPodcast from '../../../public/images/dummyPodcast2.jpg';
-import dummyMixtape from '../../../public/images/dummyMixtape.jpg';
-import dummyHistoria from '../../../public/images/dummyHistoria.jpg';
-import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
-import FirstThreePrograms2 from '@/components/ProgramasIntro/FirstThreePrograms2';
-import AllCards from '@/components/subpages/AllCards';
-import TextAtivacoes from '@/components/subpages/TextAtivacoes';
-import Description from '@/components/subpages/Description';
+
+import TextAtivacoesSlug from '@/components/subpages/TextAtivacoesSlug';
 import Title from '@/components/subpages/Title';
 import OptionsAtivacoes from '@/components/subpages/OptionsAtivacoes';
-import bgAtivacoes from '../../../public/images/bgAtivacoes.jpg';
+import bgAtivacoes from '../../../../public/images/bgAtivacoes.jpg';
+import Link from 'next/link';
+import { LiaFastBackwardSolid } from 'react-icons/lia';
 
-export default async function Page() {
-  const podcasts = await getData();
-  const isLoading = false;
+async function getData(params) {
+  const post = getDocumentBySlug('news', params.ativacoesSlug, [
+    'title',
+    'publishedAt',
+    'slug',
+    'content',
+    'coverImage',
+    //   'collaborators',
+    'status',
+  ]);
+
+  // const db = await load();
+
+  // const collaboratorsData = await db
+  //   .find(
+  //     {
+  //       collection: 'collaborators',
+  //       title: { $in: post?.collaborators?.map((col) => col.label) },
+  //     },
+  //     ['title', 'coverImage', 'slug']
+  //   )
+  //   .toArray();
+
+  const content = await markdownToHtml(post.content);
+
+  return {
+    ...post,
+    content,
+    //   collaboratorsData,
+  };
+}
+
+export default async function Page({ params }) {
+  const {
+    content,
+    title,
+    coverImage,
+    publishedAt,
+    slug,
+    // collaborators,
+    // collaboratorsData,
+  } = await getData(params);
 
   return (
     <section className='relative text-white/50 max-w-[100vw] h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)] '>
@@ -44,60 +77,36 @@ export default async function Page() {
               <Title title='Ativações' />
             </div>
             <div className='hidden  md:block'>Ativações</div>
-            {/* <div className='hidden md:block w-[38%]'>
-              <Description />
-            </div> */}
-            <OptionsAtivacoes />
+
+            {/* voltar desktop */}
+            <Link
+              href='/ativacoes'
+              className='hidden md:block mt-8 text-neutral-300 hover:text-neutral-50 hover:scale-105 duration-300'
+            >
+              <div className='flex gap-1 items-center select-none'>
+                <LiaFastBackwardSolid size={28} />
+                <div className='text-base'>voltar</div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
 
       {/* cards */}
-      <TextAtivacoes />
+      <TextAtivacoesSlug title={title} content={content} />
     </section>
   );
 }
 
-async function getData() {
-  const db = await load();
+export const dynamicParams = false;
+export async function generateStaticParams() {
+  const allNews = getDocuments('news', ['slug', 'status']);
+  const publishedNews = allNews.filter((n) => n.status === 'published');
 
-  // podcasts
-  let podcasts = await db
-    .find({ collection: 'posts', 'type.value': 'podcast' }, [
-      'title',
-      'content',
-      'publishedAt',
-      'slug',
-      'collaborators',
-      'fileLink',
-      'type',
-    ])
-    .sort({ publishedAt: -1 })
-    .toArray();
-
-  const collabs = podcasts.map((post) => post.collaborators[0]);
-
-  const collaboratorsData = await db
-    .find(
-      {
-        collection: 'collaborators',
-        title: { $in: collabs.map((col) => col.label) },
-        // title: { $in: post.collaborators.map((col) => col.label) },
-        // title: post.collaborators[0].label,
-      },
-      ['title', 'coverImage', 'slug']
-    )
-    .toArray();
-
-  podcasts = await Promise.all(
-    podcasts.map(async (post) => {
-      post.collaborators = post.collaborators.map((col) => {
-        return collaboratorsData.find((collab) => collab.title === col.label);
-      });
-      // post.content = await markdownToHtml(post.content);
-      return post;
-    })
-  );
-
-  return podcasts;
+  // const posts = getDocumentSlugs('posts');
+  return publishedNews.map((n) => {
+    return {
+      ativacoesSlug: n.slug,
+    };
+  });
 }

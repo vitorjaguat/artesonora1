@@ -1,24 +1,13 @@
 import { load } from 'outstatic/server';
-import markdownToHtml from '../../lib/markdownToHtml';
-import ItemCard from '@/components/ItemCard';
-import HeaderSubpage from '@/components/HeaderSubpage';
-import RevealText from '@/components/RevealText';
 import Image from 'next/image';
-import dummyPodcast from '../../../public/images/dummyPodcast2.jpg';
-import dummyMixtape from '../../../public/images/dummyMixtape.jpg';
-import dummyHistoria from '../../../public/images/dummyHistoria.jpg';
-import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
-import FirstThreePrograms2 from '@/components/ProgramasIntro/FirstThreePrograms2';
-import AllCards from '@/components/subpages/AllCards';
-import TextAtivacoes from '@/components/subpages/TextAtivacoes';
-import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
 import OptionsAtivacoes from '@/components/subpages/OptionsAtivacoes';
 import bgAtivacoes from '../../../public/images/bgAtivacoes.jpg';
+import AllCardsAtivacoes from '@/components/subpages/AllCardsAtivacoes';
+import markdownToHtml from '@/lib/markdownToHtml';
 
 export default async function Page() {
-  const podcasts = await getData();
-  const isLoading = false;
+  const news = await getData();
 
   return (
     <section className='relative text-white/50 max-w-[100vw] h-full md:max-w-none md:w-[calc(100vw-52px)]  md:h-full md:min-h-[calc(100vh-92px)] '>
@@ -47,13 +36,18 @@ export default async function Page() {
             {/* <div className='hidden md:block w-[38%]'>
               <Description />
             </div> */}
-            <OptionsAtivacoes />
+            {/* <OptionsAtivacoes /> */}
+            <div className='hidden md:block text-base max-w-[60%] mt-8 font-lato text-white/90'>
+              Ao longo dos anos, realizamos diversas ativações, que aos poucos
+              serão documentadas por aqui.
+            </div>
           </div>
         </div>
       </div>
 
       {/* cards */}
-      <TextAtivacoes />
+      {/* <TextAtivacoes /> */}
+      <AllCardsAtivacoes items={news} />
     </section>
   );
 }
@@ -61,43 +55,39 @@ export default async function Page() {
 async function getData() {
   const db = await load();
 
-  // podcasts
-  let podcasts = await db
-    .find({ collection: 'posts', 'type.value': 'podcast' }, [
+  // news
+  let news = await db
+    .find({ collection: 'news' }, [
       'title',
       'content',
       'publishedAt',
       'slug',
-      'collaborators',
-      'fileLink',
-      'type',
+      'coverImage',
+      // 'collaborators',
     ])
     .sort({ publishedAt: -1 })
     .toArray();
 
-  const collabs = podcasts.map((post) => post.collaborators[0]);
+  // const collabs = podcasts.map((post) => post.collaborators[0]);
 
-  const collaboratorsData = await db
-    .find(
-      {
-        collection: 'collaborators',
-        title: { $in: collabs.map((col) => col.label) },
-        // title: { $in: post.collaborators.map((col) => col.label) },
-        // title: post.collaborators[0].label,
-      },
-      ['title', 'coverImage', 'slug']
-    )
-    .toArray();
+  // const collaboratorsData = await db
+  //   .find(
+  //     {
+  //       collection: 'collaborators',
+  //       title: { $in: collabs.map((col) => col.label) },
+  //       // title: { $in: post.collaborators.map((col) => col.label) },
+  //       // title: post.collaborators[0].label,
+  //     },
+  //     ['title', 'coverImage', 'slug']
+  //   )
+  //   .toArray();
 
-  podcasts = await Promise.all(
-    podcasts.map(async (post) => {
-      post.collaborators = post.collaborators.map((col) => {
-        return collaboratorsData.find((collab) => collab.title === col.label);
-      });
-      // post.content = await markdownToHtml(post.content);
+  news = await Promise.all(
+    news.map(async (post) => {
+      post.content = await markdownToHtml(post.content);
       return post;
     })
   );
 
-  return podcasts;
+  return news;
 }

@@ -56,6 +56,16 @@ p {
   @apply my-3;
 }
 
+/* images in markdown entries to have margin, espacially in ativacoesSlug page */
+.content img {
+  @apply my-6 max-w-[80%];
+}
+@media (max-width: 768px) {
+  .content img {
+    max-width: 100%;
+  }
+}
+
 #outstatic
   > div
   > div

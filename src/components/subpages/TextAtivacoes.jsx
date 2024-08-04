@@ -10,9 +10,8 @@ import Description from './Description';
 import Link from 'next/link';
 
 //this was based on AllCards.jsx
-export default function SobreText({ items, sideRight = false }) {
+export default function TextAtivacoes() {
   const isDesktop = useMediaQuery('md');
-  const firstThree = items;
 
   const {
     changePlaySrc,
