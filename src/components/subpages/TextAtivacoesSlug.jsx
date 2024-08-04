@@ -18,7 +18,7 @@ export default function TextAtivacoesSlug({ title, content }) {
   return (
     <>
       <div className={'flex md:w-[calc(100vw-52px)]'}>
-        <div className='relative pt-48 sm:pt-8 px-4 sm:px-0 sm:pl-8 lg:pt-14 lg:pl-14 xl:pt-24 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex flex-wrap gap-4 md:gap-4 md:justify-normal'>
+        <div className='relative pt-48 px-4 sm:px-0 sm:pl-8 lg:pl-14 xl:pl-24 pb-[130px] sm:pb-[calc(109px+60px)] flex-1 flex flex-wrap gap-4 md:gap-4 md:justify-normal'>
           <div className='mb-6 font-semibold font-chakra uppercase text-2xl text-neutral-400 tracking-wider'>
             {title}
           </div>
