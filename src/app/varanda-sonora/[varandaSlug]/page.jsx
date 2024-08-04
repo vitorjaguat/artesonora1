@@ -194,7 +194,7 @@ export default async function VarandaSlug({ params }) {
 
           {/* content */}
           <div
-            className='sm:w-1/2 relative'
+            className='content sm:w-1/2 relative'
             dangerouslySetInnerHTML={{ __html: content }}
           ></div>
           <div className=' bg-green-300'></div>

@@ -63,10 +63,13 @@ async function getData() {
       'publishedAt',
       'slug',
       'coverImage',
+      'status',
       // 'collaborators',
     ])
     .sort({ publishedAt: -1 })
     .toArray();
+
+  news = news.filter((post) => post.status === 'published');
 
   // const collabs = podcasts.map((post) => post.collaborators[0]);
 
