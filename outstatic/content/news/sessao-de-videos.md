@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/175142165?v=4'
 slug: 'sessao-de-videos'
 description: ''
-coverImage: ''
+coverImage: '/images/vhs4-c1Nz.jpg'
 publishedAt: '2024-07-25T21:36:17.000Z'
 ---
 
