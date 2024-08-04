@@ -1,7 +1,28 @@
 {
-  "commit": "b065ff0b63469cb745463c9c68a2feb3113bf0bb",
-  "generated": "2024-07-29T18:07:52.056Z",
+  "commit": "3c6b38bad032fc3c40f85fe761edf3fa1c62784a",
+  "generated": "Sun, 04 Aug 2024 15:20:31 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "4db608f1ae372bef0647a180d2a5ebfc81657ed8",
+        "hash": "2583782536",
+        "path": "outstatic/content/collaborators/bruno-queiroz.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/bruno-MyOT.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/brunoqual/",
+      "publishedAt": "2024-07-14T19:18:07.120Z",
+      "slug": "bruno-queiroz",
+      "status": "published",
+      "title": "Bruno Queiroz",
+      "twitter": ""
+    },
     {
       "__outstatic": {
         "commit": "71127c0daa1588d7973bd86515b787eab6025ed3",
@@ -46,86 +67,44 @@
     },
     {
       "__outstatic": {
-        "commit": "eb90b2620c48d7153d961761b1def03fc06c2aaa",
-        "hash": "2856519818",
-        "path": "outstatic/content/collaborators/chico-dub.md"
+        "commit": "78c05227f24d7682c0d7ed0503b989563140c236",
+        "hash": "897183155",
+        "path": "outstatic/content/collaborators/arto-lindsay.md"
       },
       "author": {
-        "name": "",
+        "name": "Vitor Butkus",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collection": "collaborators",
-      "coverImage": "/images/chico_dub-gzNj.jpeg",
+      "coverImage": "/images/arto-U5Nz.webp",
       "description": "",
       "facebook": "",
-      "instagram": "",
-      "publishedAt": "2024-07-09T14:38:27.000Z",
-      "slug": "chico-dub",
+      "instagram": "https://www.instagram.com/artolindsay/",
+      "publishedAt": "2024-07-14T19:22:38.345Z",
+      "slug": "arto-lindsay",
       "status": "published",
-      "title": "Chico Dub",
+      "title": "Arto Lindsay",
       "twitter": ""
     },
     {
       "__outstatic": {
-        "commit": "5fd5ad42c759c8d96d34a84cd4f99be40e16dead",
-        "hash": "205187524",
-        "path": "outstatic/content/collaborators/cildo-meireles.md"
+        "commit": "819db573cf8db0611b62db4d9e8103ef37dba544",
+        "hash": "1436881471",
+        "path": "outstatic/content/collaborators/andre-amaral.md"
       },
       "author": {
         "name": "",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collection": "collaborators",
-      "coverImage": "/images/cildo-Q4Mz.jpeg",
+      "coverImage": "/images/andre_amaral-c1MD.jpeg",
       "description": "",
-      "facebook": "",
-      "instagram": "",
-      "publishedAt": "2024-07-10T14:34:07.000Z",
-      "slug": "cildo-meireles",
+      "facebook": "https://www.facebook.com/andreamarals",
+      "instagram": "https://www.instagram.com/andre_el_amaral/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:05:43.390Z",
+      "slug": "andre-amaral",
       "status": "published",
-      "title": "Cildo Meireles",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "f5ef61ad462b705eccfe31e871465f5c4fb91697",
-        "hash": "2531161101",
-        "path": "outstatic/content/collaborators/cadu.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/cadu-M1MT.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "",
-      "publishedAt": "2024-06-12T19:34:59.953Z",
-      "slug": "cadu",
-      "status": "published",
-      "title": "CADU",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "436717153fb86e5f1031b8d15e2c8452f266d3a2",
-        "hash": "569208925",
-        "path": "outstatic/content/collaborators/chelpa-ferro.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/chelpa_ferro-kzOD.jpeg",
-      "description": "",
-      "facebook": "https://www.facebook.com/chelpa.ferro.1/",
-      "instagram": "",
-      "publishedAt": "2024-06-12T19:43:19.773Z",
-      "slug": "chelpa-ferro",
-      "status": "published",
-      "title": "Chelpa Ferro",
+      "title": "André Amaral",
       "twitter": ""
     },
     {
@@ -151,65 +130,86 @@
     },
     {
       "__outstatic": {
-        "commit": "674eb4ef84759e15cdf37e58751fa7f2f61f71b9",
-        "hash": "2643186902",
-        "path": "outstatic/content/collaborators/fred-coelho.md"
+        "commit": "5fd5ad42c759c8d96d34a84cd4f99be40e16dead",
+        "hash": "205187524",
+        "path": "outstatic/content/collaborators/cildo-meireles.md"
       },
       "author": {
         "name": "",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collection": "collaborators",
-      "coverImage": "/images/fred_coelho-Y0ND.jpeg",
+      "coverImage": "/images/cildo-Q4Mz.jpeg",
       "description": "",
-      "facebook": "https://www.facebook.com/fred.coelho",
-      "instagram": "https://www.instagram.com/pauperia/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:55:31.770Z",
-      "slug": "fred-coelho",
-      "status": "published",
-      "title": "Fred Coelho",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "807a3bb7f42ea1e5c684015a5cdcaf0473938d8c",
-        "hash": "7706031",
-        "path": "outstatic/content/collaborators/ioia.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/ioia-MzMD.jpeg",
-      "description": "",
-      "facebook": "https://www.facebook.com/ioiamusica/",
-      "instagram": "https://www.instagram.com/ioiamusica/?hl=pt-br",
-      "publishedAt": "2024-06-12T20:03:13.626Z",
-      "slug": "ioia",
-      "status": "published",
-      "title": "IOIA",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "461bebaea010c6fccc376b5f458db74b5f32a172",
-        "hash": "4153023307",
-        "path": "outstatic/content/collaborators/guilherme-vaz.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/guilherme_vaz-YyMT.jpeg",
-      "description": "",
-      "facebook": "https://www.facebook.com/search/top/?q=guilherme%20vaz%20-%20uma%20fra%C3%A7%C3%A3o%20do%20infinito",
+      "facebook": "",
       "instagram": "",
-      "publishedAt": "2024-06-12T19:32:49.726Z",
-      "slug": "guilherme-vaz",
+      "publishedAt": "2024-07-10T14:34:07.000Z",
+      "slug": "cildo-meireles",
       "status": "published",
-      "title": "Guilherme Vaz",
+      "title": "Cildo Meireles",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "eb90b2620c48d7153d961761b1def03fc06c2aaa",
+        "hash": "2856519818",
+        "path": "outstatic/content/collaborators/chico-dub.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/chico_dub-gzNj.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-07-09T14:38:27.000Z",
+      "slug": "chico-dub",
+      "status": "published",
+      "title": "Chico Dub",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "436717153fb86e5f1031b8d15e2c8452f266d3a2",
+        "hash": "569208925",
+        "path": "outstatic/content/collaborators/chelpa-ferro.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/chelpa_ferro-kzOD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/chelpa.ferro.1/",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:43:19.773Z",
+      "slug": "chelpa-ferro",
+      "status": "published",
+      "title": "Chelpa Ferro",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "f5ef61ad462b705eccfe31e871465f5c4fb91697",
+        "hash": "2531161101",
+        "path": "outstatic/content/collaborators/cadu.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/cadu-M1MT.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:34:59.953Z",
+      "slug": "cadu",
+      "status": "published",
+      "title": "CADU",
       "twitter": ""
     },
     {
@@ -235,6 +235,69 @@
     },
     {
       "__outstatic": {
+        "commit": "461bebaea010c6fccc376b5f458db74b5f32a172",
+        "hash": "4153023307",
+        "path": "outstatic/content/collaborators/guilherme-vaz.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/guilherme_vaz-YyMT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/search/top/?q=guilherme%20vaz%20-%20uma%20fra%C3%A7%C3%A3o%20do%20infinito",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:32:49.726Z",
+      "slug": "guilherme-vaz",
+      "status": "published",
+      "title": "Guilherme Vaz",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "674eb4ef84759e15cdf37e58751fa7f2f61f71b9",
+        "hash": "2643186902",
+        "path": "outstatic/content/collaborators/fred-coelho.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/fred_coelho-Y0ND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/fred.coelho",
+      "instagram": "https://www.instagram.com/pauperia/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:55:31.770Z",
+      "slug": "fred-coelho",
+      "status": "published",
+      "title": "Fred Coelho",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "d8c23c3337d284ef7d39895cb4af85df01c33481",
+        "hash": "2204664690",
+        "path": "outstatic/content/collaborators/fausto-fawcett.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/fausto-M0OT.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/faustofawcett/",
+      "publishedAt": "2024-07-14T19:12:55.694Z",
+      "slug": "fausto-fawcett",
+      "status": "published",
+      "title": "Fausto Fawcett",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
         "commit": "8b011755aed7c387ce89453c9f7de968782ce902",
         "hash": "2666419659",
         "path": "outstatic/content/collaborators/exst.md"
@@ -250,27 +313,6 @@
       "slug": "exst",
       "status": "published",
       "title": "EXST"
-    },
-    {
-      "__outstatic": {
-        "commit": "2b7101d06fa652adb3cbc717a2da3dfceca3ea18",
-        "hash": "536773665",
-        "path": "outstatic/content/collaborators/paulo-nenflidio.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/paulo_nenflidio-Q2ND.jpeg",
-      "description": "",
-      "facebook": "https://www.facebook.com/nenflidio",
-      "instagram": "https://www.instagram.com/nenflidio/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:39:24.895Z",
-      "slug": "paulo-nenflidio",
-      "status": "published",
-      "title": "Paulo Nenflidio",
-      "twitter": ""
     },
     {
       "__outstatic": {
@@ -291,27 +333,6 @@
       "slug": "lisias-paiva",
       "status": "published",
       "title": "Lísias Paiva",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "0d1bb15354a13a7781df97af2db9dc6622b9d043",
-        "hash": "2108386118",
-        "path": "outstatic/content/collaborators/lenora-de-barros.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/lenora_de_barros-I4OD.jpeg",
-      "description": "",
-      "facebook": "https://www.facebook.com/lenora.debarros.7",
-      "instagram": "https://www.instagram.com/ledebe/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:45:03.687Z",
-      "slug": "lenora-de-barros",
-      "status": "published",
-      "title": "Lenora de Barros",
       "twitter": ""
     },
     {
@@ -337,6 +358,27 @@
     },
     {
       "__outstatic": {
+        "commit": "0d1bb15354a13a7781df97af2db9dc6622b9d043",
+        "hash": "2108386118",
+        "path": "outstatic/content/collaborators/lenora-de-barros.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/lenora_de_barros-I4OD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/lenora.debarros.7",
+      "instagram": "https://www.instagram.com/ledebe/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:45:03.687Z",
+      "slug": "lenora-de-barros",
+      "status": "published",
+      "title": "Lenora de Barros",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
         "commit": "c5950a1712718e0a6b5d23b3caec218fe80b2f24",
         "hash": "733805467",
         "path": "outstatic/content/collaborators/laura-belem.md"
@@ -358,6 +400,153 @@
     },
     {
       "__outstatic": {
+        "commit": "807a3bb7f42ea1e5c684015a5cdcaf0473938d8c",
+        "hash": "7706031",
+        "path": "outstatic/content/collaborators/ioia.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/ioia-MzMD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/ioiamusica/",
+      "instagram": "https://www.instagram.com/ioiamusica/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:03:13.626Z",
+      "slug": "ioia",
+      "status": "published",
+      "title": "IOIA",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "17529941df75439d6165d0f0b3fe8496db705f48",
+        "hash": "2213204753",
+        "path": "outstatic/content/collaborators/ricardo-basbaum.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/ricardo-basbaum-k1MD.png",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/ricardo__basbaum/",
+      "publishedAt": "2024-07-14T19:06:32.572Z",
+      "slug": "ricardo-basbaum",
+      "status": "published",
+      "title": "Ricardo Basbaum",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "cb6dbd0ef37bbcaea6e22303f7566f4febe0cac2",
+        "hash": "1583727359",
+        "path": "outstatic/content/collaborators/pedro-victor-brandao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/pedro_victor_brandao-Q4OD.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/__pedrovictor/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:52:50.638Z",
+      "slug": "pedro-victor-brandao",
+      "status": "published",
+      "title": "Pedro Victor Brandão",
+      "twitter": "https://x.com/pierresacoman"
+    },
+    {
+      "__outstatic": {
+        "commit": "3b96be12b8b28dd481af5cc0546520facfa82c87",
+        "hash": "1062302947",
+        "path": "outstatic/content/collaborators/marcos-chaves.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/mc2-k0Nz.jpg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/marcoschaves/",
+      "publishedAt": "2024-07-16T14:55:50.635Z",
+      "slug": "marcos-chaves",
+      "status": "published",
+      "title": "Marcos Chaves",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "2b7101d06fa652adb3cbc717a2da3dfceca3ea18",
+        "hash": "536773665",
+        "path": "outstatic/content/collaborators/paulo-nenflidio.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/paulo_nenflidio-Q2ND.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/nenflidio",
+      "instagram": "https://www.instagram.com/nenflidio/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:39:24.895Z",
+      "slug": "paulo-nenflidio",
+      "status": "published",
+      "title": "Paulo Nenflidio",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "644a437302bc1e37c87ff0b56f7de80e7ae480b8",
+        "hash": "3600398022",
+        "path": "outstatic/content/collaborators/magno-calliman.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/magno-YzND.avif",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-07-14T19:25:23.713Z",
+      "slug": "magno-calliman",
+      "status": "published",
+      "title": "Magno Calliman",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "306596ef7fa6cc624bec8c996b1143490c47b4da",
+        "hash": "1208591731",
+        "path": "outstatic/content/collaborators/vivian-caccuri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/vivian_caccuri-I5OT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/viviancaccuri",
+      "instagram": "https://www.instagram.com/viviancaccuri/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:41:52.377Z",
+      "slug": "vivian-caccuri",
+      "status": "published",
+      "title": "Vivian Caccuri",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
         "commit": "54e3b4fcef023a5d9a871fac5546467d9b0cc6db",
         "hash": "938703044",
         "path": "outstatic/content/collaborators/tantao.md"
@@ -375,6 +564,27 @@
       "slug": "tantao",
       "status": "published",
       "title": "Tantão",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "05c835cb52189ebf2f20b08c63226a0173a9fff7",
+        "hash": "1026636907",
+        "path": "outstatic/content/collaborators/ronaldo-lemos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/ronaldo_lemos-U1OT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/ronaldo.lemos",
+      "instagram": "https://www.instagram.com/lemos_ronaldo/?hl=pt-br",
+      "publishedAt": "2024-06-12T20:04:50.723Z",
+      "slug": "ronaldo-lemos",
+      "status": "published",
+      "title": "Ronaldo Lemos",
       "twitter": ""
     },
     {
@@ -421,298 +631,7 @@
     },
     {
       "__outstatic": {
-        "commit": "05c835cb52189ebf2f20b08c63226a0173a9fff7",
-        "hash": "1026636907",
-        "path": "outstatic/content/collaborators/ronaldo-lemos.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/ronaldo_lemos-U1OT.jpeg",
-      "description": "",
-      "facebook": "https://www.facebook.com/ronaldo.lemos",
-      "instagram": "https://www.instagram.com/lemos_ronaldo/?hl=pt-br",
-      "publishedAt": "2024-06-12T20:04:50.723Z",
-      "slug": "ronaldo-lemos",
-      "status": "published",
-      "title": "Ronaldo Lemos",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "cb6dbd0ef37bbcaea6e22303f7566f4febe0cac2",
-        "hash": "1583727359",
-        "path": "outstatic/content/collaborators/pedro-victor-brandao.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/pedro_victor_brandao-Q4OD.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "https://www.instagram.com/__pedrovictor/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:52:50.638Z",
-      "slug": "pedro-victor-brandao",
-      "status": "published",
-      "title": "Pedro Victor Brandão",
-      "twitter": "https://x.com/pierresacoman"
-    },
-    {
-      "__outstatic": {
-        "commit": "306596ef7fa6cc624bec8c996b1143490c47b4da",
-        "hash": "1208591731",
-        "path": "outstatic/content/collaborators/vivian-caccuri.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/vivian_caccuri-I5OT.jpeg",
-      "description": "",
-      "facebook": "https://www.facebook.com/viviancaccuri",
-      "instagram": "https://www.instagram.com/viviancaccuri/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:41:52.377Z",
-      "slug": "vivian-caccuri",
-      "status": "published",
-      "title": "Vivian Caccuri",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "fc6a71395f286bda6d9577a18f7b21e4d68329b9",
-        "hash": "1436881471",
-        "path": "outstatic/content/collaborators/andre-amaral.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/andre_amaral-c1MD.jpeg",
-      "description": "",
-      "facebook": "https://www.facebook.com/andreamarals",
-      "instagram": "https://www.instagram.com/andre_el_amaral/?hl=pt-br",
-      "publishedAt": "2024-06-12T20:05:43.390Z",
-      "slug": "andre-amaral",
-      "status": "published",
-      "title": "André Amaral",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "46e6b007f1f734ab3c5d1dfe206470ca0ee5303b",
-        "hash": "2583782536",
-        "path": "outstatic/content/collaborators/bruno-queiroz.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/bruno-MyOT.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "https://www.instagram.com/brunoqual/",
-      "publishedAt": "2024-07-14T19:18:07.120Z",
-      "slug": "bruno-queiroz",
-      "status": "published",
-      "title": "Bruno Queiroz",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "e19aaa1588e560e48c8751265f0ec7fba93d2972",
-        "hash": "2204664690",
-        "path": "outstatic/content/collaborators/fausto-fawcett.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/fausto-M0OT.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "https://www.instagram.com/faustofawcett/",
-      "publishedAt": "2024-07-14T19:12:55.694Z",
-      "slug": "fausto-fawcett",
-      "status": "published",
-      "title": "Fausto Fawcett",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "aa6cc49fa80c2f2185e219fec9feeb16b6b48133",
-        "hash": "2213204753",
-        "path": "outstatic/content/collaborators/ricardo-basbaum.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/ricardo-basbaum-k1MD.png",
-      "description": "",
-      "facebook": "",
-      "instagram": "https://www.instagram.com/ricardo__basbaum/",
-      "publishedAt": "2024-07-14T19:06:32.572Z",
-      "slug": "ricardo-basbaum",
-      "status": "published",
-      "title": "Ricardo Basbaum",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "2b3cb2a6a479964e1a6a15b086466217c353a4d6",
-        "hash": "897183155",
-        "path": "outstatic/content/collaborators/arto-lindsay.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/arto-U5Nz.webp",
-      "description": "",
-      "facebook": "",
-      "instagram": "https://www.instagram.com/artolindsay/",
-      "publishedAt": "2024-07-14T19:22:38.345Z",
-      "slug": "arto-lindsay",
-      "status": "published",
-      "title": "Arto Lindsay",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "86fd0ece79a9502f207aac451c2164eecf25f802",
-        "hash": "3600398022",
-        "path": "outstatic/content/collaborators/magno-calliman.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/magno-YzND.avif",
-      "description": "",
-      "facebook": "",
-      "instagram": "",
-      "publishedAt": "2024-07-14T19:25:23.713Z",
-      "slug": "magno-calliman",
-      "status": "published",
-      "title": "Magno Calliman",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "c41d521053a7cb10149f72cd76de895b802cb04a",
-        "hash": "3622381959",
-        "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/7CqWjYINMig54FOZtbUZHXZgK3BAjv9aH7ld1a_OAv0",
-      "publishedAt": "2018-07-01T20:03:44.000Z",
-      "slug": "his-02-a-formacao-de-um-campo-sensivel",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #02 A formação de um campo sensível",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "9c15e9e2f112d112212ad68a047b2b23845874d7",
-        "hash": "3807571964",
-        "path": "outstatic/content/posts/his-01-a-valorizacao-do-entorno-acustico.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/w1h-1trPBSn5l0xU7vVnRnqwDqh27Ec7h4nfiGUCmEc",
-      "publishedAt": "2018-03-19T15:09:16.000Z",
-      "slug": "his-01-a-valorizacao-do-entorno-acustico",
-      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109277493&show_artwork=false&in=artesonora%2Fsets%2Fnahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #01 A valorização do entorno acústico",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "6cd1dd4954cf5376cde76187d5c8fe8c482c3813",
-        "hash": "2649074168",
-        "path": "outstatic/content/posts/his-03-transbordando-fronteiras.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/NmrL7R5aDEIbTOpnNyxVuPK6rMTnFN1fvLowgkz8Azw",
-      "publishedAt": "2018-07-02T20:35:20.000Z",
-      "slug": "his-03-transbordando-fronteiras",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria03?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #03 Transbordando fronteiras",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "b9c85bb4ce54e35fb1e5ec19fb7032cc8de37206",
+        "commit": "7a0c3814951c8e24ee1ed7a783b1a62b98a9cfc0",
         "hash": "3296303590",
         "path": "outstatic/content/posts/his-05-da-vanguarda-ao-mainstream.md"
       },
@@ -746,9 +665,9 @@
     },
     {
       "__outstatic": {
-        "commit": "3bc1b2a44cf9d950a5e68524853747cfd7203615",
-        "hash": "998620511",
-        "path": "outstatic/content/posts/his-06-cientistas-do-ritmo.md"
+        "commit": "5adc1c7418bd525c40723ef9906ab1058929c8a8",
+        "hash": "489346656",
+        "path": "outstatic/content/posts/his-04-o-fator-tecnologico-midiatico-na-era-do-som.md"
       },
       "author": {
         "name": "Vitor Butkus",
@@ -763,14 +682,14 @@
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "fileLink": "https://arweave.net/VpWsXjCKLcmMbiv7m5jaQ8lamxMMaDWaQWEWpBmUxZY",
-      "publishedAt": "2018-07-06T20:56:11.000Z",
-      "slug": "his-06-cientistas-do-ritmo",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria06?in=artesonora/sets/nahistoria",
+      "fileLink": "https://arweave.net/Mkn1ZJlKaMp214c7-sL8uZE4lz3Bcgb6yIBa5gdSTo4",
+      "publishedAt": "2018-07-04T20:49:02.000Z",
+      "slug": "his-04-o-fator-tecnologico-midiatico-na-era-do-som",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria04?in=artesonora/sets/nahistoria",
       "status": "published",
       "tags": [
       ],
-      "title": "HIS #06 Cientistas do Ritmo",
+      "title": "HIS #04 O fator tecnológico midiático na era do som",
       "type": [
         {
           "label": "Na História",
@@ -780,9 +699,9 @@
     },
     {
       "__outstatic": {
-        "commit": "0f53e88a496e56679888c4d3cf57d3bf4041f007",
-        "hash": "1456428480",
-        "path": "outstatic/content/posts/his-07-arte-e-som-no-brasil-os-primordios.md"
+        "commit": "ee3feb2a8d109483c86ba76a7f2a4359e66bc435",
+        "hash": "2649074168",
+        "path": "outstatic/content/posts/his-03-transbordando-fronteiras.md"
       },
       "author": {
         "name": "Vitor Butkus",
@@ -797,14 +716,14 @@
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "fileLink": "https://arweave.net/ADU6Ru-hjGz-yc9FinHC7M5VP0e7ZUZzNHqEy6iY4cc",
-      "publishedAt": "2018-07-07T20:57:44.000Z",
-      "slug": "his-07-arte-e-som-no-brasil-os-primordios",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria07?in=artesonora/sets/nahistoria",
+      "fileLink": "https://arweave.net/NmrL7R5aDEIbTOpnNyxVuPK6rMTnFN1fvLowgkz8Azw",
+      "publishedAt": "2018-07-02T20:35:20.000Z",
+      "slug": "his-03-transbordando-fronteiras",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria03?in=artesonora/sets/nahistoria",
       "status": "published",
       "tags": [
       ],
-      "title": "HIS #07 Arte e Som no Brasil - Os primórdios",
+      "title": "HIS #03 Transbordando fronteiras",
       "type": [
         {
           "label": "Na História",
@@ -814,281 +733,9 @@
     },
     {
       "__outstatic": {
-        "commit": "47aca5ae7a928c6241139c0e35baa46238377790",
-        "hash": "1415534268",
-        "path": "outstatic/content/posts/pod-01-guilherme-vaz.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Guilherme Vaz",
-          "value": "guilhermeVaz"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/4DZweuv9SG4ZUUwACkyGxnNcevz7UxBxUcXPdOy-yQU",
-      "publishedAt": "2013-03-01T16:13:05.000Z",
-      "slug": "pod-01-guilherme-vaz",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-01-guilherme-vaz?in=artesonora/sets/podcast&si=e3b75287941e4832963dcb9fc1c851a7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #01 Guilherme Vaz",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "904cb1ea1e35bfd844313c808dc5b9daf186fb1b",
-        "hash": "920907007",
-        "path": "outstatic/content/posts/pod-02-cadu.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "CADU",
-          "value": "cadu"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/LoTNtYZAlEUBLAHClVb_hxS_nUmB9oqNTXQMZm2eLQI",
-      "publishedAt": "2013-03-15T16:25:35.000Z",
-      "slug": "pod-02-cadu",
-      "soundcloudLink": "https://soundcloud.com/artesonora/arte-sonora-podcast-02-cadu?in=artesonora/sets/podcast&si=6ded52aee3fd408db1dc8e794bd2666d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #02 CADU",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "465e8aede881d7b65147bfdeb497c17cb8c9f904",
-        "hash": "2442764815",
-        "path": "outstatic/content/posts/pod-03-laura-belem.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Laura Belém",
-          "value": "lauraBelém"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/4wM2Vdi39O0ovpGRUwO06EEVlvxYklqzkXx_a9Qws9A",
-      "publishedAt": "2013-04-12T16:27:54.000Z",
-      "slug": "pod-03-laura-belem",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-03-laura-bel-m?in=artesonora/sets/podcast&si=1d9e6a668edf409296b4c9ef8ecff6b6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #03 Laura Belém",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "4ed077fb57a65b7d1b755cb14a0e81e73cb7796c",
-        "hash": "3367784917",
-        "path": "outstatic/content/posts/pod-05-vivian-caccuri.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Vivian Caccuri",
-          "value": "vivianCaccuri"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/2ffWlWQPKjlG4uO1xVKZczKas8Dhu2H-KQi7m3wkkGw",
-      "publishedAt": "2013-05-13T16:32:14.000Z",
-      "slug": "pod-05-vivian-caccuri",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-05-vivian-caccuri?in=artesonora/sets/podcast&si=8bf2e026efb445d3abaa1894913d2d81&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #05 Vivian Caccuri",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "5fae24494c5576a6f61dd34528339f1a045499da",
-        "hash": "238401919",
-        "path": "outstatic/content/posts/pod-06-chelpa-ferro.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Chelpa Ferro",
-          "value": "chelpaFerro"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/HDc-RMourXUmN8z2sPcE2BiOEyGYcQivxfM_9kE5IOM",
-      "publishedAt": "2013-05-20T16:39:15.000Z",
-      "slug": "pod-06-chelpa-ferro",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-06-chelpa-ferro?in=artesonora/sets/podcast&si=9b6807ed307f4e46a4f7be817d906e8f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #06 Chelpa Ferro",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "54424448a85239633e9c2cd2c514b72f21a612f6",
-        "hash": "4046201922",
-        "path": "outstatic/content/posts/pod-07-lenora-de-barros.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Lenora de Barros",
-          "value": "lenoraDeBarros"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/j3Vb9vjGn2FsTBAS9r6zmKNEKPM3PTQpfyGH4lN3Hwk",
-      "publishedAt": "2013-06-07T16:40:42.000Z",
-      "slug": "pod-07-lenora-de-barros",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-07-lenora-de-barros?in=artesonora/sets/podcast&si=4bd5005d67f94a64ad964563b8c6037e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #07 Lenora de Barros",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "0746d0bad3c08c479575964499ea9f7171989abd",
-        "hash": "3649640886",
-        "path": "outstatic/content/posts/pod-08-paulo-nenflidio.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Paulo Nenflidio",
-          "value": "pauloNenflidio"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/Vneep9pzqy4fHzJQzu1j9L04hFIWtDwmv86XrCNb3-s",
-      "publishedAt": "2013-05-16T16:29:32.000Z",
-      "slug": "pod-08-paulo-nenflidio",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-08-paulo-nenflidio?in=artesonora/sets/podcast&si=8e2ceeed7a4b495597169d7e8e6f504f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #08 Paulo Nenflidio",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "c2c8f660a67ea03a5eca3de650cf892024e29087",
-        "hash": "3276615085",
-        "path": "outstatic/content/posts/pod-09-rodolfo-caesar.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Rodolfo Caesar",
-          "value": "rodolfoCaesar"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/2kZLfg-wSvr-59OXptQyLjn3-Z3_TXMsi3dXOPfZtj4",
-      "publishedAt": "2013-07-01T17:43:19.000Z",
-      "slug": "pod-09-rodolfo-caesar",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-09-rodolfo-caesar?in=artesonora/sets/podcast&si=7c3d30ead4334c57b7fbd52bd1fd3015&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #09 Rodolfo Caesar",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "0839b50eac861219c4456300a19f9274864d3f67",
-        "hash": "2865075777",
-        "path": "outstatic/content/posts/mix-01-marcos-chaves.md"
+        "commit": "2c12680924d23f680bda4e9ec054b1484f58972b",
+        "hash": "3622381959",
+        "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
       },
       "author": {
         "name": "Vitor Butkus",
@@ -1096,52 +743,65 @@
       },
       "collaborators": [
         {
-          "label": "Marcos Chaves",
-          "value": "marcosChaves"
+          "label": "EXST",
+          "value": "exst"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "fileLink": "https://arweave.net/L0ulw6ZWjK1HSsctN8pBwSAg7dEtnbdVOi5D-xbPMs8",
-      "publishedAt": "2013-03-15T14:43:06.000Z",
-      "slug": "mix-01-marcos-chaves",
-      "soundcloudLink": "",
+      "fileLink": "https://arweave.net/7CqWjYINMig54FOZtbUZHXZgK3BAjv9aH7ld1a_OAv0",
+      "publishedAt": "2018-07-01T20:03:44.000Z",
+      "slug": "his-02-a-formacao-de-um-campo-sensivel",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria",
       "status": "published",
       "tags": [
       ],
-      "title": "MIX #01 Marcos Chaves",
+      "title": "HIS #02 A formação de um campo sensível",
       "type": [
         {
-          "label": "Mixtape",
-          "value": "mixtape"
+          "label": "Na História",
+          "value": "naHistória"
         }
       ]
     },
     {
       "__outstatic": {
-        "commit": "80a69131768bada592f8a9847f7b035ba6285c68",
-        "hash": "1062302947",
-        "path": "outstatic/content/collaborators/marcos-chaves.md"
+        "commit": "c3df373e5860b88eeba4d2675888ed83a17f99ed",
+        "hash": "3807571964",
+        "path": "outstatic/content/posts/his-01-a-valorizacao-do-entorno-acustico.md"
       },
       "author": {
-        "name": "Vitor Butkus",
+        "name": "",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
-      "collection": "collaborators",
-      "coverImage": "/images/mc2-k0Nz.jpg",
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
       "description": "",
-      "facebook": "",
-      "instagram": "https://www.instagram.com/marcoschaves/",
-      "publishedAt": "2024-07-16T14:55:50.635Z",
-      "slug": "marcos-chaves",
+      "fileLink": "https://arweave.net/w1h-1trPBSn5l0xU7vVnRnqwDqh27Ec7h4nfiGUCmEc",
+      "publishedAt": "2018-03-19T15:09:16.000Z",
+      "slug": "his-01-a-valorizacao-do-entorno-acustico",
+      "soundcloudLink": "https://w.soundcloud.com/player/?visual=false&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109277493&show_artwork=false&in=artesonora%2Fsets%2Fnahistoria",
       "status": "published",
-      "title": "Marcos Chaves",
-      "twitter": ""
+      "tags": [
+      ],
+      "title": "HIS #01 A valorização do entorno acústico",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
     },
     {
       "__outstatic": {
-        "commit": "551d5b1889183e5472df55e5588c5d2bd8632db3",
+        "commit": "400595bc106af51673de2980036a4d8b70184f81",
         "hash": "984403480",
         "path": "outstatic/content/posts/mix-02-daniela-labra.md"
       },
@@ -1175,31 +835,30 @@
     },
     {
       "__outstatic": {
-        "commit": "f91a47b520ca5dfdd528d0e0c334c77ffea9e043",
-        "hash": "1390361413",
-        "path": "outstatic/content/posts/mix-05-fred-coelho.md"
+        "commit": "ae8175f87cc29773be5cad8e627e0338a4ebbb60",
+        "hash": "2865075777",
+        "path": "outstatic/content/posts/mix-01-marcos-chaves.md"
       },
       "author": {
-        "name": "",
+        "name": "Vitor Butkus",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collaborators": [
         {
-          "label": "Fred Coelho",
-          "value": "fredCoelho"
+          "label": "Marcos Chaves",
+          "value": "marcosChaves"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "fileLink": "https://arweave.net/B-1SDsIQOeKLlRuIDtEDvpY1hA1Wr0SHYvF3Kri2JJc",
-      "publishedAt": "2013-05-03T17:51:52.000Z",
-      "slug": "mix-05-fred-coelho",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-05-fred-coelho?in=artesonora/sets/programas2013&si=6033c865897b4267981032ddabb5af09&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "fileLink": "https://arweave.net/L0ulw6ZWjK1HSsctN8pBwSAg7dEtnbdVOi5D-xbPMs8",
+      "publishedAt": "2013-03-15T14:43:06.000Z",
+      "slug": "mix-01-marcos-chaves",
+      "soundcloudLink": "",
       "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #05 Fred Coelho",
+      "tags": "",
+      "title": "MIX #01 Marcos Chaves",
       "type": [
         {
           "label": "Mixtape",
@@ -1209,211 +868,7 @@
     },
     {
       "__outstatic": {
-        "commit": "226979b62d6ed996ee72de30050c0b644b3960a2",
-        "hash": "2802754833",
-        "path": "outstatic/content/posts/mix-06-icaro-dos-santos.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Icaro dos Santos",
-          "value": "icaroDosSantos"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/am6PmBvm1nfHrgVTaPnK9JCAxo8V43ZAlcm_UgRH37o",
-      "publishedAt": "2013-05-21T17:53:21.000Z",
-      "slug": "mix-06-icaro-dos-santos",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-06-icaro-dos-santos?in=artesonora/sets/programas2013&si=45c605a4319c4e81983ac8bd56f472b7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #06 Icaro dos Santos",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "4350441c32e3bee0fc3c99049541fa7ddbbedd0a",
-        "hash": "360515820",
-        "path": "outstatic/content/posts/mix-07-bernardo-oliveira.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Bernardo Oliveira",
-          "value": "bernardoOliveira"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/xHiOeIhR2TDi6umvR2AJDEc_Y6h5dc5V51yQ0rI3gRM",
-      "publishedAt": "2013-05-14T17:54:48.000Z",
-      "slug": "mix-07-bernardo-oliveira",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-07-bernardo-oliveira?in=artesonora/sets/programas2013&si=1d529257b29e49f2baca325b3671d2b8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #07 Bernardo Oliveira",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "a980b97a480d6c411507ba00cf8eb86b1afc5def",
-        "hash": "625775538",
-        "path": "outstatic/content/posts/mix-08-lisias-paiva.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Lísias Paiva",
-          "value": "lísiasPaiva"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/xxnyAuKLz0mYaWUFy65R-zbByoWzi7KgxL9dXhJ9z6k",
-      "publishedAt": "2013-06-10T17:56:58.000Z",
-      "slug": "mix-08-lisias-paiva",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-08-l-sias-paiva?in=artesonora/sets/programas2013&si=af4209cc2b5e4d50bea5f6fb1928e412&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #08 Lísias Paiva",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "878219d991aea53d17194d2b2be3759fdbe44cca",
-        "hash": "208771245",
-        "path": "outstatic/content/posts/mix-09-batman-zavareze.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Batman Zavareze",
-          "value": "batmanZavareze"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/AOJjaOsKoZ6TiNpy0xEXMyWm9XVdnGaDE1ZwgLkUsy0",
-      "publishedAt": "2013-06-28T17:58:14.000Z",
-      "slug": "mix-09-batman-zavareze",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-09-batman-zavareze?in=artesonora/sets/programas2013&si=30c9c5c86a5e4f7d87363e2d7a112aac&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #09 Batman Zavareze",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "acc0599f54e50aeae0d1bc6cc7ab7bc8ef9236b5",
-        "hash": "3823776366",
-        "path": "outstatic/content/posts/mix-11-ronaldo-lemos.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Ronaldo Lemos",
-          "value": "ronaldoLemos"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/TS-iTtfbAon1TEEk0CeAo-HwtVlAN5aLsKC8jLN_WqU",
-      "publishedAt": "2013-07-26T18:00:58.000Z",
-      "slug": "mix-11-ronaldo-lemos",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-11-ronaldo-lemos?in=artesonora/sets/programas2013&si=fa782f7f545e438e8f81d93b71a4abdb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #11 Ronaldo Lemos",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "cb3e98677fbaf5b4b7639701662998e2aa67bb76",
-        "hash": "4270446405",
-        "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Cildo Meireles",
-          "value": "cildoMeireles"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/KFnH21AS6uD8eeNwovGjwnM6q8lQr-Y9Amua--q80nI",
-      "publishedAt": "2024-07-18T14:43:38.000Z",
-      "slug": "pod-12-cildo-meireles",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-12-cildo-meireles?in=artesonora/sets/podcast&si=2a3d3645fda049d997f8a2a80b0f3031&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #12 Cildo Meireles",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "868bfa8446e39a33f78f5675c0d53e9a2e53f435",
+        "commit": "f2ee8690c55d4f193b1b226beb7159a707cbebe7",
         "hash": "718585916",
         "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
       },
@@ -1447,9 +902,77 @@
     },
     {
       "__outstatic": {
-        "commit": "8355efef1c00d6f527d7463eaf124007c3289707",
-        "hash": "2103713954",
-        "path": "outstatic/content/posts/mix-12-andre-amaral.md"
+        "commit": "f58e15169551db15404bb248ea4e84cff1a4eebc",
+        "hash": "1456428480",
+        "path": "outstatic/content/posts/his-07-arte-e-som-no-brasil-os-primordios.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/ADU6Ru-hjGz-yc9FinHC7M5VP0e7ZUZzNHqEy6iY4cc",
+      "publishedAt": "2018-07-07T20:57:44.000Z",
+      "slug": "his-07-arte-e-som-no-brasil-os-primordios",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria07?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #07 Arte e Som no Brasil - Os primórdios",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "5ffbc1c14c937b716a7b767584dedf95d0b9834c",
+        "hash": "998620511",
+        "path": "outstatic/content/posts/his-06-cientistas-do-ritmo.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "EXST",
+          "value": "exst"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/VpWsXjCKLcmMbiv7m5jaQ8lamxMMaDWaQWEWpBmUxZY",
+      "publishedAt": "2018-07-06T20:56:11.000Z",
+      "slug": "his-06-cientistas-do-ritmo",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria06?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #06 Cientistas do Ritmo",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "1ab844b164ecc49cd1d4c70da072f015513ad9e6",
+        "hash": "360515820",
+        "path": "outstatic/content/posts/mix-07-bernardo-oliveira.md"
       },
       "author": {
         "name": "",
@@ -1457,21 +980,21 @@
       },
       "collaborators": [
         {
-          "label": "André Amaral",
-          "value": "andréAmaral"
+          "label": "Bernardo Oliveira",
+          "value": "bernardoOliveira"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "fileLink": "https://arweave.net/psf3EBNXyayoZHHsnte5WxuNPhxM7tmvSZlMsZGxaNk",
-      "publishedAt": "2013-08-02T18:07:46.000Z",
-      "slug": "mix-12-andre-amaral",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-12-andre-amaral?in=artesonora/sets/programas2013&si=7aa3aa3f3deb412f82e5b5fd3123f07c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "fileLink": "https://arweave.net/xHiOeIhR2TDi6umvR2AJDEc_Y6h5dc5V51yQ0rI3gRM",
+      "publishedAt": "2013-05-14T17:54:48.000Z",
+      "slug": "mix-07-bernardo-oliveira",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-07-bernardo-oliveira?in=artesonora/sets/programas2013&si=1d529257b29e49f2baca325b3671d2b8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
       "status": "published",
       "tags": [
       ],
-      "title": "MIX #12 André Amaral",
+      "title": "MIX #07 Bernardo Oliveira",
       "type": [
         {
           "label": "Mixtape",
@@ -1481,7 +1004,109 @@
     },
     {
       "__outstatic": {
-        "commit": "2e52709b9dc1ab082e46b9b55f82e79ff8d723c1",
+        "commit": "f1a74aac27c3a9a983c9c98aba502fd3a4737233",
+        "hash": "2802754833",
+        "path": "outstatic/content/posts/mix-06-icaro-dos-santos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Icaro dos Santos",
+          "value": "icaroDosSantos"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/am6PmBvm1nfHrgVTaPnK9JCAxo8V43ZAlcm_UgRH37o",
+      "publishedAt": "2013-05-21T17:53:21.000Z",
+      "slug": "mix-06-icaro-dos-santos",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-06-icaro-dos-santos?in=artesonora/sets/programas2013&si=45c605a4319c4e81983ac8bd56f472b7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #06 Icaro dos Santos",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "cdfde45fa28c1d8b6ab7f49de7c00f000a445006",
+        "hash": "1390361413",
+        "path": "outstatic/content/posts/mix-05-fred-coelho.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Fred Coelho",
+          "value": "fredCoelho"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/B-1SDsIQOeKLlRuIDtEDvpY1hA1Wr0SHYvF3Kri2JJc",
+      "publishedAt": "2013-05-03T17:51:52.000Z",
+      "slug": "mix-05-fred-coelho",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-05-fred-coelho?in=artesonora/sets/programas2013&si=6033c865897b4267981032ddabb5af09&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #05 Fred Coelho",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "e919d8c86a076725007356fe31cb6d286a4b149c",
+        "hash": "873580417",
+        "path": "outstatic/content/posts/mix-04-pedro-victor-brandao.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Pedro Victor Brandão",
+          "value": "pedroVictorBrandão"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/N4uPjMbz59yREJpV2Xrp_tmn4k63jwd8IruaGI8A4bU",
+      "publishedAt": "2013-04-19T17:49:54.000Z",
+      "slug": "mix-04-pedro-victor-brandao",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-04-pedro-victor-brand?in=artesonora/sets/programas2013&si=5d568f3d950f47a7a6db16192449b17e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #04 Pedro Victor Brandão",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "2597ba92fff5e4e79307439ed20b883745e8ef7a",
         "hash": "644925931",
         "path": "outstatic/content/posts/mix-03-chico-dub.md"
       },
@@ -1515,7 +1140,75 @@
     },
     {
       "__outstatic": {
-        "commit": "753421957c0c15cb4a32fd5384a66b54ede7b745",
+        "commit": "77b0aef409fb62917eccc224847742d0217e89cf",
+        "hash": "2103713954",
+        "path": "outstatic/content/posts/mix-12-andre-amaral.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "André Amaral",
+          "value": "andréAmaral"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/psf3EBNXyayoZHHsnte5WxuNPhxM7tmvSZlMsZGxaNk",
+      "publishedAt": "2013-08-02T18:07:46.000Z",
+      "slug": "mix-12-andre-amaral",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-12-andre-amaral?in=artesonora/sets/programas2013&si=7aa3aa3f3deb412f82e5b5fd3123f07c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #12 André Amaral",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "ad4f0ae6372137c3669fc1d1c4fbc302a85d2f76",
+        "hash": "3823776366",
+        "path": "outstatic/content/posts/mix-11-ronaldo-lemos.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Ronaldo Lemos",
+          "value": "ronaldoLemos"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/TS-iTtfbAon1TEEk0CeAo-HwtVlAN5aLsKC8jLN_WqU",
+      "publishedAt": "2013-07-26T18:00:58.000Z",
+      "slug": "mix-11-ronaldo-lemos",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-11-ronaldo-lemos?in=artesonora/sets/programas2013&si=fa782f7f545e438e8f81d93b71a4abdb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #11 Ronaldo Lemos",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "f9d5825189cac5df030a6494e2a5ed76066710f4",
         "hash": "1630835256",
         "path": "outstatic/content/posts/mix-10-ioia.md"
       },
@@ -1549,9 +1242,9 @@
     },
     {
       "__outstatic": {
-        "commit": "40e68ffe2a1d659d7b969c7ac55c9aa5614588c7",
-        "hash": "3483474502",
-        "path": "outstatic/content/posts/pod-11-lilian-zaremba.md"
+        "commit": "09aae369dadaac6cab5f07f70f5cc161368e92fa",
+        "hash": "208771245",
+        "path": "outstatic/content/posts/mix-09-batman-zavareze.md"
       },
       "author": {
         "name": "",
@@ -1559,21 +1252,89 @@
       },
       "collaborators": [
         {
-          "label": "Lilian Zaremba",
-          "value": "lilianZaremba"
+          "label": "Batman Zavareze",
+          "value": "batmanZavareze"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "fileLink": "https://arweave.net/_aEHuFr68HCfaGQkaKdANVkN9TWNbgEcUci4Fl5Y8d4",
-      "publishedAt": "2024-07-17T17:46:31.000Z",
-      "slug": "pod-11-lilian-zaremba",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-11-lilian-zaremba?in=artesonora/sets/podcast&si=1b8a138cc8664a1185b8f11bb4a9f908&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "fileLink": "https://arweave.net/AOJjaOsKoZ6TiNpy0xEXMyWm9XVdnGaDE1ZwgLkUsy0",
+      "publishedAt": "2013-06-28T17:58:14.000Z",
+      "slug": "mix-09-batman-zavareze",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-09-batman-zavareze?in=artesonora/sets/programas2013&si=30c9c5c86a5e4f7d87363e2d7a112aac&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
       "status": "published",
       "tags": [
       ],
-      "title": "POD #11 Lilian Zaremba",
+      "title": "MIX #09 Batman Zavareze",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "e09840ba16f98b09cb4ca3a86e84b242a80f5c0f",
+        "hash": "625775538",
+        "path": "outstatic/content/posts/mix-08-lisias-paiva.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Lísias Paiva",
+          "value": "lísiasPaiva"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/xxnyAuKLz0mYaWUFy65R-zbByoWzi7KgxL9dXhJ9z6k",
+      "publishedAt": "2013-06-10T17:56:58.000Z",
+      "slug": "mix-08-lisias-paiva",
+      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-08-l-sias-paiva?in=artesonora/sets/programas2013&si=af4209cc2b5e4d50bea5f6fb1928e412&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "MIX #08 Lísias Paiva",
+      "type": [
+        {
+          "label": "Mixtape",
+          "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "c570bf76b62015457323214159577e7f5dbcbf4d",
+        "hash": "3367784917",
+        "path": "outstatic/content/posts/pod-05-vivian-caccuri.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Vivian Caccuri",
+          "value": "vivianCaccuri"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/2ffWlWQPKjlG4uO1xVKZczKas8Dhu2H-KQi7m3wkkGw",
+      "publishedAt": "2013-05-13T16:32:14.000Z",
+      "slug": "pod-05-vivian-caccuri",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-05-vivian-caccuri?in=artesonora/sets/podcast&si=8bf2e026efb445d3abaa1894913d2d81&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #05 Vivian Caccuri",
       "type": [
         {
           "label": "Podcast",
@@ -1583,7 +1344,143 @@
     },
     {
       "__outstatic": {
-        "commit": "7b1785f445a5ed014116d44d678bd47c0bd51be0",
+        "commit": "ab1a12411b53b97589976244cceb98b8c5c70a2f",
+        "hash": "1112231138",
+        "path": "outstatic/content/posts/pod-04-romano.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Romano",
+          "value": "romano"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/2Uyd9EN3b6y2ybn02521uOH0aVrOlFOgwziYnl7CQ7Q",
+      "publishedAt": "2013-04-25T16:30:58.000Z",
+      "slug": "pod-04-romano",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-04-romano?in=artesonora/sets/podcast&si=cc535380c6ae4d43866dbc24365d3fd8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #04 Romano",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "2cae07ae091b8fe7118218711a7ba4ffe3e14fae",
+        "hash": "2442764815",
+        "path": "outstatic/content/posts/pod-03-laura-belem.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Laura Belém",
+          "value": "lauraBelém"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/4wM2Vdi39O0ovpGRUwO06EEVlvxYklqzkXx_a9Qws9A",
+      "publishedAt": "2013-04-12T16:27:54.000Z",
+      "slug": "pod-03-laura-belem",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-03-laura-bel-m?in=artesonora/sets/podcast&si=1d9e6a668edf409296b4c9ef8ecff6b6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #03 Laura Belém",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "4d0915c4382319d2e1defd94924ded1cf1118c8b",
+        "hash": "920907007",
+        "path": "outstatic/content/posts/pod-02-cadu.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "CADU",
+          "value": "cadu"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/LoTNtYZAlEUBLAHClVb_hxS_nUmB9oqNTXQMZm2eLQI",
+      "publishedAt": "2013-03-15T16:25:35.000Z",
+      "slug": "pod-02-cadu",
+      "soundcloudLink": "https://soundcloud.com/artesonora/arte-sonora-podcast-02-cadu?in=artesonora/sets/podcast&si=6ded52aee3fd408db1dc8e794bd2666d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #02 CADU",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "67c8fc983da341aa4639eef094e7cbe63d040711",
+        "hash": "1415534268",
+        "path": "outstatic/content/posts/pod-01-guilherme-vaz.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Guilherme Vaz",
+          "value": "guilhermeVaz"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/4DZweuv9SG4ZUUwACkyGxnNcevz7UxBxUcXPdOy-yQU",
+      "publishedAt": "2013-03-01T16:13:05.000Z",
+      "slug": "pod-01-guilherme-vaz",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-01-guilherme-vaz?in=artesonora/sets/podcast&si=e3b75287941e4832963dcb9fc1c851a7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #01 Guilherme Vaz",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "30228f73031d1ff29a831527dfed01d22ce5ceb3",
         "hash": "2433725151",
         "path": "outstatic/content/posts/pod-10-tantao.md"
       },
@@ -1617,9 +1514,145 @@
     },
     {
       "__outstatic": {
-        "commit": "31305ae325b9a69bf67921cadab0a068b9be25cb",
-        "hash": "2705768439",
-        "path": "outstatic/content/posts/varanda-sonora-01-arto-lindsay-magno-calliman.md"
+        "commit": "1880694ff402f40b7023afb8c5023c3d138dfaad",
+        "hash": "3276615085",
+        "path": "outstatic/content/posts/pod-09-rodolfo-caesar.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Rodolfo Caesar",
+          "value": "rodolfoCaesar"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/2kZLfg-wSvr-59OXptQyLjn3-Z3_TXMsi3dXOPfZtj4",
+      "publishedAt": "2013-07-01T17:43:19.000Z",
+      "slug": "pod-09-rodolfo-caesar",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-09-rodolfo-caesar?in=artesonora/sets/podcast&si=7c3d30ead4334c57b7fbd52bd1fd3015&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #09 Rodolfo Caesar",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "e20c5dec5cffbfd8b96c81051d2473929548bfdd",
+        "hash": "3649640886",
+        "path": "outstatic/content/posts/pod-08-paulo-nenflidio.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Paulo Nenflidio",
+          "value": "pauloNenflidio"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/Vneep9pzqy4fHzJQzu1j9L04hFIWtDwmv86XrCNb3-s",
+      "publishedAt": "2013-05-16T16:29:32.000Z",
+      "slug": "pod-08-paulo-nenflidio",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-08-paulo-nenflidio?in=artesonora/sets/podcast&si=8e2ceeed7a4b495597169d7e8e6f504f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #08 Paulo Nenflidio",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "ad7b5a67b308f70947fd0659f04aabbc15eb6c3a",
+        "hash": "4046201922",
+        "path": "outstatic/content/posts/pod-07-lenora-de-barros.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Lenora de Barros",
+          "value": "lenoraDeBarros"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/j3Vb9vjGn2FsTBAS9r6zmKNEKPM3PTQpfyGH4lN3Hwk",
+      "publishedAt": "2013-06-07T16:40:42.000Z",
+      "slug": "pod-07-lenora-de-barros",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-07-lenora-de-barros?in=artesonora/sets/podcast&si=4bd5005d67f94a64ad964563b8c6037e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #07 Lenora de Barros",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "cb13180911b113de6dcb893167f27e9eec38d9c6",
+        "hash": "238401919",
+        "path": "outstatic/content/posts/pod-06-chelpa-ferro.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Chelpa Ferro",
+          "value": "chelpaFerro"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/HDc-RMourXUmN8z2sPcE2BiOEyGYcQivxfM_9kE5IOM",
+      "publishedAt": "2013-05-20T16:39:15.000Z",
+      "slug": "pod-06-chelpa-ferro",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-06-chelpa-ferro?in=artesonora/sets/podcast&si=9b6807ed307f4e46a4f7be817d906e8f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #06 Chelpa Ferro",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "3791a9a6657620607ed4577db28711ee79293b42",
+        "hash": "1414836991",
+        "path": "outstatic/content/posts/varanda-sonora-03-ricardo-basbaum.md"
       },
       "author": {
         "name": "Vitor Butkus",
@@ -1627,25 +1660,21 @@
       },
       "collaborators": [
         {
-          "label": "Arto Lindsay",
-          "value": "artoLindsay"
-        },
-        {
-          "label": "Magno Calliman",
-          "value": "magnoCalliman"
+          "label": "Ricardo Basbaum",
+          "value": "ricardoBasbaum"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "fileLink": "https://arweave.net/CHXN5Qzm1mA24_sEG-PxNXjlAgLtTzw1mR6FzphJnRY",
-      "publishedAt": "2017-07-01T19:00:38.000Z",
-      "slug": "varanda-sonora-01-arto-lindsay-magno-calliman",
-      "soundcloudLink": "https://soundcloud.com/artesonora/varanda-sonora-01-arto-lindsay?in=artesonora/sets/varanda-sonora&si=ee73219ad11f45d0bdc54e85a2a73f94&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "fileLink": "",
+      "publishedAt": "2018-03-01T19:03:01.000Z",
+      "slug": "varanda-sonora-03-ricardo-basbaum",
+      "soundcloudLink": "https://soundcloud.com/artesonora/varanda-sonora-03-ricardo",
       "status": "published",
       "tags": [
       ],
-      "title": "Varanda Sonora #01 - Arto Lindsay + Magno Calliman",
+      "title": "Varanda Sonora #03 - Ricardo Basbaum",
       "type": [
         {
           "label": "Varanda Sonora",
@@ -1655,7 +1684,7 @@
     },
     {
       "__outstatic": {
-        "commit": "e036071561be1e53dfeef29254812b7cd7e90055",
+        "commit": "521d2882c35cea305c6bf3fd7d20ec79796a9bd1",
         "hash": "912703644",
         "path": "outstatic/content/posts/varanda-sonora-02-fausto-fawcett-bruno-queiroz.md"
       },
@@ -1693,43 +1722,9 @@
     },
     {
       "__outstatic": {
-        "commit": "d78cf03222870ea2fd0e1d11a259198a840b3729",
-        "hash": "873580417",
-        "path": "outstatic/content/posts/mix-04-pedro-victor-brandao.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Pedro Victor Brandão",
-          "value": "pedroVictorBrandão"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/N4uPjMbz59yREJpV2Xrp_tmn4k63jwd8IruaGI8A4bU",
-      "publishedAt": "2013-04-19T17:49:54.000Z",
-      "slug": "mix-04-pedro-victor-brandao",
-      "soundcloudLink": "https://soundcloud.com/artesonora/mixtape-04-pedro-victor-brand?in=artesonora/sets/programas2013&si=5d568f3d950f47a7a6db16192449b17e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "MIX #04 Pedro Victor Brandão",
-      "type": [
-        {
-          "label": "Mixtape",
-          "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "0583f9a15212b58eeb842a9ab7dfe1b9951e447b",
-        "hash": "489346656",
-        "path": "outstatic/content/posts/his-04-o-fator-tecnologico-midiatico-na-era-do-som.md"
+        "commit": "ec8a5b8dc652d929bd94dd614bc638c4066e3764",
+        "hash": "2705768439",
+        "path": "outstatic/content/posts/varanda-sonora-01-arto-lindsay-magno-calliman.md"
       },
       "author": {
         "name": "Vitor Butkus",
@@ -1737,33 +1732,37 @@
       },
       "collaborators": [
         {
-          "label": "EXST",
-          "value": "exst"
+          "label": "Arto Lindsay",
+          "value": "artoLindsay"
+        },
+        {
+          "label": "Magno Calliman",
+          "value": "magnoCalliman"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "fileLink": "https://arweave.net/Mkn1ZJlKaMp214c7-sL8uZE4lz3Bcgb6yIBa5gdSTo4",
-      "publishedAt": "2018-07-04T20:49:02.000Z",
-      "slug": "his-04-o-fator-tecnologico-midiatico-na-era-do-som",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria04?in=artesonora/sets/nahistoria",
+      "fileLink": "https://arweave.net/CHXN5Qzm1mA24_sEG-PxNXjlAgLtTzw1mR6FzphJnRY",
+      "publishedAt": "2017-07-01T19:00:38.000Z",
+      "slug": "varanda-sonora-01-arto-lindsay-magno-calliman",
+      "soundcloudLink": "https://soundcloud.com/artesonora/varanda-sonora-01-arto-lindsay?in=artesonora/sets/varanda-sonora&si=ee73219ad11f45d0bdc54e85a2a73f94&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
       "status": "published",
       "tags": [
       ],
-      "title": "HIS #04 O fator tecnológico midiático na era do som",
+      "title": "Varanda Sonora #01 - Arto Lindsay + Magno Calliman",
       "type": [
         {
-          "label": "Na História",
-          "value": "naHistória"
+          "label": "Varanda Sonora",
+          "value": "varandaSonora"
         }
       ]
     },
     {
       "__outstatic": {
-        "commit": "2d6d46353d6a121f7c03f9a870b32515996a0ec4",
-        "hash": "1112231138",
-        "path": "outstatic/content/posts/pod-04-romano.md"
+        "commit": "73393a081bf4b068a838eb05f0a68b5523fb7245",
+        "hash": "4270446405",
+        "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
       },
       "author": {
         "name": "",
@@ -1771,21 +1770,21 @@
       },
       "collaborators": [
         {
-          "label": "Romano",
-          "value": "romano"
+          "label": "Cildo Meireles",
+          "value": "cildoMeireles"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "fileLink": "https://arweave.net/2Uyd9EN3b6y2ybn02521uOH0aVrOlFOgwziYnl7CQ7Q",
-      "publishedAt": "2013-04-25T16:30:58.000Z",
-      "slug": "pod-04-romano",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-04-romano?in=artesonora/sets/podcast&si=cc535380c6ae4d43866dbc24365d3fd8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "fileLink": "https://arweave.net/KFnH21AS6uD8eeNwovGjwnM6q8lQr-Y9Amua--q80nI",
+      "publishedAt": "2024-07-18T14:43:38.000Z",
+      "slug": "pod-12-cildo-meireles",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-12-cildo-meireles?in=artesonora/sets/podcast&si=2a3d3645fda049d997f8a2a80b0f3031&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
       "status": "published",
       "tags": [
       ],
-      "title": "POD #04 Romano",
+      "title": "POD #12 Cildo Meireles",
       "type": [
         {
           "label": "Podcast",
@@ -1795,35 +1794,35 @@
     },
     {
       "__outstatic": {
-        "commit": "9f0b8d0614b4834a5953c6d3dc7fec5656b2bab1",
-        "hash": "1414836991",
-        "path": "outstatic/content/posts/varanda-sonora-03-ricardo-basbaum.md"
+        "commit": "6ca0b441086fa6b900d18fe7b3a0394f7a019456",
+        "hash": "3483474502",
+        "path": "outstatic/content/posts/pod-11-lilian-zaremba.md"
       },
       "author": {
-        "name": "Vitor Butkus",
+        "name": "",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collaborators": [
         {
-          "label": "Ricardo Basbaum",
-          "value": "ricardoBasbaum"
+          "label": "Lilian Zaremba",
+          "value": "lilianZaremba"
         }
       ],
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "fileLink": "",
-      "publishedAt": "2018-03-01T19:03:01.000Z",
-      "slug": "varanda-sonora-03-ricardo-basbaum",
-      "soundcloudLink": "https://soundcloud.com/artesonora/varanda-sonora-03-ricardo",
+      "fileLink": "https://arweave.net/_aEHuFr68HCfaGQkaKdANVkN9TWNbgEcUci4Fl5Y8d4",
+      "publishedAt": "2024-07-17T17:46:31.000Z",
+      "slug": "pod-11-lilian-zaremba",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-11-lilian-zaremba?in=artesonora/sets/podcast&si=1b8a138cc8664a1185b8f11bb4a9f908&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
       "status": "published",
       "tags": [
       ],
-      "title": "Varanda Sonora #03 - Ricardo Basbaum",
+      "title": "POD #11 Lilian Zaremba",
       "type": [
         {
-          "label": "Varanda Sonora",
-          "value": "varandaSonora"
+          "label": "Podcast",
+          "value": "podcast"
         }
       ]
     }
