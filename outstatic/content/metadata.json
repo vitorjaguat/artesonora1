@@ -1,6 +1,6 @@
 {
-  "commit": "623c44d4ad2385d0015a1f57ef7017f9afd3838b",
-  "generated": "2024-08-04T16:29:34.924Z",
+  "commit": "25f5ce4464dd6c77f4c87c21947378773506e605",
+  "generated": "2024-08-04T22:15:28.821Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1861,6 +1861,24 @@
       "slug": "exposicao-arte-sonora-ano-15",
       "status": "published",
       "title": "EXPOSIÇÃO Arte Sonora Ano 15"
+    },
+    {
+      "__outstatic": {
+        "commit": "25f5ce4464dd6c77f4c87c21947378773506e605",
+        "hash": "2125225334",
+        "path": "outstatic/content/news/sessao-de-videos.md"
+      },
+      "author": {
+        "name": "EXST",
+        "picture": "https://avatars.githubusercontent.com/u/175142165?v=4"
+      },
+      "collection": "news",
+      "coverImage": "/images/vhs-M5OT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-25T21:36:17.000Z",
+      "slug": "sessao-de-videos",
+      "status": "published",
+      "title": "SESSÃO DE VÍDEOS Arte Sonora  Ano 15"
     }
   ]
 }
