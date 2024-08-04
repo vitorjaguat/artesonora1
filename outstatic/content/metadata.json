@@ -1,6 +1,6 @@
 {
-  "commit": "6a22c0990befa519d7f3414dfe0f89ab431e2412",
-  "generated": "2024-08-04T21:55:58.984Z",
+  "commit": "25f5ce4464dd6c77f4c87c21947378773506e605",
+  "generated": "2024-08-04T22:15:28.821Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1864,8 +1864,8 @@
     },
     {
       "__outstatic": {
-        "commit": "6a22c0990befa519d7f3414dfe0f89ab431e2412",
-        "hash": "1477220021",
+        "commit": "25f5ce4464dd6c77f4c87c21947378773506e605",
+        "hash": "2125225334",
         "path": "outstatic/content/news/sessao-de-videos.md"
       },
       "author": {
@@ -1873,12 +1873,12 @@
         "picture": "https://avatars.githubusercontent.com/u/175142165?v=4"
       },
       "collection": "news",
-      "coverImage": "",
+      "coverImage": "/images/vhs-M5OT.jpg",
       "description": "",
-      "publishedAt": "2024-08-04T21:36:17.729Z",
+      "publishedAt": "2024-07-25T21:36:17.000Z",
       "slug": "sessao-de-videos",
-      "status": "draft",
-      "title": "SESSÃO DE VÍDEOS "
+      "status": "published",
+      "title": "SESSÃO DE VÍDEOS Arte Sonora  Ano 15"
     }
   ]
 }
