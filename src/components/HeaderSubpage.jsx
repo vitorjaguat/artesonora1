@@ -11,8 +11,8 @@ export default function HeaderSubpage({
   blur = false,
 }) {
   const isMobile = useScreenSize() === 'mobile';
-  console.log('isMobile', isMobile);
-  console.log('blur', blur);
+  // console.log('isMobile', isMobile);
+  // console.log('blur', blur);
 
   const [hasMounted, setHasMounted] = useState(false);
 

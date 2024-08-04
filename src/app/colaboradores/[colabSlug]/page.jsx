@@ -48,7 +48,7 @@ async function getData(params) {
     .sort({ publishedAt: -1 })
     .toArray();
 
-  console.log('collabPosts', collabPosts);
+  // console.log('collabPosts', collabPosts);
   const content = await markdownToHtml(collab.content);
   // console.log('post', post);
 

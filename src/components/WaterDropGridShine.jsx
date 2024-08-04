@@ -113,7 +113,7 @@ const DotGrid = ({ gridWidth, gridHeight }) => {
   }
 
   useEffect(() => {
-    console.log('dots.length', dots.length);
+    // console.log('dots.length', dots.length);
     const interval = setInterval(() => {
       if (!isPulsing) {
         setShine(Math.floor(Math.random() * dots.length));
@@ -123,7 +123,7 @@ const DotGrid = ({ gridWidth, gridHeight }) => {
   }, [dots.length, isPulsing]);
 
   useEffect(() => {
-    console.log('shine', shine);
+    // console.log('shine', shine);
   }, [shine]);
 
   return (
