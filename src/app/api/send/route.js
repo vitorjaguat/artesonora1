@@ -7,7 +7,7 @@ export async function POST(req) {
   try {
     const request = await req.json();
     const { name, email, subject, message } = request;
-    console.log(name, email, subject, message);
+    // console.log(name, email, subject, message);
     const { data, error } = await resend.emails.send({
       from: `${name} <artesonora@uint.studio>`,
       //   TODO: change to the correct email(s)

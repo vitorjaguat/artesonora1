@@ -21,7 +21,7 @@ export default function ContactForm() {
   const isDesktop = useMediaQuery('md');
 
   const sendEmail = async () => {
-    console.log(name, email, subject, message);
+    // console.log(name, email, subject, message);
     const res = await fetch('/api/send', {
       method: 'POST',
       headers: {
@@ -35,7 +35,7 @@ export default function ContactForm() {
       }),
     });
     const data = await res.json();
-    console.log(data);
+    // console.log(data);
   };
 
   async function handleCaptchaSubmission(token) {

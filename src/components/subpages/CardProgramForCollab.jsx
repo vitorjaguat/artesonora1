@@ -22,7 +22,7 @@ export default function CardProgramForCollab({ post, image }) {
     changePlayArtist(
       post.collaborators.map((colObj) => colObj.label).join(', ')
     );
-    console.log(post);
+    // console.log(post);
   };
 
   return (

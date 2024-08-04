@@ -5,17 +5,19 @@ import PlayButton from './PlayButton';
 import Image from 'next/image';
 import { useAnimationControls, motion } from 'framer-motion';
 import { absoluteUrl } from '@/lib/utils';
+import { useMediaQuery } from '@/util/useMediaQuery';
 
 const CarouselCard = ({ post }) => {
-  console.log('posts', post);
+  // console.log('posts', post);
   const controls = useAnimationControls();
+  const isDesktop = useMediaQuery('sm');
 
   return (
     <Link
       href={`/${formatPostType(post.type[0].label)}/${post.slug}`}
       className='w-[360px] h-[360px] flex items-center justify-center  overflow-hidden aspect-square rounded-sm text-white'
-      onMouseEnter={() => controls.start('resize')}
-      onMouseLeave={() => controls.start('initial')}
+      onMouseEnter={isDesktop ? () => controls.start('resize') : null}
+      onMouseLeave={isDesktop ? () => controls.start('initial') : null}
     >
       <div className=' relative aspect-square w-full h-full overflow-hidden'>
         {/* INFO LAYER */}
@@ -25,7 +27,7 @@ const CarouselCard = ({ post }) => {
             <div className='text-center leading-4 mb-1 font-chakra text-lg'>
               {post.title}
             </div>
-            <div className='md:hidden font-thin text-sm'>
+            <div className=' font-thin text-sm'>
               {post.content.split('.')[0]}.
             </div>
           </div>
@@ -97,8 +99,9 @@ const CarouselCard = ({ post }) => {
               className='absolute inset-0 w-full h-full flex flex-col items-center justify-center gap-3 z-50 p-4'
               variants={{
                 initial: { opacity: 0 },
-                resize: { opacity: 1 },
+                resize: { opacity: 1, transition: { delay: 0.2 } },
               }}
+              // transition={{ delay: 0.2 }}
               initial='initial'
               animate={controls}
             >
@@ -110,7 +113,7 @@ const CarouselCard = ({ post }) => {
                 artist={post.collaborators[0].label}
               />
               <div className='font-thin text-sm p-3 bg-black/70 rounded-sm'>
-                {post.content.split('.')[0]}.
+                {post.content.split('.')[1]}.
               </div>
             </motion.div>
           </div>
