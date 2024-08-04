@@ -11,7 +11,6 @@ import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
 import Link from 'next/link';
 import bgHistoriaSlug from '../../../public/images/bgHistoriaSlug.jpg';
-import { bg } from 'date-fns/locale';
 
 const data = {
   podcast: {
