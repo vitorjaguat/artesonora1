@@ -1,6 +1,6 @@
 {
-  "commit": "3c6b38bad032fc3c40f85fe761edf3fa1c62784a",
-  "generated": "Sun, 04 Aug 2024 15:20:31 GMT",
+  "commit": "623c44d4ad2385d0015a1f57ef7017f9afd3838b",
+  "generated": "2024-08-04T16:29:34.924Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1825,6 +1825,42 @@
           "value": "podcast"
         }
       ]
+    },
+    {
+      "__outstatic": {
+        "commit": "a96340fa5a69686b7fbf289bf164f8c5d9e2e1c9",
+        "hash": "3870658023",
+        "path": "outstatic/content/news/arte-sonora-ano-15.md"
+      },
+      "author": {
+        "name": "EXST",
+        "picture": "https://avatars.githubusercontent.com/u/175142165?v=4"
+      },
+      "collection": "news",
+      "coverImage": "/images/artesonora15convite-ExMz.jpg",
+      "description": "",
+      "publishedAt": "2024-07-23T15:19:11.000Z",
+      "slug": "arte-sonora-ano-15",
+      "status": "published",
+      "title": "ARTE SONORA ANO 15"
+    },
+    {
+      "__outstatic": {
+        "commit": "623c44d4ad2385d0015a1f57ef7017f9afd3838b",
+        "hash": "841483847",
+        "path": "outstatic/content/news/exposicao-arte-sonora-ano-15.md"
+      },
+      "author": {
+        "name": "EXST",
+        "picture": "https://avatars.githubusercontent.com/u/175142165?v=4"
+      },
+      "collection": "news",
+      "coverImage": "/images/artesonora15artistas-Q2OT.jpg",
+      "description": "",
+      "publishedAt": "2024-07-24T15:58:25.000Z",
+      "slug": "exposicao-arte-sonora-ano-15",
+      "status": "published",
+      "title": "EXPOSIÇÃO Arte Sonora Ano 15"
     }
   ]
 }
