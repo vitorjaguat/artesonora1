@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { formatPostType } from '@/lib/utils';
 import PlayButton from './PlayButton';
+import CarouselPlayButton from './CarouselPlayButton';
 import Image from 'next/image';
 import { useAnimationControls, motion } from 'framer-motion';
 import { absoluteUrl } from '@/lib/utils';
@@ -12,9 +13,17 @@ const CarouselCard = ({ post }) => {
   const controls = useAnimationControls();
   const isDesktop = useMediaQuery('sm');
 
+  const linkComplete = post?.type
+    ? `/${formatPostType(post.type[0].label)}/${post.slug}`
+    : `/ativacoes/${post.slug}`;
+
+  const typeComplete = post?.type ? post.type[0].label : 'Ativações';
+
+  console.log(post);
+
   return (
     <Link
-      href={`/${formatPostType(post.type[0].label)}/${post.slug}`}
+      href={linkComplete}
       className='w-[360px] h-[360px] flex items-center justify-center  overflow-hidden aspect-square rounded-sm text-white'
       onMouseEnter={isDesktop ? () => controls.start('resize') : null}
       onMouseLeave={isDesktop ? () => controls.start('initial') : null}
@@ -34,10 +43,10 @@ const CarouselCard = ({ post }) => {
           <div className='flex justify-between h-full w-full'>
             <div className='h-full w-full bg-transparent'></div>
             <div className='h-full w-full flex items-center justify-center text-white font-light bg-transparent text-base duration-500 border-t-[1px] border-neutral-700'>
-              <div className='hidden md:block'>{post.type[0].label}</div>
+              <div className='hidden md:block'>{typeComplete}</div>
               <div className='md:hidden'>
                 {post?.fileLink && (
-                  <div className='md:hidden'>
+                  <div className='relative w-full h-full md:hidden'>
                     <PlayButton
                       size={40}
                       src={post?.fileLink}
@@ -86,10 +95,10 @@ const CarouselCard = ({ post }) => {
               initial='initial'
               animate={controls}
             >
-              {post.image && (
+              {(post.image || post.coverImage) && (
                 <Image
                   alt={post.title}
-                  src={post.image}
+                  src={post?.image || post.coverImage}
                   fill
                   className='object-cover z-0'
                 />
@@ -105,14 +114,14 @@ const CarouselCard = ({ post }) => {
               initial='initial'
               animate={controls}
             >
-              <PlayButton
-                size={20}
-                src={post.fileLink}
-                img={post.image}
+              <CarouselPlayButton
+                src={post.fileLink || ''}
+                img={post?.image || post.coverImage}
                 title={post.title}
-                artist={post.collaborators[0].label}
+                artist={post?.collaborators ? post.collaborators[0].label : ''}
+                href={post?.collaborators ? null : `/ativacoes/${post.slug}`}
               />
-              <div className='font-thin text-sm p-3 bg-black/70 rounded-sm'>
+              <div className='font-thin text-base p-3 bg-black/70 rounded-sm'>
                 {post.content.split('.')[1]}.
               </div>
             </motion.div>

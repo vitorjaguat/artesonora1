@@ -44,7 +44,7 @@ async function getData() {
   // const content = await markdownToHtml(page.content);
 
   const newestPostsNoImages = await db
-    .find({ collection: 'posts' }, [
+    .find({ collection: { $in: ['posts', 'news'] } }, [
       'title',
       'publishedAt',
       'slug',
@@ -60,22 +60,25 @@ async function getData() {
 
   const newestPosts = await Promise.all(
     newestPostsNoImages.map(async (post) => {
-      const collaborator = await db
-        .find(
-          {
-            collection: 'collaborators',
-            title: post?.collaborators[0]?.label,
-          },
-          ['title', 'coverImage']
-        )
-        .limit(1)
-        .first();
+      if (post?.collaborators) {
+        const collaborator = await db
+          .find(
+            {
+              collection: 'collaborators',
+              title: post?.collaborators[0]?.label,
+            },
+            ['title', 'coverImage']
+          )
+          .limit(1)
+          .first();
 
-      return {
-        ...post,
-        // image: collaborator ? absoluteUrl(collaborator.coverImage) : null,
-        image: collaborator ? collaborator.coverImage : null,
-      };
+        return {
+          ...post,
+          // image: collaborator ? absoluteUrl(collaborator.coverImage) : null,
+          image: collaborator ? collaborator.coverImage : null,
+        };
+      }
+      return post;
     })
   );
 
