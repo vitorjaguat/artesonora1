@@ -5,9 +5,10 @@ import Navbar from './Navbar';
 import PlayerBar from './PlayerBar';
 import { usePathname } from 'next/navigation';
 import { MainContextProvider } from '../context/mainContext';
-import { useEffect } from 'react';
+import { Suspense, useEffect } from 'react';
 import Lenis from 'lenis';
 import { motion, AnimatePresence } from 'framer-motion';
+import Loading from '../app/loading';
 
 type Props = {
   children: React.ReactNode;
@@ -59,7 +60,9 @@ const Layout = ({ children }: Props) => {
               id='main'
               className=' z-[1] w-screen bg-zinc-900'
             >
+              {/* <Suspense fallback={<Loading />}> */}
               {children}
+              {/* </Suspense> */}
             </main>
             {/* )}
             </AnimatePresence> */}
