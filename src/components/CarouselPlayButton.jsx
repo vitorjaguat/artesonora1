@@ -4,7 +4,7 @@ import { PiPlayLight } from 'react-icons/pi';
 import { useContext } from 'react';
 import { MainContext } from '@/context/mainContext';
 // import { MdKeyboardArrowRight } from 'react-icons/md';
-import { HiArrowRight } from 'react-icons/hi2';
+import { HiArrowDown } from 'react-icons/hi2';
 import Link from 'next/link';
 
 export default function PlayButton({ size, src, img, title, artist, href }) {
@@ -48,7 +48,7 @@ export default function PlayButton({ size, src, img, title, artist, href }) {
       )}
       {href && (
         <Link href={href}>
-          <HiArrowRight
+          <HiArrowDown
             className='absolute bottom-[10px] right-[10px]
              opacity-70
             hover:opacity-90 duration-300

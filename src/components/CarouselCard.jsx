@@ -7,7 +7,7 @@ import Image from 'next/image';
 import { useAnimationControls, motion } from 'framer-motion';
 import { absoluteUrl } from '@/lib/utils';
 import { useMediaQuery } from '@/util/useMediaQuery';
-import { HiArrowRight } from 'react-icons/hi2';
+import { HiArrowDown } from 'react-icons/hi2';
 
 const CarouselCard = ({ post }) => {
   // console.log('posts', post);
@@ -57,7 +57,7 @@ const CarouselCard = ({ post }) => {
                     />
                   </div>
                 )}
-                {post?.coverImage && <HiArrowRight size={30} />}
+                {post?.coverImage && <HiArrowDown size={30} />}
               </div>
             </div>
           </div>
