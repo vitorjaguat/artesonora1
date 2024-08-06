@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { useAnimationControls, motion } from 'framer-motion';
 import { absoluteUrl } from '@/lib/utils';
 import { useMediaQuery } from '@/util/useMediaQuery';
+import { HiArrowRight } from 'react-icons/hi2';
 
 const CarouselCard = ({ post }) => {
   // console.log('posts', post);
@@ -19,7 +20,7 @@ const CarouselCard = ({ post }) => {
 
   const typeComplete = post?.type ? post.type[0].label : 'Ativações';
 
-  console.log(post);
+  // console.log(post.content);
 
   return (
     <Link
@@ -56,6 +57,7 @@ const CarouselCard = ({ post }) => {
                     />
                   </div>
                 )}
+                {post?.coverImage && <HiArrowRight size={30} />}
               </div>
             </div>
           </div>
