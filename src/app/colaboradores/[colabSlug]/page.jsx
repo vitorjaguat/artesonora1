@@ -152,13 +152,14 @@ export default async function ColabSlug({ params }) {
             )}
 
             {/* Programs DESKTOP */}
-            <div className='hidden sm:flex w-1/2 gap-4 flex-wrap justify-end'>
+            <div className={'hidden sm:flex w-1/2 gap-4 flex-wrap justify-end'}>
               {collabPosts.length > 0 &&
                 collabPosts.map((item, i) => (
                   <CardProgramForCollab
                     key={i}
                     post={item}
                     image={coverImage}
+                    small={collabPosts.length > 4 ? true : false}
                   />
                 ))}
             </div>
