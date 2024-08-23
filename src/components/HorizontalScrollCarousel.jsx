@@ -13,7 +13,7 @@ const HorizontalScrollCarousel = ({ newestPosts }) => {
   const isDesktop = useMediaQuery('md');
 
   const x = isDesktop
-    ? useTransform(scrollYProgress, [0, 1], ['0.5%', '-65%'])
+    ? useTransform(scrollYProgress, [0, 1], ['0.5%', '-40%'])
     : useTransform(scrollYProgress, [0, 1], ['0.5%', '-80%']);
 
   return (
@@ -28,6 +28,7 @@ const HorizontalScrollCarousel = ({ newestPosts }) => {
         <motion.div style={{ x }} className='flex mt-8 gap-4'>
           {newestPosts.map((post, i) => {
             if (!isDesktop && i > 2) return null;
+            if (isDesktop && i > 3) return null;
             return <CarouselCard post={post} key={i} />;
           })}
         </motion.div>
