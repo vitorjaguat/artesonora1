@@ -16,43 +16,6 @@ import Title from '@/components/subpages/Title';
 import OptionsSobre from '@/components/subpages/OptionsSobre';
 import bgSobre from '../../../public/images/bgSobre.jpg';
 
-const data = {
-  podcast: {
-    title: 'Podcast',
-    description:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt voluptatibus odio fuga sint eaque ipsa, est maiores veniam aspernatur magnam eligendi quis aliquam, consectetur blanditiis voluptate nisi accusantium labore. Amet. Placeat aut iste unde explicabo dolor delectus quidem! A aspernatur eius molestias animi! Nulla accusamus est aliquid vero porro labore unde praesentium rerum sint quaerat, iure nisi assumenda? Est, placeat?',
-    image: dummyPodcast,
-    id: 1,
-    link: '/podcast',
-  },
-  mixtape: {
-    title: 'Mixtape',
-    description:
-      'Aperiam expedita dolores unde doloribus repudiandae quia, earum voluptatum eius quisquam. Obcaecati laudantium vel, illo minima iste officiis maiores debitis reiciendis quasi aliquid qui officia, expedita delectus? A, tenetur cumque! Voluptates ex, sunt quibusdam reprehenderit sequi suscipit ad quidem, earum officia totam architecto velit quia. Mollitia, exercitationem aliquam impedit voluptatem adipisci, deleniti temporibus repudiandae iste magni laborum, recusandae sequi quae!',
-    // image: '/images/dummyMixtape.jpg',
-    image: dummyMixtape,
-    id: 2,
-    link: '/mixtape',
-  },
-  naHistória: {
-    title: 'Na História',
-    description:
-      'Culpa repudiandae veritatis ipsam porro ea, debitis praesentium laudantium molestias. Labore non eaque quas eum explicabo, sint ea nemo nostrum minima odit iure culpa ipsa similique earum, sapiente, fuga aliquam! Reprehenderit, deleniti accusantium illum odio, molestiae sit vero modi, quis quisquam id earum suscipit at temporibus dicta consequatur possimus eum inventore. Porro similique officia voluptate, incidunt sed impedit nostrum iure?',
-    // image: '/images/dummyHistoria.jpg',
-    image: dummyHistoria,
-    id: 3,
-    link: '/na-historia',
-  },
-  varandaSonora: {
-    title: 'Varanda Sonora',
-    description:
-      'Laboriosam neque debitis voluptatem maxime modi omnis adipisci vel voluptate cum dolore quas doloremque harum blanditiis, nulla animi molestias dolores odio amet fugit deserunt quidem quod error. Possimus, aliquam architecto. Qui id necessitatibus quia aliquid ipsam soluta est repellendus nostrum at sunt! Optio magnam dolore itaque natus libero numquam delectus fugiat nostrum doloribus! Ducimus sed illum eos sequi sit mollitia.',
-    // image: '/images/dummyVaranda.jpg',
-    image: dummyVaranda,
-    id: 4,
-    link: '/varanda-sonora',
-  },
-};
 export default async function Page({ searchParams }) {
   const sobreOption = searchParams.q || 'sobre';
 

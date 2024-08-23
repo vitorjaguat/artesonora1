@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 //this was based on AllCards.jsx
@@ -134,6 +135,13 @@ export default function TextSobre({ sobreOption }) {
                 do Brasil. Desde 2009 coordenam o programa Arte Sonora na Escola
                 de Artes Visuais do Parque Lage. Atualmente, são representados
                 pela Galeria Sé – São Paulo, BR.
+              </div>
+              <div className='mt-6 mb-4 md:mb-0 scale-x-[-1] relative w-[90%] h-80'>
+                <Image
+                  src='/images/manata_laudares.jpg'
+                  fill
+                  className='object-cover'
+                />
               </div>
             </>
           )}
