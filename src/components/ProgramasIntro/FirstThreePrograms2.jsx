@@ -94,7 +94,7 @@ export default function FirstThreePrograms2({
     >
       <div className='w-full  flex flex-col gap-4'>
         <div className='-mb-2 w-full text-center tracking-[3px] md:tracking-[4px]'>
-          episódios mais recentes:
+          primeiros episódios:
         </div>
         <div className='flex  gap-2 text-white/90 justify-center md:justify-start'>
           <div

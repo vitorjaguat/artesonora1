@@ -90,7 +90,7 @@ export default function Hero() {
 
       {/* realização */}
       <motion.div
-        className='absolute right-5 bottom-5 text-white/50 text-base md:text-lg tracking-wider font-chakra -translate-y-[55px] md:translate-y-0 font-light'
+        className='absolute right-5 bottom-5 text-white/50 text-base md:text-base tracking-wider font-chakra -translate-y-[55px] md:translate-y-0 font-light'
         initial='off'
         animate='on'
         transition={{ delay: 0.3 }}
