@@ -38,7 +38,8 @@ export const metadata: Metadata = {
   description: 'Um projeto de Franz Manata e Saulo Laudares',
   openGraph: {
     title: 'Arte Sonora',
-    description: 'Um projeto de Franz Manata e Saulo Laudares',
+    description:
+      'Arte Sonora é uma prática artística coletiva desenvolvida pelo duo de artistas Franz Manata e Saulo Laudares, através de cursos, residências, exposições, happenings, programas de rádio e publicações. Aqui você encontra materiais que documentam os 15 anos desta prática.',
     url: 'https://artesonora.net/',
     siteName: 'Arte Sonora',
     images: [
@@ -58,6 +59,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.artesonora.net/',
   },
+  keywords: [
+    'arte sonora',
+    'artesonora',
+    'franz manata',
+    'saulo laudares',
+    'franz manata',
+  ],
 };
 
 export default function RootLayout({
