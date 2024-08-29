@@ -35,7 +35,8 @@ export const metadata: Metadata = {
     default: 'Arte Sonora',
     template: '%s | Arte Sonora',
   },
-  description: 'Um projeto de Franz Manata e Saulo Laudares',
+  description:
+    'Arte Sonora é uma prática artística coletiva desenvolvida pelo duo de artistas Franz Manata e Saulo Laudares, através de cursos, residências, exposições, happenings, programas de rádio e publicações. Aqui você encontra materiais que documentam os 15 anos desta prática.',
   openGraph: {
     title: 'Arte Sonora',
     description:
