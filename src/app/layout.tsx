@@ -55,6 +55,9 @@ export const metadata: Metadata = {
     icon: [{ url: '/favicon/play-favicon.png' }],
     apple: [{ url: '/images/play.png' }],
   },
+  alternates: {
+    canonical: 'https://www.artesonora.net/',
+  },
 };
 
 export default function RootLayout({
