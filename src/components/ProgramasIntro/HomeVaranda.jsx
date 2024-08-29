@@ -129,7 +129,7 @@ export default function HomeVaranda({ firstThree }) {
               href='varanda-sonora'
               className='md:w-40 text-left flex justify-start text-white/70 hover:scale-[1.02] duration-300 ease-in-out font-chakra '
             >
-              {data.varandaSonora.title}
+              <h2>{data.varandaSonora.title}</h2>
             </Link>
           </div>
 
