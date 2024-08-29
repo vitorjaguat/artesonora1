@@ -134,7 +134,7 @@ export default function ProgramasIntro({ firstThree }) {
               href='/podcast'
               className='md:w-40 text-right flex justify-end text-white/70 hover:scale-[1.02] ease-in-out duration-300 font-chakra '
             >
-              {data.podcast.title}
+              <h2>{data.podcast.title}</h2>
             </Link>
           </div>
 

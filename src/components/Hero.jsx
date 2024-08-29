@@ -73,8 +73,10 @@ export default function Hero() {
           variants={{ off: { opacity: 0, x: 20 }, on: { opacity: 1, x: 0 } }}
           className=''
         >
-          <div className=''>ARTE</div>
-          <div className=''>SONORA</div>
+          <h1>
+            <div className=''>ARTE</div>
+            <div className=''>SONORA</div>
+          </h1>
         </motion.div>
       </div>
 

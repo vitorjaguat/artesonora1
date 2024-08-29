@@ -81,7 +81,7 @@ export default function RootLayout({
 
   return (
     <html
-      lang='en'
+      lang='pt'
       className={` ${lato.variable} ${lato.className} ${chakra.variable} font-lato max-w-[100vw] overflow-x-hidden `}
     >
       {/* <link
