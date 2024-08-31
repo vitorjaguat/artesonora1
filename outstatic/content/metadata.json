@@ -1,6 +1,6 @@
 {
-  "commit": "7c70189baa06df1d7b635487294121a48880ace2",
-  "generated": "2024-08-31T18:58:26.308Z",
+  "commit": "09b248ed4227eb907a503cbe2a819068c9250328",
+  "generated": "2024-08-31T18:58:43.921Z",
   "metadata": [
     {
       "__outstatic": {
@@ -672,40 +672,6 @@
       "tags": [
       ],
       "title": "HIS #04 O fator tecnológico midiático na era do som",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "ee3feb2a8d109483c86ba76a7f2a4359e66bc435",
-        "hash": "2649074168",
-        "path": "outstatic/content/posts/his-03-transbordando-fronteiras.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/NmrL7R5aDEIbTOpnNyxVuPK6rMTnFN1fvLowgkz8Azw",
-      "publishedAt": "2018-07-02T20:35:20.000Z",
-      "slug": "his-03-transbordando-fronteiras",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria03?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #03 Transbordando fronteiras",
       "type": [
         {
           "label": "Na História",
@@ -1876,6 +1842,40 @@
       "tags": [
       ],
       "title": "HIS #02 A formação de um campo sensível",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "09b248ed4227eb907a503cbe2a819068c9250328",
+        "hash": "1474719800",
+        "path": "outstatic/content/posts/his-03-transbordando-fronteiras.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/NmrL7R5aDEIbTOpnNyxVuPK6rMTnFN1fvLowgkz8Azw",
+      "publishedAt": "2018-07-02T20:35:20.000Z",
+      "slug": "his-03-transbordando-fronteiras",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria03?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #03 Transbordando fronteiras",
       "type": [
         {
           "label": "Na História",
