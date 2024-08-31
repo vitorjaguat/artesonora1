@@ -1,5 +1,5 @@
 ---
-title: 'EXST'
+title: 'Manata Laudares'
 status: 'published'
 author:
   name: ''
@@ -7,6 +7,9 @@ author:
 slug: 'exst'
 description: ''
 coverImage: '/images/exst-E3ND.jpeg'
+facebook: ''
+twitter: ''
+instagram: ''
 publishedAt: '2024-06-11T14:40:09.478Z'
 ---
 

@@ -1,6 +1,6 @@
 {
-  "commit": "dfb9e011e49f48e8e1ea19cee34b9ba7ef9faf4a",
-  "generated": "2024-08-04T23:55:20.053Z",
+  "commit": "99254d6a9f5808c6a50281768cebcfa95c2d0684",
+  "generated": "2024-08-31T18:57:26.817Z",
   "metadata": [
     {
       "__outstatic": {
@@ -295,24 +295,6 @@
       "status": "published",
       "title": "Fausto Fawcett",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "8b011755aed7c387ce89453c9f7de968782ce902",
-        "hash": "2666419659",
-        "path": "outstatic/content/collaborators/exst.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/exst-E3ND.jpeg",
-      "description": "",
-      "publishedAt": "2024-06-11T14:40:09.478Z",
-      "slug": "exst",
-      "status": "published",
-      "title": "EXST"
     },
     {
       "__outstatic": {
@@ -1879,6 +1861,27 @@
       "slug": "arte-sonora-ano-15",
       "status": "published",
       "title": "ARTE SONORA ANO 15"
+    },
+    {
+      "__outstatic": {
+        "commit": "99254d6a9f5808c6a50281768cebcfa95c2d0684",
+        "hash": "3512248128",
+        "path": "outstatic/content/collaborators/exst.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/exst-E3ND.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-06-11T14:40:09.478Z",
+      "slug": "exst",
+      "status": "published",
+      "title": "Manata Laudares",
+      "twitter": ""
     }
   ]
 }
