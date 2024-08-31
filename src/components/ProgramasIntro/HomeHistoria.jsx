@@ -91,6 +91,7 @@ export default function HomeHistoria({ firstThree }) {
 
   const isSE =
     typeof window !== 'undefined' &&
+    window.innerWidth < 600 &&
     window.innerHeight / window.innerWidth < 1.8;
   return (
     <section
