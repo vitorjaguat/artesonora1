@@ -1,6 +1,6 @@
 {
-  "commit": "6476a4afe43fb5cc82dd5442049f1f91d56dd3fe",
-  "generated": "2024-08-31T19:05:43.541Z",
+  "commit": "3b4e1370ac4467da0e4d77bee6bf45caca27f105",
+  "generated": "Sat, 31 Aug 2024 19:07:43 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -172,6 +172,27 @@
     },
     {
       "__outstatic": {
+        "commit": "461bebaea010c6fccc376b5f458db74b5f32a172",
+        "hash": "4153023307",
+        "path": "outstatic/content/collaborators/guilherme-vaz.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/guilherme_vaz-YyMT.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/search/top/?q=guilherme%20vaz%20-%20uma%20fra%C3%A7%C3%A3o%20do%20infinito",
+      "instagram": "",
+      "publishedAt": "2024-06-12T19:32:49.726Z",
+      "slug": "guilherme-vaz",
+      "status": "published",
+      "title": "Guilherme Vaz",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
         "commit": "674eb4ef84759e15cdf37e58751fa7f2f61f71b9",
         "hash": "2643186902",
         "path": "outstatic/content/collaborators/fred-coelho.md"
@@ -252,6 +273,27 @@
       "slug": "cildo-meireles",
       "status": "published",
       "title": "Cildo Meireles",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "f02c40d040bcc4423eef99b9faf0cc1bf0492200",
+        "hash": "224464029",
+        "path": "outstatic/content/collaborators/lilian-zaremba.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/lilian_zaremba-E1OD.jpeg",
+      "description": "",
+      "facebook": "https://www.facebook.com/lilian.zaremba",
+      "instagram": "https://www.instagram.com/zarembalilian/?hl=pt-br",
+      "publishedAt": "2024-06-12T19:49:58.063Z",
+      "slug": "lilian-zaremba",
+      "status": "published",
+      "title": "Lilian Zaremba",
       "twitter": ""
     },
     {
@@ -340,23 +382,44 @@
     },
     {
       "__outstatic": {
-        "commit": "461bebaea010c6fccc376b5f458db74b5f32a172",
-        "hash": "4153023307",
-        "path": "outstatic/content/collaborators/guilherme-vaz.md"
+        "commit": "3b96be12b8b28dd481af5cc0546520facfa82c87",
+        "hash": "1062302947",
+        "path": "outstatic/content/collaborators/marcos-chaves.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/mc2-k0Nz.jpg",
+      "description": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/marcoschaves/",
+      "publishedAt": "2024-07-16T14:55:50.635Z",
+      "slug": "marcos-chaves",
+      "status": "published",
+      "title": "Marcos Chaves",
+      "twitter": ""
+    },
+    {
+      "__outstatic": {
+        "commit": "7248d544740b04bb9d0f2a235a764f8285b29aa9",
+        "hash": "1495493958",
+        "path": "outstatic/content/collaborators/manata-laudares.md"
       },
       "author": {
         "name": "",
         "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
       },
       "collection": "collaborators",
-      "coverImage": "/images/guilherme_vaz-YyMT.jpeg",
+      "coverImage": "/images/exst-E3ND.jpeg",
       "description": "",
-      "facebook": "https://www.facebook.com/search/top/?q=guilherme%20vaz%20-%20uma%20fra%C3%A7%C3%A3o%20do%20infinito",
+      "facebook": "",
       "instagram": "",
-      "publishedAt": "2024-06-12T19:32:49.726Z",
-      "slug": "guilherme-vaz",
+      "publishedAt": "2024-06-11T14:40:09.478Z",
+      "slug": "manata-laudares",
       "status": "published",
-      "title": "Guilherme Vaz",
+      "title": "Manata Laudares",
       "twitter": ""
     },
     {
@@ -378,27 +441,6 @@
       "slug": "paulo-nenflidio",
       "status": "published",
       "title": "Paulo Nenflidio",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "3b96be12b8b28dd481af5cc0546520facfa82c87",
-        "hash": "1062302947",
-        "path": "outstatic/content/collaborators/marcos-chaves.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/mc2-k0Nz.jpg",
-      "description": "",
-      "facebook": "",
-      "instagram": "https://www.instagram.com/marcoschaves/",
-      "publishedAt": "2024-07-16T14:55:50.635Z",
-      "slug": "marcos-chaves",
-      "status": "published",
-      "title": "Marcos Chaves",
       "twitter": ""
     },
     {
@@ -441,27 +483,6 @@
       "slug": "lisias-paiva",
       "status": "published",
       "title": "Lísias Paiva",
-      "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "f02c40d040bcc4423eef99b9faf0cc1bf0492200",
-        "hash": "224464029",
-        "path": "outstatic/content/collaborators/lilian-zaremba.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/lilian_zaremba-E1OD.jpeg",
-      "description": "",
-      "facebook": "https://www.facebook.com/lilian.zaremba",
-      "instagram": "https://www.instagram.com/zarembalilian/?hl=pt-br",
-      "publishedAt": "2024-06-12T19:49:58.063Z",
-      "slug": "lilian-zaremba",
-      "status": "published",
-      "title": "Lilian Zaremba",
       "twitter": ""
     },
     {
@@ -668,7 +689,7 @@
     {
       "__outstatic": {
         "commit": "3e2bbeae11a9521a849af02178a9c56e27042bff",
-        "hash": "3296303590",
+        "hash": "1279204829",
         "path": "outstatic/content/posts/his-05-da-vanguarda-ao-mainstream.md"
       },
       "author": {
@@ -677,8 +698,8 @@
       },
       "collaborators": [
         {
-          "label": "EXST",
-          "value": "exst"
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
         }
       ],
       "collection": "posts",
@@ -702,7 +723,7 @@
     {
       "__outstatic": {
         "commit": "6338945e48d1c7be8a22b63caafd13091eae2987",
-        "hash": "489346656",
+        "hash": "4285307237",
         "path": "outstatic/content/posts/his-04-o-fator-tecnologico-midiatico-na-era-do-som.md"
       },
       "author": {
@@ -711,8 +732,8 @@
       },
       "collaborators": [
         {
-          "label": "EXST",
-          "value": "exst"
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
         }
       ],
       "collection": "posts",
@@ -736,7 +757,7 @@
     {
       "__outstatic": {
         "commit": "abf4715337c4a826e879b2aff6c0b7f2239c4fbc",
-        "hash": "2649074168",
+        "hash": "1474719800",
         "path": "outstatic/content/posts/his-03-transbordando-fronteiras.md"
       },
       "author": {
@@ -745,8 +766,8 @@
       },
       "collaborators": [
         {
-          "label": "EXST",
-          "value": "exst"
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
         }
       ],
       "collection": "posts",
@@ -770,7 +791,7 @@
     {
       "__outstatic": {
         "commit": "844a65fa7b7777cd5e31ad28df4b093eb52c02d9",
-        "hash": "3622381959",
+        "hash": "3634402047",
         "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
       },
       "author": {
@@ -779,8 +800,8 @@
       },
       "collaborators": [
         {
-          "label": "EXST",
-          "value": "exst"
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
         }
       ],
       "collection": "posts",
@@ -804,7 +825,7 @@
     {
       "__outstatic": {
         "commit": "240f05d37b91f3bc502eff7e9acdaf2d51047ced",
-        "hash": "3807571964",
+        "hash": "3077890708",
         "path": "outstatic/content/posts/his-01-a-valorizacao-do-entorno-acustico.md"
       },
       "author": {
@@ -813,8 +834,8 @@
       },
       "collaborators": [
         {
-          "label": "EXST",
-          "value": "exst"
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
         }
       ],
       "collection": "posts",
@@ -828,108 +849,6 @@
       "tags": [
       ],
       "title": "HIS #01 A valorização do entorno acústico",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "9936111d25ffd99817475ffe551d1a928f1f600a",
-        "hash": "718585916",
-        "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/cx1tKLEzWZXxvJz0qxg1Nqz93t0kzzcMCV9Hb3pFiro",
-      "publishedAt": "2024-07-18T20:59:48.000Z",
-      "slug": "his-08-arte-e-som-no-brasil-os-contemporaneos",
-      "soundcloudLink": "https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "9943c64cc13d1c571d292fd3e259f676910bdee9",
-        "hash": "1456428480",
-        "path": "outstatic/content/posts/his-07-arte-e-som-no-brasil-os-primordios.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/ADU6Ru-hjGz-yc9FinHC7M5VP0e7ZUZzNHqEy6iY4cc",
-      "publishedAt": "2018-07-07T20:57:44.000Z",
-      "slug": "his-07-arte-e-som-no-brasil-os-primordios",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria07?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #07 Arte e Som no Brasil - Os primórdios",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "38712129bdf5ae33771336aa08ddf2941dabc2f9",
-        "hash": "998620511",
-        "path": "outstatic/content/posts/his-06-cientistas-do-ritmo.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/VpWsXjCKLcmMbiv7m5jaQ8lamxMMaDWaQWEWpBmUxZY",
-      "publishedAt": "2018-07-06T20:56:11.000Z",
-      "slug": "his-06-cientistas-do-ritmo",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria06?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #06 Cientistas do Ritmo",
       "type": [
         {
           "label": "Na História",
@@ -1001,6 +920,108 @@
         {
           "label": "Mixtape",
           "value": "mixtape"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "9936111d25ffd99817475ffe551d1a928f1f600a",
+        "hash": "2854635604",
+        "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/cx1tKLEzWZXxvJz0qxg1Nqz93t0kzzcMCV9Hb3pFiro",
+      "publishedAt": "2024-07-18T20:59:48.000Z",
+      "slug": "his-08-arte-e-som-no-brasil-os-contemporaneos",
+      "soundcloudLink": "https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "9943c64cc13d1c571d292fd3e259f676910bdee9",
+        "hash": "1380945527",
+        "path": "outstatic/content/posts/his-07-arte-e-som-no-brasil-os-primordios.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/ADU6Ru-hjGz-yc9FinHC7M5VP0e7ZUZzNHqEy6iY4cc",
+      "publishedAt": "2018-07-07T20:57:44.000Z",
+      "slug": "his-07-arte-e-som-no-brasil-os-primordios",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria07?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #07 Arte e Som no Brasil - Os primórdios",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "38712129bdf5ae33771336aa08ddf2941dabc2f9",
+        "hash": "1834864167",
+        "path": "outstatic/content/posts/his-06-cientistas-do-ritmo.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/VpWsXjCKLcmMbiv7m5jaQ8lamxMMaDWaQWEWpBmUxZY",
+      "publishedAt": "2018-07-06T20:56:11.000Z",
+      "slug": "his-06-cientistas-do-ritmo",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria06?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #06 Cientistas do Ritmo",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
         }
       ]
     },
@@ -1861,27 +1882,6 @@
           "value": "podcast"
         }
       ]
-    },
-    {
-      "__outstatic": {
-        "commit": "6476a4afe43fb5cc82dd5442049f1f91d56dd3fe",
-        "hash": "1495493958",
-        "path": "outstatic/content/collaborators/manata-laudares.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/exst-E3ND.jpeg",
-      "description": "",
-      "facebook": "",
-      "instagram": "",
-      "publishedAt": "2024-06-11T14:40:09.478Z",
-      "slug": "manata-laudares",
-      "status": "published",
-      "title": "Manata Laudares",
-      "twitter": ""
     }
   ]
 }
