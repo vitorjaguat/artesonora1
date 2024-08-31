@@ -7,6 +7,7 @@ import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import AllCards from '@/components/subpages/AllCards';
 import Description from '@/components/subpages/Description';
 import Title from '@/components/subpages/Title';
+import varandaFront from '../../../public/images/varanda_front_v2.jpg';
 
 const data = {
   podcast: {
@@ -58,13 +59,13 @@ export default async function Page() {
         <div className='relative w-full h-full overflow-hidden'>
           <div className='absolute inset-0 max-h-full w-full h-full'>
             <Image
-              src={data.varandaSonora.image}
+              src={varandaFront}
               alt={data.varandaSonora.title}
               fill
               style={{
                 objectFit: 'cover',
                 zIndex: 0,
-                opacity: isLoading ? 0 : 0.4,
+                opacity: 1,
                 transitionProperty: 'opacity',
                 transitionDuration: '1000ms',
               }}

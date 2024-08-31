@@ -66,7 +66,7 @@ export default async function Page() {
               style={{
                 objectFit: 'cover',
                 zIndex: 0,
-                opacity: isLoading ? 0 : 0.4,
+                opacity: 1,
                 transitionProperty: 'opacity',
                 transitionDuration: '1000ms',
               }}
