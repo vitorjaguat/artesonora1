@@ -1,4 +1,4 @@
-import React, { createContext, useReducer } from 'react';
+import React, { createContext, useReducer, useEffect } from 'react';
 // import { useMediaQuery } from '../util/useMediaQuery';
 
 // Reducer function
@@ -66,6 +66,32 @@ const MainContextProvider = ({ children }) => {
     ativacoesOption: 1,
   };
   const [state, dispatch] = useReducer(reducer, initialState);
+
+  useEffect(() => {
+    async function fetchLatestPost() {
+      try {
+        const response = await fetch('/api/loadNewestAudio');
+        if (response.ok) {
+          const data = await response.json();
+          dispatch({ type: 'CHANGE_PLAY_SRC', payload: data.fileLink });
+          dispatch({ type: 'CHANGE_PLAY_IMG', payload: data.playImg });
+          // Dispatch other relevant data if needed
+          dispatch({
+            type: 'CHANGE_PLAY_ARTIST',
+            payload: data.collaborators.join(', '),
+          });
+          dispatch({
+            type: 'CHANGE_PLAY_TITLE',
+            payload: data.title,
+          });
+        }
+      } catch (error) {
+        console.error('Error fetching latest post:', error);
+      }
+    }
+
+    fetchLatestPost();
+  }, []);
 
   // Functions to change what is playing
   const changePlaySrc = (src) => {
