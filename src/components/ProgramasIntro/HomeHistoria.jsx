@@ -89,6 +89,9 @@ export default function HomeHistoria({ firstThree }) {
 
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
 
+  const isSE =
+    typeof window !== 'undefined' &&
+    window.innerHeight / window.innerWidth < 1.8;
   return (
     <section
       ref={containerRef}
@@ -151,7 +154,13 @@ export default function HomeHistoria({ firstThree }) {
         >
           {data.naHistória.description.split('.').map((sentence, i, arr) => (
             <RevealText width='100%' key={i}>
-              <div className='w-full flex justify-end text-right'>
+              <div
+                className={
+                  'w-full flex justify-end text-right' +
+                  (isSE ? ' text-sm' : '') +
+                  (isSE && i > 0 ? ' hidden' : '')
+                }
+              >
                 {sentence}
                 {i < arr.length - 1 ? '.' : ''}
               </div>
@@ -187,6 +196,7 @@ export default function HomeHistoria({ firstThree }) {
         <FirstThreePrograms2
           firstThree={firstThree}
           scrollYProgress={scrollYProgress}
+          isNaHistoria={true}
         />
         {/* )} */}
       </div>

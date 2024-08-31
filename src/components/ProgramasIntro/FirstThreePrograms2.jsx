@@ -10,6 +10,7 @@ export default function FirstThreePrograms2({
   firstThree,
   scrollYProgress,
   sideRight = false,
+  isNaHistoria = false,
 }) {
   // console.log('firstThree', firstThree);
   const [description, setDescription] = useState(null);
@@ -94,7 +95,7 @@ export default function FirstThreePrograms2({
     >
       <div className='w-full  flex flex-col gap-4'>
         <div className='-mb-2 w-full text-center tracking-[3px] md:tracking-[4px]'>
-          primeiros episódios:
+          {isNaHistoria ? 'primeiros episódios:' : 'episódios mais recentes:'}
         </div>
         <div className='flex  gap-2 text-white/90 justify-center md:justify-start'>
           <div

@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import dummyPodcast from '../../../public/images/dummyPodcast2.jpg';
 import dummyMixtape from '../../../public/images/dummyMixtape.jpg';
@@ -95,6 +95,10 @@ export default function ProgramasIntro({ firstThree }) {
 
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
 
+  const isSE =
+    typeof window !== 'undefined' &&
+    window.innerHeight / window.innerWidth < 1.8;
+
   return (
     <section
       ref={containerRef}
@@ -156,7 +160,13 @@ export default function ProgramasIntro({ firstThree }) {
         >
           {data.podcast.description.split('.').map((sentence, i, arr) => (
             <RevealText width='100%' key={i}>
-              <div className='w-full flex justify-end text-right'>
+              <div
+                className={
+                  'w-full flex justify-end text-right' +
+                  (isSE ? ' text-sm' : '') +
+                  (isSE && i > 0 ? ' hidden' : '')
+                }
+              >
                 {sentence}
                 {i < arr.length - 1 ? '.' : ''}
               </div>
