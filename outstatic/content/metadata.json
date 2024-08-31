@@ -1,6 +1,6 @@
 {
-  "commit": "1b758c8a88010dfba8a06e274da7990e2808bb13",
-  "generated": "2024-08-31T18:59:35.234Z",
+  "commit": "9eb09ba262ce9237024f6dacee962aebfe29003a",
+  "generated": "2024-08-31T18:59:54.369Z",
   "metadata": [
     {
       "__outstatic": {
@@ -705,40 +705,6 @@
       "tags": [
       ],
       "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "f58e15169551db15404bb248ea4e84cff1a4eebc",
-        "hash": "1456428480",
-        "path": "outstatic/content/posts/his-07-arte-e-som-no-brasil-os-primordios.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/ADU6Ru-hjGz-yc9FinHC7M5VP0e7ZUZzNHqEy6iY4cc",
-      "publishedAt": "2018-07-07T20:57:44.000Z",
-      "slug": "his-07-arte-e-som-no-brasil-os-primordios",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria07?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #07 Arte e Som no Brasil - Os primórdios",
       "type": [
         {
           "label": "Na História",
@@ -1876,6 +1842,40 @@
       "tags": [
       ],
       "title": "HIS #06 Cientistas do Ritmo",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "9eb09ba262ce9237024f6dacee962aebfe29003a",
+        "hash": "1380945527",
+        "path": "outstatic/content/posts/his-07-arte-e-som-no-brasil-os-primordios.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/ADU6Ru-hjGz-yc9FinHC7M5VP0e7ZUZzNHqEy6iY4cc",
+      "publishedAt": "2018-07-07T20:57:44.000Z",
+      "slug": "his-07-arte-e-som-no-brasil-os-primordios",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria07?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #07 Arte e Som no Brasil - Os primórdios",
       "type": [
         {
           "label": "Na História",
