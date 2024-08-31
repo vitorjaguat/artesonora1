@@ -1,6 +1,7 @@
 import { load } from 'outstatic/server';
+import { NextResponse } from 'next/server';
 
-export default async function handler(req, res) {
+export async function GET() {
   const db = await load();
 
   const latestPost = await db
@@ -38,9 +39,9 @@ export default async function handler(req, res) {
   };
 
   if (latestPost.length > 0) {
-    res.status(200).json(latestPostParsed);
+    return NextResponse.json(latestPostParsed);
   } else {
-    res.status(200).json({
+    return NextResponse.json({
       title: 'Varanda Sonora #01 - Arto Lindsay + Magno Calliman',
       collaborators: 'Arto Lindsay, Magno Calliman',
       fileLink:
