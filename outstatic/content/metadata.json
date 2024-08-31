@@ -1,6 +1,6 @@
 {
-  "commit": "3b4e1370ac4467da0e4d77bee6bf45caca27f105",
-  "generated": "Sat, 31 Aug 2024 19:07:43 GMT",
+  "commit": "cd2202c4f71e68ef722d11760c4a936774f9bc88",
+  "generated": "2024-08-31T23:06:09.911Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1817,40 +1817,6 @@
     },
     {
       "__outstatic": {
-        "commit": "73393a081bf4b068a838eb05f0a68b5523fb7245",
-        "hash": "4270446405",
-        "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "Cildo Meireles",
-          "value": "cildoMeireles"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/KFnH21AS6uD8eeNwovGjwnM6q8lQr-Y9Amua--q80nI",
-      "publishedAt": "2024-07-18T14:43:38.000Z",
-      "slug": "pod-12-cildo-meireles",
-      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-12-cildo-meireles?in=artesonora/sets/podcast&si=2a3d3645fda049d997f8a2a80b0f3031&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "POD #12 Cildo Meireles",
-      "type": [
-        {
-          "label": "Podcast",
-          "value": "podcast"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
         "commit": "6ca0b441086fa6b900d18fe7b3a0394f7a019456",
         "hash": "3483474502",
         "path": "outstatic/content/posts/pod-11-lilian-zaremba.md"
@@ -1876,6 +1842,40 @@
       "tags": [
       ],
       "title": "POD #11 Lilian Zaremba",
+      "type": [
+        {
+          "label": "Podcast",
+          "value": "podcast"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "cd2202c4f71e68ef722d11760c4a936774f9bc88",
+        "hash": "3642067218",
+        "path": "outstatic/content/posts/pod-12-cildo-meireles.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Cildo Meireles",
+          "value": "cildoMeireles"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/KFnH21AS6uD8eeNwovGjwnM6q8lQr-Y9Amua--q80nI",
+      "publishedAt": "2024-08-31T14:43:38.000Z",
+      "slug": "pod-12-cildo-meireles",
+      "soundcloudLink": "https://soundcloud.com/artesonora/podcast-12-cildo-meireles?in=artesonora/sets/podcast&si=2a3d3645fda049d997f8a2a80b0f3031&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "POD #12 Cildo Meireles",
       "type": [
         {
           "label": "Podcast",
