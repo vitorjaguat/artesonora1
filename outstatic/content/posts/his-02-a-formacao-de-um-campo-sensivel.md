@@ -10,7 +10,7 @@ coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria'
 fileLink: 'https://arweave.net/7CqWjYINMig54FOZtbUZHXZgK3BAjv9aH7ld1a_OAv0'
 tags: []
-collaborators: [{"value":"exst","label":"EXST"}]
+collaborators: [{"value":"manataLaudares","label":"Manata Laudares"}]
 type: [{"value":"naHistória","label":"Na História"}]
 publishedAt: '2018-07-01T20:03:44.000Z'
 ---

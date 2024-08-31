@@ -1,6 +1,6 @@
 {
-  "commit": "833bfa22de8e5968bf68ee8fe55fb6db5f7db4f7",
-  "generated": "2024-08-31T18:58:06.755Z",
+  "commit": "7c70189baa06df1d7b635487294121a48880ace2",
+  "generated": "2024-08-31T18:58:26.308Z",
   "metadata": [
     {
       "__outstatic": {
@@ -706,40 +706,6 @@
       "tags": [
       ],
       "title": "HIS #03 Transbordando fronteiras",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "2c12680924d23f680bda4e9ec054b1484f58972b",
-        "hash": "3622381959",
-        "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/7CqWjYINMig54FOZtbUZHXZgK3BAjv9aH7ld1a_OAv0",
-      "publishedAt": "2018-07-01T20:03:44.000Z",
-      "slug": "his-02-a-formacao-de-um-campo-sensivel",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #02 A formação de um campo sensível",
       "type": [
         {
           "label": "Na História",
@@ -1876,6 +1842,40 @@
       "tags": [
       ],
       "title": "HIS #01 A valorização do entorno acústico",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "7c70189baa06df1d7b635487294121a48880ace2",
+        "hash": "3634402047",
+        "path": "outstatic/content/posts/his-02-a-formacao-de-um-campo-sensivel.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/7CqWjYINMig54FOZtbUZHXZgK3BAjv9aH7ld1a_OAv0",
+      "publishedAt": "2018-07-01T20:03:44.000Z",
+      "slug": "his-02-a-formacao-de-um-campo-sensivel",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria02?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #02 A formação de um campo sensível",
       "type": [
         {
           "label": "Na História",
