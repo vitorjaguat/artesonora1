@@ -23,20 +23,15 @@ export default function PlaySlug({
         <div className='text-base font-chakra font-semibold w-full text-left'>
           {title}
         </div>
-        {/* {collaborators.length > 0 && (
-      <div className='text-xs'>
-        com a participação de{' '}
-        {collaborators.map((col) => col.label).join(', ')}
-      </div>
-    )} */}
-        {soundcloudLink && (
+
+        {/* {soundcloudLink && (
           <div className='text-xs flex items-center gap-1'>
             Disponível também no{' '}
             <a href={soundcloudLink} target='_blank' rel='noopener noreferrer'>
               <SlSocialSoundcloud size={20} />
             </a>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );
