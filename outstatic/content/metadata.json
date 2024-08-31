@@ -1,6 +1,6 @@
 {
-  "commit": "48ff26c86fb095d2c4f18a08385f361018ac5376",
-  "generated": "2024-08-31T18:59:01.841Z",
+  "commit": "a0029576c500c161bc888c3487f0cedc1c3e49bf",
+  "generated": "2024-08-31T18:59:19.863Z",
   "metadata": [
     {
       "__outstatic": {
@@ -610,40 +610,6 @@
       "status": "published",
       "title": "Rodolfo Caesar",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "7a0c3814951c8e24ee1ed7a783b1a62b98a9cfc0",
-        "hash": "3296303590",
-        "path": "outstatic/content/posts/his-05-da-vanguarda-ao-mainstream.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/t3-4QOCjcR96hHnpBCjiifN8ZBWWNQxC6nVv_JdYYSM",
-      "publishedAt": "2018-07-05T20:53:55.000Z",
-      "slug": "his-05-da-vanguarda-ao-mainstream",
-      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria05?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #05 Da vanguarda ao mainstream",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
-        }
-      ]
     },
     {
       "__outstatic": {
@@ -1876,6 +1842,40 @@
       "tags": [
       ],
       "title": "HIS #04 O fator tecnológico midiático na era do som",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "a0029576c500c161bc888c3487f0cedc1c3e49bf",
+        "hash": "1279204829",
+        "path": "outstatic/content/posts/his-05-da-vanguarda-ao-mainstream.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/t3-4QOCjcR96hHnpBCjiifN8ZBWWNQxC6nVv_JdYYSM",
+      "publishedAt": "2018-07-05T20:53:55.000Z",
+      "slug": "his-05-da-vanguarda-ao-mainstream",
+      "soundcloudLink": "https://soundcloud.com/artesonora/nahistoria05?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #05 Da vanguarda ao mainstream",
       "type": [
         {
           "label": "Na História",
