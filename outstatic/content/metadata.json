@@ -1,6 +1,6 @@
 {
-  "commit": "9eb09ba262ce9237024f6dacee962aebfe29003a",
-  "generated": "2024-08-31T18:59:54.369Z",
+  "commit": "ad52c526f4b7c54cd46dadd9ba634e0768339f0c",
+  "generated": "2024-08-31T19:00:10.038Z",
   "metadata": [
     {
       "__outstatic": {
@@ -675,40 +675,6 @@
         {
           "label": "Mixtape",
           "value": "mixtape"
-        }
-      ]
-    },
-    {
-      "__outstatic": {
-        "commit": "f2ee8690c55d4f193b1b226beb7159a707cbebe7",
-        "hash": "718585916",
-        "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
-      },
-      "author": {
-        "name": "Vitor Butkus",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collaborators": [
-        {
-          "label": "EXST",
-          "value": "exst"
-        }
-      ],
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "fileLink": "https://arweave.net/cx1tKLEzWZXxvJz0qxg1Nqz93t0kzzcMCV9Hb3pFiro",
-      "publishedAt": "2024-07-18T20:59:48.000Z",
-      "slug": "his-08-arte-e-som-no-brasil-os-contemporaneos",
-      "soundcloudLink": "https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
-      "type": [
-        {
-          "label": "Na História",
-          "value": "naHistória"
         }
       ]
     },
@@ -1876,6 +1842,40 @@
       "tags": [
       ],
       "title": "HIS #07 Arte e Som no Brasil - Os primórdios",
+      "type": [
+        {
+          "label": "Na História",
+          "value": "naHistória"
+        }
+      ]
+    },
+    {
+      "__outstatic": {
+        "commit": "ad52c526f4b7c54cd46dadd9ba634e0768339f0c",
+        "hash": "2854635604",
+        "path": "outstatic/content/posts/his-08-arte-e-som-no-brasil-os-contemporaneos.md"
+      },
+      "author": {
+        "name": "Vitor Butkus",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collaborators": [
+        {
+          "label": "Manata Laudares",
+          "value": "manataLaudares"
+        }
+      ],
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "fileLink": "https://arweave.net/cx1tKLEzWZXxvJz0qxg1Nqz93t0kzzcMCV9Hb3pFiro",
+      "publishedAt": "2024-07-18T20:59:48.000Z",
+      "slug": "his-08-arte-e-som-no-brasil-os-contemporaneos",
+      "soundcloudLink": "https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "HIS #08 Arte e Som no Brasil - Os contemporâneos",
       "type": [
         {
           "label": "Na História",

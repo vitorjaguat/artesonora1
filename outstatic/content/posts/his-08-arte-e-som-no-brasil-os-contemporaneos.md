@@ -10,7 +10,7 @@ coverImage: ''
 soundcloudLink: 'https://soundcloud.com/artesonora/na-hist-ria-08?in=artesonora/sets/nahistoria'
 fileLink: 'https://arweave.net/cx1tKLEzWZXxvJz0qxg1Nqz93t0kzzcMCV9Hb3pFiro'
 tags: []
-collaborators: [{"value":"exst","label":"EXST"}]
+collaborators: [{"value":"manataLaudares","label":"Manata Laudares"}]
 type: [{"value":"naHistória","label":"Na História"}]
 publishedAt: '2024-07-18T20:59:48.000Z'
 ---
