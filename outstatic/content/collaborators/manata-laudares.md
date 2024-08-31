@@ -4,7 +4,7 @@ status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/106280545?v=4'
-slug: 'exst'
+slug: 'manata-laudares'
 description: ''
 coverImage: '/images/exst-E3ND.jpeg'
 facebook: ''

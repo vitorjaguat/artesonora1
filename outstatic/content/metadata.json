@@ -1,6 +1,6 @@
 {
-  "commit": "93e44405a5c9ca0c27b631321ee3e857e32c9ebc",
-  "generated": "Sat, 31 Aug 2024 19:00:51 GMT",
+  "commit": "6476a4afe43fb5cc82dd5442049f1f91d56dd3fe",
+  "generated": "2024-08-31T19:05:43.541Z",
   "metadata": [
     {
       "__outstatic": {
@@ -169,24 +169,6 @@
       "status": "published",
       "title": "Bernardo Oliveira",
       "twitter": ""
-    },
-    {
-      "__outstatic": {
-        "commit": "5687bad0db9d7576b094326cac521529379e0c44",
-        "hash": "2666419659",
-        "path": "outstatic/content/collaborators/exst.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
-      },
-      "collection": "collaborators",
-      "coverImage": "/images/exst-E3ND.jpeg",
-      "description": "",
-      "publishedAt": "2024-06-11T14:40:09.478Z",
-      "slug": "exst",
-      "status": "published",
-      "title": "EXST"
     },
     {
       "__outstatic": {
@@ -1879,6 +1861,27 @@
           "value": "podcast"
         }
       ]
+    },
+    {
+      "__outstatic": {
+        "commit": "6476a4afe43fb5cc82dd5442049f1f91d56dd3fe",
+        "hash": "1495493958",
+        "path": "outstatic/content/collaborators/manata-laudares.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/106280545?v=4"
+      },
+      "collection": "collaborators",
+      "coverImage": "/images/exst-E3ND.jpeg",
+      "description": "",
+      "facebook": "",
+      "instagram": "",
+      "publishedAt": "2024-06-11T14:40:09.478Z",
+      "slug": "manata-laudares",
+      "status": "published",
+      "title": "Manata Laudares",
+      "twitter": ""
     }
   ]
 }
