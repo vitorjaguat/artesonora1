@@ -10,7 +10,8 @@ import dummyVaranda from '../../../public/images/dummyVaranda.jpg';
 import FirstThreePrograms2 from './FirstThreePrograms2';
 import RevealText from '../RevealText';
 import Link from 'next/link';
-import bgVarandaSlug from '../../../public/images/bgVarandaSlug.jpg';
+// import bgVarandaSlug from '../../../public/images/bgVarandaSlug.jpg';
+import varandaFront from '../../../public/images/varanda_front_v2.jpg';
 
 const data = {
   podcast: {
@@ -107,7 +108,8 @@ export default function HomeVaranda({ firstThree }) {
           >
             <Image
               // src={data.varandaSonora.image}
-              src={bgVarandaSlug}
+              // src={bgVarandaSlug}
+              src={varandaFront}
               alt='Varanda Sonora'
               fill
               style={{
@@ -118,6 +120,7 @@ export default function HomeVaranda({ firstThree }) {
                 transitionDuration: '1000ms',
               }}
               priority={true}
+              // className=' saturate-0 opacity-20'
             />
           </motion.div>
 
