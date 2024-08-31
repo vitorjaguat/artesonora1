@@ -89,6 +89,10 @@ export default function HomeMixtape({ firstThree }) {
 
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
 
+  const isSE =
+    typeof window !== 'undefined' &&
+    window.innerHeight / window.innerWidth < 1.8;
+
   return (
     <section
       ref={containerRef}
@@ -151,7 +155,13 @@ export default function HomeMixtape({ firstThree }) {
         >
           {data.mixtape.description.split('.').map((sentence, i, arr) => (
             <RevealText width='100%' key={i}>
-              <div className='w-full flex text-left'>
+              <div
+                className={
+                  'w-full flex justify-start text-left' +
+                  (isSE ? ' text-sm' : '') +
+                  (isSE && i > 0 ? ' hidden' : '')
+                }
+              >
                 {sentence}
                 {i < arr.length - 1 ? '.' : ''}
               </div>

@@ -89,6 +89,10 @@ export default function HomeVaranda({ firstThree }) {
 
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
 
+  const isSE =
+    typeof window !== 'undefined' &&
+    window.innerHeight / window.innerWidth < 1.8;
+
   return (
     <section
       ref={containerRef}
@@ -142,7 +146,7 @@ export default function HomeVaranda({ firstThree }) {
         {/* description */}
         <Link
           href='/varanda-sonora'
-          className='absolute left-5 md:left-8 bottom-5 md:bottom-8 w-[80%] md:w-1/3 text-left text-base text-white/90 flex flex-col gap-2 leading-snug pointer-events-none md:pointer-events-auto'
+          className='absolute left-5 md:left-8 bottom-5 md:bottom-8 w-[80%] md:w-1/3 text-left text-base text-white/90 flex flex-col gap-2 leading-snug pointer-events-none md:pointer-events-auto translate-y-4'
           style={{
             opacity: isLoading ? 0 : 1,
             transitionProperty: 'opacity',
@@ -151,7 +155,12 @@ export default function HomeVaranda({ firstThree }) {
         >
           {data.varandaSonora.description.split('.').map((sentence, i, arr) => (
             <RevealText width='100%' key={i}>
-              <div className='w-full flex text-left text-sm md:text-base'>
+              <div
+                className={
+                  'w-full flex text-left text-sm md:text-base' +
+                  (isSE && i > 0 ? ' hidden' : '')
+                }
+              >
                 {sentence}
                 {i < arr.length - 1 ? '.' : ''}
               </div>

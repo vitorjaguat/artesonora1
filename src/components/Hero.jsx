@@ -22,7 +22,7 @@ export default function Hero() {
   const y = useTransform(scrollYProgress, [0, 1], ['0vh', '80vh']);
 
   //random videoSrc
-  const [videoSrc, setVideoSrc] = useState('');
+  const [videoSrc, setVideoSrc] = useState(null);
   useEffect(() => {
     const randomN = Math.random();
     if (randomN > 0.5) {
