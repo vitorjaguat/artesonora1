@@ -12,7 +12,7 @@ collaborators: [{"label":"Cildo Meireles","value":"cildoMeireles"}]
 soundcloudLink: 'https://soundcloud.com/artesonora/podcast-12-cildo-meireles?in=artesonora/sets/podcast&si=2a3d3645fda049d997f8a2a80b0f3031&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 type: [{"label":"Podcast","value":"podcast"}]
 fileLink: 'https://arweave.net/KFnH21AS6uD8eeNwovGjwnM6q8lQr-Y9Amua--q80nI'
-publishedAt: '2024-08-31T14:43:38.000Z'
+publishedAt: '2024-07-18T14:43:38.000Z'
 ---
 
 O encontro, agora editado para o Arte Sonora Podcast, foi um passeio que percorreu, de forma cronológica, os trabalhos mais recentes até os mais antigos.
