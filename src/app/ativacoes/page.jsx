@@ -36,7 +36,9 @@ export default async function Page() {
             {/* <div className='hidden md:block w-[38%]'>
               <Description />
             </div> */}
-            {/* <OptionsAtivacoes /> */}
+            <div className='hidden md:block'>
+              <OptionsAtivacoes />
+            </div>
             <div className='hidden md:block text-base max-w-[60%] mt-8 font-lato text-white/90'>
               Ao longo dos anos, realizamos diversas ativações, que aos poucos
               serão documentadas por aqui.

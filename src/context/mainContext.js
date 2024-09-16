@@ -179,6 +179,11 @@ const reducer = (state, action) => {
         ...state,
         ativacoesOption: action.payload,
       };
+    case 'CHANGE_ATIVACOES_YEAR':
+      return {
+        ...state,
+        ativacoesYear: action.payload,
+      };
     default:
       return state;
   }
@@ -204,6 +209,7 @@ const MainContextProvider = ({ children }) => {
     playState: 'stop',
     description: null,
     ativacoesOption: 1,
+    ativacoesYear: new Date().getFullYear(),
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -248,6 +254,12 @@ const MainContextProvider = ({ children }) => {
     dispatch({
       type: 'CHANGE_ATIVACOES_OPTION',
       payload: ativacoesOption,
+    });
+  };
+  const changeAtivacoesYear = (ativacoesYear) => {
+    dispatch({
+      type: 'CHANGE_ATIVACOES_YEAR',
+      payload: ativacoesYear,
     });
   };
 
@@ -297,6 +309,8 @@ const MainContextProvider = ({ children }) => {
         changeDescription,
         ativacoesOption: state.ativacoesOption,
         changeAtivacoesOption,
+        ativacoesYear: state.ativacoesYear,
+        changeAtivacoesYear,
       }}
     >
       {children}
