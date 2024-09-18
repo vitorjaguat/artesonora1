@@ -18,7 +18,7 @@ const CardAtivacoes = ({ post }) => {
         <div className='flex flex-1 flex-col items-center justify-center w-full h-full  p-3 gap-1 bg-black'>
           <div className='text-center  font-chakra text-xl'>{post.title}</div>
           <div
-            className='font-thin text-base -mb-3 text-white'
+            className='font-light text-base -mb-3 text-white'
             dangerouslySetInnerHTML={{
               __html:
                 post.content.substring(
